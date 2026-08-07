@@ -1,0 +1,4495 @@
+[
+  {
+    "item_id": "INV-af02991ac1c1",
+    "item_name": "Surgical Gloves (Box)",
+    "category": "PPE",
+    "quantity": 280,
+    "unit": "Box",
+    "location": "OR-2",
+    "reorder_level": 10,
+    "status": "In Stock",
+    "synonyms": [
+      "gloves",
+      "sterile gloves",
+      "latex gloves",
+      "nitrile gloves"
+    ],
+    "keywords": [
+      "surgical gloves (box)",
+      "ppe",
+      "or-2",
+      "gloves",
+      "sterile gloves",
+      "latex gloves",
+      "nitrile gloves"
+    ]
+  },
+  {
+    "item_id": "INV-f7f33ca6d4d0",
+    "item_name": "N95 Respirator Mask",
+    "category": "PPE",
+    "quantity": 281,
+    "unit": "Box",
+    "location": "ICU",
+    "reorder_level": 33,
+    "status": "Low Stock",
+    "synonyms": [
+      "N95",
+      "respirator",
+      "FFP2 mask",
+      "particulate mask",
+      "PPE mask"
+    ],
+    "keywords": [
+      "n95 respirator mask",
+      "ppe",
+      "icu",
+      "N95",
+      "respirator",
+      "FFP2 mask",
+      "particulate mask",
+      "PPE mask"
+    ]
+  },
+  {
+    "item_id": "INV-c6c56b4dfc67",
+    "item_name": "Surgical Face Mask",
+    "category": "PPE",
+    "quantity": 256,
+    "unit": "Box",
+    "location": "Ward-B",
+    "reorder_level": 12,
+    "status": "In Stock",
+    "synonyms": [
+      "face mask",
+      "procedure mask",
+      "medical mask",
+      "surgical mask",
+      "3-ply mask"
+    ],
+    "keywords": [
+      "surgical face mask",
+      "ppe",
+      "ward-b",
+      "face mask",
+      "procedure mask",
+      "medical mask",
+      "surgical mask",
+      "3-ply mask"
+    ]
+  },
+  {
+    "item_id": "INV-9d5e56ef2109",
+    "item_name": "Isolation Gown",
+    "category": "PPE",
+    "quantity": 150,
+    "unit": "Pack",
+    "location": "Ward-A",
+    "reorder_level": 22,
+    "status": "Low Stock",
+    "synonyms": [
+      "gown",
+      "protective gown",
+      "barrier gown",
+      "PPE gown"
+    ],
+    "keywords": [
+      "isolation gown",
+      "ppe",
+      "ward-a",
+      "gown",
+      "protective gown",
+      "barrier gown",
+      "PPE gown"
+    ]
+  },
+  {
+    "item_id": "INV-88a23b390686",
+    "item_name": "Face Shield",
+    "category": "PPE",
+    "quantity": 109,
+    "unit": "Each",
+    "location": "ER",
+    "reorder_level": 35,
+    "status": "On Order",
+    "synonyms": [
+      "face shield",
+      "visor",
+      "eye protection",
+      "splatter guard"
+    ],
+    "keywords": [
+      "face shield",
+      "ppe",
+      "er",
+      "visor",
+      "eye protection",
+      "splatter guard"
+    ]
+  },
+  {
+    "item_id": "INV-eef454cd7ea9",
+    "item_name": "Shoe Covers",
+    "category": "PPE",
+    "quantity": 62,
+    "unit": "Pack",
+    "location": "OR-2",
+    "reorder_level": 35,
+    "status": "In Stock",
+    "synonyms": [
+      "shoe covers",
+      "booties",
+      "foot covers",
+      "OR covers"
+    ],
+    "keywords": [
+      "shoe covers",
+      "ppe",
+      "or-2",
+      "booties",
+      "foot covers",
+      "OR covers"
+    ]
+  },
+  {
+    "item_id": "INV-aef1bc116fb6",
+    "item_name": "Sterile Gauze Pads (Pack)",
+    "category": "Wound Care",
+    "quantity": 195,
+    "unit": "Pack",
+    "location": "OR-1",
+    "reorder_level": 45,
+    "status": "In Stock",
+    "synonyms": [
+      "gauze",
+      "sterile gauze",
+      "dressing",
+      "wound dressing"
+    ],
+    "keywords": [
+      "sterile gauze pads (pack)",
+      "wound care",
+      "or-1",
+      "gauze",
+      "sterile gauze",
+      "dressing",
+      "wound dressing"
+    ]
+  },
+  {
+    "item_id": "INV-400146817a51",
+    "item_name": "Adhesive Bandage Strips",
+    "category": "Wound Care",
+    "quantity": 132,
+    "unit": "Box",
+    "location": "Ward-A",
+    "reorder_level": 35,
+    "status": "In Stock",
+    "synonyms": [
+      "bandaid",
+      "plaster",
+      "sticking plaster",
+      "wound cover"
+    ],
+    "keywords": [
+      "adhesive bandage strips",
+      "wound care",
+      "ward-a",
+      "bandaid",
+      "plaster",
+      "sticking plaster",
+      "wound cover"
+    ]
+  },
+  {
+    "item_id": "INV-3f352eaf76ed",
+    "item_name": "Elastic Bandage Roll",
+    "category": "Wound Care",
+    "quantity": 199,
+    "unit": "Roll",
+    "location": "ER",
+    "reorder_level": 38,
+    "status": "In Stock",
+    "synonyms": [
+      "crepe bandage",
+      "compression bandage",
+      "ACE bandage",
+      "elastic wrap"
+    ],
+    "keywords": [
+      "elastic bandage roll",
+      "wound care",
+      "er",
+      "crepe bandage",
+      "compression bandage",
+      "ACE bandage",
+      "elastic wrap"
+    ]
+  },
+  {
+    "item_id": "INV-0c7ab1e50d2b",
+    "item_name": "Hydrocolloid Dressing",
+    "category": "Wound Care",
+    "quantity": 33,
+    "unit": "Pack",
+    "location": "Wound Care Clinic",
+    "reorder_level": 37,
+    "status": "Low Stock",
+    "synonyms": [
+      "hydrocolloid",
+      "pressure wound dressing",
+      "moisture dressing",
+      "duoderm"
+    ],
+    "keywords": [
+      "hydrocolloid dressing",
+      "wound care",
+      "wound care clinic",
+      "hydrocolloid",
+      "pressure wound dressing",
+      "moisture dressing",
+      "duoderm"
+    ]
+  },
+  {
+    "item_id": "INV-2bfe4eb9b618",
+    "item_name": "Surgical Suture Kit",
+    "category": "Wound Care",
+    "quantity": 60,
+    "unit": "Kit",
+    "location": "OR-2",
+    "reorder_level": 25,
+    "status": "In Stock",
+    "synonyms": [
+      "sutures",
+      "stitches",
+      "suture set",
+      "wound closure kit"
+    ],
+    "keywords": [
+      "surgical suture kit",
+      "wound care",
+      "or-2",
+      "sutures",
+      "stitches",
+      "suture set",
+      "wound closure kit"
+    ]
+  },
+  {
+    "item_id": "INV-78e0d1bf2460",
+    "item_name": "Skin Stapler",
+    "category": "Wound Care",
+    "quantity": 72,
+    "unit": "Each",
+    "location": "ER",
+    "reorder_level": 15,
+    "status": "In Stock",
+    "synonyms": [
+      "surgical stapler",
+      "skin closure",
+      "stapler",
+      "wound staple"
+    ],
+    "keywords": [
+      "skin stapler",
+      "wound care",
+      "er",
+      "surgical stapler",
+      "skin closure",
+      "stapler",
+      "wound staple"
+    ]
+  },
+  {
+    "item_id": "INV-eb8ac75849b1",
+    "item_name": "Normal Saline 0.9% 1L Bag",
+    "category": "IV Fluids",
+    "quantity": 59,
+    "unit": "Bag",
+    "location": "Ward-A",
+    "reorder_level": 36,
+    "status": "On Order",
+    "synonyms": [
+      "normal saline",
+      "NS",
+      "0.9% NaCl",
+      "isotonic saline",
+      "IV fluid"
+    ],
+    "keywords": [
+      "normal saline 0.9% 1l bag",
+      "iv fluids",
+      "ward-a",
+      "normal saline",
+      "NS",
+      "0.9% NaCl",
+      "isotonic saline",
+      "IV fluid"
+    ]
+  },
+  {
+    "item_id": "INV-b0dbba68cc2e",
+    "item_name": "Ringer's Lactate 1L Bag",
+    "category": "IV Fluids",
+    "quantity": 198,
+    "unit": "Bag",
+    "location": "Pharmacy",
+    "reorder_level": 14,
+    "status": "In Stock",
+    "synonyms": [
+      "RL",
+      "Ringer's",
+      "lactated Ringer's",
+      "balanced crystalloid",
+      "IV fluid"
+    ],
+    "keywords": [
+      "ringer's lactate 1l bag",
+      "iv fluids",
+      "pharmacy",
+      "RL",
+      "Ringer's",
+      "lactated Ringer's",
+      "balanced crystalloid",
+      "IV fluid"
+    ]
+  },
+  {
+    "item_id": "INV-b158d9f9ac18",
+    "item_name": "5% Dextrose 500mL Bag",
+    "category": "IV Fluids",
+    "quantity": 111,
+    "unit": "Bag",
+    "location": "Ward-B",
+    "reorder_level": 22,
+    "status": "In Stock",
+    "synonyms": [
+      "D5W",
+      "dextrose",
+      "glucose solution",
+      "IV glucose",
+      "sugar water"
+    ],
+    "keywords": [
+      "5% dextrose 500ml bag",
+      "iv fluids",
+      "ward-b",
+      "D5W",
+      "dextrose",
+      "glucose solution",
+      "IV glucose",
+      "sugar water"
+    ]
+  },
+  {
+    "item_id": "INV-9275262cf2f7",
+    "item_name": "IV Cannula 18G",
+    "category": "IV Access",
+    "quantity": 80,
+    "unit": "Each",
+    "location": "Pharmacy",
+    "reorder_level": 28,
+    "status": "On Order",
+    "synonyms": [
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ],
+    "keywords": [
+      "iv cannula 18g",
+      "iv access",
+      "pharmacy",
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ]
+  },
+  {
+    "item_id": "INV-b0869578ffa7",
+    "item_name": "IV Cannula 20G",
+    "category": "IV Access",
+    "quantity": 275,
+    "unit": "Each",
+    "location": "Ward-B",
+    "reorder_level": 24,
+    "status": "In Stock",
+    "synonyms": [
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ],
+    "keywords": [
+      "iv cannula 20g",
+      "iv access",
+      "ward-b",
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ]
+  },
+  {
+    "item_id": "INV-6af61ab74865",
+    "item_name": "IV Administration Set",
+    "category": "IV Access",
+    "quantity": 277,
+    "unit": "Each",
+    "location": "Ward-A",
+    "reorder_level": 28,
+    "status": "In Stock",
+    "synonyms": [
+      "drip set",
+      "IV tubing",
+      "giving set",
+      "infusion set"
+    ],
+    "keywords": [
+      "iv administration set",
+      "iv access",
+      "ward-a",
+      "drip set",
+      "IV tubing",
+      "giving set",
+      "infusion set"
+    ]
+  },
+  {
+    "item_id": "INV-7ea9e99dd542",
+    "item_name": "Central Venous Catheter Kit",
+    "category": "IV Access",
+    "quantity": 12,
+    "unit": "Kit",
+    "location": "ICU",
+    "reorder_level": 10,
+    "status": "In Stock",
+    "synonyms": [
+      "CVC",
+      "central line",
+      "central venous access",
+      "CVP line"
+    ],
+    "keywords": [
+      "central venous catheter kit",
+      "iv access",
+      "icu",
+      "CVC",
+      "central line",
+      "central venous access",
+      "CVP line"
+    ]
+  },
+  {
+    "item_id": "INV-6e32e0c263aa",
+    "item_name": "Oxygen Cylinder (E-size)",
+    "category": "Respiratory",
+    "quantity": 217,
+    "unit": "Cylinder",
+    "location": "ER",
+    "reorder_level": 48,
+    "status": "On Order",
+    "synonyms": [
+      "O2 cylinder",
+      "oxygen tank",
+      "portable O2",
+      "medical oxygen"
+    ],
+    "keywords": [
+      "oxygen cylinder (e-size)",
+      "respiratory",
+      "er",
+      "O2 cylinder",
+      "oxygen tank",
+      "portable O2",
+      "medical oxygen"
+    ]
+  },
+  {
+    "item_id": "INV-950de66a3f90",
+    "item_name": "Nasal Cannula",
+    "category": "Respiratory",
+    "quantity": 7,
+    "unit": "Each",
+    "location": "Ward-B",
+    "reorder_level": 30,
+    "status": "Low Stock",
+    "synonyms": [
+      "nasal prongs",
+      "low-flow O2",
+      "nasal oxygen",
+      "oxygen prongs"
+    ],
+    "keywords": [
+      "nasal cannula",
+      "respiratory",
+      "ward-b",
+      "nasal prongs",
+      "low-flow O2",
+      "nasal oxygen",
+      "oxygen prongs"
+    ]
+  },
+  {
+    "item_id": "INV-5a1149490752",
+    "item_name": "Non-Rebreather Mask",
+    "category": "Respiratory",
+    "quantity": 23,
+    "unit": "Each",
+    "location": "ER",
+    "reorder_level": 19,
+    "status": "In Stock",
+    "synonyms": [
+      "NRM",
+      "high-flow mask",
+      "oxygen mask",
+      "NRBM",
+      "reservoir mask"
+    ],
+    "keywords": [
+      "non-rebreather mask",
+      "respiratory",
+      "er",
+      "NRM",
+      "high-flow mask",
+      "oxygen mask",
+      "NRBM",
+      "reservoir mask"
+    ]
+  },
+  {
+    "item_id": "INV-b50398eb1ef3",
+    "item_name": "Endotracheal Tube 7.5mm",
+    "category": "Airway",
+    "quantity": 193,
+    "unit": "Each",
+    "location": "OR-2",
+    "reorder_level": 40,
+    "status": "Low Stock",
+    "synonyms": [
+      "ETT",
+      "ET tube",
+      "intubation tube",
+      "airway tube",
+      "endotracheal intubation"
+    ],
+    "keywords": [
+      "endotracheal tube 7.5mm",
+      "airway",
+      "or-2",
+      "ETT",
+      "ET tube",
+      "intubation tube",
+      "airway tube",
+      "endotracheal intubation"
+    ]
+  },
+  {
+    "item_id": "INV-227b047f86dd",
+    "item_name": "Suction Catheter Kit",
+    "category": "Airway",
+    "quantity": 148,
+    "unit": "Kit",
+    "location": "ICU",
+    "reorder_level": 35,
+    "status": "Low Stock",
+    "synonyms": [
+      "suction catheter",
+      "yankauer",
+      "airway suction",
+      "tracheal suction"
+    ],
+    "keywords": [
+      "suction catheter kit",
+      "airway",
+      "icu",
+      "suction catheter",
+      "yankauer",
+      "airway suction",
+      "tracheal suction"
+    ]
+  },
+  {
+    "item_id": "INV-57cce41dd328",
+    "item_name": "Blood Collection Tubes (Set)",
+    "category": "Laboratory",
+    "quantity": 118,
+    "unit": "Pack",
+    "location": "Ward-B",
+    "reorder_level": 52,
+    "status": "On Order",
+    "synonyms": [
+      "vacutainer",
+      "blood tubes",
+      "specimen tubes",
+      "EDTA tube",
+      "serum tube"
+    ],
+    "keywords": [
+      "blood collection tubes (set)",
+      "laboratory",
+      "ward-b",
+      "vacutainer",
+      "blood tubes",
+      "specimen tubes",
+      "EDTA tube",
+      "serum tube"
+    ]
+  },
+  {
+    "item_id": "INV-20f100b501db",
+    "item_name": "Urine Collection Container",
+    "category": "Laboratory",
+    "quantity": 119,
+    "unit": "Each",
+    "location": "Laboratory",
+    "reorder_level": 29,
+    "status": "In Stock",
+    "synonyms": [
+      "urine cup",
+      "urine container",
+      "specimen cup",
+      "midstream urine"
+    ],
+    "keywords": [
+      "urine collection container",
+      "laboratory",
+      "urine cup",
+      "urine container",
+      "specimen cup",
+      "midstream urine"
+    ]
+  },
+  {
+    "item_id": "INV-0b20ffc56940",
+    "item_name": "Lancets (Box)",
+    "category": "Point-of-Care",
+    "quantity": 1,
+    "unit": "Box",
+    "location": "Ward-A",
+    "reorder_level": 30,
+    "status": "Low Stock",
+    "synonyms": [
+      "finger lancet",
+      "glucometer lancet",
+      "finger prick",
+      "blood lancet"
+    ],
+    "keywords": [
+      "lancets (box)",
+      "point-of-care",
+      "ward-a",
+      "finger lancet",
+      "glucometer lancet",
+      "finger prick",
+      "blood lancet"
+    ]
+  },
+  {
+    "item_id": "INV-91180422586f",
+    "item_name": "Rapid COVID-19 Antigen Test",
+    "category": "Diagnostics",
+    "quantity": 60,
+    "unit": "Kit",
+    "location": "ER",
+    "reorder_level": 58,
+    "status": "In Stock",
+    "synonyms": [
+      "COVID test",
+      "rapid antigen test",
+      "RAT",
+      "coronavirus test",
+      "antigen kit"
+    ],
+    "keywords": [
+      "rapid covid-19 antigen test",
+      "diagnostics",
+      "er",
+      "COVID test",
+      "rapid antigen test",
+      "RAT",
+      "coronavirus test",
+      "antigen kit"
+    ]
+  },
+  {
+    "item_id": "INV-59f226e37008",
+    "item_name": "Enteral Feeding Formula 1L",
+    "category": "Nutrition",
+    "quantity": 215,
+    "unit": "Bottle",
+    "location": "Pharmacy",
+    "reorder_level": 26,
+    "status": "Low Stock",
+    "synonyms": [
+      "tube feed",
+      "NG tube feed",
+      "enteral nutrition",
+      "feeding formula",
+      "liquid diet"
+    ],
+    "keywords": [
+      "enteral feeding formula 1l",
+      "nutrition",
+      "pharmacy",
+      "tube feed",
+      "NG tube feed",
+      "enteral nutrition",
+      "feeding formula",
+      "liquid diet"
+    ]
+  },
+  {
+    "item_id": "INV-557ab317815b",
+    "item_name": "TPN Bag 2L",
+    "category": "Nutrition",
+    "quantity": 251,
+    "unit": "Bag",
+    "location": "ICU",
+    "reorder_level": 42,
+    "status": "On Order",
+    "synonyms": [
+      "TPN",
+      "total parenteral nutrition",
+      "IV nutrition",
+      "parenteral feeding"
+    ],
+    "keywords": [
+      "tpn bag 2l",
+      "nutrition",
+      "icu",
+      "TPN",
+      "total parenteral nutrition",
+      "IV nutrition",
+      "parenteral feeding"
+    ]
+  },
+  {
+    "item_id": "INV-44e1cc93c10e",
+    "item_name": "ECG Electrodes (Pack)",
+    "category": "Cardiac",
+    "quantity": 62,
+    "unit": "Pack",
+    "location": "Cardiology",
+    "reorder_level": 30,
+    "status": "In Stock",
+    "synonyms": [
+      "ECG leads",
+      "cardiac electrodes",
+      "EKG pads",
+      "monitoring pads"
+    ],
+    "keywords": [
+      "ecg electrodes (pack)",
+      "cardiac",
+      "cardiology",
+      "ECG leads",
+      "cardiac electrodes",
+      "EKG pads",
+      "monitoring pads"
+    ]
+  },
+  {
+    "item_id": "INV-756d4aa0f2c6",
+    "item_name": "Defibrillator Pads",
+    "category": "Cardiac",
+    "quantity": 172,
+    "unit": "Pair",
+    "location": "ER",
+    "reorder_level": 30,
+    "status": "Low Stock",
+    "synonyms": [
+      "defibrillation pads",
+      "AED pads",
+      "shock pads",
+      "defib electrodes"
+    ],
+    "keywords": [
+      "defibrillator pads",
+      "cardiac",
+      "er",
+      "defibrillation pads",
+      "AED pads",
+      "shock pads",
+      "defib electrodes"
+    ]
+  },
+  {
+    "item_id": "INV-ccff3081086c",
+    "item_name": "Blood Pressure Cuff (Adult)",
+    "category": "Monitoring",
+    "quantity": 70,
+    "unit": "Each",
+    "location": "Outpatient Clinic",
+    "reorder_level": 44,
+    "status": "Low Stock",
+    "synonyms": [
+      "BP cuff",
+      "sphygmomanometer cuff",
+      "NIBP cuff",
+      "blood pressure band"
+    ],
+    "keywords": [
+      "blood pressure cuff (adult)",
+      "monitoring",
+      "outpatient clinic",
+      "BP cuff",
+      "sphygmomanometer cuff",
+      "NIBP cuff",
+      "blood pressure band"
+    ]
+  },
+  {
+    "item_id": "INV-eac8763fd5c6",
+    "item_name": "Alcohol Hand Sanitizer 500mL",
+    "category": "Infection Control",
+    "quantity": 252,
+    "unit": "Bottle",
+    "location": "Ward-B",
+    "reorder_level": 31,
+    "status": "On Order",
+    "synonyms": [
+      "hand rub",
+      "hand gel",
+      "sanitizer",
+      "alcohol gel",
+      "disinfectant"
+    ],
+    "keywords": [
+      "alcohol hand sanitizer 500ml",
+      "infection control",
+      "ward-b",
+      "hand rub",
+      "hand gel",
+      "sanitizer",
+      "alcohol gel",
+      "disinfectant"
+    ]
+  },
+  {
+    "item_id": "INV-187592507d3f",
+    "item_name": "Chlorhexidine 2% Solution",
+    "category": "Infection Control",
+    "quantity": 119,
+    "unit": "Bottle",
+    "location": "ICU",
+    "reorder_level": 47,
+    "status": "In Stock",
+    "synonyms": [
+      "chlorhexidine",
+      "CHG",
+      "antiseptic",
+      "skin prep",
+      "surgical scrub"
+    ],
+    "keywords": [
+      "chlorhexidine 2% solution",
+      "infection control",
+      "icu",
+      "chlorhexidine",
+      "CHG",
+      "antiseptic",
+      "skin prep",
+      "surgical scrub"
+    ]
+  },
+  {
+    "item_id": "INV-e8c4c005e88d",
+    "item_name": "Sharps Container 5L",
+    "category": "Waste Management",
+    "quantity": 259,
+    "unit": "Each",
+    "location": "ER",
+    "reorder_level": 16,
+    "status": "In Stock",
+    "synonyms": [
+      "sharps bin",
+      "needle box",
+      "biohazard container",
+      "sharps disposal"
+    ],
+    "keywords": [
+      "sharps container 5l",
+      "waste management",
+      "er",
+      "sharps bin",
+      "needle box",
+      "biohazard container",
+      "sharps disposal"
+    ]
+  },
+  {
+    "item_id": "INV-107a2826ec52",
+    "item_name": "Autoclave Pouches (Pack)",
+    "category": "Sterilisation",
+    "quantity": 79,
+    "unit": "Pack",
+    "location": "CSSD",
+    "reorder_level": 34,
+    "status": "On Order",
+    "synonyms": [
+      "sterilisation bags",
+      "sterilization pouch",
+      "autoclave bag",
+      "CSSD pouches"
+    ],
+    "keywords": [
+      "autoclave pouches (pack)",
+      "sterilisation",
+      "cssd",
+      "sterilisation bags",
+      "sterilization pouch",
+      "autoclave bag",
+      "CSSD pouches"
+    ]
+  },
+  {
+    "item_id": "INV-cfe2a5d374c7",
+    "item_name": "Surgical Gloves (Box)",
+    "category": "PPE",
+    "quantity": 23,
+    "unit": "Box",
+    "location": "OR-2",
+    "reorder_level": 58,
+    "status": "Low Stock",
+    "synonyms": [
+      "gloves",
+      "sterile gloves",
+      "latex gloves",
+      "nitrile gloves"
+    ],
+    "keywords": [
+      "surgical gloves (box)",
+      "ppe",
+      "or-2",
+      "gloves",
+      "sterile gloves",
+      "latex gloves",
+      "nitrile gloves"
+    ]
+  },
+  {
+    "item_id": "INV-987127db2680",
+    "item_name": "N95 Respirator Mask",
+    "category": "PPE",
+    "quantity": 236,
+    "unit": "Box",
+    "location": "ICU",
+    "reorder_level": 20,
+    "status": "In Stock",
+    "synonyms": [
+      "N95",
+      "respirator",
+      "FFP2 mask",
+      "particulate mask",
+      "PPE mask"
+    ],
+    "keywords": [
+      "n95 respirator mask",
+      "ppe",
+      "icu",
+      "N95",
+      "respirator",
+      "FFP2 mask",
+      "particulate mask",
+      "PPE mask"
+    ]
+  },
+  {
+    "item_id": "INV-46cd8fbfd64d",
+    "item_name": "Surgical Face Mask",
+    "category": "PPE",
+    "quantity": 9,
+    "unit": "Box",
+    "location": "Ward-B",
+    "reorder_level": 19,
+    "status": "Low Stock",
+    "synonyms": [
+      "face mask",
+      "procedure mask",
+      "medical mask",
+      "surgical mask",
+      "3-ply mask"
+    ],
+    "keywords": [
+      "surgical face mask",
+      "ppe",
+      "ward-b",
+      "face mask",
+      "procedure mask",
+      "medical mask",
+      "surgical mask",
+      "3-ply mask"
+    ]
+  },
+  {
+    "item_id": "INV-5cd63ddde9ee",
+    "item_name": "Isolation Gown",
+    "category": "PPE",
+    "quantity": 149,
+    "unit": "Pack",
+    "location": "Ward-B",
+    "reorder_level": 37,
+    "status": "Low Stock",
+    "synonyms": [
+      "gown",
+      "protective gown",
+      "barrier gown",
+      "PPE gown"
+    ],
+    "keywords": [
+      "isolation gown",
+      "ppe",
+      "ward-b",
+      "gown",
+      "protective gown",
+      "barrier gown",
+      "PPE gown"
+    ]
+  },
+  {
+    "item_id": "INV-a1474f8c073c",
+    "item_name": "Face Shield",
+    "category": "PPE",
+    "quantity": 143,
+    "unit": "Each",
+    "location": "OR-1",
+    "reorder_level": 37,
+    "status": "Low Stock",
+    "synonyms": [
+      "face shield",
+      "visor",
+      "eye protection",
+      "splatter guard"
+    ],
+    "keywords": [
+      "face shield",
+      "ppe",
+      "or-1",
+      "visor",
+      "eye protection",
+      "splatter guard"
+    ]
+  },
+  {
+    "item_id": "INV-d15536e5670a",
+    "item_name": "Shoe Covers",
+    "category": "PPE",
+    "quantity": 72,
+    "unit": "Pack",
+    "location": "OR-2",
+    "reorder_level": 12,
+    "status": "In Stock",
+    "synonyms": [
+      "shoe covers",
+      "booties",
+      "foot covers",
+      "OR covers"
+    ],
+    "keywords": [
+      "shoe covers",
+      "ppe",
+      "or-2",
+      "booties",
+      "foot covers",
+      "OR covers"
+    ]
+  },
+  {
+    "item_id": "INV-6d058e38d6e5",
+    "item_name": "Sterile Gauze Pads (Pack)",
+    "category": "Wound Care",
+    "quantity": 52,
+    "unit": "Pack",
+    "location": "Ward-A",
+    "reorder_level": 11,
+    "status": "In Stock",
+    "synonyms": [
+      "gauze",
+      "sterile gauze",
+      "dressing",
+      "wound dressing"
+    ],
+    "keywords": [
+      "sterile gauze pads (pack)",
+      "wound care",
+      "ward-a",
+      "gauze",
+      "sterile gauze",
+      "dressing",
+      "wound dressing"
+    ]
+  },
+  {
+    "item_id": "INV-96843b6c4023",
+    "item_name": "Adhesive Bandage Strips",
+    "category": "Wound Care",
+    "quantity": 256,
+    "unit": "Box",
+    "location": "Pharmacy",
+    "reorder_level": 39,
+    "status": "In Stock",
+    "synonyms": [
+      "bandaid",
+      "plaster",
+      "sticking plaster",
+      "wound cover"
+    ],
+    "keywords": [
+      "adhesive bandage strips",
+      "wound care",
+      "pharmacy",
+      "bandaid",
+      "plaster",
+      "sticking plaster",
+      "wound cover"
+    ]
+  },
+  {
+    "item_id": "INV-3b94743533a4",
+    "item_name": "Elastic Bandage Roll",
+    "category": "Wound Care",
+    "quantity": 134,
+    "unit": "Roll",
+    "location": "Ward-B",
+    "reorder_level": 58,
+    "status": "In Stock",
+    "synonyms": [
+      "crepe bandage",
+      "compression bandage",
+      "ACE bandage",
+      "elastic wrap"
+    ],
+    "keywords": [
+      "elastic bandage roll",
+      "wound care",
+      "ward-b",
+      "crepe bandage",
+      "compression bandage",
+      "ACE bandage",
+      "elastic wrap"
+    ]
+  },
+  {
+    "item_id": "INV-16152254bb22",
+    "item_name": "Hydrocolloid Dressing",
+    "category": "Wound Care",
+    "quantity": 246,
+    "unit": "Pack",
+    "location": "Ward-A",
+    "reorder_level": 52,
+    "status": "Low Stock",
+    "synonyms": [
+      "hydrocolloid",
+      "pressure wound dressing",
+      "moisture dressing",
+      "duoderm"
+    ],
+    "keywords": [
+      "hydrocolloid dressing",
+      "wound care",
+      "ward-a",
+      "hydrocolloid",
+      "pressure wound dressing",
+      "moisture dressing",
+      "duoderm"
+    ]
+  },
+  {
+    "item_id": "INV-2649d5603710",
+    "item_name": "Surgical Suture Kit",
+    "category": "Wound Care",
+    "quantity": 50,
+    "unit": "Kit",
+    "location": "OR-1",
+    "reorder_level": 41,
+    "status": "In Stock",
+    "synonyms": [
+      "sutures",
+      "stitches",
+      "suture set",
+      "wound closure kit"
+    ],
+    "keywords": [
+      "surgical suture kit",
+      "wound care",
+      "or-1",
+      "sutures",
+      "stitches",
+      "suture set",
+      "wound closure kit"
+    ]
+  },
+  {
+    "item_id": "INV-e8b9024eaa91",
+    "item_name": "Skin Stapler",
+    "category": "Wound Care",
+    "quantity": 271,
+    "unit": "Each",
+    "location": "OR-2",
+    "reorder_level": 11,
+    "status": "Low Stock",
+    "synonyms": [
+      "surgical stapler",
+      "skin closure",
+      "stapler",
+      "wound staple"
+    ],
+    "keywords": [
+      "skin stapler",
+      "wound care",
+      "or-2",
+      "surgical stapler",
+      "skin closure",
+      "stapler",
+      "wound staple"
+    ]
+  },
+  {
+    "item_id": "INV-523d4b6c5565",
+    "item_name": "Normal Saline 0.9% 1L Bag",
+    "category": "IV Fluids",
+    "quantity": 151,
+    "unit": "Bag",
+    "location": "ER",
+    "reorder_level": 14,
+    "status": "On Order",
+    "synonyms": [
+      "normal saline",
+      "NS",
+      "0.9% NaCl",
+      "isotonic saline",
+      "IV fluid"
+    ],
+    "keywords": [
+      "normal saline 0.9% 1l bag",
+      "iv fluids",
+      "er",
+      "normal saline",
+      "NS",
+      "0.9% NaCl",
+      "isotonic saline",
+      "IV fluid"
+    ]
+  },
+  {
+    "item_id": "INV-44a3e43cf050",
+    "item_name": "Ringer's Lactate 1L Bag",
+    "category": "IV Fluids",
+    "quantity": 166,
+    "unit": "Bag",
+    "location": "Ward-A",
+    "reorder_level": 55,
+    "status": "In Stock",
+    "synonyms": [
+      "RL",
+      "Ringer's",
+      "lactated Ringer's",
+      "balanced crystalloid",
+      "IV fluid"
+    ],
+    "keywords": [
+      "ringer's lactate 1l bag",
+      "iv fluids",
+      "ward-a",
+      "RL",
+      "Ringer's",
+      "lactated Ringer's",
+      "balanced crystalloid",
+      "IV fluid"
+    ]
+  },
+  {
+    "item_id": "INV-63bfe43d25a4",
+    "item_name": "5% Dextrose 500mL Bag",
+    "category": "IV Fluids",
+    "quantity": 196,
+    "unit": "Bag",
+    "location": "Ward-A",
+    "reorder_level": 13,
+    "status": "In Stock",
+    "synonyms": [
+      "D5W",
+      "dextrose",
+      "glucose solution",
+      "IV glucose",
+      "sugar water"
+    ],
+    "keywords": [
+      "5% dextrose 500ml bag",
+      "iv fluids",
+      "ward-a",
+      "D5W",
+      "dextrose",
+      "glucose solution",
+      "IV glucose",
+      "sugar water"
+    ]
+  },
+  {
+    "item_id": "INV-7ffe5aa65b8c",
+    "item_name": "IV Cannula 18G",
+    "category": "IV Access",
+    "quantity": 170,
+    "unit": "Each",
+    "location": "ER",
+    "reorder_level": 26,
+    "status": "Low Stock",
+    "synonyms": [
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ],
+    "keywords": [
+      "iv cannula 18g",
+      "iv access",
+      "er",
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ]
+  },
+  {
+    "item_id": "INV-48dbb64652a6",
+    "item_name": "IV Cannula 20G",
+    "category": "IV Access",
+    "quantity": 270,
+    "unit": "Each",
+    "location": "ER",
+    "reorder_level": 35,
+    "status": "On Order",
+    "synonyms": [
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ],
+    "keywords": [
+      "iv cannula 20g",
+      "iv access",
+      "er",
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ]
+  },
+  {
+    "item_id": "INV-50c0c7906b88",
+    "item_name": "IV Administration Set",
+    "category": "IV Access",
+    "quantity": 95,
+    "unit": "Each",
+    "location": "Ward-B",
+    "reorder_level": 45,
+    "status": "In Stock",
+    "synonyms": [
+      "drip set",
+      "IV tubing",
+      "giving set",
+      "infusion set"
+    ],
+    "keywords": [
+      "iv administration set",
+      "iv access",
+      "ward-b",
+      "drip set",
+      "IV tubing",
+      "giving set",
+      "infusion set"
+    ]
+  },
+  {
+    "item_id": "INV-4303c0a8e447",
+    "item_name": "Central Venous Catheter Kit",
+    "category": "IV Access",
+    "quantity": 23,
+    "unit": "Kit",
+    "location": "OR-1",
+    "reorder_level": 38,
+    "status": "Low Stock",
+    "synonyms": [
+      "CVC",
+      "central line",
+      "central venous access",
+      "CVP line"
+    ],
+    "keywords": [
+      "central venous catheter kit",
+      "iv access",
+      "or-1",
+      "CVC",
+      "central line",
+      "central venous access",
+      "CVP line"
+    ]
+  },
+  {
+    "item_id": "INV-3d45a5529dc0",
+    "item_name": "Oxygen Cylinder (E-size)",
+    "category": "Respiratory",
+    "quantity": 219,
+    "unit": "Cylinder",
+    "location": "ICU",
+    "reorder_level": 26,
+    "status": "In Stock",
+    "synonyms": [
+      "O2 cylinder",
+      "oxygen tank",
+      "portable O2",
+      "medical oxygen"
+    ],
+    "keywords": [
+      "oxygen cylinder (e-size)",
+      "respiratory",
+      "icu",
+      "O2 cylinder",
+      "oxygen tank",
+      "portable O2",
+      "medical oxygen"
+    ]
+  },
+  {
+    "item_id": "INV-ff275284e8e8",
+    "item_name": "Nasal Cannula",
+    "category": "Respiratory",
+    "quantity": 193,
+    "unit": "Each",
+    "location": "ER",
+    "reorder_level": 53,
+    "status": "In Stock",
+    "synonyms": [
+      "nasal prongs",
+      "low-flow O2",
+      "nasal oxygen",
+      "oxygen prongs"
+    ],
+    "keywords": [
+      "nasal cannula",
+      "respiratory",
+      "er",
+      "nasal prongs",
+      "low-flow O2",
+      "nasal oxygen",
+      "oxygen prongs"
+    ]
+  },
+  {
+    "item_id": "INV-43d099c8107c",
+    "item_name": "Non-Rebreather Mask",
+    "category": "Respiratory",
+    "quantity": 34,
+    "unit": "Each",
+    "location": "ER",
+    "reorder_level": 55,
+    "status": "Low Stock",
+    "synonyms": [
+      "NRM",
+      "high-flow mask",
+      "oxygen mask",
+      "NRBM",
+      "reservoir mask"
+    ],
+    "keywords": [
+      "non-rebreather mask",
+      "respiratory",
+      "er",
+      "NRM",
+      "high-flow mask",
+      "oxygen mask",
+      "NRBM",
+      "reservoir mask"
+    ]
+  },
+  {
+    "item_id": "INV-08f12f193567",
+    "item_name": "Endotracheal Tube 7.5mm",
+    "category": "Airway",
+    "quantity": 173,
+    "unit": "Each",
+    "location": "OR-2",
+    "reorder_level": 23,
+    "status": "Low Stock",
+    "synonyms": [
+      "ETT",
+      "ET tube",
+      "intubation tube",
+      "airway tube",
+      "endotracheal intubation"
+    ],
+    "keywords": [
+      "endotracheal tube 7.5mm",
+      "airway",
+      "or-2",
+      "ETT",
+      "ET tube",
+      "intubation tube",
+      "airway tube",
+      "endotracheal intubation"
+    ]
+  },
+  {
+    "item_id": "INV-df7f86e5533f",
+    "item_name": "Suction Catheter Kit",
+    "category": "Airway",
+    "quantity": 243,
+    "unit": "Kit",
+    "location": "ER",
+    "reorder_level": 36,
+    "status": "In Stock",
+    "synonyms": [
+      "suction catheter",
+      "yankauer",
+      "airway suction",
+      "tracheal suction"
+    ],
+    "keywords": [
+      "suction catheter kit",
+      "airway",
+      "er",
+      "suction catheter",
+      "yankauer",
+      "airway suction",
+      "tracheal suction"
+    ]
+  },
+  {
+    "item_id": "INV-156221a144c0",
+    "item_name": "Blood Collection Tubes (Set)",
+    "category": "Laboratory",
+    "quantity": 64,
+    "unit": "Pack",
+    "location": "ER",
+    "reorder_level": 23,
+    "status": "On Order",
+    "synonyms": [
+      "vacutainer",
+      "blood tubes",
+      "specimen tubes",
+      "EDTA tube",
+      "serum tube"
+    ],
+    "keywords": [
+      "blood collection tubes (set)",
+      "laboratory",
+      "er",
+      "vacutainer",
+      "blood tubes",
+      "specimen tubes",
+      "EDTA tube",
+      "serum tube"
+    ]
+  },
+  {
+    "item_id": "INV-07f22922165a",
+    "item_name": "Urine Collection Container",
+    "category": "Laboratory",
+    "quantity": 258,
+    "unit": "Each",
+    "location": "Outpatient Clinic",
+    "reorder_level": 40,
+    "status": "In Stock",
+    "synonyms": [
+      "urine cup",
+      "urine container",
+      "specimen cup",
+      "midstream urine"
+    ],
+    "keywords": [
+      "urine collection container",
+      "laboratory",
+      "outpatient clinic",
+      "urine cup",
+      "urine container",
+      "specimen cup",
+      "midstream urine"
+    ]
+  },
+  {
+    "item_id": "INV-bdf8396398db",
+    "item_name": "Lancets (Box)",
+    "category": "Point-of-Care",
+    "quantity": 15,
+    "unit": "Box",
+    "location": "Outpatient Clinic",
+    "reorder_level": 26,
+    "status": "Low Stock",
+    "synonyms": [
+      "finger lancet",
+      "glucometer lancet",
+      "finger prick",
+      "blood lancet"
+    ],
+    "keywords": [
+      "lancets (box)",
+      "point-of-care",
+      "outpatient clinic",
+      "finger lancet",
+      "glucometer lancet",
+      "finger prick",
+      "blood lancet"
+    ]
+  },
+  {
+    "item_id": "INV-010395a2d708",
+    "item_name": "Rapid COVID-19 Antigen Test",
+    "category": "Diagnostics",
+    "quantity": 119,
+    "unit": "Kit",
+    "location": "ER",
+    "reorder_level": 21,
+    "status": "In Stock",
+    "synonyms": [
+      "COVID test",
+      "rapid antigen test",
+      "RAT",
+      "coronavirus test",
+      "antigen kit"
+    ],
+    "keywords": [
+      "rapid covid-19 antigen test",
+      "diagnostics",
+      "er",
+      "COVID test",
+      "rapid antigen test",
+      "RAT",
+      "coronavirus test",
+      "antigen kit"
+    ]
+  },
+  {
+    "item_id": "INV-6810608e7c90",
+    "item_name": "Enteral Feeding Formula 1L",
+    "category": "Nutrition",
+    "quantity": 189,
+    "unit": "Bottle",
+    "location": "Pharmacy",
+    "reorder_level": 59,
+    "status": "In Stock",
+    "synonyms": [
+      "tube feed",
+      "NG tube feed",
+      "enteral nutrition",
+      "feeding formula",
+      "liquid diet"
+    ],
+    "keywords": [
+      "enteral feeding formula 1l",
+      "nutrition",
+      "pharmacy",
+      "tube feed",
+      "NG tube feed",
+      "enteral nutrition",
+      "feeding formula",
+      "liquid diet"
+    ]
+  },
+  {
+    "item_id": "INV-3b51a17564f0",
+    "item_name": "TPN Bag 2L",
+    "category": "Nutrition",
+    "quantity": 177,
+    "unit": "Bag",
+    "location": "Pharmacy",
+    "reorder_level": 60,
+    "status": "In Stock",
+    "synonyms": [
+      "TPN",
+      "total parenteral nutrition",
+      "IV nutrition",
+      "parenteral feeding"
+    ],
+    "keywords": [
+      "tpn bag 2l",
+      "nutrition",
+      "pharmacy",
+      "TPN",
+      "total parenteral nutrition",
+      "IV nutrition",
+      "parenteral feeding"
+    ]
+  },
+  {
+    "item_id": "INV-0bea2f428d43",
+    "item_name": "ECG Electrodes (Pack)",
+    "category": "Cardiac",
+    "quantity": 242,
+    "unit": "Pack",
+    "location": "Ward-A",
+    "reorder_level": 22,
+    "status": "In Stock",
+    "synonyms": [
+      "ECG leads",
+      "cardiac electrodes",
+      "EKG pads",
+      "monitoring pads"
+    ],
+    "keywords": [
+      "ecg electrodes (pack)",
+      "cardiac",
+      "ward-a",
+      "ECG leads",
+      "cardiac electrodes",
+      "EKG pads",
+      "monitoring pads"
+    ]
+  },
+  {
+    "item_id": "INV-a4f1785bb249",
+    "item_name": "Defibrillator Pads",
+    "category": "Cardiac",
+    "quantity": 167,
+    "unit": "Pair",
+    "location": "Cardiology",
+    "reorder_level": 48,
+    "status": "On Order",
+    "synonyms": [
+      "defibrillation pads",
+      "AED pads",
+      "shock pads",
+      "defib electrodes"
+    ],
+    "keywords": [
+      "defibrillator pads",
+      "cardiac",
+      "cardiology",
+      "defibrillation pads",
+      "AED pads",
+      "shock pads",
+      "defib electrodes"
+    ]
+  },
+  {
+    "item_id": "INV-9c9f0903377d",
+    "item_name": "Blood Pressure Cuff (Adult)",
+    "category": "Monitoring",
+    "quantity": 131,
+    "unit": "Each",
+    "location": "Ward-B",
+    "reorder_level": 59,
+    "status": "In Stock",
+    "synonyms": [
+      "BP cuff",
+      "sphygmomanometer cuff",
+      "NIBP cuff",
+      "blood pressure band"
+    ],
+    "keywords": [
+      "blood pressure cuff (adult)",
+      "monitoring",
+      "ward-b",
+      "BP cuff",
+      "sphygmomanometer cuff",
+      "NIBP cuff",
+      "blood pressure band"
+    ]
+  },
+  {
+    "item_id": "INV-bae565e94f49",
+    "item_name": "Alcohol Hand Sanitizer 500mL",
+    "category": "Infection Control",
+    "quantity": 164,
+    "unit": "Bottle",
+    "location": "OR-2",
+    "reorder_level": 36,
+    "status": "In Stock",
+    "synonyms": [
+      "hand rub",
+      "hand gel",
+      "sanitizer",
+      "alcohol gel",
+      "disinfectant"
+    ],
+    "keywords": [
+      "alcohol hand sanitizer 500ml",
+      "infection control",
+      "or-2",
+      "hand rub",
+      "hand gel",
+      "sanitizer",
+      "alcohol gel",
+      "disinfectant"
+    ]
+  },
+  {
+    "item_id": "INV-24cf9c149c7d",
+    "item_name": "Chlorhexidine 2% Solution",
+    "category": "Infection Control",
+    "quantity": 242,
+    "unit": "Bottle",
+    "location": "ICU",
+    "reorder_level": 42,
+    "status": "In Stock",
+    "synonyms": [
+      "chlorhexidine",
+      "CHG",
+      "antiseptic",
+      "skin prep",
+      "surgical scrub"
+    ],
+    "keywords": [
+      "chlorhexidine 2% solution",
+      "infection control",
+      "icu",
+      "chlorhexidine",
+      "CHG",
+      "antiseptic",
+      "skin prep",
+      "surgical scrub"
+    ]
+  },
+  {
+    "item_id": "INV-0e035c7ab5e4",
+    "item_name": "Sharps Container 5L",
+    "category": "Waste Management",
+    "quantity": 255,
+    "unit": "Each",
+    "location": "ER",
+    "reorder_level": 55,
+    "status": "In Stock",
+    "synonyms": [
+      "sharps bin",
+      "needle box",
+      "biohazard container",
+      "sharps disposal"
+    ],
+    "keywords": [
+      "sharps container 5l",
+      "waste management",
+      "er",
+      "sharps bin",
+      "needle box",
+      "biohazard container",
+      "sharps disposal"
+    ]
+  },
+  {
+    "item_id": "INV-ce82e314a000",
+    "item_name": "Autoclave Pouches (Pack)",
+    "category": "Sterilisation",
+    "quantity": 81,
+    "unit": "Pack",
+    "location": "CSSD",
+    "reorder_level": 37,
+    "status": "On Order",
+    "synonyms": [
+      "sterilisation bags",
+      "sterilization pouch",
+      "autoclave bag",
+      "CSSD pouches"
+    ],
+    "keywords": [
+      "autoclave pouches (pack)",
+      "sterilisation",
+      "cssd",
+      "sterilisation bags",
+      "sterilization pouch",
+      "autoclave bag",
+      "CSSD pouches"
+    ]
+  },
+  {
+    "item_id": "INV-05d65ba5a170",
+    "item_name": "Surgical Gloves (Box)",
+    "category": "PPE",
+    "quantity": 14,
+    "unit": "Box",
+    "location": "OR-1",
+    "reorder_level": 25,
+    "status": "Low Stock",
+    "synonyms": [
+      "gloves",
+      "sterile gloves",
+      "latex gloves",
+      "nitrile gloves"
+    ],
+    "keywords": [
+      "surgical gloves (box)",
+      "ppe",
+      "or-1",
+      "gloves",
+      "sterile gloves",
+      "latex gloves",
+      "nitrile gloves"
+    ]
+  },
+  {
+    "item_id": "INV-1011a76f968c",
+    "item_name": "N95 Respirator Mask",
+    "category": "PPE",
+    "quantity": 132,
+    "unit": "Box",
+    "location": "ICU",
+    "reorder_level": 19,
+    "status": "On Order",
+    "synonyms": [
+      "N95",
+      "respirator",
+      "FFP2 mask",
+      "particulate mask",
+      "PPE mask"
+    ],
+    "keywords": [
+      "n95 respirator mask",
+      "ppe",
+      "icu",
+      "N95",
+      "respirator",
+      "FFP2 mask",
+      "particulate mask",
+      "PPE mask"
+    ]
+  },
+  {
+    "item_id": "INV-669d89ce9c17",
+    "item_name": "Surgical Face Mask",
+    "category": "PPE",
+    "quantity": 107,
+    "unit": "Box",
+    "location": "Ward-A",
+    "reorder_level": 35,
+    "status": "Low Stock",
+    "synonyms": [
+      "face mask",
+      "procedure mask",
+      "medical mask",
+      "surgical mask",
+      "3-ply mask"
+    ],
+    "keywords": [
+      "surgical face mask",
+      "ppe",
+      "ward-a",
+      "face mask",
+      "procedure mask",
+      "medical mask",
+      "surgical mask",
+      "3-ply mask"
+    ]
+  },
+  {
+    "item_id": "INV-ed1435d2886d",
+    "item_name": "Isolation Gown",
+    "category": "PPE",
+    "quantity": 233,
+    "unit": "Pack",
+    "location": "Pharmacy",
+    "reorder_level": 56,
+    "status": "In Stock",
+    "synonyms": [
+      "gown",
+      "protective gown",
+      "barrier gown",
+      "PPE gown"
+    ],
+    "keywords": [
+      "isolation gown",
+      "ppe",
+      "pharmacy",
+      "gown",
+      "protective gown",
+      "barrier gown",
+      "PPE gown"
+    ]
+  },
+  {
+    "item_id": "INV-fa10a8bc5897",
+    "item_name": "Face Shield",
+    "category": "PPE",
+    "quantity": 90,
+    "unit": "Each",
+    "location": "ER",
+    "reorder_level": 21,
+    "status": "On Order",
+    "synonyms": [
+      "face shield",
+      "visor",
+      "eye protection",
+      "splatter guard"
+    ],
+    "keywords": [
+      "face shield",
+      "ppe",
+      "er",
+      "visor",
+      "eye protection",
+      "splatter guard"
+    ]
+  },
+  {
+    "item_id": "INV-86939c9e1037",
+    "item_name": "Shoe Covers",
+    "category": "PPE",
+    "quantity": 246,
+    "unit": "Pack",
+    "location": "OR-1",
+    "reorder_level": 16,
+    "status": "In Stock",
+    "synonyms": [
+      "shoe covers",
+      "booties",
+      "foot covers",
+      "OR covers"
+    ],
+    "keywords": [
+      "shoe covers",
+      "ppe",
+      "or-1",
+      "booties",
+      "foot covers",
+      "OR covers"
+    ]
+  },
+  {
+    "item_id": "INV-77eda78dadaf",
+    "item_name": "Sterile Gauze Pads (Pack)",
+    "category": "Wound Care",
+    "quantity": 237,
+    "unit": "Pack",
+    "location": "OR-1",
+    "reorder_level": 33,
+    "status": "In Stock",
+    "synonyms": [
+      "gauze",
+      "sterile gauze",
+      "dressing",
+      "wound dressing"
+    ],
+    "keywords": [
+      "sterile gauze pads (pack)",
+      "wound care",
+      "or-1",
+      "gauze",
+      "sterile gauze",
+      "dressing",
+      "wound dressing"
+    ]
+  },
+  {
+    "item_id": "INV-06c4ed38fa10",
+    "item_name": "Adhesive Bandage Strips",
+    "category": "Wound Care",
+    "quantity": 218,
+    "unit": "Box",
+    "location": "Pharmacy",
+    "reorder_level": 48,
+    "status": "In Stock",
+    "synonyms": [
+      "bandaid",
+      "plaster",
+      "sticking plaster",
+      "wound cover"
+    ],
+    "keywords": [
+      "adhesive bandage strips",
+      "wound care",
+      "pharmacy",
+      "bandaid",
+      "plaster",
+      "sticking plaster",
+      "wound cover"
+    ]
+  },
+  {
+    "item_id": "INV-a458c6f94806",
+    "item_name": "Elastic Bandage Roll",
+    "category": "Wound Care",
+    "quantity": 54,
+    "unit": "Roll",
+    "location": "ER",
+    "reorder_level": 37,
+    "status": "In Stock",
+    "synonyms": [
+      "crepe bandage",
+      "compression bandage",
+      "ACE bandage",
+      "elastic wrap"
+    ],
+    "keywords": [
+      "elastic bandage roll",
+      "wound care",
+      "er",
+      "crepe bandage",
+      "compression bandage",
+      "ACE bandage",
+      "elastic wrap"
+    ]
+  },
+  {
+    "item_id": "INV-5082a8018bf6",
+    "item_name": "Hydrocolloid Dressing",
+    "category": "Wound Care",
+    "quantity": 80,
+    "unit": "Pack",
+    "location": "Ward-B",
+    "reorder_level": 49,
+    "status": "On Order",
+    "synonyms": [
+      "hydrocolloid",
+      "pressure wound dressing",
+      "moisture dressing",
+      "duoderm"
+    ],
+    "keywords": [
+      "hydrocolloid dressing",
+      "wound care",
+      "ward-b",
+      "hydrocolloid",
+      "pressure wound dressing",
+      "moisture dressing",
+      "duoderm"
+    ]
+  },
+  {
+    "item_id": "INV-b25013b6bd02",
+    "item_name": "Surgical Suture Kit",
+    "category": "Wound Care",
+    "quantity": 58,
+    "unit": "Kit",
+    "location": "General Surgery",
+    "reorder_level": 28,
+    "status": "In Stock",
+    "synonyms": [
+      "sutures",
+      "stitches",
+      "suture set",
+      "wound closure kit"
+    ],
+    "keywords": [
+      "surgical suture kit",
+      "wound care",
+      "general surgery",
+      "sutures",
+      "stitches",
+      "suture set",
+      "wound closure kit"
+    ]
+  },
+  {
+    "item_id": "INV-ff1163a9372c",
+    "item_name": "Skin Stapler",
+    "category": "Wound Care",
+    "quantity": 295,
+    "unit": "Each",
+    "location": "OR-2",
+    "reorder_level": 45,
+    "status": "In Stock",
+    "synonyms": [
+      "surgical stapler",
+      "skin closure",
+      "stapler",
+      "wound staple"
+    ],
+    "keywords": [
+      "skin stapler",
+      "wound care",
+      "or-2",
+      "surgical stapler",
+      "skin closure",
+      "stapler",
+      "wound staple"
+    ]
+  },
+  {
+    "item_id": "INV-a584595da897",
+    "item_name": "Normal Saline 0.9% 1L Bag",
+    "category": "IV Fluids",
+    "quantity": 89,
+    "unit": "Bag",
+    "location": "ER",
+    "reorder_level": 16,
+    "status": "On Order",
+    "synonyms": [
+      "normal saline",
+      "NS",
+      "0.9% NaCl",
+      "isotonic saline",
+      "IV fluid"
+    ],
+    "keywords": [
+      "normal saline 0.9% 1l bag",
+      "iv fluids",
+      "er",
+      "normal saline",
+      "NS",
+      "0.9% NaCl",
+      "isotonic saline",
+      "IV fluid"
+    ]
+  },
+  {
+    "item_id": "INV-a990da36b70a",
+    "item_name": "Ringer's Lactate 1L Bag",
+    "category": "IV Fluids",
+    "quantity": 4,
+    "unit": "Bag",
+    "location": "Ward-A",
+    "reorder_level": 23,
+    "status": "Low Stock",
+    "synonyms": [
+      "RL",
+      "Ringer's",
+      "lactated Ringer's",
+      "balanced crystalloid",
+      "IV fluid"
+    ],
+    "keywords": [
+      "ringer's lactate 1l bag",
+      "iv fluids",
+      "ward-a",
+      "RL",
+      "Ringer's",
+      "lactated Ringer's",
+      "balanced crystalloid",
+      "IV fluid"
+    ]
+  },
+  {
+    "item_id": "INV-26d4e66f5568",
+    "item_name": "5% Dextrose 500mL Bag",
+    "category": "IV Fluids",
+    "quantity": 95,
+    "unit": "Bag",
+    "location": "ICU",
+    "reorder_level": 11,
+    "status": "On Order",
+    "synonyms": [
+      "D5W",
+      "dextrose",
+      "glucose solution",
+      "IV glucose",
+      "sugar water"
+    ],
+    "keywords": [
+      "5% dextrose 500ml bag",
+      "iv fluids",
+      "icu",
+      "D5W",
+      "dextrose",
+      "glucose solution",
+      "IV glucose",
+      "sugar water"
+    ]
+  },
+  {
+    "item_id": "INV-2cf42cc26724",
+    "item_name": "IV Cannula 18G",
+    "category": "IV Access",
+    "quantity": 291,
+    "unit": "Each",
+    "location": "Pharmacy",
+    "reorder_level": 60,
+    "status": "In Stock",
+    "synonyms": [
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ],
+    "keywords": [
+      "iv cannula 18g",
+      "iv access",
+      "pharmacy",
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ]
+  },
+  {
+    "item_id": "INV-9848691053f5",
+    "item_name": "IV Cannula 20G",
+    "category": "IV Access",
+    "quantity": 136,
+    "unit": "Each",
+    "location": "Ward-B",
+    "reorder_level": 21,
+    "status": "In Stock",
+    "synonyms": [
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ],
+    "keywords": [
+      "iv cannula 20g",
+      "iv access",
+      "ward-b",
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ]
+  },
+  {
+    "item_id": "INV-0d43fcbdd54b",
+    "item_name": "IV Administration Set",
+    "category": "IV Access",
+    "quantity": 253,
+    "unit": "Each",
+    "location": "ER",
+    "reorder_level": 14,
+    "status": "In Stock",
+    "synonyms": [
+      "drip set",
+      "IV tubing",
+      "giving set",
+      "infusion set"
+    ],
+    "keywords": [
+      "iv administration set",
+      "iv access",
+      "er",
+      "drip set",
+      "IV tubing",
+      "giving set",
+      "infusion set"
+    ]
+  },
+  {
+    "item_id": "INV-926038249626",
+    "item_name": "Central Venous Catheter Kit",
+    "category": "IV Access",
+    "quantity": 12,
+    "unit": "Kit",
+    "location": "OR-1",
+    "reorder_level": 14,
+    "status": "Low Stock",
+    "synonyms": [
+      "CVC",
+      "central line",
+      "central venous access",
+      "CVP line"
+    ],
+    "keywords": [
+      "central venous catheter kit",
+      "iv access",
+      "or-1",
+      "CVC",
+      "central line",
+      "central venous access",
+      "CVP line"
+    ]
+  },
+  {
+    "item_id": "INV-b73422b3dc25",
+    "item_name": "Oxygen Cylinder (E-size)",
+    "category": "Respiratory",
+    "quantity": 237,
+    "unit": "Cylinder",
+    "location": "Ward-A",
+    "reorder_level": 58,
+    "status": "In Stock",
+    "synonyms": [
+      "O2 cylinder",
+      "oxygen tank",
+      "portable O2",
+      "medical oxygen"
+    ],
+    "keywords": [
+      "oxygen cylinder (e-size)",
+      "respiratory",
+      "ward-a",
+      "O2 cylinder",
+      "oxygen tank",
+      "portable O2",
+      "medical oxygen"
+    ]
+  },
+  {
+    "item_id": "INV-f424003c35b9",
+    "item_name": "Nasal Cannula",
+    "category": "Respiratory",
+    "quantity": 41,
+    "unit": "Each",
+    "location": "ER",
+    "reorder_level": 35,
+    "status": "On Order",
+    "synonyms": [
+      "nasal prongs",
+      "low-flow O2",
+      "nasal oxygen",
+      "oxygen prongs"
+    ],
+    "keywords": [
+      "nasal cannula",
+      "respiratory",
+      "er",
+      "nasal prongs",
+      "low-flow O2",
+      "nasal oxygen",
+      "oxygen prongs"
+    ]
+  },
+  {
+    "item_id": "INV-025614dc44ba",
+    "item_name": "Non-Rebreather Mask",
+    "category": "Respiratory",
+    "quantity": 20,
+    "unit": "Each",
+    "location": "Pharmacy",
+    "reorder_level": 31,
+    "status": "Low Stock",
+    "synonyms": [
+      "NRM",
+      "high-flow mask",
+      "oxygen mask",
+      "NRBM",
+      "reservoir mask"
+    ],
+    "keywords": [
+      "non-rebreather mask",
+      "respiratory",
+      "pharmacy",
+      "NRM",
+      "high-flow mask",
+      "oxygen mask",
+      "NRBM",
+      "reservoir mask"
+    ]
+  },
+  {
+    "item_id": "INV-0471a7de3e58",
+    "item_name": "Endotracheal Tube 7.5mm",
+    "category": "Airway",
+    "quantity": 5,
+    "unit": "Each",
+    "location": "OR-1",
+    "reorder_level": 12,
+    "status": "Low Stock",
+    "synonyms": [
+      "ETT",
+      "ET tube",
+      "intubation tube",
+      "airway tube",
+      "endotracheal intubation"
+    ],
+    "keywords": [
+      "endotracheal tube 7.5mm",
+      "airway",
+      "or-1",
+      "ETT",
+      "ET tube",
+      "intubation tube",
+      "airway tube",
+      "endotracheal intubation"
+    ]
+  },
+  {
+    "item_id": "INV-0f641955e970",
+    "item_name": "Suction Catheter Kit",
+    "category": "Airway",
+    "quantity": 298,
+    "unit": "Kit",
+    "location": "ER",
+    "reorder_level": 22,
+    "status": "In Stock",
+    "synonyms": [
+      "suction catheter",
+      "yankauer",
+      "airway suction",
+      "tracheal suction"
+    ],
+    "keywords": [
+      "suction catheter kit",
+      "airway",
+      "er",
+      "suction catheter",
+      "yankauer",
+      "airway suction",
+      "tracheal suction"
+    ]
+  },
+  {
+    "item_id": "INV-11a47d2e1797",
+    "item_name": "Blood Collection Tubes (Set)",
+    "category": "Laboratory",
+    "quantity": 234,
+    "unit": "Pack",
+    "location": "Ward-B",
+    "reorder_level": 21,
+    "status": "In Stock",
+    "synonyms": [
+      "vacutainer",
+      "blood tubes",
+      "specimen tubes",
+      "EDTA tube",
+      "serum tube"
+    ],
+    "keywords": [
+      "blood collection tubes (set)",
+      "laboratory",
+      "ward-b",
+      "vacutainer",
+      "blood tubes",
+      "specimen tubes",
+      "EDTA tube",
+      "serum tube"
+    ]
+  },
+  {
+    "item_id": "INV-114c72b599e5",
+    "item_name": "Urine Collection Container",
+    "category": "Laboratory",
+    "quantity": 192,
+    "unit": "Each",
+    "location": "Laboratory",
+    "reorder_level": 46,
+    "status": "In Stock",
+    "synonyms": [
+      "urine cup",
+      "urine container",
+      "specimen cup",
+      "midstream urine"
+    ],
+    "keywords": [
+      "urine collection container",
+      "laboratory",
+      "urine cup",
+      "urine container",
+      "specimen cup",
+      "midstream urine"
+    ]
+  },
+  {
+    "item_id": "INV-b7ae19eae843",
+    "item_name": "Lancets (Box)",
+    "category": "Point-of-Care",
+    "quantity": 225,
+    "unit": "Box",
+    "location": "Outpatient Clinic",
+    "reorder_level": 20,
+    "status": "In Stock",
+    "synonyms": [
+      "finger lancet",
+      "glucometer lancet",
+      "finger prick",
+      "blood lancet"
+    ],
+    "keywords": [
+      "lancets (box)",
+      "point-of-care",
+      "outpatient clinic",
+      "finger lancet",
+      "glucometer lancet",
+      "finger prick",
+      "blood lancet"
+    ]
+  },
+  {
+    "item_id": "INV-1af6c55f3094",
+    "item_name": "Rapid COVID-19 Antigen Test",
+    "category": "Diagnostics",
+    "quantity": 221,
+    "unit": "Kit",
+    "location": "Laboratory",
+    "reorder_level": 25,
+    "status": "On Order",
+    "synonyms": [
+      "COVID test",
+      "rapid antigen test",
+      "RAT",
+      "coronavirus test",
+      "antigen kit"
+    ],
+    "keywords": [
+      "rapid covid-19 antigen test",
+      "diagnostics",
+      "laboratory",
+      "COVID test",
+      "rapid antigen test",
+      "RAT",
+      "coronavirus test",
+      "antigen kit"
+    ]
+  },
+  {
+    "item_id": "INV-50782db80aa3",
+    "item_name": "Enteral Feeding Formula 1L",
+    "category": "Nutrition",
+    "quantity": 276,
+    "unit": "Bottle",
+    "location": "Pharmacy",
+    "reorder_level": 24,
+    "status": "On Order",
+    "synonyms": [
+      "tube feed",
+      "NG tube feed",
+      "enteral nutrition",
+      "feeding formula",
+      "liquid diet"
+    ],
+    "keywords": [
+      "enteral feeding formula 1l",
+      "nutrition",
+      "pharmacy",
+      "tube feed",
+      "NG tube feed",
+      "enteral nutrition",
+      "feeding formula",
+      "liquid diet"
+    ]
+  },
+  {
+    "item_id": "INV-db381d453868",
+    "item_name": "TPN Bag 2L",
+    "category": "Nutrition",
+    "quantity": 203,
+    "unit": "Bag",
+    "location": "ICU",
+    "reorder_level": 58,
+    "status": "On Order",
+    "synonyms": [
+      "TPN",
+      "total parenteral nutrition",
+      "IV nutrition",
+      "parenteral feeding"
+    ],
+    "keywords": [
+      "tpn bag 2l",
+      "nutrition",
+      "icu",
+      "TPN",
+      "total parenteral nutrition",
+      "IV nutrition",
+      "parenteral feeding"
+    ]
+  },
+  {
+    "item_id": "INV-1b537a863450",
+    "item_name": "ECG Electrodes (Pack)",
+    "category": "Cardiac",
+    "quantity": 31,
+    "unit": "Pack",
+    "location": "Cardiology",
+    "reorder_level": 20,
+    "status": "On Order",
+    "synonyms": [
+      "ECG leads",
+      "cardiac electrodes",
+      "EKG pads",
+      "monitoring pads"
+    ],
+    "keywords": [
+      "ecg electrodes (pack)",
+      "cardiac",
+      "cardiology",
+      "ECG leads",
+      "cardiac electrodes",
+      "EKG pads",
+      "monitoring pads"
+    ]
+  },
+  {
+    "item_id": "INV-c2592c256a9e",
+    "item_name": "Defibrillator Pads",
+    "category": "Cardiac",
+    "quantity": 281,
+    "unit": "Pair",
+    "location": "ICU",
+    "reorder_level": 30,
+    "status": "In Stock",
+    "synonyms": [
+      "defibrillation pads",
+      "AED pads",
+      "shock pads",
+      "defib electrodes"
+    ],
+    "keywords": [
+      "defibrillator pads",
+      "cardiac",
+      "icu",
+      "defibrillation pads",
+      "AED pads",
+      "shock pads",
+      "defib electrodes"
+    ]
+  },
+  {
+    "item_id": "INV-e6dcc292e11c",
+    "item_name": "Blood Pressure Cuff (Adult)",
+    "category": "Monitoring",
+    "quantity": 115,
+    "unit": "Each",
+    "location": "Ward-B",
+    "reorder_level": 18,
+    "status": "In Stock",
+    "synonyms": [
+      "BP cuff",
+      "sphygmomanometer cuff",
+      "NIBP cuff",
+      "blood pressure band"
+    ],
+    "keywords": [
+      "blood pressure cuff (adult)",
+      "monitoring",
+      "ward-b",
+      "BP cuff",
+      "sphygmomanometer cuff",
+      "NIBP cuff",
+      "blood pressure band"
+    ]
+  },
+  {
+    "item_id": "INV-59b373c41a2f",
+    "item_name": "Alcohol Hand Sanitizer 500mL",
+    "category": "Infection Control",
+    "quantity": 252,
+    "unit": "Bottle",
+    "location": "Ward-A",
+    "reorder_level": 21,
+    "status": "In Stock",
+    "synonyms": [
+      "hand rub",
+      "hand gel",
+      "sanitizer",
+      "alcohol gel",
+      "disinfectant"
+    ],
+    "keywords": [
+      "alcohol hand sanitizer 500ml",
+      "infection control",
+      "ward-a",
+      "hand rub",
+      "hand gel",
+      "sanitizer",
+      "alcohol gel",
+      "disinfectant"
+    ]
+  },
+  {
+    "item_id": "INV-5ef9dbf05605",
+    "item_name": "Chlorhexidine 2% Solution",
+    "category": "Infection Control",
+    "quantity": 81,
+    "unit": "Bottle",
+    "location": "ICU",
+    "reorder_level": 46,
+    "status": "In Stock",
+    "synonyms": [
+      "chlorhexidine",
+      "CHG",
+      "antiseptic",
+      "skin prep",
+      "surgical scrub"
+    ],
+    "keywords": [
+      "chlorhexidine 2% solution",
+      "infection control",
+      "icu",
+      "chlorhexidine",
+      "CHG",
+      "antiseptic",
+      "skin prep",
+      "surgical scrub"
+    ]
+  },
+  {
+    "item_id": "INV-626c99b41411",
+    "item_name": "Sharps Container 5L",
+    "category": "Waste Management",
+    "quantity": 113,
+    "unit": "Each",
+    "location": "ER",
+    "reorder_level": 32,
+    "status": "In Stock",
+    "synonyms": [
+      "sharps bin",
+      "needle box",
+      "biohazard container",
+      "sharps disposal"
+    ],
+    "keywords": [
+      "sharps container 5l",
+      "waste management",
+      "er",
+      "sharps bin",
+      "needle box",
+      "biohazard container",
+      "sharps disposal"
+    ]
+  },
+  {
+    "item_id": "INV-520a81a446e2",
+    "item_name": "Autoclave Pouches (Pack)",
+    "category": "Sterilisation",
+    "quantity": 288,
+    "unit": "Pack",
+    "location": "OR-2",
+    "reorder_level": 37,
+    "status": "In Stock",
+    "synonyms": [
+      "sterilisation bags",
+      "sterilization pouch",
+      "autoclave bag",
+      "CSSD pouches"
+    ],
+    "keywords": [
+      "autoclave pouches (pack)",
+      "sterilisation",
+      "or-2",
+      "sterilisation bags",
+      "sterilization pouch",
+      "autoclave bag",
+      "CSSD pouches"
+    ]
+  },
+  {
+    "item_id": "INV-e0699e5cc10a",
+    "item_name": "Surgical Gloves (Box)",
+    "category": "PPE",
+    "quantity": 214,
+    "unit": "Box",
+    "location": "Ward-B",
+    "reorder_level": 38,
+    "status": "In Stock",
+    "synonyms": [
+      "gloves",
+      "sterile gloves",
+      "latex gloves",
+      "nitrile gloves"
+    ],
+    "keywords": [
+      "surgical gloves (box)",
+      "ppe",
+      "ward-b",
+      "gloves",
+      "sterile gloves",
+      "latex gloves",
+      "nitrile gloves"
+    ]
+  },
+  {
+    "item_id": "INV-ed553d2eefd8",
+    "item_name": "N95 Respirator Mask",
+    "category": "PPE",
+    "quantity": 87,
+    "unit": "Box",
+    "location": "ER",
+    "reorder_level": 39,
+    "status": "On Order",
+    "synonyms": [
+      "N95",
+      "respirator",
+      "FFP2 mask",
+      "particulate mask",
+      "PPE mask"
+    ],
+    "keywords": [
+      "n95 respirator mask",
+      "ppe",
+      "er",
+      "N95",
+      "respirator",
+      "FFP2 mask",
+      "particulate mask",
+      "PPE mask"
+    ]
+  },
+  {
+    "item_id": "INV-c9b34498aeb0",
+    "item_name": "Surgical Face Mask",
+    "category": "PPE",
+    "quantity": 182,
+    "unit": "Box",
+    "location": "Ward-B",
+    "reorder_level": 23,
+    "status": "In Stock",
+    "synonyms": [
+      "face mask",
+      "procedure mask",
+      "medical mask",
+      "surgical mask",
+      "3-ply mask"
+    ],
+    "keywords": [
+      "surgical face mask",
+      "ppe",
+      "ward-b",
+      "face mask",
+      "procedure mask",
+      "medical mask",
+      "surgical mask",
+      "3-ply mask"
+    ]
+  },
+  {
+    "item_id": "INV-61dfa32ca641",
+    "item_name": "Isolation Gown",
+    "category": "PPE",
+    "quantity": 300,
+    "unit": "Pack",
+    "location": "Pharmacy",
+    "reorder_level": 33,
+    "status": "In Stock",
+    "synonyms": [
+      "gown",
+      "protective gown",
+      "barrier gown",
+      "PPE gown"
+    ],
+    "keywords": [
+      "isolation gown",
+      "ppe",
+      "pharmacy",
+      "gown",
+      "protective gown",
+      "barrier gown",
+      "PPE gown"
+    ]
+  },
+  {
+    "item_id": "INV-af7085ef1350",
+    "item_name": "Face Shield",
+    "category": "PPE",
+    "quantity": 258,
+    "unit": "Each",
+    "location": "Pharmacy",
+    "reorder_level": 44,
+    "status": "In Stock",
+    "synonyms": [
+      "face shield",
+      "visor",
+      "eye protection",
+      "splatter guard"
+    ],
+    "keywords": [
+      "face shield",
+      "ppe",
+      "pharmacy",
+      "visor",
+      "eye protection",
+      "splatter guard"
+    ]
+  },
+  {
+    "item_id": "INV-2bd123840006",
+    "item_name": "Shoe Covers",
+    "category": "PPE",
+    "quantity": 214,
+    "unit": "Pack",
+    "location": "OR-2",
+    "reorder_level": 57,
+    "status": "In Stock",
+    "synonyms": [
+      "shoe covers",
+      "booties",
+      "foot covers",
+      "OR covers"
+    ],
+    "keywords": [
+      "shoe covers",
+      "ppe",
+      "or-2",
+      "booties",
+      "foot covers",
+      "OR covers"
+    ]
+  },
+  {
+    "item_id": "INV-cdc03cb19e7c",
+    "item_name": "Sterile Gauze Pads (Pack)",
+    "category": "Wound Care",
+    "quantity": 211,
+    "unit": "Pack",
+    "location": "OR-2",
+    "reorder_level": 11,
+    "status": "In Stock",
+    "synonyms": [
+      "gauze",
+      "sterile gauze",
+      "dressing",
+      "wound dressing"
+    ],
+    "keywords": [
+      "sterile gauze pads (pack)",
+      "wound care",
+      "or-2",
+      "gauze",
+      "sterile gauze",
+      "dressing",
+      "wound dressing"
+    ]
+  },
+  {
+    "item_id": "INV-eff45da37c93",
+    "item_name": "Adhesive Bandage Strips",
+    "category": "Wound Care",
+    "quantity": 5,
+    "unit": "Box",
+    "location": "Ward-A",
+    "reorder_level": 52,
+    "status": "Low Stock",
+    "synonyms": [
+      "bandaid",
+      "plaster",
+      "sticking plaster",
+      "wound cover"
+    ],
+    "keywords": [
+      "adhesive bandage strips",
+      "wound care",
+      "ward-a",
+      "bandaid",
+      "plaster",
+      "sticking plaster",
+      "wound cover"
+    ]
+  },
+  {
+    "item_id": "INV-6427e66967a7",
+    "item_name": "Elastic Bandage Roll",
+    "category": "Wound Care",
+    "quantity": 289,
+    "unit": "Roll",
+    "location": "Ward-B",
+    "reorder_level": 20,
+    "status": "In Stock",
+    "synonyms": [
+      "crepe bandage",
+      "compression bandage",
+      "ACE bandage",
+      "elastic wrap"
+    ],
+    "keywords": [
+      "elastic bandage roll",
+      "wound care",
+      "ward-b",
+      "crepe bandage",
+      "compression bandage",
+      "ACE bandage",
+      "elastic wrap"
+    ]
+  },
+  {
+    "item_id": "INV-db1a3babc982",
+    "item_name": "Hydrocolloid Dressing",
+    "category": "Wound Care",
+    "quantity": 95,
+    "unit": "Pack",
+    "location": "Ward-B",
+    "reorder_level": 59,
+    "status": "In Stock",
+    "synonyms": [
+      "hydrocolloid",
+      "pressure wound dressing",
+      "moisture dressing",
+      "duoderm"
+    ],
+    "keywords": [
+      "hydrocolloid dressing",
+      "wound care",
+      "ward-b",
+      "hydrocolloid",
+      "pressure wound dressing",
+      "moisture dressing",
+      "duoderm"
+    ]
+  },
+  {
+    "item_id": "INV-514a7e47b37d",
+    "item_name": "Surgical Suture Kit",
+    "category": "Wound Care",
+    "quantity": 153,
+    "unit": "Kit",
+    "location": "OR-2",
+    "reorder_level": 25,
+    "status": "In Stock",
+    "synonyms": [
+      "sutures",
+      "stitches",
+      "suture set",
+      "wound closure kit"
+    ],
+    "keywords": [
+      "surgical suture kit",
+      "wound care",
+      "or-2",
+      "sutures",
+      "stitches",
+      "suture set",
+      "wound closure kit"
+    ]
+  },
+  {
+    "item_id": "INV-8c45e687bc5f",
+    "item_name": "Skin Stapler",
+    "category": "Wound Care",
+    "quantity": 132,
+    "unit": "Each",
+    "location": "OR-1",
+    "reorder_level": 44,
+    "status": "In Stock",
+    "synonyms": [
+      "surgical stapler",
+      "skin closure",
+      "stapler",
+      "wound staple"
+    ],
+    "keywords": [
+      "skin stapler",
+      "wound care",
+      "or-1",
+      "surgical stapler",
+      "skin closure",
+      "stapler",
+      "wound staple"
+    ]
+  },
+  {
+    "item_id": "INV-51332f6bb3a2",
+    "item_name": "Normal Saline 0.9% 1L Bag",
+    "category": "IV Fluids",
+    "quantity": 299,
+    "unit": "Bag",
+    "location": "Ward-A",
+    "reorder_level": 24,
+    "status": "In Stock",
+    "synonyms": [
+      "normal saline",
+      "NS",
+      "0.9% NaCl",
+      "isotonic saline",
+      "IV fluid"
+    ],
+    "keywords": [
+      "normal saline 0.9% 1l bag",
+      "iv fluids",
+      "ward-a",
+      "normal saline",
+      "NS",
+      "0.9% NaCl",
+      "isotonic saline",
+      "IV fluid"
+    ]
+  },
+  {
+    "item_id": "INV-b559ccaa5159",
+    "item_name": "Ringer's Lactate 1L Bag",
+    "category": "IV Fluids",
+    "quantity": 178,
+    "unit": "Bag",
+    "location": "Ward-A",
+    "reorder_level": 22,
+    "status": "In Stock",
+    "synonyms": [
+      "RL",
+      "Ringer's",
+      "lactated Ringer's",
+      "balanced crystalloid",
+      "IV fluid"
+    ],
+    "keywords": [
+      "ringer's lactate 1l bag",
+      "iv fluids",
+      "ward-a",
+      "RL",
+      "Ringer's",
+      "lactated Ringer's",
+      "balanced crystalloid",
+      "IV fluid"
+    ]
+  },
+  {
+    "item_id": "INV-e94925858c27",
+    "item_name": "5% Dextrose 500mL Bag",
+    "category": "IV Fluids",
+    "quantity": 3,
+    "unit": "Bag",
+    "location": "Ward-A",
+    "reorder_level": 20,
+    "status": "Low Stock",
+    "synonyms": [
+      "D5W",
+      "dextrose",
+      "glucose solution",
+      "IV glucose",
+      "sugar water"
+    ],
+    "keywords": [
+      "5% dextrose 500ml bag",
+      "iv fluids",
+      "ward-a",
+      "D5W",
+      "dextrose",
+      "glucose solution",
+      "IV glucose",
+      "sugar water"
+    ]
+  },
+  {
+    "item_id": "INV-1c0c0a9aa8f9",
+    "item_name": "IV Cannula 18G",
+    "category": "IV Access",
+    "quantity": 183,
+    "unit": "Each",
+    "location": "Ward-B",
+    "reorder_level": 14,
+    "status": "In Stock",
+    "synonyms": [
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ],
+    "keywords": [
+      "iv cannula 18g",
+      "iv access",
+      "ward-b",
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ]
+  },
+  {
+    "item_id": "INV-cef814c90397",
+    "item_name": "IV Cannula 20G",
+    "category": "IV Access",
+    "quantity": 169,
+    "unit": "Each",
+    "location": "Pharmacy",
+    "reorder_level": 32,
+    "status": "On Order",
+    "synonyms": [
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ],
+    "keywords": [
+      "iv cannula 20g",
+      "iv access",
+      "pharmacy",
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ]
+  },
+  {
+    "item_id": "INV-2acd458d5cef",
+    "item_name": "IV Administration Set",
+    "category": "IV Access",
+    "quantity": 58,
+    "unit": "Each",
+    "location": "Ward-A",
+    "reorder_level": 49,
+    "status": "On Order",
+    "synonyms": [
+      "drip set",
+      "IV tubing",
+      "giving set",
+      "infusion set"
+    ],
+    "keywords": [
+      "iv administration set",
+      "iv access",
+      "ward-a",
+      "drip set",
+      "IV tubing",
+      "giving set",
+      "infusion set"
+    ]
+  },
+  {
+    "item_id": "INV-57138347ed66",
+    "item_name": "Central Venous Catheter Kit",
+    "category": "IV Access",
+    "quantity": 172,
+    "unit": "Kit",
+    "location": "ER",
+    "reorder_level": 28,
+    "status": "In Stock",
+    "synonyms": [
+      "CVC",
+      "central line",
+      "central venous access",
+      "CVP line"
+    ],
+    "keywords": [
+      "central venous catheter kit",
+      "iv access",
+      "er",
+      "CVC",
+      "central line",
+      "central venous access",
+      "CVP line"
+    ]
+  },
+  {
+    "item_id": "INV-e324eacfe07b",
+    "item_name": "Oxygen Cylinder (E-size)",
+    "category": "Respiratory",
+    "quantity": 17,
+    "unit": "Cylinder",
+    "location": "ICU",
+    "reorder_level": 24,
+    "status": "Low Stock",
+    "synonyms": [
+      "O2 cylinder",
+      "oxygen tank",
+      "portable O2",
+      "medical oxygen"
+    ],
+    "keywords": [
+      "oxygen cylinder (e-size)",
+      "respiratory",
+      "icu",
+      "O2 cylinder",
+      "oxygen tank",
+      "portable O2",
+      "medical oxygen"
+    ]
+  },
+  {
+    "item_id": "INV-1a3f87ce7ffd",
+    "item_name": "Nasal Cannula",
+    "category": "Respiratory",
+    "quantity": 297,
+    "unit": "Each",
+    "location": "Pharmacy",
+    "reorder_level": 42,
+    "status": "On Order",
+    "synonyms": [
+      "nasal prongs",
+      "low-flow O2",
+      "nasal oxygen",
+      "oxygen prongs"
+    ],
+    "keywords": [
+      "nasal cannula",
+      "respiratory",
+      "pharmacy",
+      "nasal prongs",
+      "low-flow O2",
+      "nasal oxygen",
+      "oxygen prongs"
+    ]
+  },
+  {
+    "item_id": "INV-15ea46d0cab2",
+    "item_name": "Non-Rebreather Mask",
+    "category": "Respiratory",
+    "quantity": 145,
+    "unit": "Each",
+    "location": "Pharmacy",
+    "reorder_level": 54,
+    "status": "Low Stock",
+    "synonyms": [
+      "NRM",
+      "high-flow mask",
+      "oxygen mask",
+      "NRBM",
+      "reservoir mask"
+    ],
+    "keywords": [
+      "non-rebreather mask",
+      "respiratory",
+      "pharmacy",
+      "NRM",
+      "high-flow mask",
+      "oxygen mask",
+      "NRBM",
+      "reservoir mask"
+    ]
+  },
+  {
+    "item_id": "INV-b29bb0842e1f",
+    "item_name": "Endotracheal Tube 7.5mm",
+    "category": "Airway",
+    "quantity": 99,
+    "unit": "Each",
+    "location": "ER",
+    "reorder_level": 58,
+    "status": "Low Stock",
+    "synonyms": [
+      "ETT",
+      "ET tube",
+      "intubation tube",
+      "airway tube",
+      "endotracheal intubation"
+    ],
+    "keywords": [
+      "endotracheal tube 7.5mm",
+      "airway",
+      "er",
+      "ETT",
+      "ET tube",
+      "intubation tube",
+      "airway tube",
+      "endotracheal intubation"
+    ]
+  },
+  {
+    "item_id": "INV-e8eb964de64e",
+    "item_name": "Suction Catheter Kit",
+    "category": "Airway",
+    "quantity": 83,
+    "unit": "Kit",
+    "location": "ER",
+    "reorder_level": 28,
+    "status": "On Order",
+    "synonyms": [
+      "suction catheter",
+      "yankauer",
+      "airway suction",
+      "tracheal suction"
+    ],
+    "keywords": [
+      "suction catheter kit",
+      "airway",
+      "er",
+      "suction catheter",
+      "yankauer",
+      "airway suction",
+      "tracheal suction"
+    ]
+  },
+  {
+    "item_id": "INV-f7dc8e56d712",
+    "item_name": "Blood Collection Tubes (Set)",
+    "category": "Laboratory",
+    "quantity": 83,
+    "unit": "Pack",
+    "location": "Laboratory",
+    "reorder_level": 47,
+    "status": "In Stock",
+    "synonyms": [
+      "vacutainer",
+      "blood tubes",
+      "specimen tubes",
+      "EDTA tube",
+      "serum tube"
+    ],
+    "keywords": [
+      "blood collection tubes (set)",
+      "laboratory",
+      "vacutainer",
+      "blood tubes",
+      "specimen tubes",
+      "EDTA tube",
+      "serum tube"
+    ]
+  },
+  {
+    "item_id": "INV-a5a15a1a4228",
+    "item_name": "Urine Collection Container",
+    "category": "Laboratory",
+    "quantity": 275,
+    "unit": "Each",
+    "location": "Ward-A",
+    "reorder_level": 11,
+    "status": "In Stock",
+    "synonyms": [
+      "urine cup",
+      "urine container",
+      "specimen cup",
+      "midstream urine"
+    ],
+    "keywords": [
+      "urine collection container",
+      "laboratory",
+      "ward-a",
+      "urine cup",
+      "urine container",
+      "specimen cup",
+      "midstream urine"
+    ]
+  },
+  {
+    "item_id": "INV-a0e468fe1284",
+    "item_name": "Lancets (Box)",
+    "category": "Point-of-Care",
+    "quantity": 62,
+    "unit": "Box",
+    "location": "ER",
+    "reorder_level": 18,
+    "status": "On Order",
+    "synonyms": [
+      "finger lancet",
+      "glucometer lancet",
+      "finger prick",
+      "blood lancet"
+    ],
+    "keywords": [
+      "lancets (box)",
+      "point-of-care",
+      "er",
+      "finger lancet",
+      "glucometer lancet",
+      "finger prick",
+      "blood lancet"
+    ]
+  },
+  {
+    "item_id": "INV-bb5966bfb7bf",
+    "item_name": "Rapid COVID-19 Antigen Test",
+    "category": "Diagnostics",
+    "quantity": 138,
+    "unit": "Kit",
+    "location": "Outpatient Clinic",
+    "reorder_level": 15,
+    "status": "In Stock",
+    "synonyms": [
+      "COVID test",
+      "rapid antigen test",
+      "RAT",
+      "coronavirus test",
+      "antigen kit"
+    ],
+    "keywords": [
+      "rapid covid-19 antigen test",
+      "diagnostics",
+      "outpatient clinic",
+      "COVID test",
+      "rapid antigen test",
+      "RAT",
+      "coronavirus test",
+      "antigen kit"
+    ]
+  },
+  {
+    "item_id": "INV-693a1b6364ab",
+    "item_name": "Enteral Feeding Formula 1L",
+    "category": "Nutrition",
+    "quantity": 29,
+    "unit": "Bottle",
+    "location": "ICU",
+    "reorder_level": 38,
+    "status": "Low Stock",
+    "synonyms": [
+      "tube feed",
+      "NG tube feed",
+      "enteral nutrition",
+      "feeding formula",
+      "liquid diet"
+    ],
+    "keywords": [
+      "enteral feeding formula 1l",
+      "nutrition",
+      "icu",
+      "tube feed",
+      "NG tube feed",
+      "enteral nutrition",
+      "feeding formula",
+      "liquid diet"
+    ]
+  },
+  {
+    "item_id": "INV-02e9756ee718",
+    "item_name": "TPN Bag 2L",
+    "category": "Nutrition",
+    "quantity": 201,
+    "unit": "Bag",
+    "location": "Pharmacy",
+    "reorder_level": 30,
+    "status": "On Order",
+    "synonyms": [
+      "TPN",
+      "total parenteral nutrition",
+      "IV nutrition",
+      "parenteral feeding"
+    ],
+    "keywords": [
+      "tpn bag 2l",
+      "nutrition",
+      "pharmacy",
+      "TPN",
+      "total parenteral nutrition",
+      "IV nutrition",
+      "parenteral feeding"
+    ]
+  },
+  {
+    "item_id": "INV-941b9784b969",
+    "item_name": "ECG Electrodes (Pack)",
+    "category": "Cardiac",
+    "quantity": 28,
+    "unit": "Pack",
+    "location": "ER",
+    "reorder_level": 17,
+    "status": "In Stock",
+    "synonyms": [
+      "ECG leads",
+      "cardiac electrodes",
+      "EKG pads",
+      "monitoring pads"
+    ],
+    "keywords": [
+      "ecg electrodes (pack)",
+      "cardiac",
+      "er",
+      "ECG leads",
+      "cardiac electrodes",
+      "EKG pads",
+      "monitoring pads"
+    ]
+  },
+  {
+    "item_id": "INV-3e5330a5965f",
+    "item_name": "Defibrillator Pads",
+    "category": "Cardiac",
+    "quantity": 205,
+    "unit": "Pair",
+    "location": "Cardiology",
+    "reorder_level": 22,
+    "status": "In Stock",
+    "synonyms": [
+      "defibrillation pads",
+      "AED pads",
+      "shock pads",
+      "defib electrodes"
+    ],
+    "keywords": [
+      "defibrillator pads",
+      "cardiac",
+      "cardiology",
+      "defibrillation pads",
+      "AED pads",
+      "shock pads",
+      "defib electrodes"
+    ]
+  },
+  {
+    "item_id": "INV-8303b249ac26",
+    "item_name": "Blood Pressure Cuff (Adult)",
+    "category": "Monitoring",
+    "quantity": 158,
+    "unit": "Each",
+    "location": "Ward-B",
+    "reorder_level": 47,
+    "status": "In Stock",
+    "synonyms": [
+      "BP cuff",
+      "sphygmomanometer cuff",
+      "NIBP cuff",
+      "blood pressure band"
+    ],
+    "keywords": [
+      "blood pressure cuff (adult)",
+      "monitoring",
+      "ward-b",
+      "BP cuff",
+      "sphygmomanometer cuff",
+      "NIBP cuff",
+      "blood pressure band"
+    ]
+  },
+  {
+    "item_id": "INV-ad238f78c4c7",
+    "item_name": "Alcohol Hand Sanitizer 500mL",
+    "category": "Infection Control",
+    "quantity": 33,
+    "unit": "Bottle",
+    "location": "OR-1",
+    "reorder_level": 10,
+    "status": "In Stock",
+    "synonyms": [
+      "hand rub",
+      "hand gel",
+      "sanitizer",
+      "alcohol gel",
+      "disinfectant"
+    ],
+    "keywords": [
+      "alcohol hand sanitizer 500ml",
+      "infection control",
+      "or-1",
+      "hand rub",
+      "hand gel",
+      "sanitizer",
+      "alcohol gel",
+      "disinfectant"
+    ]
+  },
+  {
+    "item_id": "INV-a38babedcb38",
+    "item_name": "Chlorhexidine 2% Solution",
+    "category": "Infection Control",
+    "quantity": 137,
+    "unit": "Bottle",
+    "location": "OR-1",
+    "reorder_level": 51,
+    "status": "In Stock",
+    "synonyms": [
+      "chlorhexidine",
+      "CHG",
+      "antiseptic",
+      "skin prep",
+      "surgical scrub"
+    ],
+    "keywords": [
+      "chlorhexidine 2% solution",
+      "infection control",
+      "or-1",
+      "chlorhexidine",
+      "CHG",
+      "antiseptic",
+      "skin prep",
+      "surgical scrub"
+    ]
+  },
+  {
+    "item_id": "INV-18c99fa68eca",
+    "item_name": "Sharps Container 5L",
+    "category": "Waste Management",
+    "quantity": 229,
+    "unit": "Each",
+    "location": "Ward-A",
+    "reorder_level": 31,
+    "status": "In Stock",
+    "synonyms": [
+      "sharps bin",
+      "needle box",
+      "biohazard container",
+      "sharps disposal"
+    ],
+    "keywords": [
+      "sharps container 5l",
+      "waste management",
+      "ward-a",
+      "sharps bin",
+      "needle box",
+      "biohazard container",
+      "sharps disposal"
+    ]
+  },
+  {
+    "item_id": "INV-dfdfc6cf94d8",
+    "item_name": "Autoclave Pouches (Pack)",
+    "category": "Sterilisation",
+    "quantity": 300,
+    "unit": "Pack",
+    "location": "OR-2",
+    "reorder_level": 18,
+    "status": "In Stock",
+    "synonyms": [
+      "sterilisation bags",
+      "sterilization pouch",
+      "autoclave bag",
+      "CSSD pouches"
+    ],
+    "keywords": [
+      "autoclave pouches (pack)",
+      "sterilisation",
+      "or-2",
+      "sterilisation bags",
+      "sterilization pouch",
+      "autoclave bag",
+      "CSSD pouches"
+    ]
+  },
+  {
+    "item_id": "INV-53098331b7a0",
+    "item_name": "Surgical Gloves (Box)",
+    "category": "PPE",
+    "quantity": 38,
+    "unit": "Box",
+    "location": "Ward-A",
+    "reorder_level": 54,
+    "status": "Low Stock",
+    "synonyms": [
+      "gloves",
+      "sterile gloves",
+      "latex gloves",
+      "nitrile gloves"
+    ],
+    "keywords": [
+      "surgical gloves (box)",
+      "ppe",
+      "ward-a",
+      "gloves",
+      "sterile gloves",
+      "latex gloves",
+      "nitrile gloves"
+    ]
+  },
+  {
+    "item_id": "INV-892b036b54c5",
+    "item_name": "N95 Respirator Mask",
+    "category": "PPE",
+    "quantity": 51,
+    "unit": "Box",
+    "location": "ICU",
+    "reorder_level": 40,
+    "status": "In Stock",
+    "synonyms": [
+      "N95",
+      "respirator",
+      "FFP2 mask",
+      "particulate mask",
+      "PPE mask"
+    ],
+    "keywords": [
+      "n95 respirator mask",
+      "ppe",
+      "icu",
+      "N95",
+      "respirator",
+      "FFP2 mask",
+      "particulate mask",
+      "PPE mask"
+    ]
+  },
+  {
+    "item_id": "INV-61439da2fba4",
+    "item_name": "Surgical Face Mask",
+    "category": "PPE",
+    "quantity": 65,
+    "unit": "Box",
+    "location": "Ward-B",
+    "reorder_level": 37,
+    "status": "On Order",
+    "synonyms": [
+      "face mask",
+      "procedure mask",
+      "medical mask",
+      "surgical mask",
+      "3-ply mask"
+    ],
+    "keywords": [
+      "surgical face mask",
+      "ppe",
+      "ward-b",
+      "face mask",
+      "procedure mask",
+      "medical mask",
+      "surgical mask",
+      "3-ply mask"
+    ]
+  },
+  {
+    "item_id": "INV-4edb59010073",
+    "item_name": "Isolation Gown",
+    "category": "PPE",
+    "quantity": 242,
+    "unit": "Pack",
+    "location": "ER",
+    "reorder_level": 30,
+    "status": "In Stock",
+    "synonyms": [
+      "gown",
+      "protective gown",
+      "barrier gown",
+      "PPE gown"
+    ],
+    "keywords": [
+      "isolation gown",
+      "ppe",
+      "er",
+      "gown",
+      "protective gown",
+      "barrier gown",
+      "PPE gown"
+    ]
+  },
+  {
+    "item_id": "INV-57fb96903a9a",
+    "item_name": "Face Shield",
+    "category": "PPE",
+    "quantity": 204,
+    "unit": "Each",
+    "location": "ER",
+    "reorder_level": 26,
+    "status": "In Stock",
+    "synonyms": [
+      "face shield",
+      "visor",
+      "eye protection",
+      "splatter guard"
+    ],
+    "keywords": [
+      "face shield",
+      "ppe",
+      "er",
+      "visor",
+      "eye protection",
+      "splatter guard"
+    ]
+  },
+  {
+    "item_id": "INV-39f564c97ad8",
+    "item_name": "Shoe Covers",
+    "category": "PPE",
+    "quantity": 13,
+    "unit": "Pack",
+    "location": "OR-2",
+    "reorder_level": 49,
+    "status": "Low Stock",
+    "synonyms": [
+      "shoe covers",
+      "booties",
+      "foot covers",
+      "OR covers"
+    ],
+    "keywords": [
+      "shoe covers",
+      "ppe",
+      "or-2",
+      "booties",
+      "foot covers",
+      "OR covers"
+    ]
+  },
+  {
+    "item_id": "INV-d2ff39f8532e",
+    "item_name": "Sterile Gauze Pads (Pack)",
+    "category": "Wound Care",
+    "quantity": 61,
+    "unit": "Pack",
+    "location": "Ward-B",
+    "reorder_level": 38,
+    "status": "On Order",
+    "synonyms": [
+      "gauze",
+      "sterile gauze",
+      "dressing",
+      "wound dressing"
+    ],
+    "keywords": [
+      "sterile gauze pads (pack)",
+      "wound care",
+      "ward-b",
+      "gauze",
+      "sterile gauze",
+      "dressing",
+      "wound dressing"
+    ]
+  },
+  {
+    "item_id": "INV-e66f02db7f9d",
+    "item_name": "Adhesive Bandage Strips",
+    "category": "Wound Care",
+    "quantity": 13,
+    "unit": "Box",
+    "location": "ER",
+    "reorder_level": 10,
+    "status": "In Stock",
+    "synonyms": [
+      "bandaid",
+      "plaster",
+      "sticking plaster",
+      "wound cover"
+    ],
+    "keywords": [
+      "adhesive bandage strips",
+      "wound care",
+      "er",
+      "bandaid",
+      "plaster",
+      "sticking plaster",
+      "wound cover"
+    ]
+  },
+  {
+    "item_id": "INV-a5bfa11cde56",
+    "item_name": "Elastic Bandage Roll",
+    "category": "Wound Care",
+    "quantity": 272,
+    "unit": "Roll",
+    "location": "Ward-B",
+    "reorder_level": 27,
+    "status": "In Stock",
+    "synonyms": [
+      "crepe bandage",
+      "compression bandage",
+      "ACE bandage",
+      "elastic wrap"
+    ],
+    "keywords": [
+      "elastic bandage roll",
+      "wound care",
+      "ward-b",
+      "crepe bandage",
+      "compression bandage",
+      "ACE bandage",
+      "elastic wrap"
+    ]
+  },
+  {
+    "item_id": "INV-3a3c4c856311",
+    "item_name": "Hydrocolloid Dressing",
+    "category": "Wound Care",
+    "quantity": 138,
+    "unit": "Pack",
+    "location": "Wound Care Clinic",
+    "reorder_level": 13,
+    "status": "In Stock",
+    "synonyms": [
+      "hydrocolloid",
+      "pressure wound dressing",
+      "moisture dressing",
+      "duoderm"
+    ],
+    "keywords": [
+      "hydrocolloid dressing",
+      "wound care",
+      "wound care clinic",
+      "hydrocolloid",
+      "pressure wound dressing",
+      "moisture dressing",
+      "duoderm"
+    ]
+  },
+  {
+    "item_id": "INV-d22ed70edd83",
+    "item_name": "Surgical Suture Kit",
+    "category": "Wound Care",
+    "quantity": 54,
+    "unit": "Kit",
+    "location": "OR-1",
+    "reorder_level": 14,
+    "status": "In Stock",
+    "synonyms": [
+      "sutures",
+      "stitches",
+      "suture set",
+      "wound closure kit"
+    ],
+    "keywords": [
+      "surgical suture kit",
+      "wound care",
+      "or-1",
+      "sutures",
+      "stitches",
+      "suture set",
+      "wound closure kit"
+    ]
+  },
+  {
+    "item_id": "INV-e83ec684b6a2",
+    "item_name": "Skin Stapler",
+    "category": "Wound Care",
+    "quantity": 169,
+    "unit": "Each",
+    "location": "OR-1",
+    "reorder_level": 32,
+    "status": "In Stock",
+    "synonyms": [
+      "surgical stapler",
+      "skin closure",
+      "stapler",
+      "wound staple"
+    ],
+    "keywords": [
+      "skin stapler",
+      "wound care",
+      "or-1",
+      "surgical stapler",
+      "skin closure",
+      "stapler",
+      "wound staple"
+    ]
+  },
+  {
+    "item_id": "INV-8a3392cd4173",
+    "item_name": "Normal Saline 0.9% 1L Bag",
+    "category": "IV Fluids",
+    "quantity": 138,
+    "unit": "Bag",
+    "location": "Ward-A",
+    "reorder_level": 23,
+    "status": "Low Stock",
+    "synonyms": [
+      "normal saline",
+      "NS",
+      "0.9% NaCl",
+      "isotonic saline",
+      "IV fluid"
+    ],
+    "keywords": [
+      "normal saline 0.9% 1l bag",
+      "iv fluids",
+      "ward-a",
+      "normal saline",
+      "NS",
+      "0.9% NaCl",
+      "isotonic saline",
+      "IV fluid"
+    ]
+  },
+  {
+    "item_id": "INV-19dc34f13ab5",
+    "item_name": "Ringer's Lactate 1L Bag",
+    "category": "IV Fluids",
+    "quantity": 51,
+    "unit": "Bag",
+    "location": "ER",
+    "reorder_level": 47,
+    "status": "In Stock",
+    "synonyms": [
+      "RL",
+      "Ringer's",
+      "lactated Ringer's",
+      "balanced crystalloid",
+      "IV fluid"
+    ],
+    "keywords": [
+      "ringer's lactate 1l bag",
+      "iv fluids",
+      "er",
+      "RL",
+      "Ringer's",
+      "lactated Ringer's",
+      "balanced crystalloid",
+      "IV fluid"
+    ]
+  },
+  {
+    "item_id": "INV-22f98f39840b",
+    "item_name": "5% Dextrose 500mL Bag",
+    "category": "IV Fluids",
+    "quantity": 121,
+    "unit": "Bag",
+    "location": "ICU",
+    "reorder_level": 52,
+    "status": "On Order",
+    "synonyms": [
+      "D5W",
+      "dextrose",
+      "glucose solution",
+      "IV glucose",
+      "sugar water"
+    ],
+    "keywords": [
+      "5% dextrose 500ml bag",
+      "iv fluids",
+      "icu",
+      "D5W",
+      "dextrose",
+      "glucose solution",
+      "IV glucose",
+      "sugar water"
+    ]
+  },
+  {
+    "item_id": "INV-da1632ab512e",
+    "item_name": "IV Cannula 18G",
+    "category": "IV Access",
+    "quantity": 248,
+    "unit": "Each",
+    "location": "Ward-A",
+    "reorder_level": 47,
+    "status": "In Stock",
+    "synonyms": [
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ],
+    "keywords": [
+      "iv cannula 18g",
+      "iv access",
+      "ward-a",
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ]
+  },
+  {
+    "item_id": "INV-205ac56ad78e",
+    "item_name": "IV Cannula 20G",
+    "category": "IV Access",
+    "quantity": 133,
+    "unit": "Each",
+    "location": "Ward-A",
+    "reorder_level": 39,
+    "status": "In Stock",
+    "synonyms": [
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ],
+    "keywords": [
+      "iv cannula 20g",
+      "iv access",
+      "ward-a",
+      "IV line",
+      "cannula",
+      "venflon",
+      "peripheral IV",
+      "IV catheter"
+    ]
+  },
+  {
+    "item_id": "INV-0dc6b60ce073",
+    "item_name": "IV Administration Set",
+    "category": "IV Access",
+    "quantity": 191,
+    "unit": "Each",
+    "location": "Ward-A",
+    "reorder_level": 54,
+    "status": "Low Stock",
+    "synonyms": [
+      "drip set",
+      "IV tubing",
+      "giving set",
+      "infusion set"
+    ],
+    "keywords": [
+      "iv administration set",
+      "iv access",
+      "ward-a",
+      "drip set",
+      "IV tubing",
+      "giving set",
+      "infusion set"
+    ]
+  },
+  {
+    "item_id": "INV-1938960a3bc6",
+    "item_name": "Central Venous Catheter Kit",
+    "category": "IV Access",
+    "quantity": 78,
+    "unit": "Kit",
+    "location": "ICU",
+    "reorder_level": 15,
+    "status": "In Stock",
+    "synonyms": [
+      "CVC",
+      "central line",
+      "central venous access",
+      "CVP line"
+    ],
+    "keywords": [
+      "central venous catheter kit",
+      "iv access",
+      "icu",
+      "CVC",
+      "central line",
+      "central venous access",
+      "CVP line"
+    ]
+  },
+  {
+    "item_id": "INV-121e5780a2fc",
+    "item_name": "Oxygen Cylinder (E-size)",
+    "category": "Respiratory",
+    "quantity": 130,
+    "unit": "Cylinder",
+    "location": "Ward-B",
+    "reorder_level": 50,
+    "status": "Low Stock",
+    "synonyms": [
+      "O2 cylinder",
+      "oxygen tank",
+      "portable O2",
+      "medical oxygen"
+    ],
+    "keywords": [
+      "oxygen cylinder (e-size)",
+      "respiratory",
+      "ward-b",
+      "O2 cylinder",
+      "oxygen tank",
+      "portable O2",
+      "medical oxygen"
+    ]
+  },
+  {
+    "item_id": "INV-6463679fc967",
+    "item_name": "Nasal Cannula",
+    "category": "Respiratory",
+    "quantity": 276,
+    "unit": "Each",
+    "location": "Ward-B",
+    "reorder_level": 60,
+    "status": "In Stock",
+    "synonyms": [
+      "nasal prongs",
+      "low-flow O2",
+      "nasal oxygen",
+      "oxygen prongs"
+    ],
+    "keywords": [
+      "nasal cannula",
+      "respiratory",
+      "ward-b",
+      "nasal prongs",
+      "low-flow O2",
+      "nasal oxygen",
+      "oxygen prongs"
+    ]
+  },
+  {
+    "item_id": "INV-694315636eb8",
+    "item_name": "Non-Rebreather Mask",
+    "category": "Respiratory",
+    "quantity": 3,
+    "unit": "Each",
+    "location": "Pharmacy",
+    "reorder_level": 29,
+    "status": "Low Stock",
+    "synonyms": [
+      "NRM",
+      "high-flow mask",
+      "oxygen mask",
+      "NRBM",
+      "reservoir mask"
+    ],
+    "keywords": [
+      "non-rebreather mask",
+      "respiratory",
+      "pharmacy",
+      "NRM",
+      "high-flow mask",
+      "oxygen mask",
+      "NRBM",
+      "reservoir mask"
+    ]
+  },
+  {
+    "item_id": "INV-39da65c65cd1",
+    "item_name": "Endotracheal Tube 7.5mm",
+    "category": "Airway",
+    "quantity": 247,
+    "unit": "Each",
+    "location": "OR-2",
+    "reorder_level": 41,
+    "status": "In Stock",
+    "synonyms": [
+      "ETT",
+      "ET tube",
+      "intubation tube",
+      "airway tube",
+      "endotracheal intubation"
+    ],
+    "keywords": [
+      "endotracheal tube 7.5mm",
+      "airway",
+      "or-2",
+      "ETT",
+      "ET tube",
+      "intubation tube",
+      "airway tube",
+      "endotracheal intubation"
+    ]
+  },
+  {
+    "item_id": "INV-58d9e21e2151",
+    "item_name": "Suction Catheter Kit",
+    "category": "Airway",
+    "quantity": 195,
+    "unit": "Kit",
+    "location": "ICU",
+    "reorder_level": 46,
+    "status": "In Stock",
+    "synonyms": [
+      "suction catheter",
+      "yankauer",
+      "airway suction",
+      "tracheal suction"
+    ],
+    "keywords": [
+      "suction catheter kit",
+      "airway",
+      "icu",
+      "suction catheter",
+      "yankauer",
+      "airway suction",
+      "tracheal suction"
+    ]
+  },
+  {
+    "item_id": "INV-cd6057ec7ec5",
+    "item_name": "Blood Collection Tubes (Set)",
+    "category": "Laboratory",
+    "quantity": 120,
+    "unit": "Pack",
+    "location": "ER",
+    "reorder_level": 58,
+    "status": "In Stock",
+    "synonyms": [
+      "vacutainer",
+      "blood tubes",
+      "specimen tubes",
+      "EDTA tube",
+      "serum tube"
+    ],
+    "keywords": [
+      "blood collection tubes (set)",
+      "laboratory",
+      "er",
+      "vacutainer",
+      "blood tubes",
+      "specimen tubes",
+      "EDTA tube",
+      "serum tube"
+    ]
+  },
+  {
+    "item_id": "INV-51d81a2de7fc",
+    "item_name": "Urine Collection Container",
+    "category": "Laboratory",
+    "quantity": 181,
+    "unit": "Each",
+    "location": "Laboratory",
+    "reorder_level": 16,
+    "status": "In Stock",
+    "synonyms": [
+      "urine cup",
+      "urine container",
+      "specimen cup",
+      "midstream urine"
+    ],
+    "keywords": [
+      "urine collection container",
+      "laboratory",
+      "urine cup",
+      "urine container",
+      "specimen cup",
+      "midstream urine"
+    ]
+  },
+  {
+    "item_id": "INV-d0f6cebe2ab7",
+    "item_name": "Lancets (Box)",
+    "category": "Point-of-Care",
+    "quantity": 84,
+    "unit": "Box",
+    "location": "ER",
+    "reorder_level": 31,
+    "status": "In Stock",
+    "synonyms": [
+      "finger lancet",
+      "glucometer lancet",
+      "finger prick",
+      "blood lancet"
+    ],
+    "keywords": [
+      "lancets (box)",
+      "point-of-care",
+      "er",
+      "finger lancet",
+      "glucometer lancet",
+      "finger prick",
+      "blood lancet"
+    ]
+  }
+]

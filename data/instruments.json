@@ -1,0 +1,4479 @@
+[
+  {
+    "instrument_id": "INS-19f263f6ba2a",
+    "name": "CT Scanner",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "OR-2",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-10-02",
+    "next_calibration": "2027-03-28",
+    "synonyms": [
+      "computed tomography",
+      "CT",
+      "CAT scan",
+      "cross-sectional imaging"
+    ],
+    "keywords": [
+      "ct scanner",
+      "diagnostic imaging",
+      "radiology",
+      "computed tomography",
+      "CT",
+      "CAT scan",
+      "cross-sectional imaging"
+    ]
+  },
+  {
+    "instrument_id": "INS-3f9f3a3d585b",
+    "name": "MRI Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Orthopedics",
+    "location": "OR-2",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-09-22",
+    "next_calibration": "2026-10-04",
+    "synonyms": [
+      "magnetic resonance imaging",
+      "MRI",
+      "NMR",
+      "magnetic scanner"
+    ],
+    "keywords": [
+      "mri machine",
+      "diagnostic imaging",
+      "orthopedics",
+      "magnetic resonance imaging",
+      "MRI",
+      "NMR",
+      "magnetic scanner"
+    ]
+  },
+  {
+    "instrument_id": "INS-98c463eb94c5",
+    "name": "X-Ray Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Orthopedics",
+    "location": "ICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-02-21",
+    "next_calibration": "2027-04-12",
+    "synonyms": [
+      "radiograph",
+      "X-ray",
+      "plain film",
+      "roentgenography"
+    ],
+    "keywords": [
+      "x-ray machine",
+      "diagnostic imaging",
+      "orthopedics",
+      "radiograph",
+      "X-ray",
+      "plain film",
+      "roentgenography"
+    ]
+  },
+  {
+    "instrument_id": "INS-06c8af54a75d",
+    "name": "Ultrasound Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "Ward-B",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-12-17",
+    "next_calibration": "2027-01-08",
+    "synonyms": [
+      "ultrasound",
+      "sonography",
+      "echo",
+      "diagnostic ultrasound"
+    ],
+    "keywords": [
+      "ultrasound machine",
+      "diagnostic imaging",
+      "radiology",
+      "ultrasound",
+      "sonography",
+      "echo",
+      "diagnostic ultrasound"
+    ]
+  },
+  {
+    "instrument_id": "INS-288460322c42",
+    "name": "Fluoroscopy Unit",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "NICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-01-24",
+    "next_calibration": "2027-01-04",
+    "synonyms": [
+      "fluoroscope",
+      "real-time X-ray",
+      "contrast imaging"
+    ],
+    "keywords": [
+      "fluoroscopy unit",
+      "diagnostic imaging",
+      "radiology",
+      "fluoroscope",
+      "real-time X-ray",
+      "contrast imaging"
+    ]
+  },
+  {
+    "instrument_id": "INS-57ec785cd8c1",
+    "name": "PET Scanner",
+    "category": "Diagnostic Imaging",
+    "department": "Neurology",
+    "location": "Radiology",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-02-08",
+    "next_calibration": "2026-11-02",
+    "synonyms": [
+      "positron emission tomography",
+      "PET",
+      "nuclear medicine imaging"
+    ],
+    "keywords": [
+      "pet scanner",
+      "diagnostic imaging",
+      "neurology",
+      "positron emission tomography",
+      "PET",
+      "nuclear medicine imaging"
+    ]
+  },
+  {
+    "instrument_id": "INS-4d91f8305e00",
+    "name": "Mammography Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "Ward-C",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-08-22",
+    "next_calibration": "2027-07-15",
+    "synonyms": [
+      "mammogram",
+      "breast imaging",
+      "mammograph"
+    ],
+    "keywords": [
+      "mammography machine",
+      "diagnostic imaging",
+      "radiology",
+      "mammogram",
+      "breast imaging",
+      "mammograph"
+    ]
+  },
+  {
+    "instrument_id": "INS-3ed3719c2991",
+    "name": "ECG Monitor",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "NICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-04-04",
+    "next_calibration": "2027-05-03",
+    "synonyms": [
+      "electrocardiogram",
+      "EKG",
+      "ECG",
+      "heart monitor",
+      "12-lead ECG"
+    ],
+    "keywords": [
+      "ecg monitor",
+      "cardiac monitoring",
+      "cardiology",
+      "electrocardiogram",
+      "EKG",
+      "ECG",
+      "heart monitor",
+      "12-lead ECG"
+    ]
+  },
+  {
+    "instrument_id": "INS-f93ee49b4638",
+    "name": "Holter Monitor",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "OR-1",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-10-30",
+    "next_calibration": "2027-07-05",
+    "synonyms": [
+      "ambulatory ECG",
+      "24-hour ECG",
+      "continuous heart monitor"
+    ],
+    "keywords": [
+      "holter monitor",
+      "cardiac monitoring",
+      "cardiology",
+      "ambulatory ECG",
+      "24-hour ECG",
+      "continuous heart monitor"
+    ]
+  },
+  {
+    "instrument_id": "INS-91a225ce1bce",
+    "name": "Echocardiography Unit",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "Outpatient Clinic",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-08-02",
+    "next_calibration": "2027-02-26",
+    "synonyms": [
+      "echo",
+      "cardiac ultrasound",
+      "transthoracic echocardiogram",
+      "TTE"
+    ],
+    "keywords": [
+      "echocardiography unit",
+      "cardiac monitoring",
+      "cardiology",
+      "echo",
+      "cardiac ultrasound",
+      "transthoracic echocardiogram",
+      "TTE"
+    ]
+  },
+  {
+    "instrument_id": "INS-6f093770db25",
+    "name": "Defibrillator",
+    "category": "Resuscitation",
+    "department": "ER",
+    "location": "Ward-A",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-01-23",
+    "next_calibration": "2027-01-12",
+    "synonyms": [
+      "AED",
+      "shock device",
+      "cardioverter",
+      "crash cart device"
+    ],
+    "keywords": [
+      "defibrillator",
+      "resuscitation",
+      "er",
+      "AED",
+      "shock device",
+      "cardioverter",
+      "crash cart device"
+    ]
+  },
+  {
+    "instrument_id": "INS-1a1ef9309085",
+    "name": "Cardiac Catheter Lab",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "ER",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-01-05",
+    "next_calibration": "2026-10-13",
+    "synonyms": [
+      "cath lab",
+      "angiography unit",
+      "coronary angiography",
+      "PCI lab"
+    ],
+    "keywords": [
+      "cardiac catheter lab",
+      "cardiac monitoring",
+      "cardiology",
+      "cath lab",
+      "angiography unit",
+      "coronary angiography",
+      "PCI lab"
+    ]
+  },
+  {
+    "instrument_id": "INS-930e10d0b3eb",
+    "name": "Mechanical Ventilator",
+    "category": "Respiratory Support",
+    "department": "ICU",
+    "location": "Endoscopy Suite",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-12-11",
+    "next_calibration": "2027-02-16",
+    "synonyms": [
+      "ventilator",
+      "breathing machine",
+      "mechanical ventilation",
+      "ICU ventilator"
+    ],
+    "keywords": [
+      "mechanical ventilator",
+      "respiratory support",
+      "icu",
+      "ventilator",
+      "breathing machine",
+      "mechanical ventilation",
+      "ICU ventilator"
+    ]
+  },
+  {
+    "instrument_id": "INS-abc87c4cf288",
+    "name": "Pulse Oximeter",
+    "category": "Monitoring",
+    "department": "ER",
+    "location": "Ward-B",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-03-04",
+    "next_calibration": "2027-04-01",
+    "synonyms": [
+      "SpO2 monitor",
+      "oxygen saturation",
+      "pulse ox",
+      "sat probe"
+    ],
+    "keywords": [
+      "pulse oximeter",
+      "monitoring",
+      "er",
+      "SpO2 monitor",
+      "oxygen saturation",
+      "pulse ox",
+      "sat probe"
+    ]
+  },
+  {
+    "instrument_id": "INS-feef00a976e6",
+    "name": "Spirometer",
+    "category": "Respiratory Diagnostics",
+    "department": "Respiratory Therapy",
+    "location": "ICU",
+    "operational_status": "Out of Service",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-07-16",
+    "next_calibration": "2026-12-09",
+    "synonyms": [
+      "lung function test",
+      "PFT device",
+      "spirometry",
+      "FEV1 measurement"
+    ],
+    "keywords": [
+      "spirometer",
+      "respiratory diagnostics",
+      "respiratory therapy",
+      "lung function test",
+      "PFT device",
+      "spirometry",
+      "FEV1 measurement"
+    ]
+  },
+  {
+    "instrument_id": "INS-419c9e17af3f",
+    "name": "BiPAP Machine",
+    "category": "Respiratory Support",
+    "department": "Emergency Medicine",
+    "location": "Laboratory",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-11-26",
+    "next_calibration": "2026-12-22",
+    "synonyms": [
+      "BiPAP",
+      "bilevel positive airway pressure",
+      "non-invasive ventilation",
+      "NIV"
+    ],
+    "keywords": [
+      "bipap machine",
+      "respiratory support",
+      "emergency medicine",
+      "BiPAP",
+      "bilevel positive airway pressure",
+      "non-invasive ventilation",
+      "NIV"
+    ]
+  },
+  {
+    "instrument_id": "INS-2ff78fbb15b2",
+    "name": "CPAP Machine",
+    "category": "Respiratory Support",
+    "department": "Pulmonology",
+    "location": "Ward-A",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-04-20",
+    "next_calibration": "2027-04-08",
+    "synonyms": [
+      "CPAP",
+      "continuous positive airway pressure",
+      "sleep apnea device"
+    ],
+    "keywords": [
+      "cpap machine",
+      "respiratory support",
+      "pulmonology",
+      "CPAP",
+      "continuous positive airway pressure",
+      "sleep apnea device"
+    ]
+  },
+  {
+    "instrument_id": "INS-8eff137c2761",
+    "name": "Hematology Analyzer",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Endoscopy Suite",
+    "operational_status": "Calibration Due",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-03-23",
+    "next_calibration": "2027-07-25",
+    "synonyms": [
+      "CBC analyzer",
+      "blood count machine",
+      "FBC analyzer",
+      "complete blood count"
+    ],
+    "keywords": [
+      "hematology analyzer",
+      "laboratory",
+      "CBC analyzer",
+      "blood count machine",
+      "FBC analyzer",
+      "complete blood count"
+    ]
+  },
+  {
+    "instrument_id": "INS-93f66fc677db",
+    "name": "Chemistry Analyzer",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "NICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-11-07",
+    "next_calibration": "2027-06-27",
+    "synonyms": [
+      "biochemistry analyzer",
+      "metabolic panel",
+      "LFT analyzer",
+      "kidney function"
+    ],
+    "keywords": [
+      "chemistry analyzer",
+      "laboratory",
+      "biochemistry analyzer",
+      "metabolic panel",
+      "LFT analyzer",
+      "kidney function"
+    ]
+  },
+  {
+    "instrument_id": "INS-2e903b66e06d",
+    "name": "Blood Culture Analyzer",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Pharmacy",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-07-24",
+    "next_calibration": "2027-06-25",
+    "synonyms": [
+      "BACTEC",
+      "blood culture",
+      "bacteremia detection",
+      "microbiology analyzer"
+    ],
+    "keywords": [
+      "blood culture analyzer",
+      "laboratory",
+      "BACTEC",
+      "blood culture",
+      "bacteremia detection",
+      "microbiology analyzer"
+    ]
+  },
+  {
+    "instrument_id": "INS-a2861204d6b5",
+    "name": "Microscope",
+    "category": "Laboratory",
+    "department": "Pathology",
+    "location": "Pharmacy",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-11-24",
+    "next_calibration": "2027-03-28",
+    "synonyms": [
+      "light microscope",
+      "optical microscope",
+      "compound microscope",
+      "lab scope"
+    ],
+    "keywords": [
+      "microscope",
+      "laboratory",
+      "pathology",
+      "light microscope",
+      "optical microscope",
+      "compound microscope",
+      "lab scope"
+    ]
+  },
+  {
+    "instrument_id": "INS-f5437029abb4",
+    "name": "Centrifuge",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "CCU",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-09-28",
+    "next_calibration": "2027-07-21",
+    "synonyms": [
+      "lab centrifuge",
+      "sample separator",
+      "cell separator"
+    ],
+    "keywords": [
+      "centrifuge",
+      "laboratory",
+      "lab centrifuge",
+      "sample separator",
+      "cell separator"
+    ]
+  },
+  {
+    "instrument_id": "INS-a1eec9bcab60",
+    "name": "PCR Machine",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Pharmacy",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-11-03",
+    "next_calibration": "2027-01-24",
+    "synonyms": [
+      "polymerase chain reaction",
+      "PCR",
+      "thermocycler",
+      "DNA amplifier",
+      "COVID test machine"
+    ],
+    "keywords": [
+      "pcr machine",
+      "laboratory",
+      "polymerase chain reaction",
+      "PCR",
+      "thermocycler",
+      "DNA amplifier",
+      "COVID test machine"
+    ]
+  },
+  {
+    "instrument_id": "INS-f271ed04a662",
+    "name": "Glucose Meter",
+    "category": "Point-of-Care",
+    "department": "ER",
+    "location": "Outpatient Clinic",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-02-06",
+    "next_calibration": "2026-10-31",
+    "synonyms": [
+      "glucometer",
+      "blood sugar monitor",
+      "capillary glucose",
+      "bedside glucose"
+    ],
+    "keywords": [
+      "glucose meter",
+      "point-of-care",
+      "er",
+      "glucometer",
+      "blood sugar monitor",
+      "capillary glucose",
+      "bedside glucose"
+    ]
+  },
+  {
+    "instrument_id": "INS-9890dfbc8f4d",
+    "name": "Electrosurgical Unit",
+    "category": "Surgical Equipment",
+    "department": "OR-2",
+    "location": "OR-2",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-11-02",
+    "next_calibration": "2027-04-24",
+    "synonyms": [
+      "diathermy",
+      "bovie",
+      "ESU",
+      "electrocautery",
+      "surgical diathermy"
+    ],
+    "keywords": [
+      "electrosurgical unit",
+      "surgical equipment",
+      "or-2",
+      "diathermy",
+      "bovie",
+      "ESU",
+      "electrocautery",
+      "surgical diathermy"
+    ]
+  },
+  {
+    "instrument_id": "INS-35825240ccad",
+    "name": "Surgical Table",
+    "category": "Surgical Equipment",
+    "department": "OR-1",
+    "location": "Physiotherapy",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-03-21",
+    "next_calibration": "2026-12-13",
+    "synonyms": [
+      "operating table",
+      "OR table",
+      "surgical bed"
+    ],
+    "keywords": [
+      "surgical table",
+      "surgical equipment",
+      "or-1",
+      "operating table",
+      "OR table",
+      "surgical bed"
+    ]
+  },
+  {
+    "instrument_id": "INS-40f70af51b13",
+    "name": "Anesthesia Machine",
+    "category": "Anesthesia",
+    "department": "OR-1",
+    "location": "NICU",
+    "operational_status": "Out of Service",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-10-22",
+    "next_calibration": "2026-11-04",
+    "synonyms": [
+      "anesthesia workstation",
+      "GA machine",
+      "gas machine",
+      "anaesthetic machine"
+    ],
+    "keywords": [
+      "anesthesia machine",
+      "anesthesia",
+      "or-1",
+      "anesthesia workstation",
+      "GA machine",
+      "gas machine",
+      "anaesthetic machine"
+    ]
+  },
+  {
+    "instrument_id": "INS-b9ae2a2e2ae3",
+    "name": "Laparoscope",
+    "category": "Surgical Equipment",
+    "department": "General Surgery",
+    "location": "Outpatient Clinic",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-07-18",
+    "next_calibration": "2026-12-16",
+    "synonyms": [
+      "laparoscopy",
+      "minimally invasive surgery",
+      "MIS scope",
+      "keyhole surgery"
+    ],
+    "keywords": [
+      "laparoscope",
+      "surgical equipment",
+      "general surgery",
+      "laparoscopy",
+      "minimally invasive surgery",
+      "MIS scope",
+      "keyhole surgery"
+    ]
+  },
+  {
+    "instrument_id": "INS-7d14bcc249a0",
+    "name": "Endoscope",
+    "category": "Diagnostic",
+    "department": "Pulmonology",
+    "location": "OR-2",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-07-02",
+    "next_calibration": "2027-05-21",
+    "synonyms": [
+      "GI scope",
+      "gastroscope",
+      "colonoscope",
+      "flexible endoscope"
+    ],
+    "keywords": [
+      "endoscope",
+      "diagnostic",
+      "pulmonology",
+      "GI scope",
+      "gastroscope",
+      "colonoscope",
+      "flexible endoscope"
+    ]
+  },
+  {
+    "instrument_id": "INS-85c95bcddc08",
+    "name": "Infusion Pump",
+    "category": "Medication Delivery",
+    "department": "Oncology",
+    "location": "OR-2",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-09-05",
+    "next_calibration": "2027-03-06",
+    "synonyms": [
+      "IV pump",
+      "syringe driver",
+      "drug infusion",
+      "volumetric pump"
+    ],
+    "keywords": [
+      "infusion pump",
+      "medication delivery",
+      "oncology",
+      "IV pump",
+      "syringe driver",
+      "drug infusion",
+      "volumetric pump"
+    ]
+  },
+  {
+    "instrument_id": "INS-9e308a36c866",
+    "name": "Syringe Pump",
+    "category": "Medication Delivery",
+    "department": "Pediatrics",
+    "location": "OR-2",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-01-09",
+    "next_calibration": "2027-01-27",
+    "synonyms": [
+      "syringe driver",
+      "PCA pump",
+      "patient-controlled analgesia",
+      "micro-infusion"
+    ],
+    "keywords": [
+      "syringe pump",
+      "medication delivery",
+      "pediatrics",
+      "syringe driver",
+      "PCA pump",
+      "patient-controlled analgesia",
+      "micro-infusion"
+    ]
+  },
+  {
+    "instrument_id": "INS-8b9e62f3f307",
+    "name": "Patient Monitor",
+    "category": "Monitoring",
+    "department": "OR-2",
+    "location": "Radiology",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-06-17",
+    "next_calibration": "2027-01-01",
+    "synonyms": [
+      "bedside monitor",
+      "vital signs monitor",
+      "multiparameter monitor",
+      "cardiac monitor"
+    ],
+    "keywords": [
+      "patient monitor",
+      "monitoring",
+      "or-2",
+      "bedside monitor",
+      "vital signs monitor",
+      "multiparameter monitor",
+      "cardiac monitor"
+    ]
+  },
+  {
+    "instrument_id": "INS-d05931123d54",
+    "name": "Blood Pressure Monitor",
+    "category": "Monitoring",
+    "department": "Ward-A",
+    "location": "Pharmacy",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-02-07",
+    "next_calibration": "2026-12-11",
+    "synonyms": [
+      "sphygmomanometer",
+      "BP cuff",
+      "NIBP",
+      "automated BP monitor"
+    ],
+    "keywords": [
+      "blood pressure monitor",
+      "monitoring",
+      "ward-a",
+      "sphygmomanometer",
+      "BP cuff",
+      "NIBP",
+      "automated BP monitor"
+    ]
+  },
+  {
+    "instrument_id": "INS-f1e4902c9b2e",
+    "name": "Temperature Monitor",
+    "category": "Monitoring",
+    "department": "ER",
+    "location": "ICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-01-14",
+    "next_calibration": "2026-11-11",
+    "synonyms": [
+      "thermometer",
+      "core temperature",
+      "tympanic thermometer",
+      "rectal thermometer"
+    ],
+    "keywords": [
+      "temperature monitor",
+      "monitoring",
+      "er",
+      "thermometer",
+      "core temperature",
+      "tympanic thermometer",
+      "rectal thermometer"
+    ]
+  },
+  {
+    "instrument_id": "INS-d1ffbac45fd0",
+    "name": "Dialysis Machine",
+    "category": "Renal Therapy",
+    "department": "ICU",
+    "location": "Ward-A",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-03-23",
+    "next_calibration": "2026-10-08",
+    "synonyms": [
+      "hemodialysis",
+      "CRRT",
+      "renal replacement therapy",
+      "kidney machine"
+    ],
+    "keywords": [
+      "dialysis machine",
+      "renal therapy",
+      "icu",
+      "hemodialysis",
+      "CRRT",
+      "renal replacement therapy",
+      "kidney machine"
+    ]
+  },
+  {
+    "instrument_id": "INS-88a3b6a8addb",
+    "name": "Phototherapy Unit",
+    "category": "Neonatal",
+    "department": "NICU",
+    "location": "Physiotherapy",
+    "operational_status": "Calibration Due",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-09-26",
+    "next_calibration": "2026-09-21",
+    "synonyms": [
+      "bilirubin lights",
+      "jaundice lamp",
+      "neonatal phototherapy"
+    ],
+    "keywords": [
+      "phototherapy unit",
+      "neonatal",
+      "nicu",
+      "bilirubin lights",
+      "jaundice lamp",
+      "neonatal phototherapy"
+    ]
+  },
+  {
+    "instrument_id": "INS-5bc800660b36",
+    "name": "Ophthalmoscope",
+    "category": "Diagnostic",
+    "department": "Neurology",
+    "location": "Radiology",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-03-20",
+    "next_calibration": "2027-01-25",
+    "synonyms": [
+      "fundoscope",
+      "retinal exam",
+      "eye exam instrument",
+      "fundal examination"
+    ],
+    "keywords": [
+      "ophthalmoscope",
+      "diagnostic",
+      "neurology",
+      "fundoscope",
+      "retinal exam",
+      "eye exam instrument",
+      "fundal examination"
+    ]
+  },
+  {
+    "instrument_id": "INS-396541c401be",
+    "name": "CT Scanner",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "ICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-11-24",
+    "next_calibration": "2027-07-03",
+    "synonyms": [
+      "computed tomography",
+      "CT",
+      "CAT scan",
+      "cross-sectional imaging"
+    ],
+    "keywords": [
+      "ct scanner",
+      "diagnostic imaging",
+      "radiology",
+      "computed tomography",
+      "CT",
+      "CAT scan",
+      "cross-sectional imaging"
+    ]
+  },
+  {
+    "instrument_id": "INS-723608c14fc6",
+    "name": "MRI Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Orthopedics",
+    "location": "Ward-A",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-05-15",
+    "next_calibration": "2027-01-20",
+    "synonyms": [
+      "magnetic resonance imaging",
+      "MRI",
+      "NMR",
+      "magnetic scanner"
+    ],
+    "keywords": [
+      "mri machine",
+      "diagnostic imaging",
+      "orthopedics",
+      "magnetic resonance imaging",
+      "MRI",
+      "NMR",
+      "magnetic scanner"
+    ]
+  },
+  {
+    "instrument_id": "INS-ccadf19ce928",
+    "name": "X-Ray Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Emergency Medicine",
+    "location": "Outpatient Clinic",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-09-09",
+    "next_calibration": "2026-10-12",
+    "synonyms": [
+      "radiograph",
+      "X-ray",
+      "plain film",
+      "roentgenography"
+    ],
+    "keywords": [
+      "x-ray machine",
+      "diagnostic imaging",
+      "emergency medicine",
+      "radiograph",
+      "X-ray",
+      "plain film",
+      "roentgenography"
+    ]
+  },
+  {
+    "instrument_id": "INS-f2d35ce06487",
+    "name": "Ultrasound Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "Pharmacy",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-02-27",
+    "next_calibration": "2026-10-24",
+    "synonyms": [
+      "ultrasound",
+      "sonography",
+      "echo",
+      "diagnostic ultrasound"
+    ],
+    "keywords": [
+      "ultrasound machine",
+      "diagnostic imaging",
+      "radiology",
+      "ultrasound",
+      "sonography",
+      "echo",
+      "diagnostic ultrasound"
+    ]
+  },
+  {
+    "instrument_id": "INS-56cfd9f7e41a",
+    "name": "Fluoroscopy Unit",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "OR-1",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-12-09",
+    "next_calibration": "2026-09-18",
+    "synonyms": [
+      "fluoroscope",
+      "real-time X-ray",
+      "contrast imaging"
+    ],
+    "keywords": [
+      "fluoroscopy unit",
+      "diagnostic imaging",
+      "radiology",
+      "fluoroscope",
+      "real-time X-ray",
+      "contrast imaging"
+    ]
+  },
+  {
+    "instrument_id": "INS-847733b06f79",
+    "name": "PET Scanner",
+    "category": "Diagnostic Imaging",
+    "department": "Neurology",
+    "location": "CCU",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-05-19",
+    "next_calibration": "2027-03-22",
+    "synonyms": [
+      "positron emission tomography",
+      "PET",
+      "nuclear medicine imaging"
+    ],
+    "keywords": [
+      "pet scanner",
+      "diagnostic imaging",
+      "neurology",
+      "positron emission tomography",
+      "PET",
+      "nuclear medicine imaging"
+    ]
+  },
+  {
+    "instrument_id": "INS-45c8bbab18b1",
+    "name": "Mammography Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "Physiotherapy",
+    "operational_status": "Calibration Due",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-04-22",
+    "next_calibration": "2026-12-06",
+    "synonyms": [
+      "mammogram",
+      "breast imaging",
+      "mammograph"
+    ],
+    "keywords": [
+      "mammography machine",
+      "diagnostic imaging",
+      "radiology",
+      "mammogram",
+      "breast imaging",
+      "mammograph"
+    ]
+  },
+  {
+    "instrument_id": "INS-780aa13d6a96",
+    "name": "ECG Monitor",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "Ward-B",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-03-05",
+    "next_calibration": "2026-11-16",
+    "synonyms": [
+      "electrocardiogram",
+      "EKG",
+      "ECG",
+      "heart monitor",
+      "12-lead ECG"
+    ],
+    "keywords": [
+      "ecg monitor",
+      "cardiac monitoring",
+      "cardiology",
+      "electrocardiogram",
+      "EKG",
+      "ECG",
+      "heart monitor",
+      "12-lead ECG"
+    ]
+  },
+  {
+    "instrument_id": "INS-8e1222670224",
+    "name": "Holter Monitor",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "Ward-A",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-09-08",
+    "next_calibration": "2026-12-22",
+    "synonyms": [
+      "ambulatory ECG",
+      "24-hour ECG",
+      "continuous heart monitor"
+    ],
+    "keywords": [
+      "holter monitor",
+      "cardiac monitoring",
+      "cardiology",
+      "ambulatory ECG",
+      "24-hour ECG",
+      "continuous heart monitor"
+    ]
+  },
+  {
+    "instrument_id": "INS-a3736f579fbe",
+    "name": "Echocardiography Unit",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "Ward-C",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-09-20",
+    "next_calibration": "2026-09-30",
+    "synonyms": [
+      "echo",
+      "cardiac ultrasound",
+      "transthoracic echocardiogram",
+      "TTE"
+    ],
+    "keywords": [
+      "echocardiography unit",
+      "cardiac monitoring",
+      "cardiology",
+      "echo",
+      "cardiac ultrasound",
+      "transthoracic echocardiogram",
+      "TTE"
+    ]
+  },
+  {
+    "instrument_id": "INS-97458e881264",
+    "name": "Defibrillator",
+    "category": "Resuscitation",
+    "department": "ICU",
+    "location": "OR-2",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-12-27",
+    "next_calibration": "2026-10-24",
+    "synonyms": [
+      "AED",
+      "shock device",
+      "cardioverter",
+      "crash cart device"
+    ],
+    "keywords": [
+      "defibrillator",
+      "resuscitation",
+      "icu",
+      "AED",
+      "shock device",
+      "cardioverter",
+      "crash cart device"
+    ]
+  },
+  {
+    "instrument_id": "INS-4596e42c80a6",
+    "name": "Cardiac Catheter Lab",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "OR-2",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-05-20",
+    "next_calibration": "2027-06-10",
+    "synonyms": [
+      "cath lab",
+      "angiography unit",
+      "coronary angiography",
+      "PCI lab"
+    ],
+    "keywords": [
+      "cardiac catheter lab",
+      "cardiac monitoring",
+      "cardiology",
+      "cath lab",
+      "angiography unit",
+      "coronary angiography",
+      "PCI lab"
+    ]
+  },
+  {
+    "instrument_id": "INS-427a602f1399",
+    "name": "Mechanical Ventilator",
+    "category": "Respiratory Support",
+    "department": "Emergency Medicine",
+    "location": "Radiology",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-07-07",
+    "next_calibration": "2026-11-20",
+    "synonyms": [
+      "ventilator",
+      "breathing machine",
+      "mechanical ventilation",
+      "ICU ventilator"
+    ],
+    "keywords": [
+      "mechanical ventilator",
+      "respiratory support",
+      "emergency medicine",
+      "ventilator",
+      "breathing machine",
+      "mechanical ventilation",
+      "ICU ventilator"
+    ]
+  },
+  {
+    "instrument_id": "INS-9a642e9d8fd7",
+    "name": "Pulse Oximeter",
+    "category": "Monitoring",
+    "department": "ICU",
+    "location": "ICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-01-16",
+    "next_calibration": "2027-04-04",
+    "synonyms": [
+      "SpO2 monitor",
+      "oxygen saturation",
+      "pulse ox",
+      "sat probe"
+    ],
+    "keywords": [
+      "pulse oximeter",
+      "monitoring",
+      "icu",
+      "SpO2 monitor",
+      "oxygen saturation",
+      "pulse ox",
+      "sat probe"
+    ]
+  },
+  {
+    "instrument_id": "INS-dfb4de5c80b1",
+    "name": "Spirometer",
+    "category": "Respiratory Diagnostics",
+    "department": "Pulmonology",
+    "location": "ER",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-01-07",
+    "next_calibration": "2027-06-09",
+    "synonyms": [
+      "lung function test",
+      "PFT device",
+      "spirometry",
+      "FEV1 measurement"
+    ],
+    "keywords": [
+      "spirometer",
+      "respiratory diagnostics",
+      "pulmonology",
+      "lung function test",
+      "PFT device",
+      "spirometry",
+      "FEV1 measurement"
+    ]
+  },
+  {
+    "instrument_id": "INS-0c513b52aa34",
+    "name": "BiPAP Machine",
+    "category": "Respiratory Support",
+    "department": "Emergency Medicine",
+    "location": "ICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-12-04",
+    "next_calibration": "2027-07-10",
+    "synonyms": [
+      "BiPAP",
+      "bilevel positive airway pressure",
+      "non-invasive ventilation",
+      "NIV"
+    ],
+    "keywords": [
+      "bipap machine",
+      "respiratory support",
+      "emergency medicine",
+      "BiPAP",
+      "bilevel positive airway pressure",
+      "non-invasive ventilation",
+      "NIV"
+    ]
+  },
+  {
+    "instrument_id": "INS-3262044061fb",
+    "name": "CPAP Machine",
+    "category": "Respiratory Support",
+    "department": "ICU",
+    "location": "ICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-04-02",
+    "next_calibration": "2026-11-12",
+    "synonyms": [
+      "CPAP",
+      "continuous positive airway pressure",
+      "sleep apnea device"
+    ],
+    "keywords": [
+      "cpap machine",
+      "respiratory support",
+      "icu",
+      "CPAP",
+      "continuous positive airway pressure",
+      "sleep apnea device"
+    ]
+  },
+  {
+    "instrument_id": "INS-58eefd8ca8f3",
+    "name": "Hematology Analyzer",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Outpatient Clinic",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-07-22",
+    "next_calibration": "2027-04-28",
+    "synonyms": [
+      "CBC analyzer",
+      "blood count machine",
+      "FBC analyzer",
+      "complete blood count"
+    ],
+    "keywords": [
+      "hematology analyzer",
+      "laboratory",
+      "CBC analyzer",
+      "blood count machine",
+      "FBC analyzer",
+      "complete blood count"
+    ]
+  },
+  {
+    "instrument_id": "INS-3729fe8fab1a",
+    "name": "Chemistry Analyzer",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Pharmacy",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-07-18",
+    "next_calibration": "2027-08-05",
+    "synonyms": [
+      "biochemistry analyzer",
+      "metabolic panel",
+      "LFT analyzer",
+      "kidney function"
+    ],
+    "keywords": [
+      "chemistry analyzer",
+      "laboratory",
+      "biochemistry analyzer",
+      "metabolic panel",
+      "LFT analyzer",
+      "kidney function"
+    ]
+  },
+  {
+    "instrument_id": "INS-f46ff205c11d",
+    "name": "Blood Culture Analyzer",
+    "category": "Laboratory",
+    "department": "Infectious Disease",
+    "location": "OR-1",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-04-22",
+    "next_calibration": "2027-06-07",
+    "synonyms": [
+      "BACTEC",
+      "blood culture",
+      "bacteremia detection",
+      "microbiology analyzer"
+    ],
+    "keywords": [
+      "blood culture analyzer",
+      "laboratory",
+      "infectious disease",
+      "BACTEC",
+      "blood culture",
+      "bacteremia detection",
+      "microbiology analyzer"
+    ]
+  },
+  {
+    "instrument_id": "INS-496a95deb4db",
+    "name": "Microscope",
+    "category": "Laboratory",
+    "department": "Pathology",
+    "location": "Pharmacy",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-12-06",
+    "next_calibration": "2026-10-12",
+    "synonyms": [
+      "light microscope",
+      "optical microscope",
+      "compound microscope",
+      "lab scope"
+    ],
+    "keywords": [
+      "microscope",
+      "laboratory",
+      "pathology",
+      "light microscope",
+      "optical microscope",
+      "compound microscope",
+      "lab scope"
+    ]
+  },
+  {
+    "instrument_id": "INS-69a665f83134",
+    "name": "Centrifuge",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Radiology",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-07-23",
+    "next_calibration": "2027-01-11",
+    "synonyms": [
+      "lab centrifuge",
+      "sample separator",
+      "cell separator"
+    ],
+    "keywords": [
+      "centrifuge",
+      "laboratory",
+      "lab centrifuge",
+      "sample separator",
+      "cell separator"
+    ]
+  },
+  {
+    "instrument_id": "INS-a01bfa1cd533",
+    "name": "PCR Machine",
+    "category": "Laboratory",
+    "department": "Infectious Disease",
+    "location": "Physiotherapy",
+    "operational_status": "Calibration Due",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-01-08",
+    "next_calibration": "2026-10-31",
+    "synonyms": [
+      "polymerase chain reaction",
+      "PCR",
+      "thermocycler",
+      "DNA amplifier",
+      "COVID test machine"
+    ],
+    "keywords": [
+      "pcr machine",
+      "laboratory",
+      "infectious disease",
+      "polymerase chain reaction",
+      "PCR",
+      "thermocycler",
+      "DNA amplifier",
+      "COVID test machine"
+    ]
+  },
+  {
+    "instrument_id": "INS-0e37489c6f61",
+    "name": "Glucose Meter",
+    "category": "Point-of-Care",
+    "department": "ER",
+    "location": "ER",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-06-30",
+    "next_calibration": "2027-05-04",
+    "synonyms": [
+      "glucometer",
+      "blood sugar monitor",
+      "capillary glucose",
+      "bedside glucose"
+    ],
+    "keywords": [
+      "glucose meter",
+      "point-of-care",
+      "er",
+      "glucometer",
+      "blood sugar monitor",
+      "capillary glucose",
+      "bedside glucose"
+    ]
+  },
+  {
+    "instrument_id": "INS-799c198f511c",
+    "name": "Electrosurgical Unit",
+    "category": "Surgical Equipment",
+    "department": "General Surgery",
+    "location": "Radiology",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-01-08",
+    "next_calibration": "2026-10-01",
+    "synonyms": [
+      "diathermy",
+      "bovie",
+      "ESU",
+      "electrocautery",
+      "surgical diathermy"
+    ],
+    "keywords": [
+      "electrosurgical unit",
+      "surgical equipment",
+      "general surgery",
+      "diathermy",
+      "bovie",
+      "ESU",
+      "electrocautery",
+      "surgical diathermy"
+    ]
+  },
+  {
+    "instrument_id": "INS-76d9263572bf",
+    "name": "Surgical Table",
+    "category": "Surgical Equipment",
+    "department": "OR-1",
+    "location": "Physiotherapy",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-03-07",
+    "next_calibration": "2026-11-10",
+    "synonyms": [
+      "operating table",
+      "OR table",
+      "surgical bed"
+    ],
+    "keywords": [
+      "surgical table",
+      "surgical equipment",
+      "or-1",
+      "operating table",
+      "OR table",
+      "surgical bed"
+    ]
+  },
+  {
+    "instrument_id": "INS-5e3311c27d94",
+    "name": "Anesthesia Machine",
+    "category": "Anesthesia",
+    "department": "OR-2",
+    "location": "Ward-B",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-01-13",
+    "next_calibration": "2026-09-11",
+    "synonyms": [
+      "anesthesia workstation",
+      "GA machine",
+      "gas machine",
+      "anaesthetic machine"
+    ],
+    "keywords": [
+      "anesthesia machine",
+      "anesthesia",
+      "or-2",
+      "anesthesia workstation",
+      "GA machine",
+      "gas machine",
+      "anaesthetic machine"
+    ]
+  },
+  {
+    "instrument_id": "INS-646619e78709",
+    "name": "Laparoscope",
+    "category": "Surgical Equipment",
+    "department": "General Surgery",
+    "location": "Ward-B",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-03-19",
+    "next_calibration": "2026-10-16",
+    "synonyms": [
+      "laparoscopy",
+      "minimally invasive surgery",
+      "MIS scope",
+      "keyhole surgery"
+    ],
+    "keywords": [
+      "laparoscope",
+      "surgical equipment",
+      "general surgery",
+      "laparoscopy",
+      "minimally invasive surgery",
+      "MIS scope",
+      "keyhole surgery"
+    ]
+  },
+  {
+    "instrument_id": "INS-9647dff71342",
+    "name": "Endoscope",
+    "category": "Diagnostic",
+    "department": "Gastroenterology",
+    "location": "CCU",
+    "operational_status": "Calibration Due",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-07-27",
+    "next_calibration": "2027-06-29",
+    "synonyms": [
+      "GI scope",
+      "gastroscope",
+      "colonoscope",
+      "flexible endoscope"
+    ],
+    "keywords": [
+      "endoscope",
+      "diagnostic",
+      "gastroenterology",
+      "GI scope",
+      "gastroscope",
+      "colonoscope",
+      "flexible endoscope"
+    ]
+  },
+  {
+    "instrument_id": "INS-a65aac6755e5",
+    "name": "Infusion Pump",
+    "category": "Medication Delivery",
+    "department": "Ward-B",
+    "location": "Ward-A",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-12-05",
+    "next_calibration": "2026-12-05",
+    "synonyms": [
+      "IV pump",
+      "syringe driver",
+      "drug infusion",
+      "volumetric pump"
+    ],
+    "keywords": [
+      "infusion pump",
+      "medication delivery",
+      "ward-b",
+      "IV pump",
+      "syringe driver",
+      "drug infusion",
+      "volumetric pump"
+    ]
+  },
+  {
+    "instrument_id": "INS-c4ac609aaad2",
+    "name": "Syringe Pump",
+    "category": "Medication Delivery",
+    "department": "Anesthesia",
+    "location": "Pharmacy",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-05-03",
+    "next_calibration": "2027-04-07",
+    "synonyms": [
+      "syringe driver",
+      "PCA pump",
+      "patient-controlled analgesia",
+      "micro-infusion"
+    ],
+    "keywords": [
+      "syringe pump",
+      "medication delivery",
+      "anesthesia",
+      "syringe driver",
+      "PCA pump",
+      "patient-controlled analgesia",
+      "micro-infusion"
+    ]
+  },
+  {
+    "instrument_id": "INS-21d7ffac86fe",
+    "name": "Patient Monitor",
+    "category": "Monitoring",
+    "department": "OR-1",
+    "location": "Ward-B",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-12-07",
+    "next_calibration": "2027-04-01",
+    "synonyms": [
+      "bedside monitor",
+      "vital signs monitor",
+      "multiparameter monitor",
+      "cardiac monitor"
+    ],
+    "keywords": [
+      "patient monitor",
+      "monitoring",
+      "or-1",
+      "bedside monitor",
+      "vital signs monitor",
+      "multiparameter monitor",
+      "cardiac monitor"
+    ]
+  },
+  {
+    "instrument_id": "INS-fa6cf0e1d443",
+    "name": "Blood Pressure Monitor",
+    "category": "Monitoring",
+    "department": "Ward-A",
+    "location": "NICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-10-23",
+    "next_calibration": "2026-09-16",
+    "synonyms": [
+      "sphygmomanometer",
+      "BP cuff",
+      "NIBP",
+      "automated BP monitor"
+    ],
+    "keywords": [
+      "blood pressure monitor",
+      "monitoring",
+      "ward-a",
+      "sphygmomanometer",
+      "BP cuff",
+      "NIBP",
+      "automated BP monitor"
+    ]
+  },
+  {
+    "instrument_id": "INS-c8d24cf75811",
+    "name": "Temperature Monitor",
+    "category": "Monitoring",
+    "department": "Ward-B",
+    "location": "Ward-A",
+    "operational_status": "Calibration Due",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-02-02",
+    "next_calibration": "2027-06-30",
+    "synonyms": [
+      "thermometer",
+      "core temperature",
+      "tympanic thermometer",
+      "rectal thermometer"
+    ],
+    "keywords": [
+      "temperature monitor",
+      "monitoring",
+      "ward-b",
+      "thermometer",
+      "core temperature",
+      "tympanic thermometer",
+      "rectal thermometer"
+    ]
+  },
+  {
+    "instrument_id": "INS-d1b5125fbc06",
+    "name": "Dialysis Machine",
+    "category": "Renal Therapy",
+    "department": "ICU",
+    "location": "ER",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-06-11",
+    "next_calibration": "2026-10-28",
+    "synonyms": [
+      "hemodialysis",
+      "CRRT",
+      "renal replacement therapy",
+      "kidney machine"
+    ],
+    "keywords": [
+      "dialysis machine",
+      "renal therapy",
+      "icu",
+      "hemodialysis",
+      "CRRT",
+      "renal replacement therapy",
+      "kidney machine"
+    ]
+  },
+  {
+    "instrument_id": "INS-dff51324f3e3",
+    "name": "Phototherapy Unit",
+    "category": "Neonatal",
+    "department": "NICU",
+    "location": "Ward-B",
+    "operational_status": "Out of Service",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-10-11",
+    "next_calibration": "2026-10-20",
+    "synonyms": [
+      "bilirubin lights",
+      "jaundice lamp",
+      "neonatal phototherapy"
+    ],
+    "keywords": [
+      "phototherapy unit",
+      "neonatal",
+      "nicu",
+      "bilirubin lights",
+      "jaundice lamp",
+      "neonatal phototherapy"
+    ]
+  },
+  {
+    "instrument_id": "INS-2e29e707fa3c",
+    "name": "Ophthalmoscope",
+    "category": "Diagnostic",
+    "department": "Ophthalmology",
+    "location": "Outpatient Clinic",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-08-10",
+    "next_calibration": "2027-01-28",
+    "synonyms": [
+      "fundoscope",
+      "retinal exam",
+      "eye exam instrument",
+      "fundal examination"
+    ],
+    "keywords": [
+      "ophthalmoscope",
+      "diagnostic",
+      "ophthalmology",
+      "fundoscope",
+      "retinal exam",
+      "eye exam instrument",
+      "fundal examination"
+    ]
+  },
+  {
+    "instrument_id": "INS-ce2ecee1f3b4",
+    "name": "CT Scanner",
+    "category": "Diagnostic Imaging",
+    "department": "Oncology",
+    "location": "Pharmacy",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-03-27",
+    "next_calibration": "2027-05-07",
+    "synonyms": [
+      "computed tomography",
+      "CT",
+      "CAT scan",
+      "cross-sectional imaging"
+    ],
+    "keywords": [
+      "ct scanner",
+      "diagnostic imaging",
+      "oncology",
+      "computed tomography",
+      "CT",
+      "CAT scan",
+      "cross-sectional imaging"
+    ]
+  },
+  {
+    "instrument_id": "INS-5cf1ce657bde",
+    "name": "MRI Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Orthopedics",
+    "location": "Ward-C",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-08-24",
+    "next_calibration": "2027-04-07",
+    "synonyms": [
+      "magnetic resonance imaging",
+      "MRI",
+      "NMR",
+      "magnetic scanner"
+    ],
+    "keywords": [
+      "mri machine",
+      "diagnostic imaging",
+      "orthopedics",
+      "magnetic resonance imaging",
+      "MRI",
+      "NMR",
+      "magnetic scanner"
+    ]
+  },
+  {
+    "instrument_id": "INS-400cb97f90fb",
+    "name": "X-Ray Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "OR-2",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-07-31",
+    "next_calibration": "2027-05-18",
+    "synonyms": [
+      "radiograph",
+      "X-ray",
+      "plain film",
+      "roentgenography"
+    ],
+    "keywords": [
+      "x-ray machine",
+      "diagnostic imaging",
+      "radiology",
+      "radiograph",
+      "X-ray",
+      "plain film",
+      "roentgenography"
+    ]
+  },
+  {
+    "instrument_id": "INS-af2aa3f971ac",
+    "name": "Ultrasound Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Obstetrics",
+    "location": "Ward-A",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-07-23",
+    "next_calibration": "2027-05-23",
+    "synonyms": [
+      "ultrasound",
+      "sonography",
+      "echo",
+      "diagnostic ultrasound"
+    ],
+    "keywords": [
+      "ultrasound machine",
+      "diagnostic imaging",
+      "obstetrics",
+      "ultrasound",
+      "sonography",
+      "echo",
+      "diagnostic ultrasound"
+    ]
+  },
+  {
+    "instrument_id": "INS-0187f00bbb3b",
+    "name": "Fluoroscopy Unit",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "Radiology",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-06-20",
+    "next_calibration": "2027-06-20",
+    "synonyms": [
+      "fluoroscope",
+      "real-time X-ray",
+      "contrast imaging"
+    ],
+    "keywords": [
+      "fluoroscopy unit",
+      "diagnostic imaging",
+      "radiology",
+      "fluoroscope",
+      "real-time X-ray",
+      "contrast imaging"
+    ]
+  },
+  {
+    "instrument_id": "INS-bfa8f4d7a7d3",
+    "name": "PET Scanner",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "Pharmacy",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-09-21",
+    "next_calibration": "2027-06-21",
+    "synonyms": [
+      "positron emission tomography",
+      "PET",
+      "nuclear medicine imaging"
+    ],
+    "keywords": [
+      "pet scanner",
+      "diagnostic imaging",
+      "radiology",
+      "positron emission tomography",
+      "PET",
+      "nuclear medicine imaging"
+    ]
+  },
+  {
+    "instrument_id": "INS-fee4724faeca",
+    "name": "Mammography Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "ER",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-07-10",
+    "next_calibration": "2027-03-29",
+    "synonyms": [
+      "mammogram",
+      "breast imaging",
+      "mammograph"
+    ],
+    "keywords": [
+      "mammography machine",
+      "diagnostic imaging",
+      "radiology",
+      "mammogram",
+      "breast imaging",
+      "mammograph"
+    ]
+  },
+  {
+    "instrument_id": "INS-3626cda645d4",
+    "name": "ECG Monitor",
+    "category": "Cardiac Monitoring",
+    "department": "Emergency Medicine",
+    "location": "CCU",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-04-23",
+    "next_calibration": "2027-03-24",
+    "synonyms": [
+      "electrocardiogram",
+      "EKG",
+      "ECG",
+      "heart monitor",
+      "12-lead ECG"
+    ],
+    "keywords": [
+      "ecg monitor",
+      "cardiac monitoring",
+      "emergency medicine",
+      "electrocardiogram",
+      "EKG",
+      "ECG",
+      "heart monitor",
+      "12-lead ECG"
+    ]
+  },
+  {
+    "instrument_id": "INS-37a287ecb1eb",
+    "name": "Holter Monitor",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "Physiotherapy",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-04-09",
+    "next_calibration": "2027-01-24",
+    "synonyms": [
+      "ambulatory ECG",
+      "24-hour ECG",
+      "continuous heart monitor"
+    ],
+    "keywords": [
+      "holter monitor",
+      "cardiac monitoring",
+      "cardiology",
+      "ambulatory ECG",
+      "24-hour ECG",
+      "continuous heart monitor"
+    ]
+  },
+  {
+    "instrument_id": "INS-67b06516c91b",
+    "name": "Echocardiography Unit",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "Laboratory",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-07-15",
+    "next_calibration": "2027-05-20",
+    "synonyms": [
+      "echo",
+      "cardiac ultrasound",
+      "transthoracic echocardiogram",
+      "TTE"
+    ],
+    "keywords": [
+      "echocardiography unit",
+      "cardiac monitoring",
+      "cardiology",
+      "echo",
+      "cardiac ultrasound",
+      "transthoracic echocardiogram",
+      "TTE"
+    ]
+  },
+  {
+    "instrument_id": "INS-d8d137f91237",
+    "name": "Defibrillator",
+    "category": "Resuscitation",
+    "department": "ER",
+    "location": "ER",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-01-06",
+    "next_calibration": "2027-02-14",
+    "synonyms": [
+      "AED",
+      "shock device",
+      "cardioverter",
+      "crash cart device"
+    ],
+    "keywords": [
+      "defibrillator",
+      "resuscitation",
+      "er",
+      "AED",
+      "shock device",
+      "cardioverter",
+      "crash cart device"
+    ]
+  },
+  {
+    "instrument_id": "INS-f205fe9f0ff2",
+    "name": "Cardiac Catheter Lab",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "Ward-C",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-07-31",
+    "next_calibration": "2026-11-29",
+    "synonyms": [
+      "cath lab",
+      "angiography unit",
+      "coronary angiography",
+      "PCI lab"
+    ],
+    "keywords": [
+      "cardiac catheter lab",
+      "cardiac monitoring",
+      "cardiology",
+      "cath lab",
+      "angiography unit",
+      "coronary angiography",
+      "PCI lab"
+    ]
+  },
+  {
+    "instrument_id": "INS-054cea619546",
+    "name": "Mechanical Ventilator",
+    "category": "Respiratory Support",
+    "department": "ICU",
+    "location": "OR-1",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-11-26",
+    "next_calibration": "2026-11-18",
+    "synonyms": [
+      "ventilator",
+      "breathing machine",
+      "mechanical ventilation",
+      "ICU ventilator"
+    ],
+    "keywords": [
+      "mechanical ventilator",
+      "respiratory support",
+      "icu",
+      "ventilator",
+      "breathing machine",
+      "mechanical ventilation",
+      "ICU ventilator"
+    ]
+  },
+  {
+    "instrument_id": "INS-2ab8a3c4e035",
+    "name": "Pulse Oximeter",
+    "category": "Monitoring",
+    "department": "ICU",
+    "location": "Ward-B",
+    "operational_status": "Calibration Due",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-04-20",
+    "next_calibration": "2026-12-24",
+    "synonyms": [
+      "SpO2 monitor",
+      "oxygen saturation",
+      "pulse ox",
+      "sat probe"
+    ],
+    "keywords": [
+      "pulse oximeter",
+      "monitoring",
+      "icu",
+      "SpO2 monitor",
+      "oxygen saturation",
+      "pulse ox",
+      "sat probe"
+    ]
+  },
+  {
+    "instrument_id": "INS-d040981dca7b",
+    "name": "Spirometer",
+    "category": "Respiratory Diagnostics",
+    "department": "Pulmonology",
+    "location": "ICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-11-12",
+    "next_calibration": "2027-03-15",
+    "synonyms": [
+      "lung function test",
+      "PFT device",
+      "spirometry",
+      "FEV1 measurement"
+    ],
+    "keywords": [
+      "spirometer",
+      "respiratory diagnostics",
+      "pulmonology",
+      "lung function test",
+      "PFT device",
+      "spirometry",
+      "FEV1 measurement"
+    ]
+  },
+  {
+    "instrument_id": "INS-29c13f9dc17e",
+    "name": "BiPAP Machine",
+    "category": "Respiratory Support",
+    "department": "ICU",
+    "location": "Outpatient Clinic",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-01-10",
+    "next_calibration": "2027-04-24",
+    "synonyms": [
+      "BiPAP",
+      "bilevel positive airway pressure",
+      "non-invasive ventilation",
+      "NIV"
+    ],
+    "keywords": [
+      "bipap machine",
+      "respiratory support",
+      "icu",
+      "BiPAP",
+      "bilevel positive airway pressure",
+      "non-invasive ventilation",
+      "NIV"
+    ]
+  },
+  {
+    "instrument_id": "INS-8b36c4120502",
+    "name": "CPAP Machine",
+    "category": "Respiratory Support",
+    "department": "Pulmonology",
+    "location": "Pharmacy",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-08-03",
+    "next_calibration": "2027-05-26",
+    "synonyms": [
+      "CPAP",
+      "continuous positive airway pressure",
+      "sleep apnea device"
+    ],
+    "keywords": [
+      "cpap machine",
+      "respiratory support",
+      "pulmonology",
+      "CPAP",
+      "continuous positive airway pressure",
+      "sleep apnea device"
+    ]
+  },
+  {
+    "instrument_id": "INS-c36f2b4292fb",
+    "name": "Hematology Analyzer",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "ER",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-08-03",
+    "next_calibration": "2026-09-15",
+    "synonyms": [
+      "CBC analyzer",
+      "blood count machine",
+      "FBC analyzer",
+      "complete blood count"
+    ],
+    "keywords": [
+      "hematology analyzer",
+      "laboratory",
+      "CBC analyzer",
+      "blood count machine",
+      "FBC analyzer",
+      "complete blood count"
+    ]
+  },
+  {
+    "instrument_id": "INS-62fb35c9be4d",
+    "name": "Chemistry Analyzer",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Ward-C",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-09-17",
+    "next_calibration": "2026-11-20",
+    "synonyms": [
+      "biochemistry analyzer",
+      "metabolic panel",
+      "LFT analyzer",
+      "kidney function"
+    ],
+    "keywords": [
+      "chemistry analyzer",
+      "laboratory",
+      "biochemistry analyzer",
+      "metabolic panel",
+      "LFT analyzer",
+      "kidney function"
+    ]
+  },
+  {
+    "instrument_id": "INS-f031c0da2999",
+    "name": "Blood Culture Analyzer",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "OR-1",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-12-14",
+    "next_calibration": "2027-06-28",
+    "synonyms": [
+      "BACTEC",
+      "blood culture",
+      "bacteremia detection",
+      "microbiology analyzer"
+    ],
+    "keywords": [
+      "blood culture analyzer",
+      "laboratory",
+      "BACTEC",
+      "blood culture",
+      "bacteremia detection",
+      "microbiology analyzer"
+    ]
+  },
+  {
+    "instrument_id": "INS-35a2b7946768",
+    "name": "Microscope",
+    "category": "Laboratory",
+    "department": "Pathology",
+    "location": "CCU",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-01-18",
+    "next_calibration": "2026-09-08",
+    "synonyms": [
+      "light microscope",
+      "optical microscope",
+      "compound microscope",
+      "lab scope"
+    ],
+    "keywords": [
+      "microscope",
+      "laboratory",
+      "pathology",
+      "light microscope",
+      "optical microscope",
+      "compound microscope",
+      "lab scope"
+    ]
+  },
+  {
+    "instrument_id": "INS-537f295c9ae1",
+    "name": "Centrifuge",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Ward-A",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-10-28",
+    "next_calibration": "2027-04-09",
+    "synonyms": [
+      "lab centrifuge",
+      "sample separator",
+      "cell separator"
+    ],
+    "keywords": [
+      "centrifuge",
+      "laboratory",
+      "lab centrifuge",
+      "sample separator",
+      "cell separator"
+    ]
+  },
+  {
+    "instrument_id": "INS-4a61c0983b21",
+    "name": "PCR Machine",
+    "category": "Laboratory",
+    "department": "Infectious Disease",
+    "location": "Ward-A",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-07-10",
+    "next_calibration": "2026-09-15",
+    "synonyms": [
+      "polymerase chain reaction",
+      "PCR",
+      "thermocycler",
+      "DNA amplifier",
+      "COVID test machine"
+    ],
+    "keywords": [
+      "pcr machine",
+      "laboratory",
+      "infectious disease",
+      "polymerase chain reaction",
+      "PCR",
+      "thermocycler",
+      "DNA amplifier",
+      "COVID test machine"
+    ]
+  },
+  {
+    "instrument_id": "INS-2883a5d95c2b",
+    "name": "Glucose Meter",
+    "category": "Point-of-Care",
+    "department": "ICU",
+    "location": "NICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-06-05",
+    "next_calibration": "2026-10-23",
+    "synonyms": [
+      "glucometer",
+      "blood sugar monitor",
+      "capillary glucose",
+      "bedside glucose"
+    ],
+    "keywords": [
+      "glucose meter",
+      "point-of-care",
+      "icu",
+      "glucometer",
+      "blood sugar monitor",
+      "capillary glucose",
+      "bedside glucose"
+    ]
+  },
+  {
+    "instrument_id": "INS-5b77087ccf09",
+    "name": "Electrosurgical Unit",
+    "category": "Surgical Equipment",
+    "department": "OR-2",
+    "location": "Physiotherapy",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-06-23",
+    "next_calibration": "2026-10-23",
+    "synonyms": [
+      "diathermy",
+      "bovie",
+      "ESU",
+      "electrocautery",
+      "surgical diathermy"
+    ],
+    "keywords": [
+      "electrosurgical unit",
+      "surgical equipment",
+      "or-2",
+      "diathermy",
+      "bovie",
+      "ESU",
+      "electrocautery",
+      "surgical diathermy"
+    ]
+  },
+  {
+    "instrument_id": "INS-038ac67df630",
+    "name": "Surgical Table",
+    "category": "Surgical Equipment",
+    "department": "General Surgery",
+    "location": "Endoscopy Suite",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-08-30",
+    "next_calibration": "2027-07-10",
+    "synonyms": [
+      "operating table",
+      "OR table",
+      "surgical bed"
+    ],
+    "keywords": [
+      "surgical table",
+      "surgical equipment",
+      "general surgery",
+      "operating table",
+      "OR table",
+      "surgical bed"
+    ]
+  },
+  {
+    "instrument_id": "INS-e5cf35be4cfd",
+    "name": "Anesthesia Machine",
+    "category": "Anesthesia",
+    "department": "ICU",
+    "location": "CCU",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-05-24",
+    "next_calibration": "2027-06-24",
+    "synonyms": [
+      "anesthesia workstation",
+      "GA machine",
+      "gas machine",
+      "anaesthetic machine"
+    ],
+    "keywords": [
+      "anesthesia machine",
+      "anesthesia",
+      "icu",
+      "anesthesia workstation",
+      "GA machine",
+      "gas machine",
+      "anaesthetic machine"
+    ]
+  },
+  {
+    "instrument_id": "INS-2c07ba84d4d2",
+    "name": "Laparoscope",
+    "category": "Surgical Equipment",
+    "department": "Gynecology",
+    "location": "OR-1",
+    "operational_status": "Out of Service",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-09-13",
+    "next_calibration": "2027-01-15",
+    "synonyms": [
+      "laparoscopy",
+      "minimally invasive surgery",
+      "MIS scope",
+      "keyhole surgery"
+    ],
+    "keywords": [
+      "laparoscope",
+      "surgical equipment",
+      "gynecology",
+      "laparoscopy",
+      "minimally invasive surgery",
+      "MIS scope",
+      "keyhole surgery"
+    ]
+  },
+  {
+    "instrument_id": "INS-f6c943266f08",
+    "name": "Endoscope",
+    "category": "Diagnostic",
+    "department": "Gastroenterology",
+    "location": "ER",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-04-04",
+    "next_calibration": "2027-01-24",
+    "synonyms": [
+      "GI scope",
+      "gastroscope",
+      "colonoscope",
+      "flexible endoscope"
+    ],
+    "keywords": [
+      "endoscope",
+      "diagnostic",
+      "gastroenterology",
+      "GI scope",
+      "gastroscope",
+      "colonoscope",
+      "flexible endoscope"
+    ]
+  },
+  {
+    "instrument_id": "INS-0319883b0daf",
+    "name": "Infusion Pump",
+    "category": "Medication Delivery",
+    "department": "Oncology",
+    "location": "Ward-C",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-01-24",
+    "next_calibration": "2027-06-25",
+    "synonyms": [
+      "IV pump",
+      "syringe driver",
+      "drug infusion",
+      "volumetric pump"
+    ],
+    "keywords": [
+      "infusion pump",
+      "medication delivery",
+      "oncology",
+      "IV pump",
+      "syringe driver",
+      "drug infusion",
+      "volumetric pump"
+    ]
+  },
+  {
+    "instrument_id": "INS-d9b50782ff5b",
+    "name": "Syringe Pump",
+    "category": "Medication Delivery",
+    "department": "Pediatrics",
+    "location": "Pharmacy",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-08-09",
+    "next_calibration": "2027-01-21",
+    "synonyms": [
+      "syringe driver",
+      "PCA pump",
+      "patient-controlled analgesia",
+      "micro-infusion"
+    ],
+    "keywords": [
+      "syringe pump",
+      "medication delivery",
+      "pediatrics",
+      "syringe driver",
+      "PCA pump",
+      "patient-controlled analgesia",
+      "micro-infusion"
+    ]
+  },
+  {
+    "instrument_id": "INS-ce21cbf002dc",
+    "name": "Patient Monitor",
+    "category": "Monitoring",
+    "department": "OR-2",
+    "location": "Ward-C",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-07-08",
+    "next_calibration": "2026-10-22",
+    "synonyms": [
+      "bedside monitor",
+      "vital signs monitor",
+      "multiparameter monitor",
+      "cardiac monitor"
+    ],
+    "keywords": [
+      "patient monitor",
+      "monitoring",
+      "or-2",
+      "bedside monitor",
+      "vital signs monitor",
+      "multiparameter monitor",
+      "cardiac monitor"
+    ]
+  },
+  {
+    "instrument_id": "INS-33dea284ad93",
+    "name": "Blood Pressure Monitor",
+    "category": "Monitoring",
+    "department": "Ward-A",
+    "location": "Laboratory",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-07-27",
+    "next_calibration": "2026-11-14",
+    "synonyms": [
+      "sphygmomanometer",
+      "BP cuff",
+      "NIBP",
+      "automated BP monitor"
+    ],
+    "keywords": [
+      "blood pressure monitor",
+      "monitoring",
+      "ward-a",
+      "sphygmomanometer",
+      "BP cuff",
+      "NIBP",
+      "automated BP monitor"
+    ]
+  },
+  {
+    "instrument_id": "INS-ca2ab301277f",
+    "name": "Temperature Monitor",
+    "category": "Monitoring",
+    "department": "Ward-A",
+    "location": "CCU",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-09-04",
+    "next_calibration": "2026-12-26",
+    "synonyms": [
+      "thermometer",
+      "core temperature",
+      "tympanic thermometer",
+      "rectal thermometer"
+    ],
+    "keywords": [
+      "temperature monitor",
+      "monitoring",
+      "ward-a",
+      "thermometer",
+      "core temperature",
+      "tympanic thermometer",
+      "rectal thermometer"
+    ]
+  },
+  {
+    "instrument_id": "INS-ab0f6de4793a",
+    "name": "Dialysis Machine",
+    "category": "Renal Therapy",
+    "department": "ICU",
+    "location": "Pharmacy",
+    "operational_status": "Calibration Due",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-08-04",
+    "next_calibration": "2026-11-19",
+    "synonyms": [
+      "hemodialysis",
+      "CRRT",
+      "renal replacement therapy",
+      "kidney machine"
+    ],
+    "keywords": [
+      "dialysis machine",
+      "renal therapy",
+      "icu",
+      "hemodialysis",
+      "CRRT",
+      "renal replacement therapy",
+      "kidney machine"
+    ]
+  },
+  {
+    "instrument_id": "INS-22c09ff323f2",
+    "name": "Phototherapy Unit",
+    "category": "Neonatal",
+    "department": "Pediatrics",
+    "location": "OR-1",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-11-21",
+    "next_calibration": "2026-10-09",
+    "synonyms": [
+      "bilirubin lights",
+      "jaundice lamp",
+      "neonatal phototherapy"
+    ],
+    "keywords": [
+      "phototherapy unit",
+      "neonatal",
+      "pediatrics",
+      "bilirubin lights",
+      "jaundice lamp",
+      "neonatal phototherapy"
+    ]
+  },
+  {
+    "instrument_id": "INS-a6c0b1ba7d99",
+    "name": "Ophthalmoscope",
+    "category": "Diagnostic",
+    "department": "Neurology",
+    "location": "Ward-A",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-12-08",
+    "next_calibration": "2026-12-29",
+    "synonyms": [
+      "fundoscope",
+      "retinal exam",
+      "eye exam instrument",
+      "fundal examination"
+    ],
+    "keywords": [
+      "ophthalmoscope",
+      "diagnostic",
+      "neurology",
+      "fundoscope",
+      "retinal exam",
+      "eye exam instrument",
+      "fundal examination"
+    ]
+  },
+  {
+    "instrument_id": "INS-de1032476d30",
+    "name": "CT Scanner",
+    "category": "Diagnostic Imaging",
+    "department": "Emergency Medicine",
+    "location": "NICU",
+    "operational_status": "Out of Service",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-02-26",
+    "next_calibration": "2026-11-24",
+    "synonyms": [
+      "computed tomography",
+      "CT",
+      "CAT scan",
+      "cross-sectional imaging"
+    ],
+    "keywords": [
+      "ct scanner",
+      "diagnostic imaging",
+      "emergency medicine",
+      "computed tomography",
+      "CT",
+      "CAT scan",
+      "cross-sectional imaging"
+    ]
+  },
+  {
+    "instrument_id": "INS-b0128c078697",
+    "name": "MRI Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "Ward-B",
+    "operational_status": "Out of Service",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-07-31",
+    "next_calibration": "2027-02-01",
+    "synonyms": [
+      "magnetic resonance imaging",
+      "MRI",
+      "NMR",
+      "magnetic scanner"
+    ],
+    "keywords": [
+      "mri machine",
+      "diagnostic imaging",
+      "radiology",
+      "magnetic resonance imaging",
+      "MRI",
+      "NMR",
+      "magnetic scanner"
+    ]
+  },
+  {
+    "instrument_id": "INS-d96e8143bc3a",
+    "name": "X-Ray Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "OR-1",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-05-25",
+    "next_calibration": "2027-06-13",
+    "synonyms": [
+      "radiograph",
+      "X-ray",
+      "plain film",
+      "roentgenography"
+    ],
+    "keywords": [
+      "x-ray machine",
+      "diagnostic imaging",
+      "radiology",
+      "radiograph",
+      "X-ray",
+      "plain film",
+      "roentgenography"
+    ]
+  },
+  {
+    "instrument_id": "INS-65289fcd0884",
+    "name": "Ultrasound Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Obstetrics",
+    "location": "Ward-B",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-08-18",
+    "next_calibration": "2027-04-06",
+    "synonyms": [
+      "ultrasound",
+      "sonography",
+      "echo",
+      "diagnostic ultrasound"
+    ],
+    "keywords": [
+      "ultrasound machine",
+      "diagnostic imaging",
+      "obstetrics",
+      "ultrasound",
+      "sonography",
+      "echo",
+      "diagnostic ultrasound"
+    ]
+  },
+  {
+    "instrument_id": "INS-4b1b25a3357b",
+    "name": "Fluoroscopy Unit",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "NICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-02-18",
+    "next_calibration": "2027-02-28",
+    "synonyms": [
+      "fluoroscope",
+      "real-time X-ray",
+      "contrast imaging"
+    ],
+    "keywords": [
+      "fluoroscopy unit",
+      "diagnostic imaging",
+      "radiology",
+      "fluoroscope",
+      "real-time X-ray",
+      "contrast imaging"
+    ]
+  },
+  {
+    "instrument_id": "INS-3b3779f7b0e3",
+    "name": "PET Scanner",
+    "category": "Diagnostic Imaging",
+    "department": "Neurology",
+    "location": "ICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-06-07",
+    "next_calibration": "2026-09-20",
+    "synonyms": [
+      "positron emission tomography",
+      "PET",
+      "nuclear medicine imaging"
+    ],
+    "keywords": [
+      "pet scanner",
+      "diagnostic imaging",
+      "neurology",
+      "positron emission tomography",
+      "PET",
+      "nuclear medicine imaging"
+    ]
+  },
+  {
+    "instrument_id": "INS-f762ea24ea18",
+    "name": "Mammography Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "Radiology",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-07-07",
+    "next_calibration": "2027-01-17",
+    "synonyms": [
+      "mammogram",
+      "breast imaging",
+      "mammograph"
+    ],
+    "keywords": [
+      "mammography machine",
+      "diagnostic imaging",
+      "radiology",
+      "mammogram",
+      "breast imaging",
+      "mammograph"
+    ]
+  },
+  {
+    "instrument_id": "INS-c3ebc4f9fe99",
+    "name": "ECG Monitor",
+    "category": "Cardiac Monitoring",
+    "department": "ICU",
+    "location": "Ward-C",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-05-31",
+    "next_calibration": "2027-06-18",
+    "synonyms": [
+      "electrocardiogram",
+      "EKG",
+      "ECG",
+      "heart monitor",
+      "12-lead ECG"
+    ],
+    "keywords": [
+      "ecg monitor",
+      "cardiac monitoring",
+      "icu",
+      "electrocardiogram",
+      "EKG",
+      "ECG",
+      "heart monitor",
+      "12-lead ECG"
+    ]
+  },
+  {
+    "instrument_id": "INS-bac4578167de",
+    "name": "Holter Monitor",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "Laboratory",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-07-20",
+    "next_calibration": "2026-10-19",
+    "synonyms": [
+      "ambulatory ECG",
+      "24-hour ECG",
+      "continuous heart monitor"
+    ],
+    "keywords": [
+      "holter monitor",
+      "cardiac monitoring",
+      "cardiology",
+      "ambulatory ECG",
+      "24-hour ECG",
+      "continuous heart monitor"
+    ]
+  },
+  {
+    "instrument_id": "INS-cb08c30b1db0",
+    "name": "Echocardiography Unit",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "OR-2",
+    "operational_status": "Out of Service",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-10-18",
+    "next_calibration": "2027-07-22",
+    "synonyms": [
+      "echo",
+      "cardiac ultrasound",
+      "transthoracic echocardiogram",
+      "TTE"
+    ],
+    "keywords": [
+      "echocardiography unit",
+      "cardiac monitoring",
+      "cardiology",
+      "echo",
+      "cardiac ultrasound",
+      "transthoracic echocardiogram",
+      "TTE"
+    ]
+  },
+  {
+    "instrument_id": "INS-563cfa3fb237",
+    "name": "Defibrillator",
+    "category": "Resuscitation",
+    "department": "General Surgery",
+    "location": "ER",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-07-20",
+    "next_calibration": "2027-08-05",
+    "synonyms": [
+      "AED",
+      "shock device",
+      "cardioverter",
+      "crash cart device"
+    ],
+    "keywords": [
+      "defibrillator",
+      "resuscitation",
+      "general surgery",
+      "AED",
+      "shock device",
+      "cardioverter",
+      "crash cart device"
+    ]
+  },
+  {
+    "instrument_id": "INS-54504754d90d",
+    "name": "Cardiac Catheter Lab",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "Laboratory",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-11-23",
+    "next_calibration": "2027-04-11",
+    "synonyms": [
+      "cath lab",
+      "angiography unit",
+      "coronary angiography",
+      "PCI lab"
+    ],
+    "keywords": [
+      "cardiac catheter lab",
+      "cardiac monitoring",
+      "cardiology",
+      "cath lab",
+      "angiography unit",
+      "coronary angiography",
+      "PCI lab"
+    ]
+  },
+  {
+    "instrument_id": "INS-be239e8ec0a4",
+    "name": "Mechanical Ventilator",
+    "category": "Respiratory Support",
+    "department": "Emergency Medicine",
+    "location": "Outpatient Clinic",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-03-25",
+    "next_calibration": "2027-02-10",
+    "synonyms": [
+      "ventilator",
+      "breathing machine",
+      "mechanical ventilation",
+      "ICU ventilator"
+    ],
+    "keywords": [
+      "mechanical ventilator",
+      "respiratory support",
+      "emergency medicine",
+      "ventilator",
+      "breathing machine",
+      "mechanical ventilation",
+      "ICU ventilator"
+    ]
+  },
+  {
+    "instrument_id": "INS-f4488aa0e078",
+    "name": "Pulse Oximeter",
+    "category": "Monitoring",
+    "department": "Ward-B",
+    "location": "CCU",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-09-03",
+    "next_calibration": "2026-12-03",
+    "synonyms": [
+      "SpO2 monitor",
+      "oxygen saturation",
+      "pulse ox",
+      "sat probe"
+    ],
+    "keywords": [
+      "pulse oximeter",
+      "monitoring",
+      "ward-b",
+      "SpO2 monitor",
+      "oxygen saturation",
+      "pulse ox",
+      "sat probe"
+    ]
+  },
+  {
+    "instrument_id": "INS-60b21b530319",
+    "name": "Spirometer",
+    "category": "Respiratory Diagnostics",
+    "department": "Pulmonology",
+    "location": "Radiology",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-09-14",
+    "next_calibration": "2027-02-04",
+    "synonyms": [
+      "lung function test",
+      "PFT device",
+      "spirometry",
+      "FEV1 measurement"
+    ],
+    "keywords": [
+      "spirometer",
+      "respiratory diagnostics",
+      "pulmonology",
+      "lung function test",
+      "PFT device",
+      "spirometry",
+      "FEV1 measurement"
+    ]
+  },
+  {
+    "instrument_id": "INS-6173b447a751",
+    "name": "BiPAP Machine",
+    "category": "Respiratory Support",
+    "department": "Pulmonology",
+    "location": "Physiotherapy",
+    "operational_status": "Out of Service",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-09-20",
+    "next_calibration": "2026-10-19",
+    "synonyms": [
+      "BiPAP",
+      "bilevel positive airway pressure",
+      "non-invasive ventilation",
+      "NIV"
+    ],
+    "keywords": [
+      "bipap machine",
+      "respiratory support",
+      "pulmonology",
+      "BiPAP",
+      "bilevel positive airway pressure",
+      "non-invasive ventilation",
+      "NIV"
+    ]
+  },
+  {
+    "instrument_id": "INS-9f6485ca7e58",
+    "name": "CPAP Machine",
+    "category": "Respiratory Support",
+    "department": "ICU",
+    "location": "OR-2",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-09-18",
+    "next_calibration": "2026-12-17",
+    "synonyms": [
+      "CPAP",
+      "continuous positive airway pressure",
+      "sleep apnea device"
+    ],
+    "keywords": [
+      "cpap machine",
+      "respiratory support",
+      "icu",
+      "CPAP",
+      "continuous positive airway pressure",
+      "sleep apnea device"
+    ]
+  },
+  {
+    "instrument_id": "INS-c315a8f7baa6",
+    "name": "Hematology Analyzer",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Radiology",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-04-06",
+    "next_calibration": "2027-03-02",
+    "synonyms": [
+      "CBC analyzer",
+      "blood count machine",
+      "FBC analyzer",
+      "complete blood count"
+    ],
+    "keywords": [
+      "hematology analyzer",
+      "laboratory",
+      "CBC analyzer",
+      "blood count machine",
+      "FBC analyzer",
+      "complete blood count"
+    ]
+  },
+  {
+    "instrument_id": "INS-d909c0bdbf2b",
+    "name": "Chemistry Analyzer",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "ER",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-11-04",
+    "next_calibration": "2026-11-29",
+    "synonyms": [
+      "biochemistry analyzer",
+      "metabolic panel",
+      "LFT analyzer",
+      "kidney function"
+    ],
+    "keywords": [
+      "chemistry analyzer",
+      "laboratory",
+      "biochemistry analyzer",
+      "metabolic panel",
+      "LFT analyzer",
+      "kidney function"
+    ]
+  },
+  {
+    "instrument_id": "INS-886e36305ac4",
+    "name": "Blood Culture Analyzer",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Ward-B",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-08-22",
+    "next_calibration": "2026-11-07",
+    "synonyms": [
+      "BACTEC",
+      "blood culture",
+      "bacteremia detection",
+      "microbiology analyzer"
+    ],
+    "keywords": [
+      "blood culture analyzer",
+      "laboratory",
+      "BACTEC",
+      "blood culture",
+      "bacteremia detection",
+      "microbiology analyzer"
+    ]
+  },
+  {
+    "instrument_id": "INS-4b1add692738",
+    "name": "Microscope",
+    "category": "Laboratory",
+    "department": "Pathology",
+    "location": "NICU",
+    "operational_status": "Out of Service",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-12-16",
+    "next_calibration": "2026-09-05",
+    "synonyms": [
+      "light microscope",
+      "optical microscope",
+      "compound microscope",
+      "lab scope"
+    ],
+    "keywords": [
+      "microscope",
+      "laboratory",
+      "pathology",
+      "light microscope",
+      "optical microscope",
+      "compound microscope",
+      "lab scope"
+    ]
+  },
+  {
+    "instrument_id": "INS-9872b2f706d3",
+    "name": "Centrifuge",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Physiotherapy",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-02-06",
+    "next_calibration": "2027-03-27",
+    "synonyms": [
+      "lab centrifuge",
+      "sample separator",
+      "cell separator"
+    ],
+    "keywords": [
+      "centrifuge",
+      "laboratory",
+      "lab centrifuge",
+      "sample separator",
+      "cell separator"
+    ]
+  },
+  {
+    "instrument_id": "INS-98fbeeff499c",
+    "name": "PCR Machine",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Physiotherapy",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-09-20",
+    "next_calibration": "2027-04-18",
+    "synonyms": [
+      "polymerase chain reaction",
+      "PCR",
+      "thermocycler",
+      "DNA amplifier",
+      "COVID test machine"
+    ],
+    "keywords": [
+      "pcr machine",
+      "laboratory",
+      "polymerase chain reaction",
+      "PCR",
+      "thermocycler",
+      "DNA amplifier",
+      "COVID test machine"
+    ]
+  },
+  {
+    "instrument_id": "INS-ae942798c517",
+    "name": "Glucose Meter",
+    "category": "Point-of-Care",
+    "department": "ER",
+    "location": "Physiotherapy",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-03-19",
+    "next_calibration": "2027-07-20",
+    "synonyms": [
+      "glucometer",
+      "blood sugar monitor",
+      "capillary glucose",
+      "bedside glucose"
+    ],
+    "keywords": [
+      "glucose meter",
+      "point-of-care",
+      "er",
+      "glucometer",
+      "blood sugar monitor",
+      "capillary glucose",
+      "bedside glucose"
+    ]
+  },
+  {
+    "instrument_id": "INS-ac8646224297",
+    "name": "Electrosurgical Unit",
+    "category": "Surgical Equipment",
+    "department": "OR-1",
+    "location": "Radiology",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-08-30",
+    "next_calibration": "2026-11-24",
+    "synonyms": [
+      "diathermy",
+      "bovie",
+      "ESU",
+      "electrocautery",
+      "surgical diathermy"
+    ],
+    "keywords": [
+      "electrosurgical unit",
+      "surgical equipment",
+      "or-1",
+      "diathermy",
+      "bovie",
+      "ESU",
+      "electrocautery",
+      "surgical diathermy"
+    ]
+  },
+  {
+    "instrument_id": "INS-82eda9c153a3",
+    "name": "Surgical Table",
+    "category": "Surgical Equipment",
+    "department": "General Surgery",
+    "location": "ICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-07-28",
+    "next_calibration": "2026-09-22",
+    "synonyms": [
+      "operating table",
+      "OR table",
+      "surgical bed"
+    ],
+    "keywords": [
+      "surgical table",
+      "surgical equipment",
+      "general surgery",
+      "operating table",
+      "OR table",
+      "surgical bed"
+    ]
+  },
+  {
+    "instrument_id": "INS-5426f66d1a3c",
+    "name": "Anesthesia Machine",
+    "category": "Anesthesia",
+    "department": "Anesthesia",
+    "location": "Endoscopy Suite",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-03-02",
+    "next_calibration": "2027-05-18",
+    "synonyms": [
+      "anesthesia workstation",
+      "GA machine",
+      "gas machine",
+      "anaesthetic machine"
+    ],
+    "keywords": [
+      "anesthesia machine",
+      "anesthesia",
+      "anesthesia workstation",
+      "GA machine",
+      "gas machine",
+      "anaesthetic machine"
+    ]
+  },
+  {
+    "instrument_id": "INS-63ba38c74b87",
+    "name": "Laparoscope",
+    "category": "Surgical Equipment",
+    "department": "Urology",
+    "location": "Radiology",
+    "operational_status": "Out of Service",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-06-01",
+    "next_calibration": "2027-01-02",
+    "synonyms": [
+      "laparoscopy",
+      "minimally invasive surgery",
+      "MIS scope",
+      "keyhole surgery"
+    ],
+    "keywords": [
+      "laparoscope",
+      "surgical equipment",
+      "urology",
+      "laparoscopy",
+      "minimally invasive surgery",
+      "MIS scope",
+      "keyhole surgery"
+    ]
+  },
+  {
+    "instrument_id": "INS-c5c5fc2ea7ee",
+    "name": "Endoscope",
+    "category": "Diagnostic",
+    "department": "Pulmonology",
+    "location": "Physiotherapy",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-02-28",
+    "next_calibration": "2026-10-01",
+    "synonyms": [
+      "GI scope",
+      "gastroscope",
+      "colonoscope",
+      "flexible endoscope"
+    ],
+    "keywords": [
+      "endoscope",
+      "diagnostic",
+      "pulmonology",
+      "GI scope",
+      "gastroscope",
+      "colonoscope",
+      "flexible endoscope"
+    ]
+  },
+  {
+    "instrument_id": "INS-0ffae5f51706",
+    "name": "Infusion Pump",
+    "category": "Medication Delivery",
+    "department": "Ward-B",
+    "location": "CCU",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-01-23",
+    "next_calibration": "2027-06-11",
+    "synonyms": [
+      "IV pump",
+      "syringe driver",
+      "drug infusion",
+      "volumetric pump"
+    ],
+    "keywords": [
+      "infusion pump",
+      "medication delivery",
+      "ward-b",
+      "IV pump",
+      "syringe driver",
+      "drug infusion",
+      "volumetric pump"
+    ]
+  },
+  {
+    "instrument_id": "INS-b94d8d26ab73",
+    "name": "Syringe Pump",
+    "category": "Medication Delivery",
+    "department": "ICU",
+    "location": "ER",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-09-12",
+    "next_calibration": "2027-04-13",
+    "synonyms": [
+      "syringe driver",
+      "PCA pump",
+      "patient-controlled analgesia",
+      "micro-infusion"
+    ],
+    "keywords": [
+      "syringe pump",
+      "medication delivery",
+      "icu",
+      "syringe driver",
+      "PCA pump",
+      "patient-controlled analgesia",
+      "micro-infusion"
+    ]
+  },
+  {
+    "instrument_id": "INS-a8e401ea486b",
+    "name": "Patient Monitor",
+    "category": "Monitoring",
+    "department": "OR-1",
+    "location": "Pharmacy",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-05-13",
+    "next_calibration": "2027-03-05",
+    "synonyms": [
+      "bedside monitor",
+      "vital signs monitor",
+      "multiparameter monitor",
+      "cardiac monitor"
+    ],
+    "keywords": [
+      "patient monitor",
+      "monitoring",
+      "or-1",
+      "bedside monitor",
+      "vital signs monitor",
+      "multiparameter monitor",
+      "cardiac monitor"
+    ]
+  },
+  {
+    "instrument_id": "INS-ae735d174ddf",
+    "name": "Blood Pressure Monitor",
+    "category": "Monitoring",
+    "department": "ER",
+    "location": "Pharmacy",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-01-12",
+    "next_calibration": "2027-01-23",
+    "synonyms": [
+      "sphygmomanometer",
+      "BP cuff",
+      "NIBP",
+      "automated BP monitor"
+    ],
+    "keywords": [
+      "blood pressure monitor",
+      "monitoring",
+      "er",
+      "sphygmomanometer",
+      "BP cuff",
+      "NIBP",
+      "automated BP monitor"
+    ]
+  },
+  {
+    "instrument_id": "INS-c4a99c35f14f",
+    "name": "Temperature Monitor",
+    "category": "Monitoring",
+    "department": "ICU",
+    "location": "NICU",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-06-14",
+    "next_calibration": "2027-07-14",
+    "synonyms": [
+      "thermometer",
+      "core temperature",
+      "tympanic thermometer",
+      "rectal thermometer"
+    ],
+    "keywords": [
+      "temperature monitor",
+      "monitoring",
+      "icu",
+      "thermometer",
+      "core temperature",
+      "tympanic thermometer",
+      "rectal thermometer"
+    ]
+  },
+  {
+    "instrument_id": "INS-ce778658b5ea",
+    "name": "Dialysis Machine",
+    "category": "Renal Therapy",
+    "department": "ICU",
+    "location": "Outpatient Clinic",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-06-24",
+    "next_calibration": "2027-06-02",
+    "synonyms": [
+      "hemodialysis",
+      "CRRT",
+      "renal replacement therapy",
+      "kidney machine"
+    ],
+    "keywords": [
+      "dialysis machine",
+      "renal therapy",
+      "icu",
+      "hemodialysis",
+      "CRRT",
+      "renal replacement therapy",
+      "kidney machine"
+    ]
+  },
+  {
+    "instrument_id": "INS-b121219385b9",
+    "name": "Phototherapy Unit",
+    "category": "Neonatal",
+    "department": "NICU",
+    "location": "Radiology",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-12-28",
+    "next_calibration": "2027-01-01",
+    "synonyms": [
+      "bilirubin lights",
+      "jaundice lamp",
+      "neonatal phototherapy"
+    ],
+    "keywords": [
+      "phototherapy unit",
+      "neonatal",
+      "nicu",
+      "bilirubin lights",
+      "jaundice lamp",
+      "neonatal phototherapy"
+    ]
+  },
+  {
+    "instrument_id": "INS-0959b820f473",
+    "name": "Ophthalmoscope",
+    "category": "Diagnostic",
+    "department": "Neurology",
+    "location": "OR-2",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-03-10",
+    "next_calibration": "2027-05-18",
+    "synonyms": [
+      "fundoscope",
+      "retinal exam",
+      "eye exam instrument",
+      "fundal examination"
+    ],
+    "keywords": [
+      "ophthalmoscope",
+      "diagnostic",
+      "neurology",
+      "fundoscope",
+      "retinal exam",
+      "eye exam instrument",
+      "fundal examination"
+    ]
+  },
+  {
+    "instrument_id": "INS-0c46067e4648",
+    "name": "CT Scanner",
+    "category": "Diagnostic Imaging",
+    "department": "Oncology",
+    "location": "Outpatient Clinic",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-11-07",
+    "next_calibration": "2027-05-26",
+    "synonyms": [
+      "computed tomography",
+      "CT",
+      "CAT scan",
+      "cross-sectional imaging"
+    ],
+    "keywords": [
+      "ct scanner",
+      "diagnostic imaging",
+      "oncology",
+      "computed tomography",
+      "CT",
+      "CAT scan",
+      "cross-sectional imaging"
+    ]
+  },
+  {
+    "instrument_id": "INS-ace42da9fc55",
+    "name": "MRI Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Neurology",
+    "location": "Pharmacy",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-07-24",
+    "next_calibration": "2027-03-30",
+    "synonyms": [
+      "magnetic resonance imaging",
+      "MRI",
+      "NMR",
+      "magnetic scanner"
+    ],
+    "keywords": [
+      "mri machine",
+      "diagnostic imaging",
+      "neurology",
+      "magnetic resonance imaging",
+      "MRI",
+      "NMR",
+      "magnetic scanner"
+    ]
+  },
+  {
+    "instrument_id": "INS-270031f26259",
+    "name": "X-Ray Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Emergency Medicine",
+    "location": "Ward-A",
+    "operational_status": "Calibration Due",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-02-08",
+    "next_calibration": "2026-10-24",
+    "synonyms": [
+      "radiograph",
+      "X-ray",
+      "plain film",
+      "roentgenography"
+    ],
+    "keywords": [
+      "x-ray machine",
+      "diagnostic imaging",
+      "emergency medicine",
+      "radiograph",
+      "X-ray",
+      "plain film",
+      "roentgenography"
+    ]
+  },
+  {
+    "instrument_id": "INS-28173955df75",
+    "name": "Ultrasound Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "ICU",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-01-27",
+    "next_calibration": "2027-02-10",
+    "synonyms": [
+      "ultrasound",
+      "sonography",
+      "echo",
+      "diagnostic ultrasound"
+    ],
+    "keywords": [
+      "ultrasound machine",
+      "diagnostic imaging",
+      "radiology",
+      "ultrasound",
+      "sonography",
+      "echo",
+      "diagnostic ultrasound"
+    ]
+  },
+  {
+    "instrument_id": "INS-75fa2831ff0b",
+    "name": "Fluoroscopy Unit",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "NICU",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-05-01",
+    "next_calibration": "2027-01-08",
+    "synonyms": [
+      "fluoroscope",
+      "real-time X-ray",
+      "contrast imaging"
+    ],
+    "keywords": [
+      "fluoroscopy unit",
+      "diagnostic imaging",
+      "radiology",
+      "fluoroscope",
+      "real-time X-ray",
+      "contrast imaging"
+    ]
+  },
+  {
+    "instrument_id": "INS-6c8aefd3f16a",
+    "name": "PET Scanner",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "ER",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-02-26",
+    "next_calibration": "2027-07-13",
+    "synonyms": [
+      "positron emission tomography",
+      "PET",
+      "nuclear medicine imaging"
+    ],
+    "keywords": [
+      "pet scanner",
+      "diagnostic imaging",
+      "radiology",
+      "positron emission tomography",
+      "PET",
+      "nuclear medicine imaging"
+    ]
+  },
+  {
+    "instrument_id": "INS-87f6fc1db202",
+    "name": "Mammography Machine",
+    "category": "Diagnostic Imaging",
+    "department": "Radiology",
+    "location": "ICU",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-11-23",
+    "next_calibration": "2026-11-15",
+    "synonyms": [
+      "mammogram",
+      "breast imaging",
+      "mammograph"
+    ],
+    "keywords": [
+      "mammography machine",
+      "diagnostic imaging",
+      "radiology",
+      "mammogram",
+      "breast imaging",
+      "mammograph"
+    ]
+  },
+  {
+    "instrument_id": "INS-f21d7c99d609",
+    "name": "ECG Monitor",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "CCU",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-01-19",
+    "next_calibration": "2026-10-01",
+    "synonyms": [
+      "electrocardiogram",
+      "EKG",
+      "ECG",
+      "heart monitor",
+      "12-lead ECG"
+    ],
+    "keywords": [
+      "ecg monitor",
+      "cardiac monitoring",
+      "cardiology",
+      "electrocardiogram",
+      "EKG",
+      "ECG",
+      "heart monitor",
+      "12-lead ECG"
+    ]
+  },
+  {
+    "instrument_id": "INS-1f05079a63f6",
+    "name": "Holter Monitor",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "OR-2",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-04-23",
+    "next_calibration": "2026-10-27",
+    "synonyms": [
+      "ambulatory ECG",
+      "24-hour ECG",
+      "continuous heart monitor"
+    ],
+    "keywords": [
+      "holter monitor",
+      "cardiac monitoring",
+      "cardiology",
+      "ambulatory ECG",
+      "24-hour ECG",
+      "continuous heart monitor"
+    ]
+  },
+  {
+    "instrument_id": "INS-b1c096e0e568",
+    "name": "Echocardiography Unit",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "Laboratory",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-09-29",
+    "next_calibration": "2026-09-29",
+    "synonyms": [
+      "echo",
+      "cardiac ultrasound",
+      "transthoracic echocardiogram",
+      "TTE"
+    ],
+    "keywords": [
+      "echocardiography unit",
+      "cardiac monitoring",
+      "cardiology",
+      "echo",
+      "cardiac ultrasound",
+      "transthoracic echocardiogram",
+      "TTE"
+    ]
+  },
+  {
+    "instrument_id": "INS-34f2b9467d4c",
+    "name": "Defibrillator",
+    "category": "Resuscitation",
+    "department": "ICU",
+    "location": "ER",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-07-29",
+    "next_calibration": "2026-12-20",
+    "synonyms": [
+      "AED",
+      "shock device",
+      "cardioverter",
+      "crash cart device"
+    ],
+    "keywords": [
+      "defibrillator",
+      "resuscitation",
+      "icu",
+      "AED",
+      "shock device",
+      "cardioverter",
+      "crash cart device"
+    ]
+  },
+  {
+    "instrument_id": "INS-395fc7ca7ee0",
+    "name": "Cardiac Catheter Lab",
+    "category": "Cardiac Monitoring",
+    "department": "Cardiology",
+    "location": "Endoscopy Suite",
+    "operational_status": "Calibration Due",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-04-03",
+    "next_calibration": "2026-10-28",
+    "synonyms": [
+      "cath lab",
+      "angiography unit",
+      "coronary angiography",
+      "PCI lab"
+    ],
+    "keywords": [
+      "cardiac catheter lab",
+      "cardiac monitoring",
+      "cardiology",
+      "cath lab",
+      "angiography unit",
+      "coronary angiography",
+      "PCI lab"
+    ]
+  },
+  {
+    "instrument_id": "INS-ad2f1bc6bda9",
+    "name": "Mechanical Ventilator",
+    "category": "Respiratory Support",
+    "department": "Anesthesia",
+    "location": "Radiology",
+    "operational_status": "Under Maintenance",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-12-09",
+    "next_calibration": "2027-08-03",
+    "synonyms": [
+      "ventilator",
+      "breathing machine",
+      "mechanical ventilation",
+      "ICU ventilator"
+    ],
+    "keywords": [
+      "mechanical ventilator",
+      "respiratory support",
+      "anesthesia",
+      "ventilator",
+      "breathing machine",
+      "mechanical ventilation",
+      "ICU ventilator"
+    ]
+  },
+  {
+    "instrument_id": "INS-2d82c28d5ce5",
+    "name": "Pulse Oximeter",
+    "category": "Monitoring",
+    "department": "Anesthesia",
+    "location": "Ward-C",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-06-12",
+    "next_calibration": "2027-07-23",
+    "synonyms": [
+      "SpO2 monitor",
+      "oxygen saturation",
+      "pulse ox",
+      "sat probe"
+    ],
+    "keywords": [
+      "pulse oximeter",
+      "monitoring",
+      "anesthesia",
+      "SpO2 monitor",
+      "oxygen saturation",
+      "pulse ox",
+      "sat probe"
+    ]
+  },
+  {
+    "instrument_id": "INS-12859d884195",
+    "name": "Spirometer",
+    "category": "Respiratory Diagnostics",
+    "department": "Respiratory Therapy",
+    "location": "Endoscopy Suite",
+    "operational_status": "Calibration Due",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-08-19",
+    "next_calibration": "2027-07-16",
+    "synonyms": [
+      "lung function test",
+      "PFT device",
+      "spirometry",
+      "FEV1 measurement"
+    ],
+    "keywords": [
+      "spirometer",
+      "respiratory diagnostics",
+      "respiratory therapy",
+      "lung function test",
+      "PFT device",
+      "spirometry",
+      "FEV1 measurement"
+    ]
+  },
+  {
+    "instrument_id": "INS-d4fff54f200b",
+    "name": "BiPAP Machine",
+    "category": "Respiratory Support",
+    "department": "ICU",
+    "location": "CCU",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-10-11",
+    "next_calibration": "2027-08-01",
+    "synonyms": [
+      "BiPAP",
+      "bilevel positive airway pressure",
+      "non-invasive ventilation",
+      "NIV"
+    ],
+    "keywords": [
+      "bipap machine",
+      "respiratory support",
+      "icu",
+      "BiPAP",
+      "bilevel positive airway pressure",
+      "non-invasive ventilation",
+      "NIV"
+    ]
+  },
+  {
+    "instrument_id": "INS-ea41fba2e60b",
+    "name": "CPAP Machine",
+    "category": "Respiratory Support",
+    "department": "ICU",
+    "location": "Physiotherapy",
+    "operational_status": "Out of Service",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-11-09",
+    "next_calibration": "2027-02-19",
+    "synonyms": [
+      "CPAP",
+      "continuous positive airway pressure",
+      "sleep apnea device"
+    ],
+    "keywords": [
+      "cpap machine",
+      "respiratory support",
+      "icu",
+      "CPAP",
+      "continuous positive airway pressure",
+      "sleep apnea device"
+    ]
+  },
+  {
+    "instrument_id": "INS-e0766c4280d3",
+    "name": "Hematology Analyzer",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Endoscopy Suite",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-06-26",
+    "next_calibration": "2026-12-18",
+    "synonyms": [
+      "CBC analyzer",
+      "blood count machine",
+      "FBC analyzer",
+      "complete blood count"
+    ],
+    "keywords": [
+      "hematology analyzer",
+      "laboratory",
+      "CBC analyzer",
+      "blood count machine",
+      "FBC analyzer",
+      "complete blood count"
+    ]
+  },
+  {
+    "instrument_id": "INS-eb7ac6e1bfcf",
+    "name": "Chemistry Analyzer",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Ward-B",
+    "operational_status": "Operational",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2026-05-12",
+    "next_calibration": "2026-11-04",
+    "synonyms": [
+      "biochemistry analyzer",
+      "metabolic panel",
+      "LFT analyzer",
+      "kidney function"
+    ],
+    "keywords": [
+      "chemistry analyzer",
+      "laboratory",
+      "biochemistry analyzer",
+      "metabolic panel",
+      "LFT analyzer",
+      "kidney function"
+    ]
+  },
+  {
+    "instrument_id": "INS-00307424a5f4",
+    "name": "Blood Culture Analyzer",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Radiology",
+    "operational_status": "Calibration Due",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-11-07",
+    "next_calibration": "2027-04-19",
+    "synonyms": [
+      "BACTEC",
+      "blood culture",
+      "bacteremia detection",
+      "microbiology analyzer"
+    ],
+    "keywords": [
+      "blood culture analyzer",
+      "laboratory",
+      "BACTEC",
+      "blood culture",
+      "bacteremia detection",
+      "microbiology analyzer"
+    ]
+  },
+  {
+    "instrument_id": "INS-88dc396620a1",
+    "name": "Microscope",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Radiology",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2025-10-02",
+    "next_calibration": "2026-10-02",
+    "synonyms": [
+      "light microscope",
+      "optical microscope",
+      "compound microscope",
+      "lab scope"
+    ],
+    "keywords": [
+      "microscope",
+      "laboratory",
+      "light microscope",
+      "optical microscope",
+      "compound microscope",
+      "lab scope"
+    ]
+  },
+  {
+    "instrument_id": "INS-40be8dc5451b",
+    "name": "Centrifuge",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Radiology",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-06-11",
+    "next_calibration": "2027-04-10",
+    "synonyms": [
+      "lab centrifuge",
+      "sample separator",
+      "cell separator"
+    ],
+    "keywords": [
+      "centrifuge",
+      "laboratory",
+      "lab centrifuge",
+      "sample separator",
+      "cell separator"
+    ]
+  },
+  {
+    "instrument_id": "INS-9f0a38a72670",
+    "name": "PCR Machine",
+    "category": "Laboratory",
+    "department": "Laboratory",
+    "location": "Laboratory",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2025-09-23",
+    "next_calibration": "2027-05-02",
+    "synonyms": [
+      "polymerase chain reaction",
+      "PCR",
+      "thermocycler",
+      "DNA amplifier",
+      "COVID test machine"
+    ],
+    "keywords": [
+      "pcr machine",
+      "laboratory",
+      "polymerase chain reaction",
+      "PCR",
+      "thermocycler",
+      "DNA amplifier",
+      "COVID test machine"
+    ]
+  },
+  {
+    "instrument_id": "INS-2d1f72b99202",
+    "name": "Glucose Meter",
+    "category": "Point-of-Care",
+    "department": "Ward-B",
+    "location": "OR-1",
+    "operational_status": "Calibration Due",
+    "maintenance_status": "Overdue",
+    "last_calibration": "2025-10-03",
+    "next_calibration": "2027-07-02",
+    "synonyms": [
+      "glucometer",
+      "blood sugar monitor",
+      "capillary glucose",
+      "bedside glucose"
+    ],
+    "keywords": [
+      "glucose meter",
+      "point-of-care",
+      "ward-b",
+      "glucometer",
+      "blood sugar monitor",
+      "capillary glucose",
+      "bedside glucose"
+    ]
+  },
+  {
+    "instrument_id": "INS-995dc7749b69",
+    "name": "Electrosurgical Unit",
+    "category": "Surgical Equipment",
+    "department": "OR-2",
+    "location": "Ward-C",
+    "operational_status": "Operational",
+    "maintenance_status": "Due in 30 days",
+    "last_calibration": "2026-06-04",
+    "next_calibration": "2027-06-05",
+    "synonyms": [
+      "diathermy",
+      "bovie",
+      "ESU",
+      "electrocautery",
+      "surgical diathermy"
+    ],
+    "keywords": [
+      "electrosurgical unit",
+      "surgical equipment",
+      "or-2",
+      "diathermy",
+      "bovie",
+      "ESU",
+      "electrocautery",
+      "surgical diathermy"
+    ]
+  },
+  {
+    "instrument_id": "INS-7abe8ba2a3d5",
+    "name": "Surgical Table",
+    "category": "Surgical Equipment",
+    "department": "OR-1",
+    "location": "Radiology",
+    "operational_status": "Operational",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-07-15",
+    "next_calibration": "2027-04-21",
+    "synonyms": [
+      "operating table",
+      "OR table",
+      "surgical bed"
+    ],
+    "keywords": [
+      "surgical table",
+      "surgical equipment",
+      "or-1",
+      "operating table",
+      "OR table",
+      "surgical bed"
+    ]
+  },
+  {
+    "instrument_id": "INS-a8f9aba9bd0a",
+    "name": "Anesthesia Machine",
+    "category": "Anesthesia",
+    "department": "Anesthesia",
+    "location": "Laboratory",
+    "operational_status": "Calibration Due",
+    "maintenance_status": "Up to Date",
+    "last_calibration": "2026-05-03",
+    "next_calibration": "2027-01-28",
+    "synonyms": [
+      "anesthesia workstation",
+      "GA machine",
+      "gas machine",
+      "anaesthetic machine"
+    ],
+    "keywords": [
+      "anesthesia machine",
+      "anesthesia",
+      "anesthesia workstation",
+      "GA machine",
+      "gas machine",
+      "anaesthetic machine"
+    ]
+  }
+]

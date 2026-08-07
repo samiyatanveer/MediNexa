@@ -1,0 +1,8509 @@
+[
+  {
+    "medicine_id": "MED-0b94b8673859",
+    "name": "Lisinopril",
+    "dosage": "10mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Heart Failure",
+      "Chronic Kidney Disease"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Angioedema history",
+      "Hyperkalemia"
+    ],
+    "stock_units": 437,
+    "reorder_level": 45,
+    "batch_id": "fb8132e47f",
+    "expiry_date": "2028-01-09",
+    "synonyms": [
+      "ACE inhibitor",
+      "antihypertensive",
+      "lisinopril"
+    ],
+    "keywords": [
+      "lisinopril",
+      "tablet",
+      "hypertension",
+      "heart failure",
+      "chronic kidney disease",
+      "ACE inhibitor",
+      "antihypertensive"
+    ]
+  },
+  {
+    "medicine_id": "MED-5187a7c69831",
+    "name": "Amlodipine",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Angina"
+    ],
+    "contraindications": [
+      "Severe aortic stenosis",
+      "Cardiogenic shock"
+    ],
+    "stock_units": 193,
+    "reorder_level": 21,
+    "batch_id": "7c996072af",
+    "expiry_date": "2027-10-13",
+    "synonyms": [
+      "calcium channel blocker",
+      "CCB",
+      "norvasc"
+    ],
+    "keywords": [
+      "amlodipine",
+      "tablet",
+      "hypertension",
+      "angina",
+      "calcium channel blocker",
+      "CCB",
+      "norvasc"
+    ]
+  },
+  {
+    "medicine_id": "MED-9d2645f46e05",
+    "name": "Metoprolol",
+    "dosage": "100mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Heart Failure",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Severe bradycardia",
+      "Heart block",
+      "Asthma"
+    ],
+    "stock_units": 466,
+    "reorder_level": 20,
+    "batch_id": "101ba344c5",
+    "expiry_date": "2027-05-27",
+    "synonyms": [
+      "beta blocker",
+      "lopressor",
+      "metoprolol succinate"
+    ],
+    "keywords": [
+      "metoprolol",
+      "tablet",
+      "hypertension",
+      "heart failure",
+      "atrial fibrillation",
+      "beta blocker",
+      "lopressor",
+      "metoprolol succinate"
+    ]
+  },
+  {
+    "medicine_id": "MED-daab2d3d93cd",
+    "name": "Atorvastatin",
+    "dosage": "20mg",
+    "form": "Tablet",
+    "indications": [
+      "High Cholesterol",
+      "Coronary Artery Disease"
+    ],
+    "contraindications": [
+      "Active liver disease",
+      "Pregnancy"
+    ],
+    "stock_units": 286,
+    "reorder_level": 19,
+    "batch_id": "6065d68c3d",
+    "expiry_date": "2026-11-12",
+    "synonyms": [
+      "statin",
+      "lipitor",
+      "HMG-CoA reductase inhibitor"
+    ],
+    "keywords": [
+      "atorvastatin",
+      "tablet",
+      "high cholesterol",
+      "coronary artery disease",
+      "statin",
+      "lipitor",
+      "HMG-CoA reductase inhibitor"
+    ]
+  },
+  {
+    "medicine_id": "MED-0f0c634c8271",
+    "name": "Warfarin",
+    "dosage": "1mg",
+    "form": "Tablet",
+    "indications": [
+      "Atrial Fibrillation",
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "Pregnancy"
+    ],
+    "stock_units": 28,
+    "reorder_level": 18,
+    "batch_id": "81dd07e68e",
+    "expiry_date": "2027-12-18",
+    "synonyms": [
+      "anticoagulant",
+      "blood thinner",
+      "coumadin"
+    ],
+    "keywords": [
+      "warfarin",
+      "tablet",
+      "atrial fibrillation",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "anticoagulant",
+      "blood thinner",
+      "coumadin"
+    ]
+  },
+  {
+    "medicine_id": "MED-6afb3d4cfcfc",
+    "name": "Aspirin",
+    "dosage": "325mg",
+    "form": "Tablet",
+    "indications": [
+      "Coronary Artery Disease",
+      "Stroke prevention",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Active peptic ulcer",
+      "Allergy"
+    ],
+    "stock_units": 75,
+    "reorder_level": 23,
+    "batch_id": "7ae2c2340f",
+    "expiry_date": "2026-11-13",
+    "synonyms": [
+      "ASA",
+      "acetylsalicylic acid",
+      "antiplatelet"
+    ],
+    "keywords": [
+      "aspirin",
+      "tablet",
+      "coronary artery disease",
+      "stroke prevention",
+      "atrial fibrillation",
+      "ASA",
+      "acetylsalicylic acid",
+      "antiplatelet"
+    ]
+  },
+  {
+    "medicine_id": "MED-9e331a359911",
+    "name": "Furosemide",
+    "dosage": "20mg",
+    "form": "Tablet",
+    "indications": [
+      "Heart Failure",
+      "Edema",
+      "Hypertension"
+    ],
+    "contraindications": [
+      "Anuria",
+      "Severe electrolyte depletion"
+    ],
+    "stock_units": 31,
+    "reorder_level": 24,
+    "batch_id": "bfdf906946",
+    "expiry_date": "2027-07-20",
+    "synonyms": [
+      "loop diuretic",
+      "lasix",
+      "water pill"
+    ],
+    "keywords": [
+      "furosemide",
+      "tablet",
+      "heart failure",
+      "edema",
+      "hypertension",
+      "loop diuretic",
+      "lasix",
+      "water pill"
+    ]
+  },
+  {
+    "medicine_id": "MED-26b4a6042fa3",
+    "name": "Spironolactone",
+    "dosage": "50mg",
+    "form": "Tablet",
+    "indications": [
+      "Heart Failure",
+      "Hypertension",
+      "Hyperaldosteronism"
+    ],
+    "contraindications": [
+      "Hyperkalemia",
+      "Anuria"
+    ],
+    "stock_units": 259,
+    "reorder_level": 38,
+    "batch_id": "57353d6291",
+    "expiry_date": "2027-03-08",
+    "synonyms": [
+      "aldosterone antagonist",
+      "potassium-sparing diuretic"
+    ],
+    "keywords": [
+      "spironolactone",
+      "tablet",
+      "heart failure",
+      "hypertension",
+      "hyperaldosteronism",
+      "aldosterone antagonist",
+      "potassium-sparing diuretic"
+    ]
+  },
+  {
+    "medicine_id": "MED-87a548b3a539",
+    "name": "Metformin",
+    "dosage": "1000mg",
+    "form": "Tablet",
+    "indications": [
+      "Type 2 Diabetes",
+      "Prediabetes"
+    ],
+    "contraindications": [
+      "Chronic Kidney Disease stage 4+",
+      "Liver failure",
+      "Contrast dye use"
+    ],
+    "stock_units": 481,
+    "reorder_level": 37,
+    "batch_id": "d68881ea6f",
+    "expiry_date": "2027-11-11",
+    "synonyms": [
+      "biguanide",
+      "glucophage",
+      "antidiabetic"
+    ],
+    "keywords": [
+      "metformin",
+      "tablet",
+      "type 2 diabetes",
+      "prediabetes",
+      "biguanide",
+      "glucophage",
+      "antidiabetic"
+    ]
+  },
+  {
+    "medicine_id": "MED-dbfff575945e",
+    "name": "Glibenclamide",
+    "dosage": "2.5mg",
+    "form": "Tablet",
+    "indications": [
+      "Type 2 Diabetes"
+    ],
+    "contraindications": [
+      "Type 1 Diabetes",
+      "Renal failure",
+      "Sulfonamide allergy"
+    ],
+    "stock_units": 244,
+    "reorder_level": 37,
+    "batch_id": "b5336e3b9a",
+    "expiry_date": "2028-03-06",
+    "synonyms": [
+      "sulfonylurea",
+      "glyburide",
+      "antidiabetic"
+    ],
+    "keywords": [
+      "glibenclamide",
+      "tablet",
+      "type 2 diabetes",
+      "sulfonylurea",
+      "glyburide",
+      "antidiabetic"
+    ]
+  },
+  {
+    "medicine_id": "MED-c523a76c338c",
+    "name": "Insulin Glargine",
+    "dosage": "40 units",
+    "form": "Injectable",
+    "indications": [
+      "Type 1 Diabetes",
+      "Type 2 Diabetes"
+    ],
+    "contraindications": [
+      "Hypoglycemia"
+    ],
+    "stock_units": 332,
+    "reorder_level": 32,
+    "batch_id": "7fc2e88721",
+    "expiry_date": "2027-07-16",
+    "synonyms": [
+      "basal insulin",
+      "lantus",
+      "long-acting insulin"
+    ],
+    "keywords": [
+      "insulin glargine",
+      "injectable",
+      "type 1 diabetes",
+      "type 2 diabetes",
+      "basal insulin",
+      "lantus",
+      "long-acting insulin"
+    ]
+  },
+  {
+    "medicine_id": "MED-a8dbe73f490d",
+    "name": "Sitagliptin",
+    "dosage": "50mg",
+    "form": "Tablet",
+    "indications": [
+      "Type 2 Diabetes"
+    ],
+    "contraindications": [
+      "Type 1 Diabetes",
+      "Pancreatitis history"
+    ],
+    "stock_units": 108,
+    "reorder_level": 27,
+    "batch_id": "0ed0e447da",
+    "expiry_date": "2027-06-06",
+    "synonyms": [
+      "DPP-4 inhibitor",
+      "januvia",
+      "gliptin"
+    ],
+    "keywords": [
+      "sitagliptin",
+      "tablet",
+      "type 2 diabetes",
+      "DPP-4 inhibitor",
+      "januvia",
+      "gliptin"
+    ]
+  },
+  {
+    "medicine_id": "MED-f60ffbff5cf0",
+    "name": "Salbutamol",
+    "dosage": "2mg",
+    "form": "Inhaler",
+    "indications": [
+      "Asthma",
+      "COPD",
+      "Bronchospasm"
+    ],
+    "contraindications": [
+      "Cardiac arrhythmia",
+      "Severe hyperthyroidism"
+    ],
+    "stock_units": 60,
+    "reorder_level": 21,
+    "batch_id": "2945aaec1f",
+    "expiry_date": "2028-06-20",
+    "synonyms": [
+      "albuterol",
+      "SABA",
+      "bronchodilator",
+      "ventolin"
+    ],
+    "keywords": [
+      "salbutamol",
+      "inhaler",
+      "asthma",
+      "copd",
+      "bronchospasm",
+      "albuterol",
+      "SABA",
+      "bronchodilator",
+      "ventolin"
+    ]
+  },
+  {
+    "medicine_id": "MED-dc1bbeb5b2f3",
+    "name": "Budesonide",
+    "dosage": "400mcg",
+    "form": "Inhaler",
+    "indications": [
+      "Asthma",
+      "COPD"
+    ],
+    "contraindications": [
+      "Untreated fungal infection",
+      "Hypersensitivity"
+    ],
+    "stock_units": 414,
+    "reorder_level": 26,
+    "batch_id": "95cb6b9a1c",
+    "expiry_date": "2027-04-26",
+    "synonyms": [
+      "corticosteroid",
+      "ICS",
+      "inhaled steroid",
+      "pulmicort"
+    ],
+    "keywords": [
+      "budesonide",
+      "inhaler",
+      "asthma",
+      "copd",
+      "corticosteroid",
+      "ICS",
+      "inhaled steroid",
+      "pulmicort"
+    ]
+  },
+  {
+    "medicine_id": "MED-2cb71123154f",
+    "name": "Tiotropium",
+    "dosage": "18mcg",
+    "form": "Inhaler",
+    "indications": [
+      "COPD"
+    ],
+    "contraindications": [
+      "Narrow-angle glaucoma",
+      "Urinary retention"
+    ],
+    "stock_units": 34,
+    "reorder_level": 23,
+    "batch_id": "7a314ed151",
+    "expiry_date": "2027-03-17",
+    "synonyms": [
+      "LAMA",
+      "anticholinergic",
+      "spiriva",
+      "long-acting muscarinic antagonist"
+    ],
+    "keywords": [
+      "tiotropium",
+      "inhaler",
+      "copd",
+      "LAMA",
+      "anticholinergic",
+      "spiriva",
+      "long-acting muscarinic antagonist"
+    ]
+  },
+  {
+    "medicine_id": "MED-0c43687bc29b",
+    "name": "Montelukast",
+    "dosage": "4mg",
+    "form": "Tablet",
+    "indications": [
+      "Asthma",
+      "Allergic Rhinitis"
+    ],
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "stock_units": 85,
+    "reorder_level": 44,
+    "batch_id": "6d96ed102f",
+    "expiry_date": "2028-02-15",
+    "synonyms": [
+      "leukotriene antagonist",
+      "singulair",
+      "LTRA"
+    ],
+    "keywords": [
+      "montelukast",
+      "tablet",
+      "asthma",
+      "allergic rhinitis",
+      "leukotriene antagonist",
+      "singulair",
+      "LTRA"
+    ]
+  },
+  {
+    "medicine_id": "MED-8c0bf8badd1b",
+    "name": "Amoxicillin",
+    "dosage": "250mg",
+    "form": "Capsule",
+    "indications": [
+      "Community-Acquired Pneumonia",
+      "Urinary Tract Infection",
+      "Strep Throat"
+    ],
+    "contraindications": [
+      "Penicillin allergy"
+    ],
+    "stock_units": 429,
+    "reorder_level": 47,
+    "batch_id": "d34926277c",
+    "expiry_date": "2027-02-04",
+    "synonyms": [
+      "penicillin",
+      "antibiotic",
+      "amoxil",
+      "beta-lactam"
+    ],
+    "keywords": [
+      "amoxicillin",
+      "capsule",
+      "community-acquired pneumonia",
+      "urinary tract infection",
+      "strep throat",
+      "penicillin",
+      "antibiotic",
+      "amoxil",
+      "beta-lactam"
+    ]
+  },
+  {
+    "medicine_id": "MED-16ae2ba17d66",
+    "name": "Ciprofloxacin",
+    "dosage": "500mg",
+    "form": "Tablet",
+    "indications": [
+      "Urinary Tract Infection",
+      "Respiratory Infection",
+      "Gastroenteritis"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Tendon disorders",
+      "QT prolongation"
+    ],
+    "stock_units": 387,
+    "reorder_level": 20,
+    "batch_id": "2cc4271fe8",
+    "expiry_date": "2027-03-18",
+    "synonyms": [
+      "fluoroquinolone",
+      "antibiotic",
+      "cipro"
+    ],
+    "keywords": [
+      "ciprofloxacin",
+      "tablet",
+      "urinary tract infection",
+      "respiratory infection",
+      "gastroenteritis",
+      "fluoroquinolone",
+      "antibiotic",
+      "cipro"
+    ]
+  },
+  {
+    "medicine_id": "MED-9a003fb29eb1",
+    "name": "Azithromycin",
+    "dosage": "500mg",
+    "form": "Tablet",
+    "indications": [
+      "Community-Acquired Pneumonia",
+      "Atypical Pneumonia",
+      "Sexually Transmitted Infections"
+    ],
+    "contraindications": [
+      "QT prolongation",
+      "Liver disease"
+    ],
+    "stock_units": 46,
+    "reorder_level": 33,
+    "batch_id": "6ad77a47ff",
+    "expiry_date": "2028-01-26",
+    "synonyms": [
+      "macrolide",
+      "antibiotic",
+      "zithromax",
+      "Z-pack"
+    ],
+    "keywords": [
+      "azithromycin",
+      "tablet",
+      "community-acquired pneumonia",
+      "atypical pneumonia",
+      "sexually transmitted infections",
+      "macrolide",
+      "antibiotic",
+      "zithromax",
+      "Z-pack"
+    ]
+  },
+  {
+    "medicine_id": "MED-5cd50959291a",
+    "name": "Metronidazole",
+    "dosage": "500mg",
+    "form": "Tablet",
+    "indications": [
+      "Anaerobic Infections",
+      "Clostridium difficile",
+      "Trichomoniasis"
+    ],
+    "contraindications": [
+      "First trimester pregnancy",
+      "Alcohol use"
+    ],
+    "stock_units": 231,
+    "reorder_level": 26,
+    "batch_id": "536bd25ef2",
+    "expiry_date": "2028-02-19",
+    "synonyms": [
+      "nitroimidazole",
+      "antibiotic",
+      "flagyl"
+    ],
+    "keywords": [
+      "metronidazole",
+      "tablet",
+      "anaerobic infections",
+      "clostridium difficile",
+      "trichomoniasis",
+      "nitroimidazole",
+      "antibiotic",
+      "flagyl"
+    ]
+  },
+  {
+    "medicine_id": "MED-8318c3c6c8a8",
+    "name": "Doxycycline",
+    "dosage": "200mg",
+    "form": "Capsule",
+    "indications": [
+      "Community-Acquired Pneumonia",
+      "Malaria",
+      "Lyme Disease"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Children under 8",
+      "Severe renal failure"
+    ],
+    "stock_units": 417,
+    "reorder_level": 16,
+    "batch_id": "6534c927fd",
+    "expiry_date": "2028-03-24",
+    "synonyms": [
+      "tetracycline",
+      "antibiotic",
+      "doxy",
+      "vibramycin"
+    ],
+    "keywords": [
+      "doxycycline",
+      "capsule",
+      "community-acquired pneumonia",
+      "malaria",
+      "lyme disease",
+      "tetracycline",
+      "antibiotic",
+      "doxy",
+      "vibramycin"
+    ]
+  },
+  {
+    "medicine_id": "MED-3f6d5f188de6",
+    "name": "Ceftriaxone",
+    "dosage": "1g",
+    "form": "Injectable",
+    "indications": [
+      "Sepsis",
+      "Meningitis",
+      "Community-Acquired Pneumonia"
+    ],
+    "contraindications": [
+      "Cephalosporin allergy",
+      "Neonatal jaundice"
+    ],
+    "stock_units": 442,
+    "reorder_level": 26,
+    "batch_id": "b96c409773",
+    "expiry_date": "2027-02-19",
+    "synonyms": [
+      "cephalosporin",
+      "antibiotic",
+      "rocephin",
+      "third-generation"
+    ],
+    "keywords": [
+      "ceftriaxone",
+      "injectable",
+      "sepsis",
+      "meningitis",
+      "community-acquired pneumonia",
+      "cephalosporin",
+      "antibiotic",
+      "rocephin",
+      "third-generation"
+    ]
+  },
+  {
+    "medicine_id": "MED-3a5b74e42b7a",
+    "name": "Amlodipine",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Migraine prevention",
+      "Hypertension"
+    ],
+    "contraindications": [
+      "Severe hypotension"
+    ],
+    "stock_units": 493,
+    "reorder_level": 26,
+    "batch_id": "a0517e48e0",
+    "expiry_date": "2027-12-03",
+    "synonyms": [
+      "calcium channel blocker",
+      "migraine prophylaxis"
+    ],
+    "keywords": [
+      "amlodipine",
+      "tablet",
+      "migraine prevention",
+      "hypertension",
+      "calcium channel blocker",
+      "migraine prophylaxis"
+    ]
+  },
+  {
+    "medicine_id": "MED-2f12950b64a9",
+    "name": "Sertraline",
+    "dosage": "50mg",
+    "form": "Tablet",
+    "indications": [
+      "Major Depression",
+      "Anxiety Disorder",
+      "OCD"
+    ],
+    "contraindications": [
+      "MAO inhibitor use",
+      "Pimozide use"
+    ],
+    "stock_units": 347,
+    "reorder_level": 44,
+    "batch_id": "47d6dbd2ae",
+    "expiry_date": "2028-05-05",
+    "synonyms": [
+      "SSRI",
+      "antidepressant",
+      "zoloft",
+      "serotonin"
+    ],
+    "keywords": [
+      "sertraline",
+      "tablet",
+      "major depression",
+      "anxiety disorder",
+      "ocd",
+      "SSRI",
+      "antidepressant",
+      "zoloft",
+      "serotonin"
+    ]
+  },
+  {
+    "medicine_id": "MED-d6f0297332df",
+    "name": "Fluoxetine",
+    "dosage": "20mg",
+    "form": "Capsule",
+    "indications": [
+      "Major Depression",
+      "Bipolar Disorder",
+      "Anxiety Disorder"
+    ],
+    "contraindications": [
+      "MAO inhibitor use",
+      "QT prolongation"
+    ],
+    "stock_units": 98,
+    "reorder_level": 40,
+    "batch_id": "b963417f3e",
+    "expiry_date": "2027-10-16",
+    "synonyms": [
+      "SSRI",
+      "antidepressant",
+      "prozac",
+      "serotonin"
+    ],
+    "keywords": [
+      "fluoxetine",
+      "capsule",
+      "major depression",
+      "bipolar disorder",
+      "anxiety disorder",
+      "SSRI",
+      "antidepressant",
+      "prozac",
+      "serotonin"
+    ]
+  },
+  {
+    "medicine_id": "MED-75655cb1b139",
+    "name": "Haloperidol",
+    "dosage": "0.5mg",
+    "form": "Tablet",
+    "indications": [
+      "Schizophrenia",
+      "Acute Psychosis",
+      "Delirium"
+    ],
+    "contraindications": [
+      "Parkinson Disease",
+      "QT prolongation",
+      "Coma"
+    ],
+    "stock_units": 112,
+    "reorder_level": 19,
+    "batch_id": "5d3558438f",
+    "expiry_date": "2028-07-08",
+    "synonyms": [
+      "antipsychotic",
+      "typical antipsychotic",
+      "haldol",
+      "neuroleptic"
+    ],
+    "keywords": [
+      "haloperidol",
+      "tablet",
+      "schizophrenia",
+      "acute psychosis",
+      "delirium",
+      "antipsychotic",
+      "typical antipsychotic",
+      "haldol",
+      "neuroleptic"
+    ]
+  },
+  {
+    "medicine_id": "MED-49060628e80b",
+    "name": "Valproate",
+    "dosage": "200mg",
+    "form": "Tablet",
+    "indications": [
+      "Epilepsy",
+      "Bipolar Disorder",
+      "Migraine prevention"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Liver disease",
+      "Urea cycle disorder"
+    ],
+    "stock_units": 430,
+    "reorder_level": 47,
+    "batch_id": "75231b39f9",
+    "expiry_date": "2027-12-02",
+    "synonyms": [
+      "anticonvulsant",
+      "mood stabilizer",
+      "depakote",
+      "valproic acid"
+    ],
+    "keywords": [
+      "valproate",
+      "tablet",
+      "epilepsy",
+      "bipolar disorder",
+      "migraine prevention",
+      "anticonvulsant",
+      "mood stabilizer",
+      "depakote",
+      "valproic acid"
+    ]
+  },
+  {
+    "medicine_id": "MED-231b80de495c",
+    "name": "Levetiracetam",
+    "dosage": "500mg",
+    "form": "Tablet",
+    "indications": [
+      "Epilepsy"
+    ],
+    "contraindications": [
+      "Hypersensitivity",
+      "Severe renal failure"
+    ],
+    "stock_units": 408,
+    "reorder_level": 44,
+    "batch_id": "c58ffcea8e",
+    "expiry_date": "2027-07-21",
+    "synonyms": [
+      "anticonvulsant",
+      "keppra",
+      "antiepileptic"
+    ],
+    "keywords": [
+      "levetiracetam",
+      "tablet",
+      "epilepsy",
+      "anticonvulsant",
+      "keppra",
+      "antiepileptic"
+    ]
+  },
+  {
+    "medicine_id": "MED-5b2b2f4b8117",
+    "name": "Omeprazole",
+    "dosage": "40mg",
+    "form": "Capsule",
+    "indications": [
+      "GERD",
+      "Peptic Ulcer",
+      "H. pylori"
+    ],
+    "contraindications": [
+      "Clopidogrel use",
+      "Hypersensitivity"
+    ],
+    "stock_units": 391,
+    "reorder_level": 19,
+    "batch_id": "1ca883a226",
+    "expiry_date": "2028-03-14",
+    "synonyms": [
+      "PPI",
+      "proton pump inhibitor",
+      "prilosec",
+      "acid reducer"
+    ],
+    "keywords": [
+      "omeprazole",
+      "capsule",
+      "gerd",
+      "peptic ulcer",
+      "h. pylori",
+      "PPI",
+      "proton pump inhibitor",
+      "prilosec",
+      "acid reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-22b9eeedff66",
+    "name": "Pantoprazole",
+    "dosage": "20mg",
+    "form": "Tablet",
+    "indications": [
+      "GERD",
+      "Peptic Ulcer",
+      "Zollinger-Ellison syndrome"
+    ],
+    "contraindications": [
+      "Rilpivirine use"
+    ],
+    "stock_units": 341,
+    "reorder_level": 22,
+    "batch_id": "1074eeabac",
+    "expiry_date": "2028-06-12",
+    "synonyms": [
+      "PPI",
+      "proton pump inhibitor",
+      "protonix",
+      "acid reducer"
+    ],
+    "keywords": [
+      "pantoprazole",
+      "tablet",
+      "gerd",
+      "peptic ulcer",
+      "zollinger-ellison syndrome",
+      "PPI",
+      "proton pump inhibitor",
+      "protonix",
+      "acid reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-47429bf37cbb",
+    "name": "Ondansetron",
+    "dosage": "4mg",
+    "form": "Tablet",
+    "indications": [
+      "Nausea",
+      "Vomiting",
+      "Chemotherapy-induced nausea"
+    ],
+    "contraindications": [
+      "QT prolongation",
+      "Congenital long QT syndrome"
+    ],
+    "stock_units": 426,
+    "reorder_level": 21,
+    "batch_id": "39ebb4568d",
+    "expiry_date": "2027-03-16",
+    "synonyms": [
+      "antiemetic",
+      "5-HT3 antagonist",
+      "zofran",
+      "anti-nausea"
+    ],
+    "keywords": [
+      "ondansetron",
+      "tablet",
+      "nausea",
+      "vomiting",
+      "chemotherapy-induced nausea",
+      "antiemetic",
+      "5-HT3 antagonist",
+      "zofran",
+      "anti-nausea"
+    ]
+  },
+  {
+    "medicine_id": "MED-60d5cc389937",
+    "name": "Ibuprofen",
+    "dosage": "200mg",
+    "form": "Tablet",
+    "indications": [
+      "Pain",
+      "Fever",
+      "Osteoarthritis",
+      "Gout"
+    ],
+    "contraindications": [
+      "Active peptic ulcer",
+      "Renal failure",
+      "Third trimester pregnancy"
+    ],
+    "stock_units": 64,
+    "reorder_level": 13,
+    "batch_id": "ad006bf8fc",
+    "expiry_date": "2028-04-29",
+    "synonyms": [
+      "NSAID",
+      "anti-inflammatory",
+      "advil",
+      "pain relief"
+    ],
+    "keywords": [
+      "ibuprofen",
+      "tablet",
+      "pain",
+      "fever",
+      "osteoarthritis",
+      "gout",
+      "NSAID",
+      "anti-inflammatory",
+      "advil",
+      "pain relief"
+    ]
+  },
+  {
+    "medicine_id": "MED-c08e983b5341",
+    "name": "Paracetamol",
+    "dosage": "500mg",
+    "form": "Tablet",
+    "indications": [
+      "Pain",
+      "Fever",
+      "Headache"
+    ],
+    "contraindications": [
+      "Severe liver disease"
+    ],
+    "stock_units": 282,
+    "reorder_level": 12,
+    "batch_id": "97d816b965",
+    "expiry_date": "2027-10-23",
+    "synonyms": [
+      "acetaminophen",
+      "tylenol",
+      "analgesic",
+      "fever reducer"
+    ],
+    "keywords": [
+      "paracetamol",
+      "tablet",
+      "pain",
+      "fever",
+      "headache",
+      "acetaminophen",
+      "tylenol",
+      "analgesic",
+      "fever reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-b8b124027c36",
+    "name": "Morphine",
+    "dosage": "15mg",
+    "form": "Injectable",
+    "indications": [
+      "Severe Pain",
+      "Myocardial Infarction",
+      "Palliative Care"
+    ],
+    "contraindications": [
+      "Respiratory depression",
+      "Paralytic ileus",
+      "Opioid allergy"
+    ],
+    "stock_units": 303,
+    "reorder_level": 36,
+    "batch_id": "63482c96f9",
+    "expiry_date": "2027-01-17",
+    "synonyms": [
+      "opioid",
+      "narcotic",
+      "strong analgesic",
+      "opiate"
+    ],
+    "keywords": [
+      "morphine",
+      "injectable",
+      "severe pain",
+      "myocardial infarction",
+      "palliative care",
+      "opioid",
+      "narcotic",
+      "strong analgesic",
+      "opiate"
+    ]
+  },
+  {
+    "medicine_id": "MED-80c4be935c08",
+    "name": "Tramadol",
+    "dosage": "100mg",
+    "form": "Tablet",
+    "indications": [
+      "Moderate Pain",
+      "Osteoarthritis"
+    ],
+    "contraindications": [
+      "Seizure disorder",
+      "MAO inhibitor use",
+      "Opioid allergy"
+    ],
+    "stock_units": 457,
+    "reorder_level": 13,
+    "batch_id": "0993cb4c95",
+    "expiry_date": "2027-08-28",
+    "synonyms": [
+      "opioid analgesic",
+      "tramacet",
+      "weak opioid"
+    ],
+    "keywords": [
+      "tramadol",
+      "tablet",
+      "moderate pain",
+      "osteoarthritis",
+      "opioid analgesic",
+      "tramacet",
+      "weak opioid"
+    ]
+  },
+  {
+    "medicine_id": "MED-ae468fa8d9ab",
+    "name": "Colchicine",
+    "dosage": "0.5mg",
+    "form": "Tablet",
+    "indications": [
+      "Gout",
+      "Familial Mediterranean Fever"
+    ],
+    "contraindications": [
+      "Severe renal failure",
+      "Severe hepatic failure"
+    ],
+    "stock_units": 428,
+    "reorder_level": 50,
+    "batch_id": "e811c99a0f",
+    "expiry_date": "2028-07-07",
+    "synonyms": [
+      "antigout",
+      "uricosuric",
+      "gout treatment"
+    ],
+    "keywords": [
+      "colchicine",
+      "tablet",
+      "gout",
+      "familial mediterranean fever",
+      "antigout",
+      "uricosuric",
+      "gout treatment"
+    ]
+  },
+  {
+    "medicine_id": "MED-dea8597bf3ff",
+    "name": "Allopurinol",
+    "dosage": "100mg",
+    "form": "Tablet",
+    "indications": [
+      "Gout",
+      "Hyperuricemia",
+      "Kidney Stones"
+    ],
+    "contraindications": [
+      "Acute gout attack",
+      "Azathioprine use"
+    ],
+    "stock_units": 200,
+    "reorder_level": 16,
+    "batch_id": "e2d1df9256",
+    "expiry_date": "2027-11-01",
+    "synonyms": [
+      "xanthine oxidase inhibitor",
+      "urate lowering",
+      "zyloprim"
+    ],
+    "keywords": [
+      "allopurinol",
+      "tablet",
+      "gout",
+      "hyperuricemia",
+      "kidney stones",
+      "xanthine oxidase inhibitor",
+      "urate lowering",
+      "zyloprim"
+    ]
+  },
+  {
+    "medicine_id": "MED-aca79c6f8822",
+    "name": "Methotrexate",
+    "dosage": "2.5mg",
+    "form": "Tablet",
+    "indications": [
+      "Rheumatoid Arthritis",
+      "Psoriasis",
+      "Cancer"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Severe liver disease",
+      "Immunodeficiency"
+    ],
+    "stock_units": 326,
+    "reorder_level": 30,
+    "batch_id": "8f0d5994e7",
+    "expiry_date": "2028-03-22",
+    "synonyms": [
+      "DMARD",
+      "disease modifying",
+      "antimetabolite"
+    ],
+    "keywords": [
+      "methotrexate",
+      "tablet",
+      "rheumatoid arthritis",
+      "psoriasis",
+      "cancer",
+      "DMARD",
+      "disease modifying",
+      "antimetabolite"
+    ]
+  },
+  {
+    "medicine_id": "MED-853117eab656",
+    "name": "Levothyroxine",
+    "dosage": "25mcg",
+    "form": "Tablet",
+    "indications": [
+      "Hypothyroidism"
+    ],
+    "contraindications": [
+      "Untreated adrenal insufficiency",
+      "Thyrotoxicosis"
+    ],
+    "stock_units": 108,
+    "reorder_level": 21,
+    "batch_id": "da5015dba6",
+    "expiry_date": "2028-03-21",
+    "synonyms": [
+      "thyroid hormone",
+      "synthroid",
+      "T4",
+      "thyroid replacement"
+    ],
+    "keywords": [
+      "levothyroxine",
+      "tablet",
+      "hypothyroidism",
+      "thyroid hormone",
+      "synthroid",
+      "T4",
+      "thyroid replacement"
+    ]
+  },
+  {
+    "medicine_id": "MED-cb76a4775965",
+    "name": "Prednisolone",
+    "dosage": "40mg",
+    "form": "Tablet",
+    "indications": [
+      "Asthma",
+      "Rheumatoid Arthritis",
+      "Allergic reactions",
+      "COPD exacerbation"
+    ],
+    "contraindications": [
+      "Systemic fungal infection",
+      "Live vaccines"
+    ],
+    "stock_units": 403,
+    "reorder_level": 26,
+    "batch_id": "cbd35c59cf",
+    "expiry_date": "2027-06-16",
+    "synonyms": [
+      "corticosteroid",
+      "steroid",
+      "anti-inflammatory",
+      "prednisolone"
+    ],
+    "keywords": [
+      "prednisolone",
+      "tablet",
+      "asthma",
+      "rheumatoid arthritis",
+      "allergic reactions",
+      "copd exacerbation",
+      "corticosteroid",
+      "steroid",
+      "anti-inflammatory"
+    ]
+  },
+  {
+    "medicine_id": "MED-6e6f5fa756fd",
+    "name": "Heparin",
+    "dosage": "10000 units",
+    "form": "Injectable",
+    "indications": [
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "HIT",
+      "Severe thrombocytopenia"
+    ],
+    "stock_units": 113,
+    "reorder_level": 20,
+    "batch_id": "e9a73b9b5d",
+    "expiry_date": "2027-11-07",
+    "synonyms": [
+      "anticoagulant",
+      "blood thinner",
+      "unfractionated heparin",
+      "UFH"
+    ],
+    "keywords": [
+      "heparin",
+      "injectable",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "atrial fibrillation",
+      "anticoagulant",
+      "blood thinner",
+      "unfractionated heparin",
+      "UFH"
+    ]
+  },
+  {
+    "medicine_id": "MED-52832d9da92e",
+    "name": "Enoxaparin",
+    "dosage": "60mg",
+    "form": "Injectable",
+    "indications": [
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism",
+      "ACS"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "HIT",
+      "Prosthetic heart valves"
+    ],
+    "stock_units": 96,
+    "reorder_level": 19,
+    "batch_id": "ec55725c6d",
+    "expiry_date": "2027-11-22",
+    "synonyms": [
+      "LMWH",
+      "low molecular weight heparin",
+      "lovenox",
+      "anticoagulant"
+    ],
+    "keywords": [
+      "enoxaparin",
+      "injectable",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "acs",
+      "LMWH",
+      "low molecular weight heparin",
+      "lovenox",
+      "anticoagulant"
+    ]
+  },
+  {
+    "medicine_id": "MED-f03428012324",
+    "name": "Tamsulosin",
+    "dosage": "0.4mg",
+    "form": "Capsule",
+    "indications": [
+      "Benign Prostatic Hyperplasia",
+      "Urinary Retention"
+    ],
+    "contraindications": [
+      "Severe hepatic impairment",
+      "Concurrent PDE5 inhibitor"
+    ],
+    "stock_units": 212,
+    "reorder_level": 30,
+    "batch_id": "f682ebf15d",
+    "expiry_date": "2028-06-30",
+    "synonyms": [
+      "alpha blocker",
+      "flomax",
+      "BPH treatment"
+    ],
+    "keywords": [
+      "tamsulosin",
+      "capsule",
+      "benign prostatic hyperplasia",
+      "urinary retention",
+      "alpha blocker",
+      "flomax",
+      "BPH treatment"
+    ]
+  },
+  {
+    "medicine_id": "MED-16eeb01861fa",
+    "name": "Ranitidine",
+    "dosage": "300mg",
+    "form": "Tablet",
+    "indications": [
+      "GERD",
+      "Peptic Ulcer"
+    ],
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "stock_units": 215,
+    "reorder_level": 22,
+    "batch_id": "559c8240c9",
+    "expiry_date": "2026-11-04",
+    "synonyms": [
+      "H2 blocker",
+      "histamine antagonist",
+      "zantac",
+      "acid reducer"
+    ],
+    "keywords": [
+      "ranitidine",
+      "tablet",
+      "gerd",
+      "peptic ulcer",
+      "H2 blocker",
+      "histamine antagonist",
+      "zantac",
+      "acid reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-2df9b587e7dc",
+    "name": "Cetirizine",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Allergic Rhinitis",
+      "Urticaria",
+      "Eczema"
+    ],
+    "contraindications": [
+      "Severe renal failure"
+    ],
+    "stock_units": 123,
+    "reorder_level": 28,
+    "batch_id": "513be53625",
+    "expiry_date": "2027-09-08",
+    "synonyms": [
+      "antihistamine",
+      "zyrtec",
+      "allergy relief",
+      "H1 blocker"
+    ],
+    "keywords": [
+      "cetirizine",
+      "tablet",
+      "allergic rhinitis",
+      "urticaria",
+      "eczema",
+      "antihistamine",
+      "zyrtec",
+      "allergy relief",
+      "H1 blocker"
+    ]
+  },
+  {
+    "medicine_id": "MED-47b13fa2d1ae",
+    "name": "Loratadine",
+    "dosage": "10mg",
+    "form": "Tablet",
+    "indications": [
+      "Allergic Rhinitis",
+      "Urticaria"
+    ],
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "stock_units": 469,
+    "reorder_level": 11,
+    "batch_id": "62ad6b842e",
+    "expiry_date": "2028-03-31",
+    "synonyms": [
+      "antihistamine",
+      "claritin",
+      "non-drowsy antihistamine",
+      "allergy"
+    ],
+    "keywords": [
+      "loratadine",
+      "tablet",
+      "allergic rhinitis",
+      "urticaria",
+      "antihistamine",
+      "claritin",
+      "non-drowsy antihistamine",
+      "allergy"
+    ]
+  },
+  {
+    "medicine_id": "MED-6737dcbdf96a",
+    "name": "Vitamin D3",
+    "dosage": "2000 IU",
+    "form": "Capsule",
+    "indications": [
+      "Vitamin D deficiency",
+      "Osteoporosis prevention",
+      "Chronic Kidney Disease"
+    ],
+    "contraindications": [
+      "Hypercalcemia",
+      "Vitamin D toxicity"
+    ],
+    "stock_units": 275,
+    "reorder_level": 42,
+    "batch_id": "af1bc4de34",
+    "expiry_date": "2026-11-15",
+    "synonyms": [
+      "cholecalciferol",
+      "vitamin D supplement",
+      "calcium metabolism"
+    ],
+    "keywords": [
+      "vitamin d3",
+      "capsule",
+      "vitamin d deficiency",
+      "osteoporosis prevention",
+      "chronic kidney disease",
+      "cholecalciferol",
+      "vitamin D supplement",
+      "calcium metabolism"
+    ]
+  },
+  {
+    "medicine_id": "MED-e1db29b9a418",
+    "name": "Ferrous Sulfate",
+    "dosage": "325mg",
+    "form": "Tablet",
+    "indications": [
+      "Iron Deficiency Anemia"
+    ],
+    "contraindications": [
+      "Haemochromatosis",
+      "Repeated blood transfusion"
+    ],
+    "stock_units": 257,
+    "reorder_level": 11,
+    "batch_id": "b6cb6061e1",
+    "expiry_date": "2026-11-13",
+    "synonyms": [
+      "iron supplement",
+      "iron tablet",
+      "anemia treatment"
+    ],
+    "keywords": [
+      "ferrous sulfate",
+      "tablet",
+      "iron deficiency anemia",
+      "iron supplement",
+      "iron tablet",
+      "anemia treatment"
+    ]
+  },
+  {
+    "medicine_id": "MED-fa3d2cbb48ae",
+    "name": "Folic Acid",
+    "dosage": "1mg",
+    "form": "Tablet",
+    "indications": [
+      "Anemia",
+      "Pregnancy",
+      "Methotrexate use"
+    ],
+    "contraindications": [
+      "Undiagnosed anemia"
+    ],
+    "stock_units": 334,
+    "reorder_level": 34,
+    "batch_id": "fcd4197ec9",
+    "expiry_date": "2027-10-26",
+    "synonyms": [
+      "folate",
+      "B9",
+      "neural tube defect prevention"
+    ],
+    "keywords": [
+      "folic acid",
+      "tablet",
+      "anemia",
+      "pregnancy",
+      "methotrexate use",
+      "folate",
+      "B9",
+      "neural tube defect prevention"
+    ]
+  },
+  {
+    "medicine_id": "MED-34a983c1ceae",
+    "name": "Lisinopril",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Heart Failure",
+      "Chronic Kidney Disease"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Angioedema history",
+      "Hyperkalemia"
+    ],
+    "stock_units": 333,
+    "reorder_level": 30,
+    "batch_id": "64ae3403e2",
+    "expiry_date": "2028-02-04",
+    "synonyms": [
+      "ACE inhibitor",
+      "antihypertensive",
+      "lisinopril"
+    ],
+    "keywords": [
+      "lisinopril",
+      "tablet",
+      "hypertension",
+      "heart failure",
+      "chronic kidney disease",
+      "ACE inhibitor",
+      "antihypertensive"
+    ]
+  },
+  {
+    "medicine_id": "MED-15a8357a8e5a",
+    "name": "Amlodipine",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Angina"
+    ],
+    "contraindications": [
+      "Severe aortic stenosis",
+      "Cardiogenic shock"
+    ],
+    "stock_units": 151,
+    "reorder_level": 49,
+    "batch_id": "0682d6fdc4",
+    "expiry_date": "2027-12-14",
+    "synonyms": [
+      "calcium channel blocker",
+      "CCB",
+      "norvasc"
+    ],
+    "keywords": [
+      "amlodipine",
+      "tablet",
+      "hypertension",
+      "angina",
+      "calcium channel blocker",
+      "CCB",
+      "norvasc"
+    ]
+  },
+  {
+    "medicine_id": "MED-e02a959ed83a",
+    "name": "Metoprolol",
+    "dosage": "50mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Heart Failure",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Severe bradycardia",
+      "Heart block",
+      "Asthma"
+    ],
+    "stock_units": 344,
+    "reorder_level": 23,
+    "batch_id": "419b12d810",
+    "expiry_date": "2028-07-07",
+    "synonyms": [
+      "beta blocker",
+      "lopressor",
+      "metoprolol succinate"
+    ],
+    "keywords": [
+      "metoprolol",
+      "tablet",
+      "hypertension",
+      "heart failure",
+      "atrial fibrillation",
+      "beta blocker",
+      "lopressor",
+      "metoprolol succinate"
+    ]
+  },
+  {
+    "medicine_id": "MED-5905408f6956",
+    "name": "Atorvastatin",
+    "dosage": "40mg",
+    "form": "Tablet",
+    "indications": [
+      "High Cholesterol",
+      "Coronary Artery Disease"
+    ],
+    "contraindications": [
+      "Active liver disease",
+      "Pregnancy"
+    ],
+    "stock_units": 232,
+    "reorder_level": 24,
+    "batch_id": "550243ea4b",
+    "expiry_date": "2027-05-11",
+    "synonyms": [
+      "statin",
+      "lipitor",
+      "HMG-CoA reductase inhibitor"
+    ],
+    "keywords": [
+      "atorvastatin",
+      "tablet",
+      "high cholesterol",
+      "coronary artery disease",
+      "statin",
+      "lipitor",
+      "HMG-CoA reductase inhibitor"
+    ]
+  },
+  {
+    "medicine_id": "MED-3cdecbc752b4",
+    "name": "Warfarin",
+    "dosage": "2mg",
+    "form": "Tablet",
+    "indications": [
+      "Atrial Fibrillation",
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "Pregnancy"
+    ],
+    "stock_units": 491,
+    "reorder_level": 41,
+    "batch_id": "3ca04b8fe0",
+    "expiry_date": "2027-09-25",
+    "synonyms": [
+      "anticoagulant",
+      "blood thinner",
+      "coumadin"
+    ],
+    "keywords": [
+      "warfarin",
+      "tablet",
+      "atrial fibrillation",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "anticoagulant",
+      "blood thinner",
+      "coumadin"
+    ]
+  },
+  {
+    "medicine_id": "MED-c5423277d285",
+    "name": "Aspirin",
+    "dosage": "75mg",
+    "form": "Tablet",
+    "indications": [
+      "Coronary Artery Disease",
+      "Stroke prevention",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Active peptic ulcer",
+      "Allergy"
+    ],
+    "stock_units": 101,
+    "reorder_level": 32,
+    "batch_id": "7bd84d5ba8",
+    "expiry_date": "2026-11-20",
+    "synonyms": [
+      "ASA",
+      "acetylsalicylic acid",
+      "antiplatelet"
+    ],
+    "keywords": [
+      "aspirin",
+      "tablet",
+      "coronary artery disease",
+      "stroke prevention",
+      "atrial fibrillation",
+      "ASA",
+      "acetylsalicylic acid",
+      "antiplatelet"
+    ]
+  },
+  {
+    "medicine_id": "MED-dcb7eb7596cf",
+    "name": "Furosemide",
+    "dosage": "40mg",
+    "form": "Tablet",
+    "indications": [
+      "Heart Failure",
+      "Edema",
+      "Hypertension"
+    ],
+    "contraindications": [
+      "Anuria",
+      "Severe electrolyte depletion"
+    ],
+    "stock_units": 61,
+    "reorder_level": 35,
+    "batch_id": "ebdabf5b81",
+    "expiry_date": "2028-05-11",
+    "synonyms": [
+      "loop diuretic",
+      "lasix",
+      "water pill"
+    ],
+    "keywords": [
+      "furosemide",
+      "tablet",
+      "heart failure",
+      "edema",
+      "hypertension",
+      "loop diuretic",
+      "lasix",
+      "water pill"
+    ]
+  },
+  {
+    "medicine_id": "MED-8df3a0177b17",
+    "name": "Spironolactone",
+    "dosage": "25mg",
+    "form": "Tablet",
+    "indications": [
+      "Heart Failure",
+      "Hypertension",
+      "Hyperaldosteronism"
+    ],
+    "contraindications": [
+      "Hyperkalemia",
+      "Anuria"
+    ],
+    "stock_units": 92,
+    "reorder_level": 48,
+    "batch_id": "5064e9e068",
+    "expiry_date": "2026-12-01",
+    "synonyms": [
+      "aldosterone antagonist",
+      "potassium-sparing diuretic"
+    ],
+    "keywords": [
+      "spironolactone",
+      "tablet",
+      "heart failure",
+      "hypertension",
+      "hyperaldosteronism",
+      "aldosterone antagonist",
+      "potassium-sparing diuretic"
+    ]
+  },
+  {
+    "medicine_id": "MED-cf9edca0e40e",
+    "name": "Metformin",
+    "dosage": "1000mg",
+    "form": "Tablet",
+    "indications": [
+      "Type 2 Diabetes",
+      "Prediabetes"
+    ],
+    "contraindications": [
+      "Chronic Kidney Disease stage 4+",
+      "Liver failure",
+      "Contrast dye use"
+    ],
+    "stock_units": 208,
+    "reorder_level": 46,
+    "batch_id": "11bb83abb8",
+    "expiry_date": "2027-04-06",
+    "synonyms": [
+      "biguanide",
+      "glucophage",
+      "antidiabetic"
+    ],
+    "keywords": [
+      "metformin",
+      "tablet",
+      "type 2 diabetes",
+      "prediabetes",
+      "biguanide",
+      "glucophage",
+      "antidiabetic"
+    ]
+  },
+  {
+    "medicine_id": "MED-0197129e5e69",
+    "name": "Glibenclamide",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Type 2 Diabetes"
+    ],
+    "contraindications": [
+      "Type 1 Diabetes",
+      "Renal failure",
+      "Sulfonamide allergy"
+    ],
+    "stock_units": 79,
+    "reorder_level": 14,
+    "batch_id": "78bc62046c",
+    "expiry_date": "2027-12-28",
+    "synonyms": [
+      "sulfonylurea",
+      "glyburide",
+      "antidiabetic"
+    ],
+    "keywords": [
+      "glibenclamide",
+      "tablet",
+      "type 2 diabetes",
+      "sulfonylurea",
+      "glyburide",
+      "antidiabetic"
+    ]
+  },
+  {
+    "medicine_id": "MED-41b87a88d70f",
+    "name": "Insulin Glargine",
+    "dosage": "10 units",
+    "form": "Injectable",
+    "indications": [
+      "Type 1 Diabetes",
+      "Type 2 Diabetes"
+    ],
+    "contraindications": [
+      "Hypoglycemia"
+    ],
+    "stock_units": 41,
+    "reorder_level": 19,
+    "batch_id": "90447161d4",
+    "expiry_date": "2027-09-22",
+    "synonyms": [
+      "basal insulin",
+      "lantus",
+      "long-acting insulin"
+    ],
+    "keywords": [
+      "insulin glargine",
+      "injectable",
+      "type 1 diabetes",
+      "type 2 diabetes",
+      "basal insulin",
+      "lantus",
+      "long-acting insulin"
+    ]
+  },
+  {
+    "medicine_id": "MED-0c9ad0827191",
+    "name": "Sitagliptin",
+    "dosage": "100mg",
+    "form": "Tablet",
+    "indications": [
+      "Type 2 Diabetes"
+    ],
+    "contraindications": [
+      "Type 1 Diabetes",
+      "Pancreatitis history"
+    ],
+    "stock_units": 139,
+    "reorder_level": 37,
+    "batch_id": "cb9a75accc",
+    "expiry_date": "2028-02-20",
+    "synonyms": [
+      "DPP-4 inhibitor",
+      "januvia",
+      "gliptin"
+    ],
+    "keywords": [
+      "sitagliptin",
+      "tablet",
+      "type 2 diabetes",
+      "DPP-4 inhibitor",
+      "januvia",
+      "gliptin"
+    ]
+  },
+  {
+    "medicine_id": "MED-01ab6199f1ca",
+    "name": "Salbutamol",
+    "dosage": "100mcg/puff",
+    "form": "Inhaler",
+    "indications": [
+      "Asthma",
+      "COPD",
+      "Bronchospasm"
+    ],
+    "contraindications": [
+      "Cardiac arrhythmia",
+      "Severe hyperthyroidism"
+    ],
+    "stock_units": 388,
+    "reorder_level": 19,
+    "batch_id": "8e5fcc5fca",
+    "expiry_date": "2027-04-28",
+    "synonyms": [
+      "albuterol",
+      "SABA",
+      "bronchodilator",
+      "ventolin"
+    ],
+    "keywords": [
+      "salbutamol",
+      "inhaler",
+      "asthma",
+      "copd",
+      "bronchospasm",
+      "albuterol",
+      "SABA",
+      "bronchodilator",
+      "ventolin"
+    ]
+  },
+  {
+    "medicine_id": "MED-49500fe7468e",
+    "name": "Budesonide",
+    "dosage": "400mcg",
+    "form": "Inhaler",
+    "indications": [
+      "Asthma",
+      "COPD"
+    ],
+    "contraindications": [
+      "Untreated fungal infection",
+      "Hypersensitivity"
+    ],
+    "stock_units": 390,
+    "reorder_level": 28,
+    "batch_id": "93c0af216d",
+    "expiry_date": "2026-12-16",
+    "synonyms": [
+      "corticosteroid",
+      "ICS",
+      "inhaled steroid",
+      "pulmicort"
+    ],
+    "keywords": [
+      "budesonide",
+      "inhaler",
+      "asthma",
+      "copd",
+      "corticosteroid",
+      "ICS",
+      "inhaled steroid",
+      "pulmicort"
+    ]
+  },
+  {
+    "medicine_id": "MED-4590a4b01f45",
+    "name": "Tiotropium",
+    "dosage": "18mcg",
+    "form": "Inhaler",
+    "indications": [
+      "COPD"
+    ],
+    "contraindications": [
+      "Narrow-angle glaucoma",
+      "Urinary retention"
+    ],
+    "stock_units": 213,
+    "reorder_level": 14,
+    "batch_id": "04c5da3603",
+    "expiry_date": "2027-07-26",
+    "synonyms": [
+      "LAMA",
+      "anticholinergic",
+      "spiriva",
+      "long-acting muscarinic antagonist"
+    ],
+    "keywords": [
+      "tiotropium",
+      "inhaler",
+      "copd",
+      "LAMA",
+      "anticholinergic",
+      "spiriva",
+      "long-acting muscarinic antagonist"
+    ]
+  },
+  {
+    "medicine_id": "MED-f8191f8a70ee",
+    "name": "Montelukast",
+    "dosage": "10mg",
+    "form": "Tablet",
+    "indications": [
+      "Asthma",
+      "Allergic Rhinitis"
+    ],
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "stock_units": 283,
+    "reorder_level": 11,
+    "batch_id": "1cce9f1599",
+    "expiry_date": "2027-02-10",
+    "synonyms": [
+      "leukotriene antagonist",
+      "singulair",
+      "LTRA"
+    ],
+    "keywords": [
+      "montelukast",
+      "tablet",
+      "asthma",
+      "allergic rhinitis",
+      "leukotriene antagonist",
+      "singulair",
+      "LTRA"
+    ]
+  },
+  {
+    "medicine_id": "MED-5da1fd568678",
+    "name": "Amoxicillin",
+    "dosage": "250mg",
+    "form": "Capsule",
+    "indications": [
+      "Community-Acquired Pneumonia",
+      "Urinary Tract Infection",
+      "Strep Throat"
+    ],
+    "contraindications": [
+      "Penicillin allergy"
+    ],
+    "stock_units": 124,
+    "reorder_level": 16,
+    "batch_id": "1888844d49",
+    "expiry_date": "2028-05-07",
+    "synonyms": [
+      "penicillin",
+      "antibiotic",
+      "amoxil",
+      "beta-lactam"
+    ],
+    "keywords": [
+      "amoxicillin",
+      "capsule",
+      "community-acquired pneumonia",
+      "urinary tract infection",
+      "strep throat",
+      "penicillin",
+      "antibiotic",
+      "amoxil",
+      "beta-lactam"
+    ]
+  },
+  {
+    "medicine_id": "MED-89f239764797",
+    "name": "Ciprofloxacin",
+    "dosage": "250mg",
+    "form": "Tablet",
+    "indications": [
+      "Urinary Tract Infection",
+      "Respiratory Infection",
+      "Gastroenteritis"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Tendon disorders",
+      "QT prolongation"
+    ],
+    "stock_units": 42,
+    "reorder_level": 27,
+    "batch_id": "fa041a7d34",
+    "expiry_date": "2027-06-20",
+    "synonyms": [
+      "fluoroquinolone",
+      "antibiotic",
+      "cipro"
+    ],
+    "keywords": [
+      "ciprofloxacin",
+      "tablet",
+      "urinary tract infection",
+      "respiratory infection",
+      "gastroenteritis",
+      "fluoroquinolone",
+      "antibiotic",
+      "cipro"
+    ]
+  },
+  {
+    "medicine_id": "MED-3397f95bb066",
+    "name": "Azithromycin",
+    "dosage": "250mg",
+    "form": "Tablet",
+    "indications": [
+      "Community-Acquired Pneumonia",
+      "Atypical Pneumonia",
+      "Sexually Transmitted Infections"
+    ],
+    "contraindications": [
+      "QT prolongation",
+      "Liver disease"
+    ],
+    "stock_units": 52,
+    "reorder_level": 15,
+    "batch_id": "900e756381",
+    "expiry_date": "2027-04-07",
+    "synonyms": [
+      "macrolide",
+      "antibiotic",
+      "zithromax",
+      "Z-pack"
+    ],
+    "keywords": [
+      "azithromycin",
+      "tablet",
+      "community-acquired pneumonia",
+      "atypical pneumonia",
+      "sexually transmitted infections",
+      "macrolide",
+      "antibiotic",
+      "zithromax",
+      "Z-pack"
+    ]
+  },
+  {
+    "medicine_id": "MED-de900dd128fa",
+    "name": "Metronidazole",
+    "dosage": "200mg",
+    "form": "Tablet",
+    "indications": [
+      "Anaerobic Infections",
+      "Clostridium difficile",
+      "Trichomoniasis"
+    ],
+    "contraindications": [
+      "First trimester pregnancy",
+      "Alcohol use"
+    ],
+    "stock_units": 444,
+    "reorder_level": 21,
+    "batch_id": "bfc5e365d6",
+    "expiry_date": "2027-11-19",
+    "synonyms": [
+      "nitroimidazole",
+      "antibiotic",
+      "flagyl"
+    ],
+    "keywords": [
+      "metronidazole",
+      "tablet",
+      "anaerobic infections",
+      "clostridium difficile",
+      "trichomoniasis",
+      "nitroimidazole",
+      "antibiotic",
+      "flagyl"
+    ]
+  },
+  {
+    "medicine_id": "MED-c2d3ff3c5dc1",
+    "name": "Doxycycline",
+    "dosage": "200mg",
+    "form": "Capsule",
+    "indications": [
+      "Community-Acquired Pneumonia",
+      "Malaria",
+      "Lyme Disease"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Children under 8",
+      "Severe renal failure"
+    ],
+    "stock_units": 171,
+    "reorder_level": 42,
+    "batch_id": "6da0852366",
+    "expiry_date": "2027-11-19",
+    "synonyms": [
+      "tetracycline",
+      "antibiotic",
+      "doxy",
+      "vibramycin"
+    ],
+    "keywords": [
+      "doxycycline",
+      "capsule",
+      "community-acquired pneumonia",
+      "malaria",
+      "lyme disease",
+      "tetracycline",
+      "antibiotic",
+      "doxy",
+      "vibramycin"
+    ]
+  },
+  {
+    "medicine_id": "MED-985b33862da3",
+    "name": "Ceftriaxone",
+    "dosage": "2g",
+    "form": "Injectable",
+    "indications": [
+      "Sepsis",
+      "Meningitis",
+      "Community-Acquired Pneumonia"
+    ],
+    "contraindications": [
+      "Cephalosporin allergy",
+      "Neonatal jaundice"
+    ],
+    "stock_units": 98,
+    "reorder_level": 37,
+    "batch_id": "2b2e12af29",
+    "expiry_date": "2028-01-04",
+    "synonyms": [
+      "cephalosporin",
+      "antibiotic",
+      "rocephin",
+      "third-generation"
+    ],
+    "keywords": [
+      "ceftriaxone",
+      "injectable",
+      "sepsis",
+      "meningitis",
+      "community-acquired pneumonia",
+      "cephalosporin",
+      "antibiotic",
+      "rocephin",
+      "third-generation"
+    ]
+  },
+  {
+    "medicine_id": "MED-c9242f2cf8b3",
+    "name": "Amlodipine",
+    "dosage": "10mg",
+    "form": "Tablet",
+    "indications": [
+      "Migraine prevention",
+      "Hypertension"
+    ],
+    "contraindications": [
+      "Severe hypotension"
+    ],
+    "stock_units": 225,
+    "reorder_level": 29,
+    "batch_id": "2c43aa476c",
+    "expiry_date": "2027-02-17",
+    "synonyms": [
+      "calcium channel blocker",
+      "migraine prophylaxis"
+    ],
+    "keywords": [
+      "amlodipine",
+      "tablet",
+      "migraine prevention",
+      "hypertension",
+      "calcium channel blocker",
+      "migraine prophylaxis"
+    ]
+  },
+  {
+    "medicine_id": "MED-2a76bb2c5141",
+    "name": "Sertraline",
+    "dosage": "100mg",
+    "form": "Tablet",
+    "indications": [
+      "Major Depression",
+      "Anxiety Disorder",
+      "OCD"
+    ],
+    "contraindications": [
+      "MAO inhibitor use",
+      "Pimozide use"
+    ],
+    "stock_units": 76,
+    "reorder_level": 43,
+    "batch_id": "b96e6f3b35",
+    "expiry_date": "2027-07-29",
+    "synonyms": [
+      "SSRI",
+      "antidepressant",
+      "zoloft",
+      "serotonin"
+    ],
+    "keywords": [
+      "sertraline",
+      "tablet",
+      "major depression",
+      "anxiety disorder",
+      "ocd",
+      "SSRI",
+      "antidepressant",
+      "zoloft",
+      "serotonin"
+    ]
+  },
+  {
+    "medicine_id": "MED-03f29a52f045",
+    "name": "Fluoxetine",
+    "dosage": "40mg",
+    "form": "Capsule",
+    "indications": [
+      "Major Depression",
+      "Bipolar Disorder",
+      "Anxiety Disorder"
+    ],
+    "contraindications": [
+      "MAO inhibitor use",
+      "QT prolongation"
+    ],
+    "stock_units": 295,
+    "reorder_level": 13,
+    "batch_id": "b1f4d1a96e",
+    "expiry_date": "2027-09-15",
+    "synonyms": [
+      "SSRI",
+      "antidepressant",
+      "prozac",
+      "serotonin"
+    ],
+    "keywords": [
+      "fluoxetine",
+      "capsule",
+      "major depression",
+      "bipolar disorder",
+      "anxiety disorder",
+      "SSRI",
+      "antidepressant",
+      "prozac",
+      "serotonin"
+    ]
+  },
+  {
+    "medicine_id": "MED-1deab75f4ce4",
+    "name": "Haloperidol",
+    "dosage": "2mg",
+    "form": "Tablet",
+    "indications": [
+      "Schizophrenia",
+      "Acute Psychosis",
+      "Delirium"
+    ],
+    "contraindications": [
+      "Parkinson Disease",
+      "QT prolongation",
+      "Coma"
+    ],
+    "stock_units": 404,
+    "reorder_level": 18,
+    "batch_id": "1805c486f3",
+    "expiry_date": "2026-12-16",
+    "synonyms": [
+      "antipsychotic",
+      "typical antipsychotic",
+      "haldol",
+      "neuroleptic"
+    ],
+    "keywords": [
+      "haloperidol",
+      "tablet",
+      "schizophrenia",
+      "acute psychosis",
+      "delirium",
+      "antipsychotic",
+      "typical antipsychotic",
+      "haldol",
+      "neuroleptic"
+    ]
+  },
+  {
+    "medicine_id": "MED-c5c3be0ba472",
+    "name": "Valproate",
+    "dosage": "500mg",
+    "form": "Tablet",
+    "indications": [
+      "Epilepsy",
+      "Bipolar Disorder",
+      "Migraine prevention"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Liver disease",
+      "Urea cycle disorder"
+    ],
+    "stock_units": 110,
+    "reorder_level": 46,
+    "batch_id": "848019ec64",
+    "expiry_date": "2028-03-26",
+    "synonyms": [
+      "anticonvulsant",
+      "mood stabilizer",
+      "depakote",
+      "valproic acid"
+    ],
+    "keywords": [
+      "valproate",
+      "tablet",
+      "epilepsy",
+      "bipolar disorder",
+      "migraine prevention",
+      "anticonvulsant",
+      "mood stabilizer",
+      "depakote",
+      "valproic acid"
+    ]
+  },
+  {
+    "medicine_id": "MED-9dd9d774f63d",
+    "name": "Levetiracetam",
+    "dosage": "500mg",
+    "form": "Tablet",
+    "indications": [
+      "Epilepsy"
+    ],
+    "contraindications": [
+      "Hypersensitivity",
+      "Severe renal failure"
+    ],
+    "stock_units": 346,
+    "reorder_level": 43,
+    "batch_id": "0ee63b0568",
+    "expiry_date": "2027-07-11",
+    "synonyms": [
+      "anticonvulsant",
+      "keppra",
+      "antiepileptic"
+    ],
+    "keywords": [
+      "levetiracetam",
+      "tablet",
+      "epilepsy",
+      "anticonvulsant",
+      "keppra",
+      "antiepileptic"
+    ]
+  },
+  {
+    "medicine_id": "MED-9a52ceb200a7",
+    "name": "Omeprazole",
+    "dosage": "20mg",
+    "form": "Capsule",
+    "indications": [
+      "GERD",
+      "Peptic Ulcer",
+      "H. pylori"
+    ],
+    "contraindications": [
+      "Clopidogrel use",
+      "Hypersensitivity"
+    ],
+    "stock_units": 286,
+    "reorder_level": 30,
+    "batch_id": "9dd4fb035b",
+    "expiry_date": "2027-12-19",
+    "synonyms": [
+      "PPI",
+      "proton pump inhibitor",
+      "prilosec",
+      "acid reducer"
+    ],
+    "keywords": [
+      "omeprazole",
+      "capsule",
+      "gerd",
+      "peptic ulcer",
+      "h. pylori",
+      "PPI",
+      "proton pump inhibitor",
+      "prilosec",
+      "acid reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-f2f36f40e94e",
+    "name": "Pantoprazole",
+    "dosage": "40mg",
+    "form": "Tablet",
+    "indications": [
+      "GERD",
+      "Peptic Ulcer",
+      "Zollinger-Ellison syndrome"
+    ],
+    "contraindications": [
+      "Rilpivirine use"
+    ],
+    "stock_units": 465,
+    "reorder_level": 35,
+    "batch_id": "f8441c5890",
+    "expiry_date": "2027-03-04",
+    "synonyms": [
+      "PPI",
+      "proton pump inhibitor",
+      "protonix",
+      "acid reducer"
+    ],
+    "keywords": [
+      "pantoprazole",
+      "tablet",
+      "gerd",
+      "peptic ulcer",
+      "zollinger-ellison syndrome",
+      "PPI",
+      "proton pump inhibitor",
+      "protonix",
+      "acid reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-a7885e5dddc2",
+    "name": "Ondansetron",
+    "dosage": "8mg",
+    "form": "Tablet",
+    "indications": [
+      "Nausea",
+      "Vomiting",
+      "Chemotherapy-induced nausea"
+    ],
+    "contraindications": [
+      "QT prolongation",
+      "Congenital long QT syndrome"
+    ],
+    "stock_units": 390,
+    "reorder_level": 18,
+    "batch_id": "a3e8bf78ea",
+    "expiry_date": "2027-09-02",
+    "synonyms": [
+      "antiemetic",
+      "5-HT3 antagonist",
+      "zofran",
+      "anti-nausea"
+    ],
+    "keywords": [
+      "ondansetron",
+      "tablet",
+      "nausea",
+      "vomiting",
+      "chemotherapy-induced nausea",
+      "antiemetic",
+      "5-HT3 antagonist",
+      "zofran",
+      "anti-nausea"
+    ]
+  },
+  {
+    "medicine_id": "MED-d4429db5aa60",
+    "name": "Ibuprofen",
+    "dosage": "600mg",
+    "form": "Tablet",
+    "indications": [
+      "Pain",
+      "Fever",
+      "Osteoarthritis",
+      "Gout"
+    ],
+    "contraindications": [
+      "Active peptic ulcer",
+      "Renal failure",
+      "Third trimester pregnancy"
+    ],
+    "stock_units": 112,
+    "reorder_level": 17,
+    "batch_id": "a9f2d88771",
+    "expiry_date": "2028-01-23",
+    "synonyms": [
+      "NSAID",
+      "anti-inflammatory",
+      "advil",
+      "pain relief"
+    ],
+    "keywords": [
+      "ibuprofen",
+      "tablet",
+      "pain",
+      "fever",
+      "osteoarthritis",
+      "gout",
+      "NSAID",
+      "anti-inflammatory",
+      "advil",
+      "pain relief"
+    ]
+  },
+  {
+    "medicine_id": "MED-c2415d4d67f4",
+    "name": "Paracetamol",
+    "dosage": "325mg",
+    "form": "Tablet",
+    "indications": [
+      "Pain",
+      "Fever",
+      "Headache"
+    ],
+    "contraindications": [
+      "Severe liver disease"
+    ],
+    "stock_units": 111,
+    "reorder_level": 14,
+    "batch_id": "46436aa1b1",
+    "expiry_date": "2027-05-09",
+    "synonyms": [
+      "acetaminophen",
+      "tylenol",
+      "analgesic",
+      "fever reducer"
+    ],
+    "keywords": [
+      "paracetamol",
+      "tablet",
+      "pain",
+      "fever",
+      "headache",
+      "acetaminophen",
+      "tylenol",
+      "analgesic",
+      "fever reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-6a0708b8de29",
+    "name": "Morphine",
+    "dosage": "5mg",
+    "form": "Injectable",
+    "indications": [
+      "Severe Pain",
+      "Myocardial Infarction",
+      "Palliative Care"
+    ],
+    "contraindications": [
+      "Respiratory depression",
+      "Paralytic ileus",
+      "Opioid allergy"
+    ],
+    "stock_units": 176,
+    "reorder_level": 14,
+    "batch_id": "e04c0c898e",
+    "expiry_date": "2027-08-21",
+    "synonyms": [
+      "opioid",
+      "narcotic",
+      "strong analgesic",
+      "opiate"
+    ],
+    "keywords": [
+      "morphine",
+      "injectable",
+      "severe pain",
+      "myocardial infarction",
+      "palliative care",
+      "opioid",
+      "narcotic",
+      "strong analgesic",
+      "opiate"
+    ]
+  },
+  {
+    "medicine_id": "MED-48ffe3995e94",
+    "name": "Tramadol",
+    "dosage": "50mg",
+    "form": "Tablet",
+    "indications": [
+      "Moderate Pain",
+      "Osteoarthritis"
+    ],
+    "contraindications": [
+      "Seizure disorder",
+      "MAO inhibitor use",
+      "Opioid allergy"
+    ],
+    "stock_units": 333,
+    "reorder_level": 26,
+    "batch_id": "e7cd6d982c",
+    "expiry_date": "2027-06-13",
+    "synonyms": [
+      "opioid analgesic",
+      "tramacet",
+      "weak opioid"
+    ],
+    "keywords": [
+      "tramadol",
+      "tablet",
+      "moderate pain",
+      "osteoarthritis",
+      "opioid analgesic",
+      "tramacet",
+      "weak opioid"
+    ]
+  },
+  {
+    "medicine_id": "MED-ad2be3919033",
+    "name": "Colchicine",
+    "dosage": "0.5mg",
+    "form": "Tablet",
+    "indications": [
+      "Gout",
+      "Familial Mediterranean Fever"
+    ],
+    "contraindications": [
+      "Severe renal failure",
+      "Severe hepatic failure"
+    ],
+    "stock_units": 164,
+    "reorder_level": 41,
+    "batch_id": "7741ddb36f",
+    "expiry_date": "2028-06-06",
+    "synonyms": [
+      "antigout",
+      "uricosuric",
+      "gout treatment"
+    ],
+    "keywords": [
+      "colchicine",
+      "tablet",
+      "gout",
+      "familial mediterranean fever",
+      "antigout",
+      "uricosuric",
+      "gout treatment"
+    ]
+  },
+  {
+    "medicine_id": "MED-835afb3a5420",
+    "name": "Allopurinol",
+    "dosage": "300mg",
+    "form": "Tablet",
+    "indications": [
+      "Gout",
+      "Hyperuricemia",
+      "Kidney Stones"
+    ],
+    "contraindications": [
+      "Acute gout attack",
+      "Azathioprine use"
+    ],
+    "stock_units": 463,
+    "reorder_level": 17,
+    "batch_id": "7ddf218c8d",
+    "expiry_date": "2028-02-28",
+    "synonyms": [
+      "xanthine oxidase inhibitor",
+      "urate lowering",
+      "zyloprim"
+    ],
+    "keywords": [
+      "allopurinol",
+      "tablet",
+      "gout",
+      "hyperuricemia",
+      "kidney stones",
+      "xanthine oxidase inhibitor",
+      "urate lowering",
+      "zyloprim"
+    ]
+  },
+  {
+    "medicine_id": "MED-a91c4b181b18",
+    "name": "Methotrexate",
+    "dosage": "15mg",
+    "form": "Tablet",
+    "indications": [
+      "Rheumatoid Arthritis",
+      "Psoriasis",
+      "Cancer"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Severe liver disease",
+      "Immunodeficiency"
+    ],
+    "stock_units": 248,
+    "reorder_level": 19,
+    "batch_id": "bf00f2fecd",
+    "expiry_date": "2028-06-27",
+    "synonyms": [
+      "DMARD",
+      "disease modifying",
+      "antimetabolite"
+    ],
+    "keywords": [
+      "methotrexate",
+      "tablet",
+      "rheumatoid arthritis",
+      "psoriasis",
+      "cancer",
+      "DMARD",
+      "disease modifying",
+      "antimetabolite"
+    ]
+  },
+  {
+    "medicine_id": "MED-4b9c2f1cb5b3",
+    "name": "Levothyroxine",
+    "dosage": "100mcg",
+    "form": "Tablet",
+    "indications": [
+      "Hypothyroidism"
+    ],
+    "contraindications": [
+      "Untreated adrenal insufficiency",
+      "Thyrotoxicosis"
+    ],
+    "stock_units": 324,
+    "reorder_level": 49,
+    "batch_id": "547c3fb55c",
+    "expiry_date": "2028-06-14",
+    "synonyms": [
+      "thyroid hormone",
+      "synthroid",
+      "T4",
+      "thyroid replacement"
+    ],
+    "keywords": [
+      "levothyroxine",
+      "tablet",
+      "hypothyroidism",
+      "thyroid hormone",
+      "synthroid",
+      "T4",
+      "thyroid replacement"
+    ]
+  },
+  {
+    "medicine_id": "MED-fe75ba231d91",
+    "name": "Prednisolone",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Asthma",
+      "Rheumatoid Arthritis",
+      "Allergic reactions",
+      "COPD exacerbation"
+    ],
+    "contraindications": [
+      "Systemic fungal infection",
+      "Live vaccines"
+    ],
+    "stock_units": 353,
+    "reorder_level": 20,
+    "batch_id": "49e5f5a247",
+    "expiry_date": "2027-05-25",
+    "synonyms": [
+      "corticosteroid",
+      "steroid",
+      "anti-inflammatory",
+      "prednisolone"
+    ],
+    "keywords": [
+      "prednisolone",
+      "tablet",
+      "asthma",
+      "rheumatoid arthritis",
+      "allergic reactions",
+      "copd exacerbation",
+      "corticosteroid",
+      "steroid",
+      "anti-inflammatory"
+    ]
+  },
+  {
+    "medicine_id": "MED-886367771c2c",
+    "name": "Heparin",
+    "dosage": "5000 units",
+    "form": "Injectable",
+    "indications": [
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "HIT",
+      "Severe thrombocytopenia"
+    ],
+    "stock_units": 396,
+    "reorder_level": 45,
+    "batch_id": "0f313c660e",
+    "expiry_date": "2026-12-31",
+    "synonyms": [
+      "anticoagulant",
+      "blood thinner",
+      "unfractionated heparin",
+      "UFH"
+    ],
+    "keywords": [
+      "heparin",
+      "injectable",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "atrial fibrillation",
+      "anticoagulant",
+      "blood thinner",
+      "unfractionated heparin",
+      "UFH"
+    ]
+  },
+  {
+    "medicine_id": "MED-c4ecf11b251e",
+    "name": "Enoxaparin",
+    "dosage": "40mg",
+    "form": "Injectable",
+    "indications": [
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism",
+      "ACS"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "HIT",
+      "Prosthetic heart valves"
+    ],
+    "stock_units": 468,
+    "reorder_level": 37,
+    "batch_id": "04ce53aad6",
+    "expiry_date": "2027-12-27",
+    "synonyms": [
+      "LMWH",
+      "low molecular weight heparin",
+      "lovenox",
+      "anticoagulant"
+    ],
+    "keywords": [
+      "enoxaparin",
+      "injectable",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "acs",
+      "LMWH",
+      "low molecular weight heparin",
+      "lovenox",
+      "anticoagulant"
+    ]
+  },
+  {
+    "medicine_id": "MED-7a6b4fe5904f",
+    "name": "Tamsulosin",
+    "dosage": "0.4mg",
+    "form": "Capsule",
+    "indications": [
+      "Benign Prostatic Hyperplasia",
+      "Urinary Retention"
+    ],
+    "contraindications": [
+      "Severe hepatic impairment",
+      "Concurrent PDE5 inhibitor"
+    ],
+    "stock_units": 397,
+    "reorder_level": 20,
+    "batch_id": "7dca5cfdec",
+    "expiry_date": "2027-01-05",
+    "synonyms": [
+      "alpha blocker",
+      "flomax",
+      "BPH treatment"
+    ],
+    "keywords": [
+      "tamsulosin",
+      "capsule",
+      "benign prostatic hyperplasia",
+      "urinary retention",
+      "alpha blocker",
+      "flomax",
+      "BPH treatment"
+    ]
+  },
+  {
+    "medicine_id": "MED-5f55defaef4d",
+    "name": "Ranitidine",
+    "dosage": "75mg",
+    "form": "Tablet",
+    "indications": [
+      "GERD",
+      "Peptic Ulcer"
+    ],
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "stock_units": 198,
+    "reorder_level": 22,
+    "batch_id": "32b109c034",
+    "expiry_date": "2028-05-08",
+    "synonyms": [
+      "H2 blocker",
+      "histamine antagonist",
+      "zantac",
+      "acid reducer"
+    ],
+    "keywords": [
+      "ranitidine",
+      "tablet",
+      "gerd",
+      "peptic ulcer",
+      "H2 blocker",
+      "histamine antagonist",
+      "zantac",
+      "acid reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-f356995ef44c",
+    "name": "Cetirizine",
+    "dosage": "10mg",
+    "form": "Tablet",
+    "indications": [
+      "Allergic Rhinitis",
+      "Urticaria",
+      "Eczema"
+    ],
+    "contraindications": [
+      "Severe renal failure"
+    ],
+    "stock_units": 119,
+    "reorder_level": 44,
+    "batch_id": "a353bceb95",
+    "expiry_date": "2027-05-15",
+    "synonyms": [
+      "antihistamine",
+      "zyrtec",
+      "allergy relief",
+      "H1 blocker"
+    ],
+    "keywords": [
+      "cetirizine",
+      "tablet",
+      "allergic rhinitis",
+      "urticaria",
+      "eczema",
+      "antihistamine",
+      "zyrtec",
+      "allergy relief",
+      "H1 blocker"
+    ]
+  },
+  {
+    "medicine_id": "MED-7b228c1de418",
+    "name": "Loratadine",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Allergic Rhinitis",
+      "Urticaria"
+    ],
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "stock_units": 21,
+    "reorder_level": 30,
+    "batch_id": "a2abfbccbd",
+    "expiry_date": "2027-10-03",
+    "synonyms": [
+      "antihistamine",
+      "claritin",
+      "non-drowsy antihistamine",
+      "allergy"
+    ],
+    "keywords": [
+      "loratadine",
+      "tablet",
+      "allergic rhinitis",
+      "urticaria",
+      "antihistamine",
+      "claritin",
+      "non-drowsy antihistamine",
+      "allergy"
+    ]
+  },
+  {
+    "medicine_id": "MED-1abc17ed58a0",
+    "name": "Vitamin D3",
+    "dosage": "400 IU",
+    "form": "Capsule",
+    "indications": [
+      "Vitamin D deficiency",
+      "Osteoporosis prevention",
+      "Chronic Kidney Disease"
+    ],
+    "contraindications": [
+      "Hypercalcemia",
+      "Vitamin D toxicity"
+    ],
+    "stock_units": 158,
+    "reorder_level": 25,
+    "batch_id": "2b4016ce1e",
+    "expiry_date": "2027-07-01",
+    "synonyms": [
+      "cholecalciferol",
+      "vitamin D supplement",
+      "calcium metabolism"
+    ],
+    "keywords": [
+      "vitamin d3",
+      "capsule",
+      "vitamin d deficiency",
+      "osteoporosis prevention",
+      "chronic kidney disease",
+      "cholecalciferol",
+      "vitamin D supplement",
+      "calcium metabolism"
+    ]
+  },
+  {
+    "medicine_id": "MED-e852932a6434",
+    "name": "Ferrous Sulfate",
+    "dosage": "200mg",
+    "form": "Tablet",
+    "indications": [
+      "Iron Deficiency Anemia"
+    ],
+    "contraindications": [
+      "Haemochromatosis",
+      "Repeated blood transfusion"
+    ],
+    "stock_units": 498,
+    "reorder_level": 32,
+    "batch_id": "32203db986",
+    "expiry_date": "2028-01-04",
+    "synonyms": [
+      "iron supplement",
+      "iron tablet",
+      "anemia treatment"
+    ],
+    "keywords": [
+      "ferrous sulfate",
+      "tablet",
+      "iron deficiency anemia",
+      "iron supplement",
+      "iron tablet",
+      "anemia treatment"
+    ]
+  },
+  {
+    "medicine_id": "MED-67e811c0b057",
+    "name": "Folic Acid",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Anemia",
+      "Pregnancy",
+      "Methotrexate use"
+    ],
+    "contraindications": [
+      "Undiagnosed anemia"
+    ],
+    "stock_units": 107,
+    "reorder_level": 46,
+    "batch_id": "4474da8a61",
+    "expiry_date": "2027-01-03",
+    "synonyms": [
+      "folate",
+      "B9",
+      "neural tube defect prevention"
+    ],
+    "keywords": [
+      "folic acid",
+      "tablet",
+      "anemia",
+      "pregnancy",
+      "methotrexate use",
+      "folate",
+      "B9",
+      "neural tube defect prevention"
+    ]
+  },
+  {
+    "medicine_id": "MED-028bdd182dc9",
+    "name": "Lisinopril",
+    "dosage": "40mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Heart Failure",
+      "Chronic Kidney Disease"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Angioedema history",
+      "Hyperkalemia"
+    ],
+    "stock_units": 223,
+    "reorder_level": 44,
+    "batch_id": "2b4d7a9b74",
+    "expiry_date": "2027-04-19",
+    "synonyms": [
+      "ACE inhibitor",
+      "antihypertensive",
+      "lisinopril"
+    ],
+    "keywords": [
+      "lisinopril",
+      "tablet",
+      "hypertension",
+      "heart failure",
+      "chronic kidney disease",
+      "ACE inhibitor",
+      "antihypertensive"
+    ]
+  },
+  {
+    "medicine_id": "MED-f20df9ac3533",
+    "name": "Amlodipine",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Angina"
+    ],
+    "contraindications": [
+      "Severe aortic stenosis",
+      "Cardiogenic shock"
+    ],
+    "stock_units": 407,
+    "reorder_level": 37,
+    "batch_id": "29973893fa",
+    "expiry_date": "2027-06-23",
+    "synonyms": [
+      "calcium channel blocker",
+      "CCB",
+      "norvasc"
+    ],
+    "keywords": [
+      "amlodipine",
+      "tablet",
+      "hypertension",
+      "angina",
+      "calcium channel blocker",
+      "CCB",
+      "norvasc"
+    ]
+  },
+  {
+    "medicine_id": "MED-f977e50c6f75",
+    "name": "Metoprolol",
+    "dosage": "25mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Heart Failure",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Severe bradycardia",
+      "Heart block",
+      "Asthma"
+    ],
+    "stock_units": 452,
+    "reorder_level": 45,
+    "batch_id": "fc3c70bd97",
+    "expiry_date": "2028-03-30",
+    "synonyms": [
+      "beta blocker",
+      "lopressor",
+      "metoprolol succinate"
+    ],
+    "keywords": [
+      "metoprolol",
+      "tablet",
+      "hypertension",
+      "heart failure",
+      "atrial fibrillation",
+      "beta blocker",
+      "lopressor",
+      "metoprolol succinate"
+    ]
+  },
+  {
+    "medicine_id": "MED-011e81e51947",
+    "name": "Atorvastatin",
+    "dosage": "80mg",
+    "form": "Tablet",
+    "indications": [
+      "High Cholesterol",
+      "Coronary Artery Disease"
+    ],
+    "contraindications": [
+      "Active liver disease",
+      "Pregnancy"
+    ],
+    "stock_units": 364,
+    "reorder_level": 23,
+    "batch_id": "694bf8208e",
+    "expiry_date": "2028-03-12",
+    "synonyms": [
+      "statin",
+      "lipitor",
+      "HMG-CoA reductase inhibitor"
+    ],
+    "keywords": [
+      "atorvastatin",
+      "tablet",
+      "high cholesterol",
+      "coronary artery disease",
+      "statin",
+      "lipitor",
+      "HMG-CoA reductase inhibitor"
+    ]
+  },
+  {
+    "medicine_id": "MED-339e5956703e",
+    "name": "Warfarin",
+    "dosage": "2mg",
+    "form": "Tablet",
+    "indications": [
+      "Atrial Fibrillation",
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "Pregnancy"
+    ],
+    "stock_units": 480,
+    "reorder_level": 15,
+    "batch_id": "135356f769",
+    "expiry_date": "2027-10-13",
+    "synonyms": [
+      "anticoagulant",
+      "blood thinner",
+      "coumadin"
+    ],
+    "keywords": [
+      "warfarin",
+      "tablet",
+      "atrial fibrillation",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "anticoagulant",
+      "blood thinner",
+      "coumadin"
+    ]
+  },
+  {
+    "medicine_id": "MED-a2445b9e4f8f",
+    "name": "Aspirin",
+    "dosage": "325mg",
+    "form": "Tablet",
+    "indications": [
+      "Coronary Artery Disease",
+      "Stroke prevention",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Active peptic ulcer",
+      "Allergy"
+    ],
+    "stock_units": 78,
+    "reorder_level": 50,
+    "batch_id": "0c6f6e9d4a",
+    "expiry_date": "2027-12-20",
+    "synonyms": [
+      "ASA",
+      "acetylsalicylic acid",
+      "antiplatelet"
+    ],
+    "keywords": [
+      "aspirin",
+      "tablet",
+      "coronary artery disease",
+      "stroke prevention",
+      "atrial fibrillation",
+      "ASA",
+      "acetylsalicylic acid",
+      "antiplatelet"
+    ]
+  },
+  {
+    "medicine_id": "MED-12941cbb0827",
+    "name": "Furosemide",
+    "dosage": "20mg",
+    "form": "Tablet",
+    "indications": [
+      "Heart Failure",
+      "Edema",
+      "Hypertension"
+    ],
+    "contraindications": [
+      "Anuria",
+      "Severe electrolyte depletion"
+    ],
+    "stock_units": 223,
+    "reorder_level": 39,
+    "batch_id": "0460d65ea2",
+    "expiry_date": "2027-07-14",
+    "synonyms": [
+      "loop diuretic",
+      "lasix",
+      "water pill"
+    ],
+    "keywords": [
+      "furosemide",
+      "tablet",
+      "heart failure",
+      "edema",
+      "hypertension",
+      "loop diuretic",
+      "lasix",
+      "water pill"
+    ]
+  },
+  {
+    "medicine_id": "MED-8b9227281121",
+    "name": "Spironolactone",
+    "dosage": "50mg",
+    "form": "Tablet",
+    "indications": [
+      "Heart Failure",
+      "Hypertension",
+      "Hyperaldosteronism"
+    ],
+    "contraindications": [
+      "Hyperkalemia",
+      "Anuria"
+    ],
+    "stock_units": 302,
+    "reorder_level": 29,
+    "batch_id": "7ef2edd13a",
+    "expiry_date": "2026-11-03",
+    "synonyms": [
+      "aldosterone antagonist",
+      "potassium-sparing diuretic"
+    ],
+    "keywords": [
+      "spironolactone",
+      "tablet",
+      "heart failure",
+      "hypertension",
+      "hyperaldosteronism",
+      "aldosterone antagonist",
+      "potassium-sparing diuretic"
+    ]
+  },
+  {
+    "medicine_id": "MED-a7ab76bc1d81",
+    "name": "Metformin",
+    "dosage": "500mg",
+    "form": "Tablet",
+    "indications": [
+      "Type 2 Diabetes",
+      "Prediabetes"
+    ],
+    "contraindications": [
+      "Chronic Kidney Disease stage 4+",
+      "Liver failure",
+      "Contrast dye use"
+    ],
+    "stock_units": 117,
+    "reorder_level": 19,
+    "batch_id": "736fbd5188",
+    "expiry_date": "2027-04-12",
+    "synonyms": [
+      "biguanide",
+      "glucophage",
+      "antidiabetic"
+    ],
+    "keywords": [
+      "metformin",
+      "tablet",
+      "type 2 diabetes",
+      "prediabetes",
+      "biguanide",
+      "glucophage",
+      "antidiabetic"
+    ]
+  },
+  {
+    "medicine_id": "MED-dffd8a34180a",
+    "name": "Glibenclamide",
+    "dosage": "2.5mg",
+    "form": "Tablet",
+    "indications": [
+      "Type 2 Diabetes"
+    ],
+    "contraindications": [
+      "Type 1 Diabetes",
+      "Renal failure",
+      "Sulfonamide allergy"
+    ],
+    "stock_units": 480,
+    "reorder_level": 24,
+    "batch_id": "80a1b8da3b",
+    "expiry_date": "2027-02-12",
+    "synonyms": [
+      "sulfonylurea",
+      "glyburide",
+      "antidiabetic"
+    ],
+    "keywords": [
+      "glibenclamide",
+      "tablet",
+      "type 2 diabetes",
+      "sulfonylurea",
+      "glyburide",
+      "antidiabetic"
+    ]
+  },
+  {
+    "medicine_id": "MED-5bad5acbec6a",
+    "name": "Insulin Glargine",
+    "dosage": "40 units",
+    "form": "Injectable",
+    "indications": [
+      "Type 1 Diabetes",
+      "Type 2 Diabetes"
+    ],
+    "contraindications": [
+      "Hypoglycemia"
+    ],
+    "stock_units": 296,
+    "reorder_level": 42,
+    "batch_id": "fd105dacaa",
+    "expiry_date": "2027-10-26",
+    "synonyms": [
+      "basal insulin",
+      "lantus",
+      "long-acting insulin"
+    ],
+    "keywords": [
+      "insulin glargine",
+      "injectable",
+      "type 1 diabetes",
+      "type 2 diabetes",
+      "basal insulin",
+      "lantus",
+      "long-acting insulin"
+    ]
+  },
+  {
+    "medicine_id": "MED-3f540eb4413c",
+    "name": "Sitagliptin",
+    "dosage": "50mg",
+    "form": "Tablet",
+    "indications": [
+      "Type 2 Diabetes"
+    ],
+    "contraindications": [
+      "Type 1 Diabetes",
+      "Pancreatitis history"
+    ],
+    "stock_units": 256,
+    "reorder_level": 48,
+    "batch_id": "23ea9d20fc",
+    "expiry_date": "2028-04-27",
+    "synonyms": [
+      "DPP-4 inhibitor",
+      "januvia",
+      "gliptin"
+    ],
+    "keywords": [
+      "sitagliptin",
+      "tablet",
+      "type 2 diabetes",
+      "DPP-4 inhibitor",
+      "januvia",
+      "gliptin"
+    ]
+  },
+  {
+    "medicine_id": "MED-6780b3b673a6",
+    "name": "Salbutamol",
+    "dosage": "4mg",
+    "form": "Inhaler",
+    "indications": [
+      "Asthma",
+      "COPD",
+      "Bronchospasm"
+    ],
+    "contraindications": [
+      "Cardiac arrhythmia",
+      "Severe hyperthyroidism"
+    ],
+    "stock_units": 186,
+    "reorder_level": 11,
+    "batch_id": "508c7d8e0e",
+    "expiry_date": "2028-03-10",
+    "synonyms": [
+      "albuterol",
+      "SABA",
+      "bronchodilator",
+      "ventolin"
+    ],
+    "keywords": [
+      "salbutamol",
+      "inhaler",
+      "asthma",
+      "copd",
+      "bronchospasm",
+      "albuterol",
+      "SABA",
+      "bronchodilator",
+      "ventolin"
+    ]
+  },
+  {
+    "medicine_id": "MED-087589ea7cbd",
+    "name": "Budesonide",
+    "dosage": "200mcg",
+    "form": "Inhaler",
+    "indications": [
+      "Asthma",
+      "COPD"
+    ],
+    "contraindications": [
+      "Untreated fungal infection",
+      "Hypersensitivity"
+    ],
+    "stock_units": 217,
+    "reorder_level": 16,
+    "batch_id": "43e09ee3cb",
+    "expiry_date": "2028-01-09",
+    "synonyms": [
+      "corticosteroid",
+      "ICS",
+      "inhaled steroid",
+      "pulmicort"
+    ],
+    "keywords": [
+      "budesonide",
+      "inhaler",
+      "asthma",
+      "copd",
+      "corticosteroid",
+      "ICS",
+      "inhaled steroid",
+      "pulmicort"
+    ]
+  },
+  {
+    "medicine_id": "MED-9f0b2a06cb1b",
+    "name": "Tiotropium",
+    "dosage": "18mcg",
+    "form": "Inhaler",
+    "indications": [
+      "COPD"
+    ],
+    "contraindications": [
+      "Narrow-angle glaucoma",
+      "Urinary retention"
+    ],
+    "stock_units": 442,
+    "reorder_level": 47,
+    "batch_id": "2c04a14a7f",
+    "expiry_date": "2026-11-09",
+    "synonyms": [
+      "LAMA",
+      "anticholinergic",
+      "spiriva",
+      "long-acting muscarinic antagonist"
+    ],
+    "keywords": [
+      "tiotropium",
+      "inhaler",
+      "copd",
+      "LAMA",
+      "anticholinergic",
+      "spiriva",
+      "long-acting muscarinic antagonist"
+    ]
+  },
+  {
+    "medicine_id": "MED-83fc3a2a3ba8",
+    "name": "Montelukast",
+    "dosage": "10mg",
+    "form": "Tablet",
+    "indications": [
+      "Asthma",
+      "Allergic Rhinitis"
+    ],
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "stock_units": 480,
+    "reorder_level": 44,
+    "batch_id": "454ba0f32e",
+    "expiry_date": "2027-02-13",
+    "synonyms": [
+      "leukotriene antagonist",
+      "singulair",
+      "LTRA"
+    ],
+    "keywords": [
+      "montelukast",
+      "tablet",
+      "asthma",
+      "allergic rhinitis",
+      "leukotriene antagonist",
+      "singulair",
+      "LTRA"
+    ]
+  },
+  {
+    "medicine_id": "MED-29a0d29fdc1b",
+    "name": "Amoxicillin",
+    "dosage": "875mg",
+    "form": "Capsule",
+    "indications": [
+      "Community-Acquired Pneumonia",
+      "Urinary Tract Infection",
+      "Strep Throat"
+    ],
+    "contraindications": [
+      "Penicillin allergy"
+    ],
+    "stock_units": 436,
+    "reorder_level": 27,
+    "batch_id": "b667064297",
+    "expiry_date": "2027-01-18",
+    "synonyms": [
+      "penicillin",
+      "antibiotic",
+      "amoxil",
+      "beta-lactam"
+    ],
+    "keywords": [
+      "amoxicillin",
+      "capsule",
+      "community-acquired pneumonia",
+      "urinary tract infection",
+      "strep throat",
+      "penicillin",
+      "antibiotic",
+      "amoxil",
+      "beta-lactam"
+    ]
+  },
+  {
+    "medicine_id": "MED-27698949fde0",
+    "name": "Ciprofloxacin",
+    "dosage": "750mg",
+    "form": "Tablet",
+    "indications": [
+      "Urinary Tract Infection",
+      "Respiratory Infection",
+      "Gastroenteritis"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Tendon disorders",
+      "QT prolongation"
+    ],
+    "stock_units": 85,
+    "reorder_level": 39,
+    "batch_id": "387a3951c1",
+    "expiry_date": "2027-12-27",
+    "synonyms": [
+      "fluoroquinolone",
+      "antibiotic",
+      "cipro"
+    ],
+    "keywords": [
+      "ciprofloxacin",
+      "tablet",
+      "urinary tract infection",
+      "respiratory infection",
+      "gastroenteritis",
+      "fluoroquinolone",
+      "antibiotic",
+      "cipro"
+    ]
+  },
+  {
+    "medicine_id": "MED-a70e12b4cab7",
+    "name": "Azithromycin",
+    "dosage": "250mg",
+    "form": "Tablet",
+    "indications": [
+      "Community-Acquired Pneumonia",
+      "Atypical Pneumonia",
+      "Sexually Transmitted Infections"
+    ],
+    "contraindications": [
+      "QT prolongation",
+      "Liver disease"
+    ],
+    "stock_units": 255,
+    "reorder_level": 42,
+    "batch_id": "78fb0d6155",
+    "expiry_date": "2027-10-29",
+    "synonyms": [
+      "macrolide",
+      "antibiotic",
+      "zithromax",
+      "Z-pack"
+    ],
+    "keywords": [
+      "azithromycin",
+      "tablet",
+      "community-acquired pneumonia",
+      "atypical pneumonia",
+      "sexually transmitted infections",
+      "macrolide",
+      "antibiotic",
+      "zithromax",
+      "Z-pack"
+    ]
+  },
+  {
+    "medicine_id": "MED-5f608fbca799",
+    "name": "Metronidazole",
+    "dosage": "500mg",
+    "form": "Tablet",
+    "indications": [
+      "Anaerobic Infections",
+      "Clostridium difficile",
+      "Trichomoniasis"
+    ],
+    "contraindications": [
+      "First trimester pregnancy",
+      "Alcohol use"
+    ],
+    "stock_units": 234,
+    "reorder_level": 47,
+    "batch_id": "212911c394",
+    "expiry_date": "2027-07-13",
+    "synonyms": [
+      "nitroimidazole",
+      "antibiotic",
+      "flagyl"
+    ],
+    "keywords": [
+      "metronidazole",
+      "tablet",
+      "anaerobic infections",
+      "clostridium difficile",
+      "trichomoniasis",
+      "nitroimidazole",
+      "antibiotic",
+      "flagyl"
+    ]
+  },
+  {
+    "medicine_id": "MED-d78befc9f741",
+    "name": "Doxycycline",
+    "dosage": "200mg",
+    "form": "Capsule",
+    "indications": [
+      "Community-Acquired Pneumonia",
+      "Malaria",
+      "Lyme Disease"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Children under 8",
+      "Severe renal failure"
+    ],
+    "stock_units": 374,
+    "reorder_level": 29,
+    "batch_id": "f6aacb2395",
+    "expiry_date": "2028-03-26",
+    "synonyms": [
+      "tetracycline",
+      "antibiotic",
+      "doxy",
+      "vibramycin"
+    ],
+    "keywords": [
+      "doxycycline",
+      "capsule",
+      "community-acquired pneumonia",
+      "malaria",
+      "lyme disease",
+      "tetracycline",
+      "antibiotic",
+      "doxy",
+      "vibramycin"
+    ]
+  },
+  {
+    "medicine_id": "MED-fa8cec97057f",
+    "name": "Ceftriaxone",
+    "dosage": "500mg",
+    "form": "Injectable",
+    "indications": [
+      "Sepsis",
+      "Meningitis",
+      "Community-Acquired Pneumonia"
+    ],
+    "contraindications": [
+      "Cephalosporin allergy",
+      "Neonatal jaundice"
+    ],
+    "stock_units": 396,
+    "reorder_level": 11,
+    "batch_id": "096e91bbd5",
+    "expiry_date": "2027-12-08",
+    "synonyms": [
+      "cephalosporin",
+      "antibiotic",
+      "rocephin",
+      "third-generation"
+    ],
+    "keywords": [
+      "ceftriaxone",
+      "injectable",
+      "sepsis",
+      "meningitis",
+      "community-acquired pneumonia",
+      "cephalosporin",
+      "antibiotic",
+      "rocephin",
+      "third-generation"
+    ]
+  },
+  {
+    "medicine_id": "MED-60d23d940559",
+    "name": "Amlodipine",
+    "dosage": "10mg",
+    "form": "Tablet",
+    "indications": [
+      "Migraine prevention",
+      "Hypertension"
+    ],
+    "contraindications": [
+      "Severe hypotension"
+    ],
+    "stock_units": 208,
+    "reorder_level": 35,
+    "batch_id": "e8ff7eb894",
+    "expiry_date": "2027-12-01",
+    "synonyms": [
+      "calcium channel blocker",
+      "migraine prophylaxis"
+    ],
+    "keywords": [
+      "amlodipine",
+      "tablet",
+      "migraine prevention",
+      "hypertension",
+      "calcium channel blocker",
+      "migraine prophylaxis"
+    ]
+  },
+  {
+    "medicine_id": "MED-f199069bda19",
+    "name": "Sertraline",
+    "dosage": "25mg",
+    "form": "Tablet",
+    "indications": [
+      "Major Depression",
+      "Anxiety Disorder",
+      "OCD"
+    ],
+    "contraindications": [
+      "MAO inhibitor use",
+      "Pimozide use"
+    ],
+    "stock_units": 333,
+    "reorder_level": 32,
+    "batch_id": "be18f05c3f",
+    "expiry_date": "2027-03-24",
+    "synonyms": [
+      "SSRI",
+      "antidepressant",
+      "zoloft",
+      "serotonin"
+    ],
+    "keywords": [
+      "sertraline",
+      "tablet",
+      "major depression",
+      "anxiety disorder",
+      "ocd",
+      "SSRI",
+      "antidepressant",
+      "zoloft",
+      "serotonin"
+    ]
+  },
+  {
+    "medicine_id": "MED-9f297681fc5e",
+    "name": "Fluoxetine",
+    "dosage": "20mg",
+    "form": "Capsule",
+    "indications": [
+      "Major Depression",
+      "Bipolar Disorder",
+      "Anxiety Disorder"
+    ],
+    "contraindications": [
+      "MAO inhibitor use",
+      "QT prolongation"
+    ],
+    "stock_units": 249,
+    "reorder_level": 23,
+    "batch_id": "7674ab9c43",
+    "expiry_date": "2028-07-26",
+    "synonyms": [
+      "SSRI",
+      "antidepressant",
+      "prozac",
+      "serotonin"
+    ],
+    "keywords": [
+      "fluoxetine",
+      "capsule",
+      "major depression",
+      "bipolar disorder",
+      "anxiety disorder",
+      "SSRI",
+      "antidepressant",
+      "prozac",
+      "serotonin"
+    ]
+  },
+  {
+    "medicine_id": "MED-a31b72f63809",
+    "name": "Haloperidol",
+    "dosage": "1mg",
+    "form": "Tablet",
+    "indications": [
+      "Schizophrenia",
+      "Acute Psychosis",
+      "Delirium"
+    ],
+    "contraindications": [
+      "Parkinson Disease",
+      "QT prolongation",
+      "Coma"
+    ],
+    "stock_units": 195,
+    "reorder_level": 30,
+    "batch_id": "9fbf01daee",
+    "expiry_date": "2028-07-11",
+    "synonyms": [
+      "antipsychotic",
+      "typical antipsychotic",
+      "haldol",
+      "neuroleptic"
+    ],
+    "keywords": [
+      "haloperidol",
+      "tablet",
+      "schizophrenia",
+      "acute psychosis",
+      "delirium",
+      "antipsychotic",
+      "typical antipsychotic",
+      "haldol",
+      "neuroleptic"
+    ]
+  },
+  {
+    "medicine_id": "MED-18b09ac82e70",
+    "name": "Valproate",
+    "dosage": "500mg",
+    "form": "Tablet",
+    "indications": [
+      "Epilepsy",
+      "Bipolar Disorder",
+      "Migraine prevention"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Liver disease",
+      "Urea cycle disorder"
+    ],
+    "stock_units": 363,
+    "reorder_level": 37,
+    "batch_id": "b4876ced44",
+    "expiry_date": "2028-02-01",
+    "synonyms": [
+      "anticonvulsant",
+      "mood stabilizer",
+      "depakote",
+      "valproic acid"
+    ],
+    "keywords": [
+      "valproate",
+      "tablet",
+      "epilepsy",
+      "bipolar disorder",
+      "migraine prevention",
+      "anticonvulsant",
+      "mood stabilizer",
+      "depakote",
+      "valproic acid"
+    ]
+  },
+  {
+    "medicine_id": "MED-4c12c93d0ebf",
+    "name": "Levetiracetam",
+    "dosage": "1000mg",
+    "form": "Tablet",
+    "indications": [
+      "Epilepsy"
+    ],
+    "contraindications": [
+      "Hypersensitivity",
+      "Severe renal failure"
+    ],
+    "stock_units": 172,
+    "reorder_level": 18,
+    "batch_id": "b08ac5a8ad",
+    "expiry_date": "2028-02-01",
+    "synonyms": [
+      "anticonvulsant",
+      "keppra",
+      "antiepileptic"
+    ],
+    "keywords": [
+      "levetiracetam",
+      "tablet",
+      "epilepsy",
+      "anticonvulsant",
+      "keppra",
+      "antiepileptic"
+    ]
+  },
+  {
+    "medicine_id": "MED-9807b540dce0",
+    "name": "Omeprazole",
+    "dosage": "20mg",
+    "form": "Capsule",
+    "indications": [
+      "GERD",
+      "Peptic Ulcer",
+      "H. pylori"
+    ],
+    "contraindications": [
+      "Clopidogrel use",
+      "Hypersensitivity"
+    ],
+    "stock_units": 341,
+    "reorder_level": 40,
+    "batch_id": "fc775aa21f",
+    "expiry_date": "2028-07-27",
+    "synonyms": [
+      "PPI",
+      "proton pump inhibitor",
+      "prilosec",
+      "acid reducer"
+    ],
+    "keywords": [
+      "omeprazole",
+      "capsule",
+      "gerd",
+      "peptic ulcer",
+      "h. pylori",
+      "PPI",
+      "proton pump inhibitor",
+      "prilosec",
+      "acid reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-f38b2011395b",
+    "name": "Pantoprazole",
+    "dosage": "40mg",
+    "form": "Tablet",
+    "indications": [
+      "GERD",
+      "Peptic Ulcer",
+      "Zollinger-Ellison syndrome"
+    ],
+    "contraindications": [
+      "Rilpivirine use"
+    ],
+    "stock_units": 236,
+    "reorder_level": 47,
+    "batch_id": "ae7a899245",
+    "expiry_date": "2027-01-06",
+    "synonyms": [
+      "PPI",
+      "proton pump inhibitor",
+      "protonix",
+      "acid reducer"
+    ],
+    "keywords": [
+      "pantoprazole",
+      "tablet",
+      "gerd",
+      "peptic ulcer",
+      "zollinger-ellison syndrome",
+      "PPI",
+      "proton pump inhibitor",
+      "protonix",
+      "acid reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-6578f0cae6c7",
+    "name": "Ondansetron",
+    "dosage": "8mg",
+    "form": "Tablet",
+    "indications": [
+      "Nausea",
+      "Vomiting",
+      "Chemotherapy-induced nausea"
+    ],
+    "contraindications": [
+      "QT prolongation",
+      "Congenital long QT syndrome"
+    ],
+    "stock_units": 313,
+    "reorder_level": 49,
+    "batch_id": "854c076d2c",
+    "expiry_date": "2028-03-13",
+    "synonyms": [
+      "antiemetic",
+      "5-HT3 antagonist",
+      "zofran",
+      "anti-nausea"
+    ],
+    "keywords": [
+      "ondansetron",
+      "tablet",
+      "nausea",
+      "vomiting",
+      "chemotherapy-induced nausea",
+      "antiemetic",
+      "5-HT3 antagonist",
+      "zofran",
+      "anti-nausea"
+    ]
+  },
+  {
+    "medicine_id": "MED-3e030d3a54eb",
+    "name": "Ibuprofen",
+    "dosage": "200mg",
+    "form": "Tablet",
+    "indications": [
+      "Pain",
+      "Fever",
+      "Osteoarthritis",
+      "Gout"
+    ],
+    "contraindications": [
+      "Active peptic ulcer",
+      "Renal failure",
+      "Third trimester pregnancy"
+    ],
+    "stock_units": 307,
+    "reorder_level": 10,
+    "batch_id": "6fc79357c7",
+    "expiry_date": "2027-09-13",
+    "synonyms": [
+      "NSAID",
+      "anti-inflammatory",
+      "advil",
+      "pain relief"
+    ],
+    "keywords": [
+      "ibuprofen",
+      "tablet",
+      "pain",
+      "fever",
+      "osteoarthritis",
+      "gout",
+      "NSAID",
+      "anti-inflammatory",
+      "advil",
+      "pain relief"
+    ]
+  },
+  {
+    "medicine_id": "MED-0bb4293c1dba",
+    "name": "Paracetamol",
+    "dosage": "1000mg",
+    "form": "Tablet",
+    "indications": [
+      "Pain",
+      "Fever",
+      "Headache"
+    ],
+    "contraindications": [
+      "Severe liver disease"
+    ],
+    "stock_units": 368,
+    "reorder_level": 41,
+    "batch_id": "7b782bbbea",
+    "expiry_date": "2028-05-28",
+    "synonyms": [
+      "acetaminophen",
+      "tylenol",
+      "analgesic",
+      "fever reducer"
+    ],
+    "keywords": [
+      "paracetamol",
+      "tablet",
+      "pain",
+      "fever",
+      "headache",
+      "acetaminophen",
+      "tylenol",
+      "analgesic",
+      "fever reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-d0b635556ec9",
+    "name": "Morphine",
+    "dosage": "10mg",
+    "form": "Injectable",
+    "indications": [
+      "Severe Pain",
+      "Myocardial Infarction",
+      "Palliative Care"
+    ],
+    "contraindications": [
+      "Respiratory depression",
+      "Paralytic ileus",
+      "Opioid allergy"
+    ],
+    "stock_units": 371,
+    "reorder_level": 49,
+    "batch_id": "e24e3c32c7",
+    "expiry_date": "2027-12-23",
+    "synonyms": [
+      "opioid",
+      "narcotic",
+      "strong analgesic",
+      "opiate"
+    ],
+    "keywords": [
+      "morphine",
+      "injectable",
+      "severe pain",
+      "myocardial infarction",
+      "palliative care",
+      "opioid",
+      "narcotic",
+      "strong analgesic",
+      "opiate"
+    ]
+  },
+  {
+    "medicine_id": "MED-95088f467d0d",
+    "name": "Tramadol",
+    "dosage": "100mg",
+    "form": "Tablet",
+    "indications": [
+      "Moderate Pain",
+      "Osteoarthritis"
+    ],
+    "contraindications": [
+      "Seizure disorder",
+      "MAO inhibitor use",
+      "Opioid allergy"
+    ],
+    "stock_units": 58,
+    "reorder_level": 42,
+    "batch_id": "3186213abe",
+    "expiry_date": "2028-07-17",
+    "synonyms": [
+      "opioid analgesic",
+      "tramacet",
+      "weak opioid"
+    ],
+    "keywords": [
+      "tramadol",
+      "tablet",
+      "moderate pain",
+      "osteoarthritis",
+      "opioid analgesic",
+      "tramacet",
+      "weak opioid"
+    ]
+  },
+  {
+    "medicine_id": "MED-da5279f3bcf7",
+    "name": "Colchicine",
+    "dosage": "1mg",
+    "form": "Tablet",
+    "indications": [
+      "Gout",
+      "Familial Mediterranean Fever"
+    ],
+    "contraindications": [
+      "Severe renal failure",
+      "Severe hepatic failure"
+    ],
+    "stock_units": 77,
+    "reorder_level": 36,
+    "batch_id": "f15aeeed5c",
+    "expiry_date": "2027-07-09",
+    "synonyms": [
+      "antigout",
+      "uricosuric",
+      "gout treatment"
+    ],
+    "keywords": [
+      "colchicine",
+      "tablet",
+      "gout",
+      "familial mediterranean fever",
+      "antigout",
+      "uricosuric",
+      "gout treatment"
+    ]
+  },
+  {
+    "medicine_id": "MED-928e14bee18c",
+    "name": "Allopurinol",
+    "dosage": "200mg",
+    "form": "Tablet",
+    "indications": [
+      "Gout",
+      "Hyperuricemia",
+      "Kidney Stones"
+    ],
+    "contraindications": [
+      "Acute gout attack",
+      "Azathioprine use"
+    ],
+    "stock_units": 449,
+    "reorder_level": 39,
+    "batch_id": "e0c91dd7cc",
+    "expiry_date": "2027-10-20",
+    "synonyms": [
+      "xanthine oxidase inhibitor",
+      "urate lowering",
+      "zyloprim"
+    ],
+    "keywords": [
+      "allopurinol",
+      "tablet",
+      "gout",
+      "hyperuricemia",
+      "kidney stones",
+      "xanthine oxidase inhibitor",
+      "urate lowering",
+      "zyloprim"
+    ]
+  },
+  {
+    "medicine_id": "MED-2bc779bf5a98",
+    "name": "Methotrexate",
+    "dosage": "2.5mg",
+    "form": "Tablet",
+    "indications": [
+      "Rheumatoid Arthritis",
+      "Psoriasis",
+      "Cancer"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Severe liver disease",
+      "Immunodeficiency"
+    ],
+    "stock_units": 224,
+    "reorder_level": 47,
+    "batch_id": "3b8e11925c",
+    "expiry_date": "2028-05-02",
+    "synonyms": [
+      "DMARD",
+      "disease modifying",
+      "antimetabolite"
+    ],
+    "keywords": [
+      "methotrexate",
+      "tablet",
+      "rheumatoid arthritis",
+      "psoriasis",
+      "cancer",
+      "DMARD",
+      "disease modifying",
+      "antimetabolite"
+    ]
+  },
+  {
+    "medicine_id": "MED-201f03b14025",
+    "name": "Levothyroxine",
+    "dosage": "25mcg",
+    "form": "Tablet",
+    "indications": [
+      "Hypothyroidism"
+    ],
+    "contraindications": [
+      "Untreated adrenal insufficiency",
+      "Thyrotoxicosis"
+    ],
+    "stock_units": 214,
+    "reorder_level": 28,
+    "batch_id": "6c14af7505",
+    "expiry_date": "2026-12-01",
+    "synonyms": [
+      "thyroid hormone",
+      "synthroid",
+      "T4",
+      "thyroid replacement"
+    ],
+    "keywords": [
+      "levothyroxine",
+      "tablet",
+      "hypothyroidism",
+      "thyroid hormone",
+      "synthroid",
+      "T4",
+      "thyroid replacement"
+    ]
+  },
+  {
+    "medicine_id": "MED-0a537c99ab96",
+    "name": "Prednisolone",
+    "dosage": "20mg",
+    "form": "Tablet",
+    "indications": [
+      "Asthma",
+      "Rheumatoid Arthritis",
+      "Allergic reactions",
+      "COPD exacerbation"
+    ],
+    "contraindications": [
+      "Systemic fungal infection",
+      "Live vaccines"
+    ],
+    "stock_units": 168,
+    "reorder_level": 30,
+    "batch_id": "174987cf50",
+    "expiry_date": "2028-07-14",
+    "synonyms": [
+      "corticosteroid",
+      "steroid",
+      "anti-inflammatory",
+      "prednisolone"
+    ],
+    "keywords": [
+      "prednisolone",
+      "tablet",
+      "asthma",
+      "rheumatoid arthritis",
+      "allergic reactions",
+      "copd exacerbation",
+      "corticosteroid",
+      "steroid",
+      "anti-inflammatory"
+    ]
+  },
+  {
+    "medicine_id": "MED-834c44552d70",
+    "name": "Heparin",
+    "dosage": "5000 units",
+    "form": "Injectable",
+    "indications": [
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "HIT",
+      "Severe thrombocytopenia"
+    ],
+    "stock_units": 359,
+    "reorder_level": 50,
+    "batch_id": "9ddfd9db57",
+    "expiry_date": "2027-12-11",
+    "synonyms": [
+      "anticoagulant",
+      "blood thinner",
+      "unfractionated heparin",
+      "UFH"
+    ],
+    "keywords": [
+      "heparin",
+      "injectable",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "atrial fibrillation",
+      "anticoagulant",
+      "blood thinner",
+      "unfractionated heparin",
+      "UFH"
+    ]
+  },
+  {
+    "medicine_id": "MED-5924b5055e23",
+    "name": "Enoxaparin",
+    "dosage": "20mg",
+    "form": "Injectable",
+    "indications": [
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism",
+      "ACS"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "HIT",
+      "Prosthetic heart valves"
+    ],
+    "stock_units": 187,
+    "reorder_level": 20,
+    "batch_id": "60c886c202",
+    "expiry_date": "2026-12-05",
+    "synonyms": [
+      "LMWH",
+      "low molecular weight heparin",
+      "lovenox",
+      "anticoagulant"
+    ],
+    "keywords": [
+      "enoxaparin",
+      "injectable",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "acs",
+      "LMWH",
+      "low molecular weight heparin",
+      "lovenox",
+      "anticoagulant"
+    ]
+  },
+  {
+    "medicine_id": "MED-c7ebdac6bccf",
+    "name": "Tamsulosin",
+    "dosage": "0.4mg",
+    "form": "Capsule",
+    "indications": [
+      "Benign Prostatic Hyperplasia",
+      "Urinary Retention"
+    ],
+    "contraindications": [
+      "Severe hepatic impairment",
+      "Concurrent PDE5 inhibitor"
+    ],
+    "stock_units": 224,
+    "reorder_level": 18,
+    "batch_id": "2159a35ff0",
+    "expiry_date": "2026-12-13",
+    "synonyms": [
+      "alpha blocker",
+      "flomax",
+      "BPH treatment"
+    ],
+    "keywords": [
+      "tamsulosin",
+      "capsule",
+      "benign prostatic hyperplasia",
+      "urinary retention",
+      "alpha blocker",
+      "flomax",
+      "BPH treatment"
+    ]
+  },
+  {
+    "medicine_id": "MED-5a40db59749f",
+    "name": "Ranitidine",
+    "dosage": "150mg",
+    "form": "Tablet",
+    "indications": [
+      "GERD",
+      "Peptic Ulcer"
+    ],
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "stock_units": 224,
+    "reorder_level": 28,
+    "batch_id": "bfb0175076",
+    "expiry_date": "2026-11-21",
+    "synonyms": [
+      "H2 blocker",
+      "histamine antagonist",
+      "zantac",
+      "acid reducer"
+    ],
+    "keywords": [
+      "ranitidine",
+      "tablet",
+      "gerd",
+      "peptic ulcer",
+      "H2 blocker",
+      "histamine antagonist",
+      "zantac",
+      "acid reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-dee3997ed300",
+    "name": "Cetirizine",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Allergic Rhinitis",
+      "Urticaria",
+      "Eczema"
+    ],
+    "contraindications": [
+      "Severe renal failure"
+    ],
+    "stock_units": 158,
+    "reorder_level": 44,
+    "batch_id": "2fabf405e6",
+    "expiry_date": "2027-11-05",
+    "synonyms": [
+      "antihistamine",
+      "zyrtec",
+      "allergy relief",
+      "H1 blocker"
+    ],
+    "keywords": [
+      "cetirizine",
+      "tablet",
+      "allergic rhinitis",
+      "urticaria",
+      "eczema",
+      "antihistamine",
+      "zyrtec",
+      "allergy relief",
+      "H1 blocker"
+    ]
+  },
+  {
+    "medicine_id": "MED-0c6112225e3c",
+    "name": "Loratadine",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Allergic Rhinitis",
+      "Urticaria"
+    ],
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "stock_units": 414,
+    "reorder_level": 24,
+    "batch_id": "068888a971",
+    "expiry_date": "2028-05-25",
+    "synonyms": [
+      "antihistamine",
+      "claritin",
+      "non-drowsy antihistamine",
+      "allergy"
+    ],
+    "keywords": [
+      "loratadine",
+      "tablet",
+      "allergic rhinitis",
+      "urticaria",
+      "antihistamine",
+      "claritin",
+      "non-drowsy antihistamine",
+      "allergy"
+    ]
+  },
+  {
+    "medicine_id": "MED-8cb9625e0e68",
+    "name": "Vitamin D3",
+    "dosage": "2000 IU",
+    "form": "Capsule",
+    "indications": [
+      "Vitamin D deficiency",
+      "Osteoporosis prevention",
+      "Chronic Kidney Disease"
+    ],
+    "contraindications": [
+      "Hypercalcemia",
+      "Vitamin D toxicity"
+    ],
+    "stock_units": 313,
+    "reorder_level": 45,
+    "batch_id": "29c72c86cf",
+    "expiry_date": "2026-12-15",
+    "synonyms": [
+      "cholecalciferol",
+      "vitamin D supplement",
+      "calcium metabolism"
+    ],
+    "keywords": [
+      "vitamin d3",
+      "capsule",
+      "vitamin d deficiency",
+      "osteoporosis prevention",
+      "chronic kidney disease",
+      "cholecalciferol",
+      "vitamin D supplement",
+      "calcium metabolism"
+    ]
+  },
+  {
+    "medicine_id": "MED-f5f2620c57b7",
+    "name": "Ferrous Sulfate",
+    "dosage": "325mg",
+    "form": "Tablet",
+    "indications": [
+      "Iron Deficiency Anemia"
+    ],
+    "contraindications": [
+      "Haemochromatosis",
+      "Repeated blood transfusion"
+    ],
+    "stock_units": 267,
+    "reorder_level": 29,
+    "batch_id": "9b65c25f7e",
+    "expiry_date": "2028-05-20",
+    "synonyms": [
+      "iron supplement",
+      "iron tablet",
+      "anemia treatment"
+    ],
+    "keywords": [
+      "ferrous sulfate",
+      "tablet",
+      "iron deficiency anemia",
+      "iron supplement",
+      "iron tablet",
+      "anemia treatment"
+    ]
+  },
+  {
+    "medicine_id": "MED-2821958a336a",
+    "name": "Folic Acid",
+    "dosage": "400mcg",
+    "form": "Tablet",
+    "indications": [
+      "Anemia",
+      "Pregnancy",
+      "Methotrexate use"
+    ],
+    "contraindications": [
+      "Undiagnosed anemia"
+    ],
+    "stock_units": 336,
+    "reorder_level": 48,
+    "batch_id": "3e7c231455",
+    "expiry_date": "2027-07-29",
+    "synonyms": [
+      "folate",
+      "B9",
+      "neural tube defect prevention"
+    ],
+    "keywords": [
+      "folic acid",
+      "tablet",
+      "anemia",
+      "pregnancy",
+      "methotrexate use",
+      "folate",
+      "B9",
+      "neural tube defect prevention"
+    ]
+  },
+  {
+    "medicine_id": "MED-b0ec5f86ffa3",
+    "name": "Lisinopril",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Heart Failure",
+      "Chronic Kidney Disease"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Angioedema history",
+      "Hyperkalemia"
+    ],
+    "stock_units": 303,
+    "reorder_level": 32,
+    "batch_id": "6a6681e502",
+    "expiry_date": "2027-07-03",
+    "synonyms": [
+      "ACE inhibitor",
+      "antihypertensive",
+      "lisinopril"
+    ],
+    "keywords": [
+      "lisinopril",
+      "tablet",
+      "hypertension",
+      "heart failure",
+      "chronic kidney disease",
+      "ACE inhibitor",
+      "antihypertensive"
+    ]
+  },
+  {
+    "medicine_id": "MED-bf25d563b03d",
+    "name": "Amlodipine",
+    "dosage": "2.5mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Angina"
+    ],
+    "contraindications": [
+      "Severe aortic stenosis",
+      "Cardiogenic shock"
+    ],
+    "stock_units": 96,
+    "reorder_level": 38,
+    "batch_id": "ad2e3c62f7",
+    "expiry_date": "2026-11-16",
+    "synonyms": [
+      "calcium channel blocker",
+      "CCB",
+      "norvasc"
+    ],
+    "keywords": [
+      "amlodipine",
+      "tablet",
+      "hypertension",
+      "angina",
+      "calcium channel blocker",
+      "CCB",
+      "norvasc"
+    ]
+  },
+  {
+    "medicine_id": "MED-cac986c288e6",
+    "name": "Metoprolol",
+    "dosage": "25mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Heart Failure",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Severe bradycardia",
+      "Heart block",
+      "Asthma"
+    ],
+    "stock_units": 20,
+    "reorder_level": 23,
+    "batch_id": "da30e1dcf7",
+    "expiry_date": "2027-10-22",
+    "synonyms": [
+      "beta blocker",
+      "lopressor",
+      "metoprolol succinate"
+    ],
+    "keywords": [
+      "metoprolol",
+      "tablet",
+      "hypertension",
+      "heart failure",
+      "atrial fibrillation",
+      "beta blocker",
+      "lopressor",
+      "metoprolol succinate"
+    ]
+  },
+  {
+    "medicine_id": "MED-a043231be278",
+    "name": "Atorvastatin",
+    "dosage": "80mg",
+    "form": "Tablet",
+    "indications": [
+      "High Cholesterol",
+      "Coronary Artery Disease"
+    ],
+    "contraindications": [
+      "Active liver disease",
+      "Pregnancy"
+    ],
+    "stock_units": 409,
+    "reorder_level": 35,
+    "batch_id": "2a8c864d2b",
+    "expiry_date": "2028-07-01",
+    "synonyms": [
+      "statin",
+      "lipitor",
+      "HMG-CoA reductase inhibitor"
+    ],
+    "keywords": [
+      "atorvastatin",
+      "tablet",
+      "high cholesterol",
+      "coronary artery disease",
+      "statin",
+      "lipitor",
+      "HMG-CoA reductase inhibitor"
+    ]
+  },
+  {
+    "medicine_id": "MED-a62405ab713b",
+    "name": "Warfarin",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Atrial Fibrillation",
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "Pregnancy"
+    ],
+    "stock_units": 202,
+    "reorder_level": 23,
+    "batch_id": "492d38aa0f",
+    "expiry_date": "2027-11-04",
+    "synonyms": [
+      "anticoagulant",
+      "blood thinner",
+      "coumadin"
+    ],
+    "keywords": [
+      "warfarin",
+      "tablet",
+      "atrial fibrillation",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "anticoagulant",
+      "blood thinner",
+      "coumadin"
+    ]
+  },
+  {
+    "medicine_id": "MED-8822353ead54",
+    "name": "Aspirin",
+    "dosage": "100mg",
+    "form": "Tablet",
+    "indications": [
+      "Coronary Artery Disease",
+      "Stroke prevention",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Active peptic ulcer",
+      "Allergy"
+    ],
+    "stock_units": 169,
+    "reorder_level": 16,
+    "batch_id": "044741072b",
+    "expiry_date": "2028-06-03",
+    "synonyms": [
+      "ASA",
+      "acetylsalicylic acid",
+      "antiplatelet"
+    ],
+    "keywords": [
+      "aspirin",
+      "tablet",
+      "coronary artery disease",
+      "stroke prevention",
+      "atrial fibrillation",
+      "ASA",
+      "acetylsalicylic acid",
+      "antiplatelet"
+    ]
+  },
+  {
+    "medicine_id": "MED-f4018e4fa5d3",
+    "name": "Furosemide",
+    "dosage": "20mg",
+    "form": "Tablet",
+    "indications": [
+      "Heart Failure",
+      "Edema",
+      "Hypertension"
+    ],
+    "contraindications": [
+      "Anuria",
+      "Severe electrolyte depletion"
+    ],
+    "stock_units": 442,
+    "reorder_level": 38,
+    "batch_id": "191a239cca",
+    "expiry_date": "2027-08-31",
+    "synonyms": [
+      "loop diuretic",
+      "lasix",
+      "water pill"
+    ],
+    "keywords": [
+      "furosemide",
+      "tablet",
+      "heart failure",
+      "edema",
+      "hypertension",
+      "loop diuretic",
+      "lasix",
+      "water pill"
+    ]
+  },
+  {
+    "medicine_id": "MED-d753582b56f2",
+    "name": "Spironolactone",
+    "dosage": "50mg",
+    "form": "Tablet",
+    "indications": [
+      "Heart Failure",
+      "Hypertension",
+      "Hyperaldosteronism"
+    ],
+    "contraindications": [
+      "Hyperkalemia",
+      "Anuria"
+    ],
+    "stock_units": 249,
+    "reorder_level": 46,
+    "batch_id": "1375c81db1",
+    "expiry_date": "2028-03-31",
+    "synonyms": [
+      "aldosterone antagonist",
+      "potassium-sparing diuretic"
+    ],
+    "keywords": [
+      "spironolactone",
+      "tablet",
+      "heart failure",
+      "hypertension",
+      "hyperaldosteronism",
+      "aldosterone antagonist",
+      "potassium-sparing diuretic"
+    ]
+  },
+  {
+    "medicine_id": "MED-ea14e3f78c13",
+    "name": "Metformin",
+    "dosage": "850mg",
+    "form": "Tablet",
+    "indications": [
+      "Type 2 Diabetes",
+      "Prediabetes"
+    ],
+    "contraindications": [
+      "Chronic Kidney Disease stage 4+",
+      "Liver failure",
+      "Contrast dye use"
+    ],
+    "stock_units": 487,
+    "reorder_level": 11,
+    "batch_id": "b1ca751838",
+    "expiry_date": "2028-04-29",
+    "synonyms": [
+      "biguanide",
+      "glucophage",
+      "antidiabetic"
+    ],
+    "keywords": [
+      "metformin",
+      "tablet",
+      "type 2 diabetes",
+      "prediabetes",
+      "biguanide",
+      "glucophage",
+      "antidiabetic"
+    ]
+  },
+  {
+    "medicine_id": "MED-f5c2257ef431",
+    "name": "Glibenclamide",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Type 2 Diabetes"
+    ],
+    "contraindications": [
+      "Type 1 Diabetes",
+      "Renal failure",
+      "Sulfonamide allergy"
+    ],
+    "stock_units": 102,
+    "reorder_level": 36,
+    "batch_id": "76d7fd1bfc",
+    "expiry_date": "2026-12-04",
+    "synonyms": [
+      "sulfonylurea",
+      "glyburide",
+      "antidiabetic"
+    ],
+    "keywords": [
+      "glibenclamide",
+      "tablet",
+      "type 2 diabetes",
+      "sulfonylurea",
+      "glyburide",
+      "antidiabetic"
+    ]
+  },
+  {
+    "medicine_id": "MED-cf6ccd8caba0",
+    "name": "Insulin Glargine",
+    "dosage": "10 units",
+    "form": "Injectable",
+    "indications": [
+      "Type 1 Diabetes",
+      "Type 2 Diabetes"
+    ],
+    "contraindications": [
+      "Hypoglycemia"
+    ],
+    "stock_units": 343,
+    "reorder_level": 23,
+    "batch_id": "70ba71e491",
+    "expiry_date": "2027-11-19",
+    "synonyms": [
+      "basal insulin",
+      "lantus",
+      "long-acting insulin"
+    ],
+    "keywords": [
+      "insulin glargine",
+      "injectable",
+      "type 1 diabetes",
+      "type 2 diabetes",
+      "basal insulin",
+      "lantus",
+      "long-acting insulin"
+    ]
+  },
+  {
+    "medicine_id": "MED-3b7b1fc1853e",
+    "name": "Sitagliptin",
+    "dosage": "50mg",
+    "form": "Tablet",
+    "indications": [
+      "Type 2 Diabetes"
+    ],
+    "contraindications": [
+      "Type 1 Diabetes",
+      "Pancreatitis history"
+    ],
+    "stock_units": 44,
+    "reorder_level": 24,
+    "batch_id": "f042d0cf90",
+    "expiry_date": "2027-09-01",
+    "synonyms": [
+      "DPP-4 inhibitor",
+      "januvia",
+      "gliptin"
+    ],
+    "keywords": [
+      "sitagliptin",
+      "tablet",
+      "type 2 diabetes",
+      "DPP-4 inhibitor",
+      "januvia",
+      "gliptin"
+    ]
+  },
+  {
+    "medicine_id": "MED-ab21cb1af564",
+    "name": "Salbutamol",
+    "dosage": "4mg",
+    "form": "Inhaler",
+    "indications": [
+      "Asthma",
+      "COPD",
+      "Bronchospasm"
+    ],
+    "contraindications": [
+      "Cardiac arrhythmia",
+      "Severe hyperthyroidism"
+    ],
+    "stock_units": 149,
+    "reorder_level": 18,
+    "batch_id": "bbb0ff5ea1",
+    "expiry_date": "2027-12-10",
+    "synonyms": [
+      "albuterol",
+      "SABA",
+      "bronchodilator",
+      "ventolin"
+    ],
+    "keywords": [
+      "salbutamol",
+      "inhaler",
+      "asthma",
+      "copd",
+      "bronchospasm",
+      "albuterol",
+      "SABA",
+      "bronchodilator",
+      "ventolin"
+    ]
+  },
+  {
+    "medicine_id": "MED-bbb665cb0b73",
+    "name": "Budesonide",
+    "dosage": "200mcg",
+    "form": "Inhaler",
+    "indications": [
+      "Asthma",
+      "COPD"
+    ],
+    "contraindications": [
+      "Untreated fungal infection",
+      "Hypersensitivity"
+    ],
+    "stock_units": 160,
+    "reorder_level": 31,
+    "batch_id": "aa1c0ca605",
+    "expiry_date": "2028-05-28",
+    "synonyms": [
+      "corticosteroid",
+      "ICS",
+      "inhaled steroid",
+      "pulmicort"
+    ],
+    "keywords": [
+      "budesonide",
+      "inhaler",
+      "asthma",
+      "copd",
+      "corticosteroid",
+      "ICS",
+      "inhaled steroid",
+      "pulmicort"
+    ]
+  },
+  {
+    "medicine_id": "MED-89125ccf372a",
+    "name": "Tiotropium",
+    "dosage": "18mcg",
+    "form": "Inhaler",
+    "indications": [
+      "COPD"
+    ],
+    "contraindications": [
+      "Narrow-angle glaucoma",
+      "Urinary retention"
+    ],
+    "stock_units": 439,
+    "reorder_level": 33,
+    "batch_id": "d3ed3de8a5",
+    "expiry_date": "2027-09-07",
+    "synonyms": [
+      "LAMA",
+      "anticholinergic",
+      "spiriva",
+      "long-acting muscarinic antagonist"
+    ],
+    "keywords": [
+      "tiotropium",
+      "inhaler",
+      "copd",
+      "LAMA",
+      "anticholinergic",
+      "spiriva",
+      "long-acting muscarinic antagonist"
+    ]
+  },
+  {
+    "medicine_id": "MED-92bea12120d9",
+    "name": "Montelukast",
+    "dosage": "4mg",
+    "form": "Tablet",
+    "indications": [
+      "Asthma",
+      "Allergic Rhinitis"
+    ],
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "stock_units": 213,
+    "reorder_level": 19,
+    "batch_id": "6fd19e69e7",
+    "expiry_date": "2027-03-02",
+    "synonyms": [
+      "leukotriene antagonist",
+      "singulair",
+      "LTRA"
+    ],
+    "keywords": [
+      "montelukast",
+      "tablet",
+      "asthma",
+      "allergic rhinitis",
+      "leukotriene antagonist",
+      "singulair",
+      "LTRA"
+    ]
+  },
+  {
+    "medicine_id": "MED-fbc1c78b5fde",
+    "name": "Amoxicillin",
+    "dosage": "500mg",
+    "form": "Capsule",
+    "indications": [
+      "Community-Acquired Pneumonia",
+      "Urinary Tract Infection",
+      "Strep Throat"
+    ],
+    "contraindications": [
+      "Penicillin allergy"
+    ],
+    "stock_units": 486,
+    "reorder_level": 32,
+    "batch_id": "b5e607ba81",
+    "expiry_date": "2028-03-06",
+    "synonyms": [
+      "penicillin",
+      "antibiotic",
+      "amoxil",
+      "beta-lactam"
+    ],
+    "keywords": [
+      "amoxicillin",
+      "capsule",
+      "community-acquired pneumonia",
+      "urinary tract infection",
+      "strep throat",
+      "penicillin",
+      "antibiotic",
+      "amoxil",
+      "beta-lactam"
+    ]
+  },
+  {
+    "medicine_id": "MED-8759b2186eec",
+    "name": "Ciprofloxacin",
+    "dosage": "250mg",
+    "form": "Tablet",
+    "indications": [
+      "Urinary Tract Infection",
+      "Respiratory Infection",
+      "Gastroenteritis"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Tendon disorders",
+      "QT prolongation"
+    ],
+    "stock_units": 181,
+    "reorder_level": 37,
+    "batch_id": "289acc6261",
+    "expiry_date": "2027-05-10",
+    "synonyms": [
+      "fluoroquinolone",
+      "antibiotic",
+      "cipro"
+    ],
+    "keywords": [
+      "ciprofloxacin",
+      "tablet",
+      "urinary tract infection",
+      "respiratory infection",
+      "gastroenteritis",
+      "fluoroquinolone",
+      "antibiotic",
+      "cipro"
+    ]
+  },
+  {
+    "medicine_id": "MED-0f648c48e1d5",
+    "name": "Azithromycin",
+    "dosage": "250mg",
+    "form": "Tablet",
+    "indications": [
+      "Community-Acquired Pneumonia",
+      "Atypical Pneumonia",
+      "Sexually Transmitted Infections"
+    ],
+    "contraindications": [
+      "QT prolongation",
+      "Liver disease"
+    ],
+    "stock_units": 83,
+    "reorder_level": 48,
+    "batch_id": "30729b08fe",
+    "expiry_date": "2027-10-08",
+    "synonyms": [
+      "macrolide",
+      "antibiotic",
+      "zithromax",
+      "Z-pack"
+    ],
+    "keywords": [
+      "azithromycin",
+      "tablet",
+      "community-acquired pneumonia",
+      "atypical pneumonia",
+      "sexually transmitted infections",
+      "macrolide",
+      "antibiotic",
+      "zithromax",
+      "Z-pack"
+    ]
+  },
+  {
+    "medicine_id": "MED-c74abc3bcff2",
+    "name": "Metronidazole",
+    "dosage": "200mg",
+    "form": "Tablet",
+    "indications": [
+      "Anaerobic Infections",
+      "Clostridium difficile",
+      "Trichomoniasis"
+    ],
+    "contraindications": [
+      "First trimester pregnancy",
+      "Alcohol use"
+    ],
+    "stock_units": 130,
+    "reorder_level": 50,
+    "batch_id": "41a4cac746",
+    "expiry_date": "2028-01-27",
+    "synonyms": [
+      "nitroimidazole",
+      "antibiotic",
+      "flagyl"
+    ],
+    "keywords": [
+      "metronidazole",
+      "tablet",
+      "anaerobic infections",
+      "clostridium difficile",
+      "trichomoniasis",
+      "nitroimidazole",
+      "antibiotic",
+      "flagyl"
+    ]
+  },
+  {
+    "medicine_id": "MED-479ddbc6710f",
+    "name": "Doxycycline",
+    "dosage": "50mg",
+    "form": "Capsule",
+    "indications": [
+      "Community-Acquired Pneumonia",
+      "Malaria",
+      "Lyme Disease"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Children under 8",
+      "Severe renal failure"
+    ],
+    "stock_units": 152,
+    "reorder_level": 41,
+    "batch_id": "4239869621",
+    "expiry_date": "2028-03-08",
+    "synonyms": [
+      "tetracycline",
+      "antibiotic",
+      "doxy",
+      "vibramycin"
+    ],
+    "keywords": [
+      "doxycycline",
+      "capsule",
+      "community-acquired pneumonia",
+      "malaria",
+      "lyme disease",
+      "tetracycline",
+      "antibiotic",
+      "doxy",
+      "vibramycin"
+    ]
+  },
+  {
+    "medicine_id": "MED-5393ae6beebf",
+    "name": "Ceftriaxone",
+    "dosage": "1g",
+    "form": "Injectable",
+    "indications": [
+      "Sepsis",
+      "Meningitis",
+      "Community-Acquired Pneumonia"
+    ],
+    "contraindications": [
+      "Cephalosporin allergy",
+      "Neonatal jaundice"
+    ],
+    "stock_units": 175,
+    "reorder_level": 44,
+    "batch_id": "7f11e942be",
+    "expiry_date": "2027-10-02",
+    "synonyms": [
+      "cephalosporin",
+      "antibiotic",
+      "rocephin",
+      "third-generation"
+    ],
+    "keywords": [
+      "ceftriaxone",
+      "injectable",
+      "sepsis",
+      "meningitis",
+      "community-acquired pneumonia",
+      "cephalosporin",
+      "antibiotic",
+      "rocephin",
+      "third-generation"
+    ]
+  },
+  {
+    "medicine_id": "MED-9638dbab40fa",
+    "name": "Amlodipine",
+    "dosage": "10mg",
+    "form": "Tablet",
+    "indications": [
+      "Migraine prevention",
+      "Hypertension"
+    ],
+    "contraindications": [
+      "Severe hypotension"
+    ],
+    "stock_units": 325,
+    "reorder_level": 24,
+    "batch_id": "e3144b1e55",
+    "expiry_date": "2027-10-03",
+    "synonyms": [
+      "calcium channel blocker",
+      "migraine prophylaxis"
+    ],
+    "keywords": [
+      "amlodipine",
+      "tablet",
+      "migraine prevention",
+      "hypertension",
+      "calcium channel blocker",
+      "migraine prophylaxis"
+    ]
+  },
+  {
+    "medicine_id": "MED-83aceb2052a6",
+    "name": "Sertraline",
+    "dosage": "25mg",
+    "form": "Tablet",
+    "indications": [
+      "Major Depression",
+      "Anxiety Disorder",
+      "OCD"
+    ],
+    "contraindications": [
+      "MAO inhibitor use",
+      "Pimozide use"
+    ],
+    "stock_units": 69,
+    "reorder_level": 24,
+    "batch_id": "ad3adbe474",
+    "expiry_date": "2027-06-21",
+    "synonyms": [
+      "SSRI",
+      "antidepressant",
+      "zoloft",
+      "serotonin"
+    ],
+    "keywords": [
+      "sertraline",
+      "tablet",
+      "major depression",
+      "anxiety disorder",
+      "ocd",
+      "SSRI",
+      "antidepressant",
+      "zoloft",
+      "serotonin"
+    ]
+  },
+  {
+    "medicine_id": "MED-1192083f002b",
+    "name": "Fluoxetine",
+    "dosage": "20mg",
+    "form": "Capsule",
+    "indications": [
+      "Major Depression",
+      "Bipolar Disorder",
+      "Anxiety Disorder"
+    ],
+    "contraindications": [
+      "MAO inhibitor use",
+      "QT prolongation"
+    ],
+    "stock_units": 23,
+    "reorder_level": 41,
+    "batch_id": "1898735f27",
+    "expiry_date": "2027-03-23",
+    "synonyms": [
+      "SSRI",
+      "antidepressant",
+      "prozac",
+      "serotonin"
+    ],
+    "keywords": [
+      "fluoxetine",
+      "capsule",
+      "major depression",
+      "bipolar disorder",
+      "anxiety disorder",
+      "SSRI",
+      "antidepressant",
+      "prozac",
+      "serotonin"
+    ]
+  },
+  {
+    "medicine_id": "MED-043a2b5b1b07",
+    "name": "Haloperidol",
+    "dosage": "2mg",
+    "form": "Tablet",
+    "indications": [
+      "Schizophrenia",
+      "Acute Psychosis",
+      "Delirium"
+    ],
+    "contraindications": [
+      "Parkinson Disease",
+      "QT prolongation",
+      "Coma"
+    ],
+    "stock_units": 190,
+    "reorder_level": 32,
+    "batch_id": "a7178744c1",
+    "expiry_date": "2027-02-15",
+    "synonyms": [
+      "antipsychotic",
+      "typical antipsychotic",
+      "haldol",
+      "neuroleptic"
+    ],
+    "keywords": [
+      "haloperidol",
+      "tablet",
+      "schizophrenia",
+      "acute psychosis",
+      "delirium",
+      "antipsychotic",
+      "typical antipsychotic",
+      "haldol",
+      "neuroleptic"
+    ]
+  },
+  {
+    "medicine_id": "MED-da33b9414e73",
+    "name": "Valproate",
+    "dosage": "200mg",
+    "form": "Tablet",
+    "indications": [
+      "Epilepsy",
+      "Bipolar Disorder",
+      "Migraine prevention"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Liver disease",
+      "Urea cycle disorder"
+    ],
+    "stock_units": 379,
+    "reorder_level": 48,
+    "batch_id": "db0939728e",
+    "expiry_date": "2026-11-06",
+    "synonyms": [
+      "anticonvulsant",
+      "mood stabilizer",
+      "depakote",
+      "valproic acid"
+    ],
+    "keywords": [
+      "valproate",
+      "tablet",
+      "epilepsy",
+      "bipolar disorder",
+      "migraine prevention",
+      "anticonvulsant",
+      "mood stabilizer",
+      "depakote",
+      "valproic acid"
+    ]
+  },
+  {
+    "medicine_id": "MED-acff60091455",
+    "name": "Levetiracetam",
+    "dosage": "1000mg",
+    "form": "Tablet",
+    "indications": [
+      "Epilepsy"
+    ],
+    "contraindications": [
+      "Hypersensitivity",
+      "Severe renal failure"
+    ],
+    "stock_units": 147,
+    "reorder_level": 35,
+    "batch_id": "a6872f06fe",
+    "expiry_date": "2027-05-11",
+    "synonyms": [
+      "anticonvulsant",
+      "keppra",
+      "antiepileptic"
+    ],
+    "keywords": [
+      "levetiracetam",
+      "tablet",
+      "epilepsy",
+      "anticonvulsant",
+      "keppra",
+      "antiepileptic"
+    ]
+  },
+  {
+    "medicine_id": "MED-07fca3da5f74",
+    "name": "Omeprazole",
+    "dosage": "10mg",
+    "form": "Capsule",
+    "indications": [
+      "GERD",
+      "Peptic Ulcer",
+      "H. pylori"
+    ],
+    "contraindications": [
+      "Clopidogrel use",
+      "Hypersensitivity"
+    ],
+    "stock_units": 496,
+    "reorder_level": 14,
+    "batch_id": "2a793a998b",
+    "expiry_date": "2027-07-03",
+    "synonyms": [
+      "PPI",
+      "proton pump inhibitor",
+      "prilosec",
+      "acid reducer"
+    ],
+    "keywords": [
+      "omeprazole",
+      "capsule",
+      "gerd",
+      "peptic ulcer",
+      "h. pylori",
+      "PPI",
+      "proton pump inhibitor",
+      "prilosec",
+      "acid reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-b8262a8191f1",
+    "name": "Pantoprazole",
+    "dosage": "20mg",
+    "form": "Tablet",
+    "indications": [
+      "GERD",
+      "Peptic Ulcer",
+      "Zollinger-Ellison syndrome"
+    ],
+    "contraindications": [
+      "Rilpivirine use"
+    ],
+    "stock_units": 344,
+    "reorder_level": 39,
+    "batch_id": "febf19f113",
+    "expiry_date": "2027-04-12",
+    "synonyms": [
+      "PPI",
+      "proton pump inhibitor",
+      "protonix",
+      "acid reducer"
+    ],
+    "keywords": [
+      "pantoprazole",
+      "tablet",
+      "gerd",
+      "peptic ulcer",
+      "zollinger-ellison syndrome",
+      "PPI",
+      "proton pump inhibitor",
+      "protonix",
+      "acid reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-c95ffbb3bd49",
+    "name": "Ondansetron",
+    "dosage": "8mg",
+    "form": "Tablet",
+    "indications": [
+      "Nausea",
+      "Vomiting",
+      "Chemotherapy-induced nausea"
+    ],
+    "contraindications": [
+      "QT prolongation",
+      "Congenital long QT syndrome"
+    ],
+    "stock_units": 415,
+    "reorder_level": 27,
+    "batch_id": "8ada45561c",
+    "expiry_date": "2028-05-14",
+    "synonyms": [
+      "antiemetic",
+      "5-HT3 antagonist",
+      "zofran",
+      "anti-nausea"
+    ],
+    "keywords": [
+      "ondansetron",
+      "tablet",
+      "nausea",
+      "vomiting",
+      "chemotherapy-induced nausea",
+      "antiemetic",
+      "5-HT3 antagonist",
+      "zofran",
+      "anti-nausea"
+    ]
+  },
+  {
+    "medicine_id": "MED-34e82880700b",
+    "name": "Ibuprofen",
+    "dosage": "600mg",
+    "form": "Tablet",
+    "indications": [
+      "Pain",
+      "Fever",
+      "Osteoarthritis",
+      "Gout"
+    ],
+    "contraindications": [
+      "Active peptic ulcer",
+      "Renal failure",
+      "Third trimester pregnancy"
+    ],
+    "stock_units": 146,
+    "reorder_level": 49,
+    "batch_id": "8ddb5c80a5",
+    "expiry_date": "2028-05-25",
+    "synonyms": [
+      "NSAID",
+      "anti-inflammatory",
+      "advil",
+      "pain relief"
+    ],
+    "keywords": [
+      "ibuprofen",
+      "tablet",
+      "pain",
+      "fever",
+      "osteoarthritis",
+      "gout",
+      "NSAID",
+      "anti-inflammatory",
+      "advil",
+      "pain relief"
+    ]
+  },
+  {
+    "medicine_id": "MED-47b9f0ae7363",
+    "name": "Paracetamol",
+    "dosage": "500mg",
+    "form": "Tablet",
+    "indications": [
+      "Pain",
+      "Fever",
+      "Headache"
+    ],
+    "contraindications": [
+      "Severe liver disease"
+    ],
+    "stock_units": 384,
+    "reorder_level": 30,
+    "batch_id": "7a3a8c8a99",
+    "expiry_date": "2027-04-27",
+    "synonyms": [
+      "acetaminophen",
+      "tylenol",
+      "analgesic",
+      "fever reducer"
+    ],
+    "keywords": [
+      "paracetamol",
+      "tablet",
+      "pain",
+      "fever",
+      "headache",
+      "acetaminophen",
+      "tylenol",
+      "analgesic",
+      "fever reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-60892d5e5d76",
+    "name": "Morphine",
+    "dosage": "5mg",
+    "form": "Injectable",
+    "indications": [
+      "Severe Pain",
+      "Myocardial Infarction",
+      "Palliative Care"
+    ],
+    "contraindications": [
+      "Respiratory depression",
+      "Paralytic ileus",
+      "Opioid allergy"
+    ],
+    "stock_units": 319,
+    "reorder_level": 29,
+    "batch_id": "3aecb86ec6",
+    "expiry_date": "2027-10-23",
+    "synonyms": [
+      "opioid",
+      "narcotic",
+      "strong analgesic",
+      "opiate"
+    ],
+    "keywords": [
+      "morphine",
+      "injectable",
+      "severe pain",
+      "myocardial infarction",
+      "palliative care",
+      "opioid",
+      "narcotic",
+      "strong analgesic",
+      "opiate"
+    ]
+  },
+  {
+    "medicine_id": "MED-61e7a0e1f89c",
+    "name": "Tramadol",
+    "dosage": "50mg",
+    "form": "Tablet",
+    "indications": [
+      "Moderate Pain",
+      "Osteoarthritis"
+    ],
+    "contraindications": [
+      "Seizure disorder",
+      "MAO inhibitor use",
+      "Opioid allergy"
+    ],
+    "stock_units": 384,
+    "reorder_level": 30,
+    "batch_id": "d238af0f74",
+    "expiry_date": "2027-12-23",
+    "synonyms": [
+      "opioid analgesic",
+      "tramacet",
+      "weak opioid"
+    ],
+    "keywords": [
+      "tramadol",
+      "tablet",
+      "moderate pain",
+      "osteoarthritis",
+      "opioid analgesic",
+      "tramacet",
+      "weak opioid"
+    ]
+  },
+  {
+    "medicine_id": "MED-471b6c5916b5",
+    "name": "Colchicine",
+    "dosage": "0.5mg",
+    "form": "Tablet",
+    "indications": [
+      "Gout",
+      "Familial Mediterranean Fever"
+    ],
+    "contraindications": [
+      "Severe renal failure",
+      "Severe hepatic failure"
+    ],
+    "stock_units": 277,
+    "reorder_level": 30,
+    "batch_id": "08e1948b88",
+    "expiry_date": "2027-11-15",
+    "synonyms": [
+      "antigout",
+      "uricosuric",
+      "gout treatment"
+    ],
+    "keywords": [
+      "colchicine",
+      "tablet",
+      "gout",
+      "familial mediterranean fever",
+      "antigout",
+      "uricosuric",
+      "gout treatment"
+    ]
+  },
+  {
+    "medicine_id": "MED-ed3cea5d7741",
+    "name": "Allopurinol",
+    "dosage": "300mg",
+    "form": "Tablet",
+    "indications": [
+      "Gout",
+      "Hyperuricemia",
+      "Kidney Stones"
+    ],
+    "contraindications": [
+      "Acute gout attack",
+      "Azathioprine use"
+    ],
+    "stock_units": 63,
+    "reorder_level": 38,
+    "batch_id": "d555db2e8d",
+    "expiry_date": "2026-12-29",
+    "synonyms": [
+      "xanthine oxidase inhibitor",
+      "urate lowering",
+      "zyloprim"
+    ],
+    "keywords": [
+      "allopurinol",
+      "tablet",
+      "gout",
+      "hyperuricemia",
+      "kidney stones",
+      "xanthine oxidase inhibitor",
+      "urate lowering",
+      "zyloprim"
+    ]
+  },
+  {
+    "medicine_id": "MED-3efe58b0a194",
+    "name": "Methotrexate",
+    "dosage": "7.5mg",
+    "form": "Tablet",
+    "indications": [
+      "Rheumatoid Arthritis",
+      "Psoriasis",
+      "Cancer"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Severe liver disease",
+      "Immunodeficiency"
+    ],
+    "stock_units": 489,
+    "reorder_level": 13,
+    "batch_id": "c1551a93a9",
+    "expiry_date": "2026-12-21",
+    "synonyms": [
+      "DMARD",
+      "disease modifying",
+      "antimetabolite"
+    ],
+    "keywords": [
+      "methotrexate",
+      "tablet",
+      "rheumatoid arthritis",
+      "psoriasis",
+      "cancer",
+      "DMARD",
+      "disease modifying",
+      "antimetabolite"
+    ]
+  },
+  {
+    "medicine_id": "MED-efa106d70e4f",
+    "name": "Levothyroxine",
+    "dosage": "50mcg",
+    "form": "Tablet",
+    "indications": [
+      "Hypothyroidism"
+    ],
+    "contraindications": [
+      "Untreated adrenal insufficiency",
+      "Thyrotoxicosis"
+    ],
+    "stock_units": 177,
+    "reorder_level": 48,
+    "batch_id": "6f5b264800",
+    "expiry_date": "2027-07-25",
+    "synonyms": [
+      "thyroid hormone",
+      "synthroid",
+      "T4",
+      "thyroid replacement"
+    ],
+    "keywords": [
+      "levothyroxine",
+      "tablet",
+      "hypothyroidism",
+      "thyroid hormone",
+      "synthroid",
+      "T4",
+      "thyroid replacement"
+    ]
+  },
+  {
+    "medicine_id": "MED-b842eb43c891",
+    "name": "Prednisolone",
+    "dosage": "40mg",
+    "form": "Tablet",
+    "indications": [
+      "Asthma",
+      "Rheumatoid Arthritis",
+      "Allergic reactions",
+      "COPD exacerbation"
+    ],
+    "contraindications": [
+      "Systemic fungal infection",
+      "Live vaccines"
+    ],
+    "stock_units": 252,
+    "reorder_level": 29,
+    "batch_id": "0ef17077d2",
+    "expiry_date": "2028-02-28",
+    "synonyms": [
+      "corticosteroid",
+      "steroid",
+      "anti-inflammatory",
+      "prednisolone"
+    ],
+    "keywords": [
+      "prednisolone",
+      "tablet",
+      "asthma",
+      "rheumatoid arthritis",
+      "allergic reactions",
+      "copd exacerbation",
+      "corticosteroid",
+      "steroid",
+      "anti-inflammatory"
+    ]
+  },
+  {
+    "medicine_id": "MED-16d1048a89a4",
+    "name": "Heparin",
+    "dosage": "5000 units",
+    "form": "Injectable",
+    "indications": [
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "HIT",
+      "Severe thrombocytopenia"
+    ],
+    "stock_units": 411,
+    "reorder_level": 33,
+    "batch_id": "27f447dcf1",
+    "expiry_date": "2027-11-03",
+    "synonyms": [
+      "anticoagulant",
+      "blood thinner",
+      "unfractionated heparin",
+      "UFH"
+    ],
+    "keywords": [
+      "heparin",
+      "injectable",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "atrial fibrillation",
+      "anticoagulant",
+      "blood thinner",
+      "unfractionated heparin",
+      "UFH"
+    ]
+  },
+  {
+    "medicine_id": "MED-4c1e20765d18",
+    "name": "Enoxaparin",
+    "dosage": "40mg",
+    "form": "Injectable",
+    "indications": [
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism",
+      "ACS"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "HIT",
+      "Prosthetic heart valves"
+    ],
+    "stock_units": 172,
+    "reorder_level": 38,
+    "batch_id": "48b5256ec1",
+    "expiry_date": "2027-09-01",
+    "synonyms": [
+      "LMWH",
+      "low molecular weight heparin",
+      "lovenox",
+      "anticoagulant"
+    ],
+    "keywords": [
+      "enoxaparin",
+      "injectable",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "acs",
+      "LMWH",
+      "low molecular weight heparin",
+      "lovenox",
+      "anticoagulant"
+    ]
+  },
+  {
+    "medicine_id": "MED-18c8139c2d38",
+    "name": "Tamsulosin",
+    "dosage": "0.4mg",
+    "form": "Capsule",
+    "indications": [
+      "Benign Prostatic Hyperplasia",
+      "Urinary Retention"
+    ],
+    "contraindications": [
+      "Severe hepatic impairment",
+      "Concurrent PDE5 inhibitor"
+    ],
+    "stock_units": 446,
+    "reorder_level": 39,
+    "batch_id": "162b296d6b",
+    "expiry_date": "2027-11-02",
+    "synonyms": [
+      "alpha blocker",
+      "flomax",
+      "BPH treatment"
+    ],
+    "keywords": [
+      "tamsulosin",
+      "capsule",
+      "benign prostatic hyperplasia",
+      "urinary retention",
+      "alpha blocker",
+      "flomax",
+      "BPH treatment"
+    ]
+  },
+  {
+    "medicine_id": "MED-4f54a4868d66",
+    "name": "Ranitidine",
+    "dosage": "300mg",
+    "form": "Tablet",
+    "indications": [
+      "GERD",
+      "Peptic Ulcer"
+    ],
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "stock_units": 173,
+    "reorder_level": 46,
+    "batch_id": "fe4b11a13d",
+    "expiry_date": "2027-05-26",
+    "synonyms": [
+      "H2 blocker",
+      "histamine antagonist",
+      "zantac",
+      "acid reducer"
+    ],
+    "keywords": [
+      "ranitidine",
+      "tablet",
+      "gerd",
+      "peptic ulcer",
+      "H2 blocker",
+      "histamine antagonist",
+      "zantac",
+      "acid reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-84c88cbdf743",
+    "name": "Cetirizine",
+    "dosage": "10mg",
+    "form": "Tablet",
+    "indications": [
+      "Allergic Rhinitis",
+      "Urticaria",
+      "Eczema"
+    ],
+    "contraindications": [
+      "Severe renal failure"
+    ],
+    "stock_units": 168,
+    "reorder_level": 48,
+    "batch_id": "b1e6c7adac",
+    "expiry_date": "2026-12-10",
+    "synonyms": [
+      "antihistamine",
+      "zyrtec",
+      "allergy relief",
+      "H1 blocker"
+    ],
+    "keywords": [
+      "cetirizine",
+      "tablet",
+      "allergic rhinitis",
+      "urticaria",
+      "eczema",
+      "antihistamine",
+      "zyrtec",
+      "allergy relief",
+      "H1 blocker"
+    ]
+  },
+  {
+    "medicine_id": "MED-9adb16f98099",
+    "name": "Loratadine",
+    "dosage": "10mg",
+    "form": "Tablet",
+    "indications": [
+      "Allergic Rhinitis",
+      "Urticaria"
+    ],
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "stock_units": 138,
+    "reorder_level": 41,
+    "batch_id": "243f0dd192",
+    "expiry_date": "2028-05-03",
+    "synonyms": [
+      "antihistamine",
+      "claritin",
+      "non-drowsy antihistamine",
+      "allergy"
+    ],
+    "keywords": [
+      "loratadine",
+      "tablet",
+      "allergic rhinitis",
+      "urticaria",
+      "antihistamine",
+      "claritin",
+      "non-drowsy antihistamine",
+      "allergy"
+    ]
+  },
+  {
+    "medicine_id": "MED-c7a3ef38dcc5",
+    "name": "Vitamin D3",
+    "dosage": "400 IU",
+    "form": "Capsule",
+    "indications": [
+      "Vitamin D deficiency",
+      "Osteoporosis prevention",
+      "Chronic Kidney Disease"
+    ],
+    "contraindications": [
+      "Hypercalcemia",
+      "Vitamin D toxicity"
+    ],
+    "stock_units": 133,
+    "reorder_level": 22,
+    "batch_id": "9af2a91f8a",
+    "expiry_date": "2028-04-28",
+    "synonyms": [
+      "cholecalciferol",
+      "vitamin D supplement",
+      "calcium metabolism"
+    ],
+    "keywords": [
+      "vitamin d3",
+      "capsule",
+      "vitamin d deficiency",
+      "osteoporosis prevention",
+      "chronic kidney disease",
+      "cholecalciferol",
+      "vitamin D supplement",
+      "calcium metabolism"
+    ]
+  },
+  {
+    "medicine_id": "MED-0e49d72be0eb",
+    "name": "Ferrous Sulfate",
+    "dosage": "200mg",
+    "form": "Tablet",
+    "indications": [
+      "Iron Deficiency Anemia"
+    ],
+    "contraindications": [
+      "Haemochromatosis",
+      "Repeated blood transfusion"
+    ],
+    "stock_units": 235,
+    "reorder_level": 15,
+    "batch_id": "542f8d8b28",
+    "expiry_date": "2027-05-27",
+    "synonyms": [
+      "iron supplement",
+      "iron tablet",
+      "anemia treatment"
+    ],
+    "keywords": [
+      "ferrous sulfate",
+      "tablet",
+      "iron deficiency anemia",
+      "iron supplement",
+      "iron tablet",
+      "anemia treatment"
+    ]
+  },
+  {
+    "medicine_id": "MED-190f8b664b3d",
+    "name": "Folic Acid",
+    "dosage": "400mcg",
+    "form": "Tablet",
+    "indications": [
+      "Anemia",
+      "Pregnancy",
+      "Methotrexate use"
+    ],
+    "contraindications": [
+      "Undiagnosed anemia"
+    ],
+    "stock_units": 442,
+    "reorder_level": 43,
+    "batch_id": "e6a5cd7f48",
+    "expiry_date": "2028-01-14",
+    "synonyms": [
+      "folate",
+      "B9",
+      "neural tube defect prevention"
+    ],
+    "keywords": [
+      "folic acid",
+      "tablet",
+      "anemia",
+      "pregnancy",
+      "methotrexate use",
+      "folate",
+      "B9",
+      "neural tube defect prevention"
+    ]
+  },
+  {
+    "medicine_id": "MED-40b74cddfe0a",
+    "name": "Lisinopril",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Heart Failure",
+      "Chronic Kidney Disease"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Angioedema history",
+      "Hyperkalemia"
+    ],
+    "stock_units": 282,
+    "reorder_level": 40,
+    "batch_id": "313bfd1bae",
+    "expiry_date": "2028-05-03",
+    "synonyms": [
+      "ACE inhibitor",
+      "antihypertensive",
+      "lisinopril"
+    ],
+    "keywords": [
+      "lisinopril",
+      "tablet",
+      "hypertension",
+      "heart failure",
+      "chronic kidney disease",
+      "ACE inhibitor",
+      "antihypertensive"
+    ]
+  },
+  {
+    "medicine_id": "MED-1c85f007b367",
+    "name": "Amlodipine",
+    "dosage": "2.5mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Angina"
+    ],
+    "contraindications": [
+      "Severe aortic stenosis",
+      "Cardiogenic shock"
+    ],
+    "stock_units": 435,
+    "reorder_level": 45,
+    "batch_id": "dd66711326",
+    "expiry_date": "2027-10-30",
+    "synonyms": [
+      "calcium channel blocker",
+      "CCB",
+      "norvasc"
+    ],
+    "keywords": [
+      "amlodipine",
+      "tablet",
+      "hypertension",
+      "angina",
+      "calcium channel blocker",
+      "CCB",
+      "norvasc"
+    ]
+  },
+  {
+    "medicine_id": "MED-1c4def13b705",
+    "name": "Metoprolol",
+    "dosage": "25mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Heart Failure",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Severe bradycardia",
+      "Heart block",
+      "Asthma"
+    ],
+    "stock_units": 265,
+    "reorder_level": 44,
+    "batch_id": "26d7b73474",
+    "expiry_date": "2027-05-23",
+    "synonyms": [
+      "beta blocker",
+      "lopressor",
+      "metoprolol succinate"
+    ],
+    "keywords": [
+      "metoprolol",
+      "tablet",
+      "hypertension",
+      "heart failure",
+      "atrial fibrillation",
+      "beta blocker",
+      "lopressor",
+      "metoprolol succinate"
+    ]
+  },
+  {
+    "medicine_id": "MED-416414f797ec",
+    "name": "Atorvastatin",
+    "dosage": "10mg",
+    "form": "Tablet",
+    "indications": [
+      "High Cholesterol",
+      "Coronary Artery Disease"
+    ],
+    "contraindications": [
+      "Active liver disease",
+      "Pregnancy"
+    ],
+    "stock_units": 166,
+    "reorder_level": 45,
+    "batch_id": "914c0c20b8",
+    "expiry_date": "2027-05-10",
+    "synonyms": [
+      "statin",
+      "lipitor",
+      "HMG-CoA reductase inhibitor"
+    ],
+    "keywords": [
+      "atorvastatin",
+      "tablet",
+      "high cholesterol",
+      "coronary artery disease",
+      "statin",
+      "lipitor",
+      "HMG-CoA reductase inhibitor"
+    ]
+  },
+  {
+    "medicine_id": "MED-aca6820f32d0",
+    "name": "Warfarin",
+    "dosage": "2mg",
+    "form": "Tablet",
+    "indications": [
+      "Atrial Fibrillation",
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "Pregnancy"
+    ],
+    "stock_units": 370,
+    "reorder_level": 14,
+    "batch_id": "dc0e60ba52",
+    "expiry_date": "2027-05-07",
+    "synonyms": [
+      "anticoagulant",
+      "blood thinner",
+      "coumadin"
+    ],
+    "keywords": [
+      "warfarin",
+      "tablet",
+      "atrial fibrillation",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "anticoagulant",
+      "blood thinner",
+      "coumadin"
+    ]
+  },
+  {
+    "medicine_id": "MED-e4c3da7cfa49",
+    "name": "Aspirin",
+    "dosage": "75mg",
+    "form": "Tablet",
+    "indications": [
+      "Coronary Artery Disease",
+      "Stroke prevention",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Active peptic ulcer",
+      "Allergy"
+    ],
+    "stock_units": 247,
+    "reorder_level": 29,
+    "batch_id": "30d5545cd6",
+    "expiry_date": "2027-10-03",
+    "synonyms": [
+      "ASA",
+      "acetylsalicylic acid",
+      "antiplatelet"
+    ],
+    "keywords": [
+      "aspirin",
+      "tablet",
+      "coronary artery disease",
+      "stroke prevention",
+      "atrial fibrillation",
+      "ASA",
+      "acetylsalicylic acid",
+      "antiplatelet"
+    ]
+  },
+  {
+    "medicine_id": "MED-cc503e6189a7",
+    "name": "Furosemide",
+    "dosage": "80mg",
+    "form": "Tablet",
+    "indications": [
+      "Heart Failure",
+      "Edema",
+      "Hypertension"
+    ],
+    "contraindications": [
+      "Anuria",
+      "Severe electrolyte depletion"
+    ],
+    "stock_units": 128,
+    "reorder_level": 30,
+    "batch_id": "9cfe75d843",
+    "expiry_date": "2028-03-11",
+    "synonyms": [
+      "loop diuretic",
+      "lasix",
+      "water pill"
+    ],
+    "keywords": [
+      "furosemide",
+      "tablet",
+      "heart failure",
+      "edema",
+      "hypertension",
+      "loop diuretic",
+      "lasix",
+      "water pill"
+    ]
+  },
+  {
+    "medicine_id": "MED-6f93900f605a",
+    "name": "Spironolactone",
+    "dosage": "100mg",
+    "form": "Tablet",
+    "indications": [
+      "Heart Failure",
+      "Hypertension",
+      "Hyperaldosteronism"
+    ],
+    "contraindications": [
+      "Hyperkalemia",
+      "Anuria"
+    ],
+    "stock_units": 45,
+    "reorder_level": 16,
+    "batch_id": "2fbdd6eaba",
+    "expiry_date": "2028-06-03",
+    "synonyms": [
+      "aldosterone antagonist",
+      "potassium-sparing diuretic"
+    ],
+    "keywords": [
+      "spironolactone",
+      "tablet",
+      "heart failure",
+      "hypertension",
+      "hyperaldosteronism",
+      "aldosterone antagonist",
+      "potassium-sparing diuretic"
+    ]
+  },
+  {
+    "medicine_id": "MED-14f21006bed7",
+    "name": "Metformin",
+    "dosage": "500mg",
+    "form": "Tablet",
+    "indications": [
+      "Type 2 Diabetes",
+      "Prediabetes"
+    ],
+    "contraindications": [
+      "Chronic Kidney Disease stage 4+",
+      "Liver failure",
+      "Contrast dye use"
+    ],
+    "stock_units": 202,
+    "reorder_level": 37,
+    "batch_id": "55a35f3388",
+    "expiry_date": "2027-05-14",
+    "synonyms": [
+      "biguanide",
+      "glucophage",
+      "antidiabetic"
+    ],
+    "keywords": [
+      "metformin",
+      "tablet",
+      "type 2 diabetes",
+      "prediabetes",
+      "biguanide",
+      "glucophage",
+      "antidiabetic"
+    ]
+  },
+  {
+    "medicine_id": "MED-55f7f1eababd",
+    "name": "Glibenclamide",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Type 2 Diabetes"
+    ],
+    "contraindications": [
+      "Type 1 Diabetes",
+      "Renal failure",
+      "Sulfonamide allergy"
+    ],
+    "stock_units": 162,
+    "reorder_level": 34,
+    "batch_id": "20bc1fb9f5",
+    "expiry_date": "2027-01-31",
+    "synonyms": [
+      "sulfonylurea",
+      "glyburide",
+      "antidiabetic"
+    ],
+    "keywords": [
+      "glibenclamide",
+      "tablet",
+      "type 2 diabetes",
+      "sulfonylurea",
+      "glyburide",
+      "antidiabetic"
+    ]
+  },
+  {
+    "medicine_id": "MED-6079b1114025",
+    "name": "Insulin Glargine",
+    "dosage": "40 units",
+    "form": "Injectable",
+    "indications": [
+      "Type 1 Diabetes",
+      "Type 2 Diabetes"
+    ],
+    "contraindications": [
+      "Hypoglycemia"
+    ],
+    "stock_units": 265,
+    "reorder_level": 38,
+    "batch_id": "a3419b693f",
+    "expiry_date": "2027-04-18",
+    "synonyms": [
+      "basal insulin",
+      "lantus",
+      "long-acting insulin"
+    ],
+    "keywords": [
+      "insulin glargine",
+      "injectable",
+      "type 1 diabetes",
+      "type 2 diabetes",
+      "basal insulin",
+      "lantus",
+      "long-acting insulin"
+    ]
+  },
+  {
+    "medicine_id": "MED-4a9153fb0ceb",
+    "name": "Sitagliptin",
+    "dosage": "100mg",
+    "form": "Tablet",
+    "indications": [
+      "Type 2 Diabetes"
+    ],
+    "contraindications": [
+      "Type 1 Diabetes",
+      "Pancreatitis history"
+    ],
+    "stock_units": 321,
+    "reorder_level": 14,
+    "batch_id": "5605f2b648",
+    "expiry_date": "2027-06-20",
+    "synonyms": [
+      "DPP-4 inhibitor",
+      "januvia",
+      "gliptin"
+    ],
+    "keywords": [
+      "sitagliptin",
+      "tablet",
+      "type 2 diabetes",
+      "DPP-4 inhibitor",
+      "januvia",
+      "gliptin"
+    ]
+  },
+  {
+    "medicine_id": "MED-13feaa1ba72a",
+    "name": "Salbutamol",
+    "dosage": "2mg",
+    "form": "Inhaler",
+    "indications": [
+      "Asthma",
+      "COPD",
+      "Bronchospasm"
+    ],
+    "contraindications": [
+      "Cardiac arrhythmia",
+      "Severe hyperthyroidism"
+    ],
+    "stock_units": 436,
+    "reorder_level": 35,
+    "batch_id": "162ee1a3a0",
+    "expiry_date": "2028-06-26",
+    "synonyms": [
+      "albuterol",
+      "SABA",
+      "bronchodilator",
+      "ventolin"
+    ],
+    "keywords": [
+      "salbutamol",
+      "inhaler",
+      "asthma",
+      "copd",
+      "bronchospasm",
+      "albuterol",
+      "SABA",
+      "bronchodilator",
+      "ventolin"
+    ]
+  },
+  {
+    "medicine_id": "MED-73b8eeb7880c",
+    "name": "Budesonide",
+    "dosage": "400mcg",
+    "form": "Inhaler",
+    "indications": [
+      "Asthma",
+      "COPD"
+    ],
+    "contraindications": [
+      "Untreated fungal infection",
+      "Hypersensitivity"
+    ],
+    "stock_units": 314,
+    "reorder_level": 26,
+    "batch_id": "46def77e82",
+    "expiry_date": "2028-01-17",
+    "synonyms": [
+      "corticosteroid",
+      "ICS",
+      "inhaled steroid",
+      "pulmicort"
+    ],
+    "keywords": [
+      "budesonide",
+      "inhaler",
+      "asthma",
+      "copd",
+      "corticosteroid",
+      "ICS",
+      "inhaled steroid",
+      "pulmicort"
+    ]
+  },
+  {
+    "medicine_id": "MED-74f9afd5fa65",
+    "name": "Tiotropium",
+    "dosage": "18mcg",
+    "form": "Inhaler",
+    "indications": [
+      "COPD"
+    ],
+    "contraindications": [
+      "Narrow-angle glaucoma",
+      "Urinary retention"
+    ],
+    "stock_units": 483,
+    "reorder_level": 31,
+    "batch_id": "b8d0a0551b",
+    "expiry_date": "2028-07-19",
+    "synonyms": [
+      "LAMA",
+      "anticholinergic",
+      "spiriva",
+      "long-acting muscarinic antagonist"
+    ],
+    "keywords": [
+      "tiotropium",
+      "inhaler",
+      "copd",
+      "LAMA",
+      "anticholinergic",
+      "spiriva",
+      "long-acting muscarinic antagonist"
+    ]
+  },
+  {
+    "medicine_id": "MED-179187bcc386",
+    "name": "Montelukast",
+    "dosage": "10mg",
+    "form": "Tablet",
+    "indications": [
+      "Asthma",
+      "Allergic Rhinitis"
+    ],
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "stock_units": 314,
+    "reorder_level": 47,
+    "batch_id": "75f2f76784",
+    "expiry_date": "2026-12-10",
+    "synonyms": [
+      "leukotriene antagonist",
+      "singulair",
+      "LTRA"
+    ],
+    "keywords": [
+      "montelukast",
+      "tablet",
+      "asthma",
+      "allergic rhinitis",
+      "leukotriene antagonist",
+      "singulair",
+      "LTRA"
+    ]
+  },
+  {
+    "medicine_id": "MED-39fc522058d3",
+    "name": "Amoxicillin",
+    "dosage": "250mg",
+    "form": "Capsule",
+    "indications": [
+      "Community-Acquired Pneumonia",
+      "Urinary Tract Infection",
+      "Strep Throat"
+    ],
+    "contraindications": [
+      "Penicillin allergy"
+    ],
+    "stock_units": 44,
+    "reorder_level": 44,
+    "batch_id": "aa68b724b2",
+    "expiry_date": "2028-03-08",
+    "synonyms": [
+      "penicillin",
+      "antibiotic",
+      "amoxil",
+      "beta-lactam"
+    ],
+    "keywords": [
+      "amoxicillin",
+      "capsule",
+      "community-acquired pneumonia",
+      "urinary tract infection",
+      "strep throat",
+      "penicillin",
+      "antibiotic",
+      "amoxil",
+      "beta-lactam"
+    ]
+  },
+  {
+    "medicine_id": "MED-9139702f019d",
+    "name": "Ciprofloxacin",
+    "dosage": "250mg",
+    "form": "Tablet",
+    "indications": [
+      "Urinary Tract Infection",
+      "Respiratory Infection",
+      "Gastroenteritis"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Tendon disorders",
+      "QT prolongation"
+    ],
+    "stock_units": 315,
+    "reorder_level": 11,
+    "batch_id": "bf62490033",
+    "expiry_date": "2027-06-30",
+    "synonyms": [
+      "fluoroquinolone",
+      "antibiotic",
+      "cipro"
+    ],
+    "keywords": [
+      "ciprofloxacin",
+      "tablet",
+      "urinary tract infection",
+      "respiratory infection",
+      "gastroenteritis",
+      "fluoroquinolone",
+      "antibiotic",
+      "cipro"
+    ]
+  },
+  {
+    "medicine_id": "MED-2dfa660c154d",
+    "name": "Azithromycin",
+    "dosage": "500mg",
+    "form": "Tablet",
+    "indications": [
+      "Community-Acquired Pneumonia",
+      "Atypical Pneumonia",
+      "Sexually Transmitted Infections"
+    ],
+    "contraindications": [
+      "QT prolongation",
+      "Liver disease"
+    ],
+    "stock_units": 103,
+    "reorder_level": 16,
+    "batch_id": "7390fb7846",
+    "expiry_date": "2028-05-09",
+    "synonyms": [
+      "macrolide",
+      "antibiotic",
+      "zithromax",
+      "Z-pack"
+    ],
+    "keywords": [
+      "azithromycin",
+      "tablet",
+      "community-acquired pneumonia",
+      "atypical pneumonia",
+      "sexually transmitted infections",
+      "macrolide",
+      "antibiotic",
+      "zithromax",
+      "Z-pack"
+    ]
+  },
+  {
+    "medicine_id": "MED-dd795d6f8957",
+    "name": "Metronidazole",
+    "dosage": "500mg",
+    "form": "Tablet",
+    "indications": [
+      "Anaerobic Infections",
+      "Clostridium difficile",
+      "Trichomoniasis"
+    ],
+    "contraindications": [
+      "First trimester pregnancy",
+      "Alcohol use"
+    ],
+    "stock_units": 229,
+    "reorder_level": 43,
+    "batch_id": "41470a7547",
+    "expiry_date": "2027-08-24",
+    "synonyms": [
+      "nitroimidazole",
+      "antibiotic",
+      "flagyl"
+    ],
+    "keywords": [
+      "metronidazole",
+      "tablet",
+      "anaerobic infections",
+      "clostridium difficile",
+      "trichomoniasis",
+      "nitroimidazole",
+      "antibiotic",
+      "flagyl"
+    ]
+  },
+  {
+    "medicine_id": "MED-1d48cc3d1961",
+    "name": "Doxycycline",
+    "dosage": "50mg",
+    "form": "Capsule",
+    "indications": [
+      "Community-Acquired Pneumonia",
+      "Malaria",
+      "Lyme Disease"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Children under 8",
+      "Severe renal failure"
+    ],
+    "stock_units": 353,
+    "reorder_level": 28,
+    "batch_id": "07dad66673",
+    "expiry_date": "2027-08-13",
+    "synonyms": [
+      "tetracycline",
+      "antibiotic",
+      "doxy",
+      "vibramycin"
+    ],
+    "keywords": [
+      "doxycycline",
+      "capsule",
+      "community-acquired pneumonia",
+      "malaria",
+      "lyme disease",
+      "tetracycline",
+      "antibiotic",
+      "doxy",
+      "vibramycin"
+    ]
+  },
+  {
+    "medicine_id": "MED-c989e12da6a4",
+    "name": "Ceftriaxone",
+    "dosage": "2g",
+    "form": "Injectable",
+    "indications": [
+      "Sepsis",
+      "Meningitis",
+      "Community-Acquired Pneumonia"
+    ],
+    "contraindications": [
+      "Cephalosporin allergy",
+      "Neonatal jaundice"
+    ],
+    "stock_units": 500,
+    "reorder_level": 42,
+    "batch_id": "d8b29ca31e",
+    "expiry_date": "2027-09-03",
+    "synonyms": [
+      "cephalosporin",
+      "antibiotic",
+      "rocephin",
+      "third-generation"
+    ],
+    "keywords": [
+      "ceftriaxone",
+      "injectable",
+      "sepsis",
+      "meningitis",
+      "community-acquired pneumonia",
+      "cephalosporin",
+      "antibiotic",
+      "rocephin",
+      "third-generation"
+    ]
+  },
+  {
+    "medicine_id": "MED-5a180cdb3602",
+    "name": "Amlodipine",
+    "dosage": "10mg",
+    "form": "Tablet",
+    "indications": [
+      "Migraine prevention",
+      "Hypertension"
+    ],
+    "contraindications": [
+      "Severe hypotension"
+    ],
+    "stock_units": 318,
+    "reorder_level": 33,
+    "batch_id": "ce38a36df5",
+    "expiry_date": "2027-04-26",
+    "synonyms": [
+      "calcium channel blocker",
+      "migraine prophylaxis"
+    ],
+    "keywords": [
+      "amlodipine",
+      "tablet",
+      "migraine prevention",
+      "hypertension",
+      "calcium channel blocker",
+      "migraine prophylaxis"
+    ]
+  },
+  {
+    "medicine_id": "MED-b7959ec7cac8",
+    "name": "Sertraline",
+    "dosage": "100mg",
+    "form": "Tablet",
+    "indications": [
+      "Major Depression",
+      "Anxiety Disorder",
+      "OCD"
+    ],
+    "contraindications": [
+      "MAO inhibitor use",
+      "Pimozide use"
+    ],
+    "stock_units": 486,
+    "reorder_level": 33,
+    "batch_id": "db6590c63f",
+    "expiry_date": "2027-10-05",
+    "synonyms": [
+      "SSRI",
+      "antidepressant",
+      "zoloft",
+      "serotonin"
+    ],
+    "keywords": [
+      "sertraline",
+      "tablet",
+      "major depression",
+      "anxiety disorder",
+      "ocd",
+      "SSRI",
+      "antidepressant",
+      "zoloft",
+      "serotonin"
+    ]
+  },
+  {
+    "medicine_id": "MED-448d1b09a15f",
+    "name": "Fluoxetine",
+    "dosage": "40mg",
+    "form": "Capsule",
+    "indications": [
+      "Major Depression",
+      "Bipolar Disorder",
+      "Anxiety Disorder"
+    ],
+    "contraindications": [
+      "MAO inhibitor use",
+      "QT prolongation"
+    ],
+    "stock_units": 383,
+    "reorder_level": 46,
+    "batch_id": "5c81fd3ece",
+    "expiry_date": "2028-04-18",
+    "synonyms": [
+      "SSRI",
+      "antidepressant",
+      "prozac",
+      "serotonin"
+    ],
+    "keywords": [
+      "fluoxetine",
+      "capsule",
+      "major depression",
+      "bipolar disorder",
+      "anxiety disorder",
+      "SSRI",
+      "antidepressant",
+      "prozac",
+      "serotonin"
+    ]
+  },
+  {
+    "medicine_id": "MED-7c72175aafa2",
+    "name": "Haloperidol",
+    "dosage": "1mg",
+    "form": "Tablet",
+    "indications": [
+      "Schizophrenia",
+      "Acute Psychosis",
+      "Delirium"
+    ],
+    "contraindications": [
+      "Parkinson Disease",
+      "QT prolongation",
+      "Coma"
+    ],
+    "stock_units": 285,
+    "reorder_level": 17,
+    "batch_id": "0e5ff55d91",
+    "expiry_date": "2027-05-05",
+    "synonyms": [
+      "antipsychotic",
+      "typical antipsychotic",
+      "haldol",
+      "neuroleptic"
+    ],
+    "keywords": [
+      "haloperidol",
+      "tablet",
+      "schizophrenia",
+      "acute psychosis",
+      "delirium",
+      "antipsychotic",
+      "typical antipsychotic",
+      "haldol",
+      "neuroleptic"
+    ]
+  },
+  {
+    "medicine_id": "MED-fae259aef712",
+    "name": "Valproate",
+    "dosage": "200mg",
+    "form": "Tablet",
+    "indications": [
+      "Epilepsy",
+      "Bipolar Disorder",
+      "Migraine prevention"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Liver disease",
+      "Urea cycle disorder"
+    ],
+    "stock_units": 56,
+    "reorder_level": 38,
+    "batch_id": "52214635d6",
+    "expiry_date": "2028-05-07",
+    "synonyms": [
+      "anticonvulsant",
+      "mood stabilizer",
+      "depakote",
+      "valproic acid"
+    ],
+    "keywords": [
+      "valproate",
+      "tablet",
+      "epilepsy",
+      "bipolar disorder",
+      "migraine prevention",
+      "anticonvulsant",
+      "mood stabilizer",
+      "depakote",
+      "valproic acid"
+    ]
+  },
+  {
+    "medicine_id": "MED-41ba33da1a07",
+    "name": "Levetiracetam",
+    "dosage": "1000mg",
+    "form": "Tablet",
+    "indications": [
+      "Epilepsy"
+    ],
+    "contraindications": [
+      "Hypersensitivity",
+      "Severe renal failure"
+    ],
+    "stock_units": 358,
+    "reorder_level": 50,
+    "batch_id": "e857d6771e",
+    "expiry_date": "2027-03-23",
+    "synonyms": [
+      "anticonvulsant",
+      "keppra",
+      "antiepileptic"
+    ],
+    "keywords": [
+      "levetiracetam",
+      "tablet",
+      "epilepsy",
+      "anticonvulsant",
+      "keppra",
+      "antiepileptic"
+    ]
+  },
+  {
+    "medicine_id": "MED-721dc328e526",
+    "name": "Omeprazole",
+    "dosage": "20mg",
+    "form": "Capsule",
+    "indications": [
+      "GERD",
+      "Peptic Ulcer",
+      "H. pylori"
+    ],
+    "contraindications": [
+      "Clopidogrel use",
+      "Hypersensitivity"
+    ],
+    "stock_units": 290,
+    "reorder_level": 44,
+    "batch_id": "e888c050e4",
+    "expiry_date": "2028-07-18",
+    "synonyms": [
+      "PPI",
+      "proton pump inhibitor",
+      "prilosec",
+      "acid reducer"
+    ],
+    "keywords": [
+      "omeprazole",
+      "capsule",
+      "gerd",
+      "peptic ulcer",
+      "h. pylori",
+      "PPI",
+      "proton pump inhibitor",
+      "prilosec",
+      "acid reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-3a0c39851205",
+    "name": "Pantoprazole",
+    "dosage": "40mg",
+    "form": "Tablet",
+    "indications": [
+      "GERD",
+      "Peptic Ulcer",
+      "Zollinger-Ellison syndrome"
+    ],
+    "contraindications": [
+      "Rilpivirine use"
+    ],
+    "stock_units": 480,
+    "reorder_level": 15,
+    "batch_id": "222b1241ca",
+    "expiry_date": "2026-11-17",
+    "synonyms": [
+      "PPI",
+      "proton pump inhibitor",
+      "protonix",
+      "acid reducer"
+    ],
+    "keywords": [
+      "pantoprazole",
+      "tablet",
+      "gerd",
+      "peptic ulcer",
+      "zollinger-ellison syndrome",
+      "PPI",
+      "proton pump inhibitor",
+      "protonix",
+      "acid reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-4d8121e9b77c",
+    "name": "Ondansetron",
+    "dosage": "8mg",
+    "form": "Tablet",
+    "indications": [
+      "Nausea",
+      "Vomiting",
+      "Chemotherapy-induced nausea"
+    ],
+    "contraindications": [
+      "QT prolongation",
+      "Congenital long QT syndrome"
+    ],
+    "stock_units": 404,
+    "reorder_level": 47,
+    "batch_id": "d37e49b14b",
+    "expiry_date": "2027-09-05",
+    "synonyms": [
+      "antiemetic",
+      "5-HT3 antagonist",
+      "zofran",
+      "anti-nausea"
+    ],
+    "keywords": [
+      "ondansetron",
+      "tablet",
+      "nausea",
+      "vomiting",
+      "chemotherapy-induced nausea",
+      "antiemetic",
+      "5-HT3 antagonist",
+      "zofran",
+      "anti-nausea"
+    ]
+  },
+  {
+    "medicine_id": "MED-2af179a69743",
+    "name": "Ibuprofen",
+    "dosage": "400mg",
+    "form": "Tablet",
+    "indications": [
+      "Pain",
+      "Fever",
+      "Osteoarthritis",
+      "Gout"
+    ],
+    "contraindications": [
+      "Active peptic ulcer",
+      "Renal failure",
+      "Third trimester pregnancy"
+    ],
+    "stock_units": 493,
+    "reorder_level": 31,
+    "batch_id": "59600b83e7",
+    "expiry_date": "2027-08-02",
+    "synonyms": [
+      "NSAID",
+      "anti-inflammatory",
+      "advil",
+      "pain relief"
+    ],
+    "keywords": [
+      "ibuprofen",
+      "tablet",
+      "pain",
+      "fever",
+      "osteoarthritis",
+      "gout",
+      "NSAID",
+      "anti-inflammatory",
+      "advil",
+      "pain relief"
+    ]
+  },
+  {
+    "medicine_id": "MED-9e305ce450f8",
+    "name": "Paracetamol",
+    "dosage": "325mg",
+    "form": "Tablet",
+    "indications": [
+      "Pain",
+      "Fever",
+      "Headache"
+    ],
+    "contraindications": [
+      "Severe liver disease"
+    ],
+    "stock_units": 237,
+    "reorder_level": 41,
+    "batch_id": "c6ca6c0cc2",
+    "expiry_date": "2028-04-21",
+    "synonyms": [
+      "acetaminophen",
+      "tylenol",
+      "analgesic",
+      "fever reducer"
+    ],
+    "keywords": [
+      "paracetamol",
+      "tablet",
+      "pain",
+      "fever",
+      "headache",
+      "acetaminophen",
+      "tylenol",
+      "analgesic",
+      "fever reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-d8ca66e985a6",
+    "name": "Morphine",
+    "dosage": "10mg",
+    "form": "Injectable",
+    "indications": [
+      "Severe Pain",
+      "Myocardial Infarction",
+      "Palliative Care"
+    ],
+    "contraindications": [
+      "Respiratory depression",
+      "Paralytic ileus",
+      "Opioid allergy"
+    ],
+    "stock_units": 287,
+    "reorder_level": 16,
+    "batch_id": "0d3695e4fc",
+    "expiry_date": "2027-05-08",
+    "synonyms": [
+      "opioid",
+      "narcotic",
+      "strong analgesic",
+      "opiate"
+    ],
+    "keywords": [
+      "morphine",
+      "injectable",
+      "severe pain",
+      "myocardial infarction",
+      "palliative care",
+      "opioid",
+      "narcotic",
+      "strong analgesic",
+      "opiate"
+    ]
+  },
+  {
+    "medicine_id": "MED-5aecbf4ae253",
+    "name": "Tramadol",
+    "dosage": "50mg",
+    "form": "Tablet",
+    "indications": [
+      "Moderate Pain",
+      "Osteoarthritis"
+    ],
+    "contraindications": [
+      "Seizure disorder",
+      "MAO inhibitor use",
+      "Opioid allergy"
+    ],
+    "stock_units": 346,
+    "reorder_level": 11,
+    "batch_id": "e8fb78e3bb",
+    "expiry_date": "2028-04-26",
+    "synonyms": [
+      "opioid analgesic",
+      "tramacet",
+      "weak opioid"
+    ],
+    "keywords": [
+      "tramadol",
+      "tablet",
+      "moderate pain",
+      "osteoarthritis",
+      "opioid analgesic",
+      "tramacet",
+      "weak opioid"
+    ]
+  },
+  {
+    "medicine_id": "MED-5c28bef53347",
+    "name": "Colchicine",
+    "dosage": "1mg",
+    "form": "Tablet",
+    "indications": [
+      "Gout",
+      "Familial Mediterranean Fever"
+    ],
+    "contraindications": [
+      "Severe renal failure",
+      "Severe hepatic failure"
+    ],
+    "stock_units": 405,
+    "reorder_level": 37,
+    "batch_id": "4206df78e1",
+    "expiry_date": "2027-02-27",
+    "synonyms": [
+      "antigout",
+      "uricosuric",
+      "gout treatment"
+    ],
+    "keywords": [
+      "colchicine",
+      "tablet",
+      "gout",
+      "familial mediterranean fever",
+      "antigout",
+      "uricosuric",
+      "gout treatment"
+    ]
+  },
+  {
+    "medicine_id": "MED-0f0913e7658d",
+    "name": "Allopurinol",
+    "dosage": "100mg",
+    "form": "Tablet",
+    "indications": [
+      "Gout",
+      "Hyperuricemia",
+      "Kidney Stones"
+    ],
+    "contraindications": [
+      "Acute gout attack",
+      "Azathioprine use"
+    ],
+    "stock_units": 315,
+    "reorder_level": 25,
+    "batch_id": "4b95f20a67",
+    "expiry_date": "2028-05-07",
+    "synonyms": [
+      "xanthine oxidase inhibitor",
+      "urate lowering",
+      "zyloprim"
+    ],
+    "keywords": [
+      "allopurinol",
+      "tablet",
+      "gout",
+      "hyperuricemia",
+      "kidney stones",
+      "xanthine oxidase inhibitor",
+      "urate lowering",
+      "zyloprim"
+    ]
+  },
+  {
+    "medicine_id": "MED-8b62adba3299",
+    "name": "Methotrexate",
+    "dosage": "2.5mg",
+    "form": "Tablet",
+    "indications": [
+      "Rheumatoid Arthritis",
+      "Psoriasis",
+      "Cancer"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Severe liver disease",
+      "Immunodeficiency"
+    ],
+    "stock_units": 160,
+    "reorder_level": 31,
+    "batch_id": "1b5bbbd331",
+    "expiry_date": "2026-11-26",
+    "synonyms": [
+      "DMARD",
+      "disease modifying",
+      "antimetabolite"
+    ],
+    "keywords": [
+      "methotrexate",
+      "tablet",
+      "rheumatoid arthritis",
+      "psoriasis",
+      "cancer",
+      "DMARD",
+      "disease modifying",
+      "antimetabolite"
+    ]
+  },
+  {
+    "medicine_id": "MED-8c3cc0c66425",
+    "name": "Levothyroxine",
+    "dosage": "100mcg",
+    "form": "Tablet",
+    "indications": [
+      "Hypothyroidism"
+    ],
+    "contraindications": [
+      "Untreated adrenal insufficiency",
+      "Thyrotoxicosis"
+    ],
+    "stock_units": 427,
+    "reorder_level": 49,
+    "batch_id": "f9cc8ce1b1",
+    "expiry_date": "2027-02-18",
+    "synonyms": [
+      "thyroid hormone",
+      "synthroid",
+      "T4",
+      "thyroid replacement"
+    ],
+    "keywords": [
+      "levothyroxine",
+      "tablet",
+      "hypothyroidism",
+      "thyroid hormone",
+      "synthroid",
+      "T4",
+      "thyroid replacement"
+    ]
+  },
+  {
+    "medicine_id": "MED-e6b362ce2957",
+    "name": "Prednisolone",
+    "dosage": "40mg",
+    "form": "Tablet",
+    "indications": [
+      "Asthma",
+      "Rheumatoid Arthritis",
+      "Allergic reactions",
+      "COPD exacerbation"
+    ],
+    "contraindications": [
+      "Systemic fungal infection",
+      "Live vaccines"
+    ],
+    "stock_units": 259,
+    "reorder_level": 46,
+    "batch_id": "fb15894466",
+    "expiry_date": "2027-11-17",
+    "synonyms": [
+      "corticosteroid",
+      "steroid",
+      "anti-inflammatory",
+      "prednisolone"
+    ],
+    "keywords": [
+      "prednisolone",
+      "tablet",
+      "asthma",
+      "rheumatoid arthritis",
+      "allergic reactions",
+      "copd exacerbation",
+      "corticosteroid",
+      "steroid",
+      "anti-inflammatory"
+    ]
+  },
+  {
+    "medicine_id": "MED-021585978900",
+    "name": "Heparin",
+    "dosage": "10000 units",
+    "form": "Injectable",
+    "indications": [
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "HIT",
+      "Severe thrombocytopenia"
+    ],
+    "stock_units": 95,
+    "reorder_level": 45,
+    "batch_id": "652af0c2c9",
+    "expiry_date": "2028-01-10",
+    "synonyms": [
+      "anticoagulant",
+      "blood thinner",
+      "unfractionated heparin",
+      "UFH"
+    ],
+    "keywords": [
+      "heparin",
+      "injectable",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "atrial fibrillation",
+      "anticoagulant",
+      "blood thinner",
+      "unfractionated heparin",
+      "UFH"
+    ]
+  },
+  {
+    "medicine_id": "MED-7897005daf78",
+    "name": "Enoxaparin",
+    "dosage": "40mg",
+    "form": "Injectable",
+    "indications": [
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism",
+      "ACS"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "HIT",
+      "Prosthetic heart valves"
+    ],
+    "stock_units": 133,
+    "reorder_level": 33,
+    "batch_id": "0bb75b2eb7",
+    "expiry_date": "2027-09-19",
+    "synonyms": [
+      "LMWH",
+      "low molecular weight heparin",
+      "lovenox",
+      "anticoagulant"
+    ],
+    "keywords": [
+      "enoxaparin",
+      "injectable",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "acs",
+      "LMWH",
+      "low molecular weight heparin",
+      "lovenox",
+      "anticoagulant"
+    ]
+  },
+  {
+    "medicine_id": "MED-2965e49ae28e",
+    "name": "Tamsulosin",
+    "dosage": "0.4mg",
+    "form": "Capsule",
+    "indications": [
+      "Benign Prostatic Hyperplasia",
+      "Urinary Retention"
+    ],
+    "contraindications": [
+      "Severe hepatic impairment",
+      "Concurrent PDE5 inhibitor"
+    ],
+    "stock_units": 406,
+    "reorder_level": 39,
+    "batch_id": "2d74a08437",
+    "expiry_date": "2027-09-25",
+    "synonyms": [
+      "alpha blocker",
+      "flomax",
+      "BPH treatment"
+    ],
+    "keywords": [
+      "tamsulosin",
+      "capsule",
+      "benign prostatic hyperplasia",
+      "urinary retention",
+      "alpha blocker",
+      "flomax",
+      "BPH treatment"
+    ]
+  },
+  {
+    "medicine_id": "MED-63ce21eac2f2",
+    "name": "Ranitidine",
+    "dosage": "75mg",
+    "form": "Tablet",
+    "indications": [
+      "GERD",
+      "Peptic Ulcer"
+    ],
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "stock_units": 84,
+    "reorder_level": 35,
+    "batch_id": "685c1b38ef",
+    "expiry_date": "2027-03-07",
+    "synonyms": [
+      "H2 blocker",
+      "histamine antagonist",
+      "zantac",
+      "acid reducer"
+    ],
+    "keywords": [
+      "ranitidine",
+      "tablet",
+      "gerd",
+      "peptic ulcer",
+      "H2 blocker",
+      "histamine antagonist",
+      "zantac",
+      "acid reducer"
+    ]
+  },
+  {
+    "medicine_id": "MED-d3b0f906335f",
+    "name": "Cetirizine",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Allergic Rhinitis",
+      "Urticaria",
+      "Eczema"
+    ],
+    "contraindications": [
+      "Severe renal failure"
+    ],
+    "stock_units": 314,
+    "reorder_level": 25,
+    "batch_id": "7f4fbebbd7",
+    "expiry_date": "2026-11-13",
+    "synonyms": [
+      "antihistamine",
+      "zyrtec",
+      "allergy relief",
+      "H1 blocker"
+    ],
+    "keywords": [
+      "cetirizine",
+      "tablet",
+      "allergic rhinitis",
+      "urticaria",
+      "eczema",
+      "antihistamine",
+      "zyrtec",
+      "allergy relief",
+      "H1 blocker"
+    ]
+  },
+  {
+    "medicine_id": "MED-e208f0a57cd3",
+    "name": "Loratadine",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Allergic Rhinitis",
+      "Urticaria"
+    ],
+    "contraindications": [
+      "Hypersensitivity"
+    ],
+    "stock_units": 459,
+    "reorder_level": 44,
+    "batch_id": "5b3736273f",
+    "expiry_date": "2028-06-12",
+    "synonyms": [
+      "antihistamine",
+      "claritin",
+      "non-drowsy antihistamine",
+      "allergy"
+    ],
+    "keywords": [
+      "loratadine",
+      "tablet",
+      "allergic rhinitis",
+      "urticaria",
+      "antihistamine",
+      "claritin",
+      "non-drowsy antihistamine",
+      "allergy"
+    ]
+  },
+  {
+    "medicine_id": "MED-0b1bd015d697",
+    "name": "Vitamin D3",
+    "dosage": "800 IU",
+    "form": "Capsule",
+    "indications": [
+      "Vitamin D deficiency",
+      "Osteoporosis prevention",
+      "Chronic Kidney Disease"
+    ],
+    "contraindications": [
+      "Hypercalcemia",
+      "Vitamin D toxicity"
+    ],
+    "stock_units": 177,
+    "reorder_level": 18,
+    "batch_id": "e6a5ada385",
+    "expiry_date": "2027-10-26",
+    "synonyms": [
+      "cholecalciferol",
+      "vitamin D supplement",
+      "calcium metabolism"
+    ],
+    "keywords": [
+      "vitamin d3",
+      "capsule",
+      "vitamin d deficiency",
+      "osteoporosis prevention",
+      "chronic kidney disease",
+      "cholecalciferol",
+      "vitamin D supplement",
+      "calcium metabolism"
+    ]
+  },
+  {
+    "medicine_id": "MED-0e9c524fcbab",
+    "name": "Ferrous Sulfate",
+    "dosage": "200mg",
+    "form": "Tablet",
+    "indications": [
+      "Iron Deficiency Anemia"
+    ],
+    "contraindications": [
+      "Haemochromatosis",
+      "Repeated blood transfusion"
+    ],
+    "stock_units": 144,
+    "reorder_level": 37,
+    "batch_id": "5744040bd1",
+    "expiry_date": "2028-06-12",
+    "synonyms": [
+      "iron supplement",
+      "iron tablet",
+      "anemia treatment"
+    ],
+    "keywords": [
+      "ferrous sulfate",
+      "tablet",
+      "iron deficiency anemia",
+      "iron supplement",
+      "iron tablet",
+      "anemia treatment"
+    ]
+  },
+  {
+    "medicine_id": "MED-70aa73d9b6e6",
+    "name": "Folic Acid",
+    "dosage": "400mcg",
+    "form": "Tablet",
+    "indications": [
+      "Anemia",
+      "Pregnancy",
+      "Methotrexate use"
+    ],
+    "contraindications": [
+      "Undiagnosed anemia"
+    ],
+    "stock_units": 373,
+    "reorder_level": 43,
+    "batch_id": "c7ddd9a957",
+    "expiry_date": "2028-05-03",
+    "synonyms": [
+      "folate",
+      "B9",
+      "neural tube defect prevention"
+    ],
+    "keywords": [
+      "folic acid",
+      "tablet",
+      "anemia",
+      "pregnancy",
+      "methotrexate use",
+      "folate",
+      "B9",
+      "neural tube defect prevention"
+    ]
+  },
+  {
+    "medicine_id": "MED-7d7c8ad2ab32",
+    "name": "Lisinopril",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Heart Failure",
+      "Chronic Kidney Disease"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Angioedema history",
+      "Hyperkalemia"
+    ],
+    "stock_units": 458,
+    "reorder_level": 42,
+    "batch_id": "be40777971",
+    "expiry_date": "2026-12-16",
+    "synonyms": [
+      "ACE inhibitor",
+      "antihypertensive",
+      "lisinopril"
+    ],
+    "keywords": [
+      "lisinopril",
+      "tablet",
+      "hypertension",
+      "heart failure",
+      "chronic kidney disease",
+      "ACE inhibitor",
+      "antihypertensive"
+    ]
+  },
+  {
+    "medicine_id": "MED-8258160a088b",
+    "name": "Amlodipine",
+    "dosage": "5mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Angina"
+    ],
+    "contraindications": [
+      "Severe aortic stenosis",
+      "Cardiogenic shock"
+    ],
+    "stock_units": 187,
+    "reorder_level": 13,
+    "batch_id": "4ee7e9118b",
+    "expiry_date": "2027-09-05",
+    "synonyms": [
+      "calcium channel blocker",
+      "CCB",
+      "norvasc"
+    ],
+    "keywords": [
+      "amlodipine",
+      "tablet",
+      "hypertension",
+      "angina",
+      "calcium channel blocker",
+      "CCB",
+      "norvasc"
+    ]
+  },
+  {
+    "medicine_id": "MED-04806b1b7fa3",
+    "name": "Metoprolol",
+    "dosage": "25mg",
+    "form": "Tablet",
+    "indications": [
+      "Hypertension",
+      "Heart Failure",
+      "Atrial Fibrillation"
+    ],
+    "contraindications": [
+      "Severe bradycardia",
+      "Heart block",
+      "Asthma"
+    ],
+    "stock_units": 385,
+    "reorder_level": 39,
+    "batch_id": "1d09672523",
+    "expiry_date": "2027-12-18",
+    "synonyms": [
+      "beta blocker",
+      "lopressor",
+      "metoprolol succinate"
+    ],
+    "keywords": [
+      "metoprolol",
+      "tablet",
+      "hypertension",
+      "heart failure",
+      "atrial fibrillation",
+      "beta blocker",
+      "lopressor",
+      "metoprolol succinate"
+    ]
+  },
+  {
+    "medicine_id": "MED-24a02f294c84",
+    "name": "Atorvastatin",
+    "dosage": "10mg",
+    "form": "Tablet",
+    "indications": [
+      "High Cholesterol",
+      "Coronary Artery Disease"
+    ],
+    "contraindications": [
+      "Active liver disease",
+      "Pregnancy"
+    ],
+    "stock_units": 483,
+    "reorder_level": 31,
+    "batch_id": "b8fc33ef44",
+    "expiry_date": "2028-03-25",
+    "synonyms": [
+      "statin",
+      "lipitor",
+      "HMG-CoA reductase inhibitor"
+    ],
+    "keywords": [
+      "atorvastatin",
+      "tablet",
+      "high cholesterol",
+      "coronary artery disease",
+      "statin",
+      "lipitor",
+      "HMG-CoA reductase inhibitor"
+    ]
+  },
+  {
+    "medicine_id": "MED-8d36a693152f",
+    "name": "Warfarin",
+    "dosage": "1mg",
+    "form": "Tablet",
+    "indications": [
+      "Atrial Fibrillation",
+      "Deep Vein Thrombosis",
+      "Pulmonary Embolism"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "Pregnancy"
+    ],
+    "stock_units": 214,
+    "reorder_level": 35,
+    "batch_id": "9bfec64bd1",
+    "expiry_date": "2028-01-27",
+    "synonyms": [
+      "anticoagulant",
+      "blood thinner",
+      "coumadin"
+    ],
+    "keywords": [
+      "warfarin",
+      "tablet",
+      "atrial fibrillation",
+      "deep vein thrombosis",
+      "pulmonary embolism",
+      "anticoagulant",
+      "blood thinner",
+      "coumadin"
+    ]
+  }
+]
