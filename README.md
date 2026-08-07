@@ -83,7 +83,7 @@ User Query
     ↓
 [Hybrid Retriever]
 ├── PostgreSQL (keyword search)
-└── Pinecone (vector search)
+└── chromaDB (vector search)
     ↓
 [Merge + Rank Results]
     ↓
@@ -106,7 +106,7 @@ User Query
 
 | Layer | Purpose |
 |-------|---------|
-| **Config** | Load env vars, PostgreSQL, Pinecone |
+| **Config** | Load env vars, PostgreSQL, chromaDB |
 | **Services** | Business logic (LLM, retrieval, formatting, generation) |
 | **Repositories** | Database access (DRY CRUD) |
 | **Routes** | API endpoints (chat, patients, medicines, equipment) |
@@ -200,7 +200,7 @@ GET /health  (service status)
 ### **Backend**
 - Node.js + Express
 - PostgreSQL (structured data)
-- Pinecone (vector DB)
+- chromaDB (vector DB)
 - Groq SDK (LLM)
 
 ### **Data**
@@ -223,8 +223,6 @@ GET /health  (service status)
 | `GROQ_API_KEY` | Groq authentication | `gsk_...` |
 | `OLLAMA_BASE_URL` | Local LLM endpoint | `http://localhost:11434` |
 | `DATABASE_URL` | PostgreSQL connection | `postgresql://user:pass@host:5432/db` |
-| `PINECONE_API_KEY` | Vector DB auth | `pk_...` |
-| `PINECONE_INDEX` | Vector DB index name | `hospital-kb` |
 | `PORT` | Backend port | `3000` |
 
 ### **Database Setup**
@@ -247,14 +245,6 @@ equipment (
   location, maintenance_status, calibration_date, keywords[]
 )
 ```
-
-**Pinecone:**
-- Index: `hospital-kb`
-- Dimension: 384 (paraphrase-MiniLM)
-- Metric: cosine
-- Metadata: category, masked_id, keywords
-
----
 
 ## **Development**
 
@@ -291,10 +281,6 @@ python evaluate.py
 ```bash
 # Check PostgreSQL connection
 psql postgresql://hospital_user:hospital_pass@localhost:5432/hospital_db
-
-# Check Pinecone index
-curl https://api.pinecone.io/indexes/hospital-kb \
-  -H "Api-Key: your_key"
 
 # Check Groq API
 curl https://api.groq.com/openai/v1/models \
