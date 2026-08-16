@@ -9,11 +9,11 @@ models or start training — requires explicit --run flag.
 
 Usage:
     # Dry run (validates config only):
-    python train_qlora.py --model microsoft/phi-3-mini-4k-instruct --dry-run
+    python train_qlora.py --model meta-llama/Llama-3.2-3B-Instruct --dry-run
 
     # Full training:
     python train_qlora.py \\
-        --model microsoft/phi-3-mini-4k-instruct \\
+        --model meta-llama/Llama-3.2-3B-Instruct \\
         --train-file data/train.jsonl \\
         --val-file   data/val.jsonl \\
         --output-dir outputs/qlora-adapter \\
@@ -24,8 +24,7 @@ Usage:
         --run
 
 Hardware requirements:
-    - Minimum 16 GB VRAM (GPU) for phi-3-mini-4k
-    - Minimum 24 GB VRAM for Llama-3.2-3B
+    - Minimum 16 GB VRAM (GPU) for Llama-3.2-3B with 4-bit QLoRA
     - CPU-only mode is extremely slow; not recommended for production training
     - Tested on: NVIDIA RTX 3090, A100 80GB
 """
@@ -41,7 +40,7 @@ def parse_args():
     p = argparse.ArgumentParser(description="QLoRA fine-tuning — HospitalRAG")
 
     # Model
-    p.add_argument("--model",         default="microsoft/phi-3-mini-4k-instruct",
+    p.add_argument("--model",         default="meta-llama/Llama-3.2-3B-Instruct",
                    help="HuggingFace model ID (base model — NOT the adapter)")
     p.add_argument("--model-revision", default="main",
                    help="Model revision/branch")
@@ -149,7 +148,7 @@ def validate_data(train_file, val_file):
                 print(f"  ERROR: {label}:{i} invalid JSON: {e}")
                 errors += 1
 
-        print(f"  {label}: {len(lines)} pairs  ✓")
+        print(f"  {label}: {len(lines)} pairs  [OK]")
 
     return errors == 0
 
@@ -205,7 +204,7 @@ def run_training(args):
     tokenizer = AutoTokenizer.from_pretrained(
         args.model,
         revision=args.model_revision,
-        trust_remote_code=True,
+        trust_remote_code=False,
     )
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
@@ -217,10 +216,10 @@ def run_training(args):
         revision=args.model_revision,
         quantization_config=bnb_config,
         device_map="auto",
-        trust_remote_code=True,
+        trust_remote_code=False,
     )
+    model.config.pad_token_id = tokenizer.pad_token_id
     model.config.use_cache = False
-    model.config.pretraining_tp = 1
 
     # LoRA config
     target_modules = (
@@ -315,8 +314,8 @@ def main():
         print("\nSafety check: --run flag not set.")
         print("Add --run to start training, or --dry-run to validate only.")
         print("\nExample:")
-        print("  python train_qlora.py --model microsoft/phi-3-mini-4k-instruct --dry-run")
-        print("  python train_qlora.py --model microsoft/phi-3-mini-4k-instruct --run")
+        print("  python train_qlora.py --model meta-llama/Llama-3.2-3B-Instruct --dry-run")
+        print("  python train_qlora.py --model meta-llama/Llama-3.2-3B-Instruct --run")
         sys.exit(0)
 
     if not ok:

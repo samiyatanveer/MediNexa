@@ -1,79 +1,56 @@
-// frontend/src/components/layout/Navbar.jsx
-// Account 5: added mobile hamburger button, DB offline sticky banner.
-import { Link, useLocation } from 'react-router-dom';
-import { Activity, Menu } from 'lucide-react';
+import { useState } from 'react';
+import { Link, NavLink, useLocation } from 'react-router-dom';
+import { Activity, Menu, Moon, Sun, X } from 'lucide-react';
 import { cn } from '../../lib/utils.js';
 import { StatusBadge } from '../ui/StatusIndicator.jsx';
 import { useHealth } from '../../hooks/useHealth.js';
 
-const NAV_LINKS = [
-  { to: '/',            label: 'Chat',        icon: '💬' },
-  { to: '/patients',    label: 'Patients',    icon: '🏥' },
-  { to: '/medicines',   label: 'Medicines',   icon: '💊' },
-  { to: '/instruments', label: 'Instruments', icon: '🔬' },
-  { to: '/inventory',   label: 'Inventory',   icon: '📦' },
+const LINKS = [
+  { to: '/', label: 'Home', end: true },
+  { to: '/how-it-works', label: 'How it works' },
+  { to: '/about', label: 'About assistant' },
+  { to: '/faqs', label: 'FAQs' },
 ];
 
-export function Navbar({ onMobileMenuToggle }) {
+export function Navbar({ onMobileMenuToggle, theme = 'dark', onThemeToggle }) {
   const location = useLocation();
-  const health   = useHealth();
+  const health = useHealth();
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const isAssistant = location.pathname === '/assistant' || location.pathname.startsWith('/chat/');
+  const close = () => setMobileOpen(false);
 
   return (
-    <header className="h-14 glass-strong border-b border-white/8 flex items-center px-4 gap-4 shrink-0 z-10 relative">
-      {/* Mobile hamburger — only on chat pages */}
-      {(location.pathname === '/' || location.pathname.startsWith('/chat/')) && (
-        <button
-          onClick={onMobileMenuToggle}
-          className="lg:hidden btn-ghost p-1.5 shrink-0"
-          aria-label="Toggle chat list"
-        >
-          <Menu size={18} />
-        </button>
-      )}
-
-      {/* Branding */}
-      <Link to="/" className="flex items-center gap-2.5 shrink-0">
-        <div className="w-7 h-7 rounded-lg bg-accent/30 border border-accent/50 flex items-center justify-center">
-          <Activity size={14} className="text-accent-light" />
-        </div>
-        <div className="hidden sm:flex flex-col leading-none">
-          <span className="text-sm font-semibold text-txt-primary">HospitalRAG</span>
-          <span className="text-xs text-txt-faint">Houston Memorial</span>
-        </div>
+    <header className="h-16 md:h-[72px] medinexa-nav flex items-center px-4 md:px-8 shrink-0 z-30 relative">
+      <Link to="/" className="flex items-center gap-2.5 shrink-0" onClick={close}>
+        <span className="medinexa-logo"><Activity size={17} strokeWidth={2.5} /></span>
+        <span className="text-lg font-bold tracking-tight medinexa-wordmark">Medi<span>Nexa</span></span>
       </Link>
 
-      {/* Nav links */}
-      <nav className="flex items-center gap-1" aria-label="Main navigation">
-        {NAV_LINKS.map(({ to, label, icon }) => {
-          const isActive = to === '/'
-            ? location.pathname === '/' || location.pathname.startsWith('/chat/')
-            : location.pathname.startsWith(to);
-          return (
-            <Link
-              key={to}
-              to={to}
-              className={cn(
-                'flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm transition-all duration-150',
-                isActive
-                  ? 'bg-accent/20 text-txt-primary font-medium'
-                  : 'text-txt-muted hover:text-txt-primary hover:bg-white/5'
-              )}
-            >
-              <span className="text-base leading-none">{icon}</span>
-              <span className="hidden lg:inline">{label}</span>
-            </Link>
-          );
-        })}
+      <nav className="hidden lg:flex items-center gap-1 ml-7 xl:ml-12" aria-label="Main navigation">
+        {LINKS.map(({ to, label, end }) => (
+          <NavLink key={to} to={to} end={end} className={({ isActive }) => cn('medinexa-link', isActive && 'active')}>
+            {label}
+          </NavLink>
+        ))}
       </nav>
 
-      {/* Spacer */}
-      <div className="flex-1" />
-
-      {/* Health indicators */}
-      <div className="hidden md:flex items-center gap-4">
-        <StatusBadge label="PostgreSQL" ok={health.db?.ok}     loading={health.loading} />
-        <StatusBadge label="Ollama"     ok={health.ollama?.ok} loading={health.loading} />
+      <div className="ml-auto flex items-center gap-2 md:gap-3">
+        {isAssistant && <div className="hidden xl:flex items-center gap-3 mr-2"><StatusBadge label="Database" ok={health.db?.ok} loading={health.loading} /><StatusBadge label="AI" ok={health.ollama?.ok} loading={health.loading} /></div>}
+        <button onClick={onThemeToggle} className="theme-toggle" aria-label="Toggle light and dark mode">
+          {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
+        </button>
+        <Link to="/assistant" className="medinexa-assistant-btn hidden sm:inline-flex">Open Assistant</Link>
+        <button onClick={() => setMobileOpen(v => !v)} className="lg:hidden theme-toggle" aria-expanded={mobileOpen} aria-label="Toggle navigation">
+          {mobileOpen ? <X size={18} /> : <Menu size={18} />}
+        </button>
       </div>
+
+      {mobileOpen && (
+        <div className="absolute top-full inset-x-0 p-4 medinexa-mobile-menu lg:hidden">
+          {LINKS.map(({ to, label, end }) => <NavLink key={to} to={to} end={end} onClick={close} className={({ isActive }) => cn('medinexa-mobile-link', isActive && 'active')}>{label}</NavLink>)}
+          <Link to="/assistant" onClick={close} className="medinexa-assistant-btn w-full justify-center mt-2">Open Assistant</Link>
+        </div>
+      )}
     </header>
   );
 }

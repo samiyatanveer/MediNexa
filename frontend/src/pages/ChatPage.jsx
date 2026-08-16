@@ -149,7 +149,7 @@ export default function ChatPage() {
         toast.error('Backend unavailable. Is the server running?', { duration: 8000 });
       } else if (err.status === 404) {
         toast.error('Chat session not found. It may have been deleted.');
-        navigate('/');
+        navigate('/assistant');
       } else {
         toast.error(`Send failed: ${err.message}`);
       }
@@ -179,7 +179,7 @@ export default function ChatPage() {
   const isLoading = loadingHist || (loadingMsg && messages.length === 0);
 
   return (
-    <div className="flex h-[calc(100vh-3.5rem)] relative z-0">
+    <div className="flex flex-1 min-w-0 w-full h-full relative z-0">
 
       {/* ── Mobile sidebar overlay ─────────────────────────────────────── */}
       <AnimatePresence>
@@ -215,7 +215,7 @@ export default function ChatPage() {
                   activeChatId={chatId}
                   onNew={async () => { const s = await chats.createChat(); setSidebarOpen(false); return s; }}
                   onRename={chats.renameChat}
-                  onDelete={async (id) => { const ok = await chats.deleteChat(id); if (ok && id === chatId) navigate('/'); setSidebarOpen(false); return ok; }}
+                  onDelete={async (id) => { const ok = await chats.deleteChat(id); if (ok && id === chatId) navigate('/assistant'); setSidebarOpen(false); return ok; }}
                 />
               </div>
             </motion.aside>
@@ -234,14 +234,14 @@ export default function ChatPage() {
           onRename={chats.renameChat}
           onDelete={async (id) => {
             const ok = await chats.deleteChat(id);
-            if (ok && id === chatId) navigate('/');
+            if (ok && id === chatId) navigate('/assistant');
             return ok;
           }}
         />
       </aside>
 
       {/* ── Main chat area ──────────────────────────────────────────────── */}
-      <main className="flex-1 flex flex-col min-w-0">
+      <main className="flex-1 min-w-0 w-full flex flex-col">
 
         {/* Mobile header bar */}
         <div className="flex items-center gap-3 px-4 py-2 border-b border-white/8 lg:hidden shrink-0">
@@ -290,7 +290,7 @@ export default function ChatPage() {
           ) : messages.length === 0 ? (
             <ChatEmptyState onExample={handleExampleQuery} />
           ) : (
-            <div className="max-w-3xl mx-auto">
+            <div className="w-full">
               <AnimatePresence initial={false}>
                 {messages.map(msg => (
                   <MessageBubble key={msg.id} message={msg} />
@@ -304,7 +304,7 @@ export default function ChatPage() {
 
         {/* Input area */}
         <div className="px-4 md:px-8 py-4 border-t border-white/8 glass-strong shrink-0">
-          <div className="max-w-3xl mx-auto space-y-3">
+          <div className="w-full space-y-3">
             <CategorySelector value={category} onChange={setCategory} />
             <div className="flex items-end gap-3">
               <div className="flex-1 relative">
@@ -356,7 +356,7 @@ export default function ChatPage() {
 // ── Sub-components ────────────────────────────────────────────────────────────
 function LoadingHistory() {
   return (
-    <div className="max-w-3xl mx-auto space-y-6 animate-fade-in">
+    <div className="w-full space-y-6 animate-fade-in">
       {[80, 55, 90, 40].map((w, i) => (
         <div key={i} className={cn('flex gap-3', i % 2 === 0 ? 'justify-start' : 'justify-end')}>
           {i % 2 === 0 && <div className="w-8 h-8 rounded-full bg-white/5 animate-pulse shrink-0" />}

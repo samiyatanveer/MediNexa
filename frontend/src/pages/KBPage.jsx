@@ -2,7 +2,7 @@
 // Generic KB browse/search page — used by all four category pages.
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ClipboardList, HeartPulse } from 'lucide-react';
 import { toast } from 'sonner';
 import { cn, categoryColor, categoryIcon, statusColor } from '../lib/utils.js';
 import { browseKB, searchKB } from '../services/api.js';
@@ -108,7 +108,7 @@ export default function KBPage({ category, title, singularLabel, fields }) {
               className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
             >
               {records.map((rec, i) => (
-                <RecordCard key={i} record={rec} fields={fields} category={category} singularLabel={singularLabel} />
+                <RecordCard key={record[fields.id] ?? i} record={rec} fields={fields} category={category} singularLabel={singularLabel} />
               ))}
             </motion.div>
           </AnimatePresence>
@@ -143,6 +143,10 @@ export default function KBPage({ category, title, singularLabel, fields }) {
 
 function RecordCard({ record, fields, category, singularLabel }) {
   const [expanded, setExpanded] = useState(false);
+
+  if (category === 'patients') {
+    return <PatientRecordCard record={record} expanded={expanded} setExpanded={setExpanded} />;
+  }
 
   return (
     <motion.div
@@ -210,4 +214,66 @@ function RecordCard({ record, fields, category, singularLabel }) {
       )}
     </motion.div>
   );
+}
+
+function PatientRecordCard({ record, expanded, setExpanded }) {
+  const vitals = record.vitals ?? {};
+  const value = (v, suffix = '') => v === undefined || v === null ? '—' : `${v}${suffix}`;
+  const latestVisit = record.visit_history?.[0];
+
+  return (
+    <motion.article
+      layout
+      whileHover={{ y: -2 }}
+      transition={{ duration: 0.15 }}
+      className="card cursor-pointer hover:border-accent/40 transition-all duration-200"
+      onClick={() => setExpanded(value => !value)}
+      role="button"
+      tabIndex={0}
+      onKeyDown={event => event.key === 'Enter' && setExpanded(value => !value)}
+      aria-expanded={expanded}
+      aria-label={`Open clinical record for ${record.patient_id}`}
+    >
+      <div className="flex items-start justify-between gap-2 mb-3">
+        <div className="flex items-center gap-2">
+          <HeartPulse size={16} className="text-accent-light" />
+          <div>
+            <p className="text-xs font-mono text-txt-primary">{record.patient_id}</p>
+            <p className="text-[11px] text-txt-faint mt-0.5">Patient clinical record</p>
+          </div>
+        </div>
+        <CategoryBadge category="patient" />
+      </div>
+
+      <div className="grid grid-cols-3 gap-2 pb-3 border-b border-white/8 text-xs">
+        <div><span className="text-txt-faint block">Age</span><span className="text-txt-muted">{value(record.age)}</span></div>
+        <div><span className="text-txt-faint block">Gender</span><span className="text-txt-muted">{value(record.gender)}</span></div>
+        <div><span className="text-txt-faint block">Blood type</span><span className="text-txt-muted">{value(record.blood_type)}</span></div>
+      </div>
+
+      <div className="mt-3">
+        <span className="text-xs text-txt-faint">Assessment</span>
+        <p className="text-xs text-txt-muted mt-1 line-clamp-2">{record.diagnoses?.join(', ') || '—'}</p>
+      </div>
+
+      <AnimatePresence>
+        {expanded && (
+          <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} exit={{ opacity: 0, height: 0 }} className="overflow-hidden">
+            <div className="mt-3 pt-3 border-t border-white/8 space-y-3">
+              <div className="flex items-center gap-2"><ClipboardList size={14} className="text-accent-light" /><span className="text-xs font-semibold uppercase tracking-wider text-accent-light">SOAP clinical summary</span></div>
+              <ClinicalSection label="Subjective" value={record.symptoms?.join(', ')} />
+              <ClinicalSection label="Objective" value={`BP ${value(vitals.systolic_bp)}/${value(vitals.diastolic_bp)} mmHg · HR ${value(vitals.heart_rate)} bpm · Temp ${value(vitals.temperature_c, '°C')} · SpO₂ ${value(vitals.spo2_percent, '%')}`} />
+              <ClinicalSection label="Assessment" value={record.diagnoses?.join(', ')} />
+              <ClinicalSection label="Plan / medications" value={record.medications?.join(', ')} />
+              {latestVisit && <ClinicalSection label="Latest visit" value={`${latestVisit.date ?? '—'} · ${latestVisit.reason ?? '—'} · ${latestVisit.department ?? '—'}`} />}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </motion.article>
+  );
+}
+
+function ClinicalSection({ label, value }) {
+  return <div><span className="soap-label text-xs">{label}</span><p className="text-xs text-txt-muted leading-relaxed">{value || '—'}</p></div>;
 }
