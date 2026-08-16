@@ -42,9 +42,9 @@ export function detectStockFilter(query) {
 }
 
 /**
- * Determine whether a raw query is targeting medicine stock levels.
- * Returns true when the query contains stock-related vocabulary AND a numeric
- * comparison (below/above).
+ * Determine whether a raw query is a numeric stock-threshold query.
+ * Returns true when the query contains medicine/stock vocabulary AND a
+ * numeric comparison operator (below/above/under/over/less than/more than).
  *
  * @param {string} query  Raw (un-normalised) query string
  * @returns {boolean}
@@ -55,6 +55,72 @@ export function isStockQuery(query) {
   const hasMedicineSignal = /\b(?:medicine|medicines|drug|drugs|tablet|tablets|capsule|stock|stocks|medication|medications|pharmacy)\b/.test(lower);
   const hasStockSignal    = /\b(?:stock|units|supply|supplies|inventory|available|in stock|on hand)\b/.test(lower);
   return (hasMedicineSignal || hasStockSignal) && detectStockFilter(query) !== null;
+}
+
+/**
+ * Detect a qualitative "low stock" / "running low" query that has NO
+ * explicit numeric threshold. These are handled by comparing stock_units
+ * against each medicine's own reorder_level.
+ *
+ * @param {string} query
+ * @returns {boolean}
+ */
+export function isLowStockQuery(query) {
+  if (!query || typeof query !== 'string') return false;
+  // Must not already have a numeric threshold (those go to isStockQuery)
+  if (detectStockFilter(query) !== null) return false;
+  const lower = query.toLowerCase();
+  const hasLowSignal = /\b(?:low(?:\s+in)?\s+stock|running\s+low|low\s+level|near\s+(?:reorder|threshold)|below\s+reorder|reorder\s+level|critical\s+stock|out\s+of\s+stock|stock\s+alert|needs?\s+restock(?:ing)?|almost\s+out|stock(?:ing)?\s+issue)\b/.test(lower);
+  const hasMedicineSignal = /\b(?:medicine|medicines|drug|drugs|medication|medications|pharmacy|tablet|capsule)\b/.test(lower);
+  // Accept "low stock" alone (no medicine word required — context is clear)
+  return hasLowSignal && (hasMedicineSignal || /\b(?:stock|supply|supplies)\b/.test(lower));
+}
+
+/**
+ * Return all medicines whose current stock_units are at or below their
+ * own reorder_level (i.e. genuinely low-stock or out-of-stock).
+ *
+ * @param {string} query  Raw user query (for metadata)
+ * @returns {RetrievalResult}
+ */
+export function retrieveLowStock(query) {
+  const loader = kbLoader;
+  loader.load();
+
+  const medicines = loader.getCategory('medicines');
+
+  const matches = medicines.filter(m => {
+    const stock   = typeof m.stock_units   === 'number' ? m.stock_units   : parseFloat(m.stock_units);
+    const reorder = typeof m.reorder_level === 'number' ? m.reorder_level : parseFloat(m.reorder_level);
+    return Number.isFinite(stock) && Number.isFinite(reorder) && stock <= reorder;
+  });
+
+  const results = matches
+    .map(m => ({
+      id:            m.medicine_id,
+      category:      'medicine',
+      score:         1,
+      matched_terms: ['stock_units', 'reorder_level'],
+      record:        { ...m },
+    }))
+    .sort((a, b) => a.record.stock_units - b.record.stock_units);  // lowest first
+
+  return {
+    query,
+    normalised:       query,
+    tokens:           ['stock', 'low'],
+    category:         'medicine',
+    confidence:       1,
+    classifierScores: {},
+    results,
+    totalSearched:    medicines.length,
+    noResults:        results.length === 0,
+    isListQuery:      true,
+    listLabel:        'Medicines at or below reorder level',
+    message: results.length === 0
+      ? 'No medicines found at or below their reorder level.'
+      : null,
+  };
 }
 
 // ─── Scoring weights ──────────────────────────────────────────────────────────
@@ -233,6 +299,8 @@ export function retrieveByStockThreshold(query, stockFilter) {
     results,
     totalSearched:    medicines.length,
     noResults:        results.length === 0,
+    isListQuery:      true,
+    listLabel:        `Medicines with stock ${label} units`,
     message: results.length === 0
       ? `No medicines found with stock ${label} units.`
       : null,
@@ -243,13 +311,19 @@ export function retrieveByStockThreshold(query, stockFilter) {
 export async function retrieve(query, categoryHint, maxResults) {
   const limit = maxResults ?? env.MAX_RESULTS ?? 5;
 
-  // ── Stock threshold fast-path ─────────────────────────────────────────────
+  // ── Numeric stock threshold fast-path ────────────────────────────────────
   // Run before normalisation so the raw numeric is preserved.
   const stockFilter = detectStockFilter(query ?? '');
   if (stockFilter && isStockQuery(query ?? '')) {
     return retrieveByStockThreshold(query, stockFilter);
   }
-  // ── End stock threshold fast-path ─────────────────────────────────────────
+  // ── End numeric stock threshold fast-path ────────────────────────────────
+
+  // ── Qualitative low-stock fast-path ──────────────────────────────────────
+  if (isLowStockQuery(query ?? '')) {
+    return retrieveLowStock(query);
+  }
+  // ── End qualitative low-stock fast-path ──────────────────────────────────
 
   // ── Explicit ID fast-path ─────────────────────────────────────────────────
   // Must run BEFORE normalization — the normalizer strips hyphens and

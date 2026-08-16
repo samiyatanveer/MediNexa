@@ -1,6 +1,6 @@
 // frontend/src/components/chat/DomainCard.jsx
 import { motion } from 'framer-motion';
-import { Pill, Wrench, Package } from 'lucide-react';
+import { Pill, Wrench, Package, List } from 'lucide-react';
 import { Badge } from '../ui/Badge.jsx';
 import { cn } from '../../lib/utils.js';
 
@@ -47,8 +47,83 @@ const CONFIGS = {
   },
 };
 
+// ── Medicine list renderer ─────────────────────────────────────────────────────
+function MedicineListCard({ data }) {
+  const { label, count, items = [], sources } = data;
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 6 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3, delay: 0.1 }}
+      className="glass rounded-xl p-4 space-y-3 border border-white/8 max-w-full"
+    >
+      {/* Header */}
+      <div className="flex items-center justify-between pb-2 border-b border-white/8">
+        <div className="flex items-center gap-2">
+          <List size={14} className="text-brand-teal" />
+          <span className="text-xs font-semibold uppercase tracking-wider text-brand-teal">
+            {label}
+          </span>
+        </div>
+        <span className="text-xs px-2 py-0.5 rounded-full bg-brand-teal/10 text-brand-teal font-mono font-medium">
+          {count} medicines
+        </span>
+      </div>
+
+      {/* Table */}
+      {items.length > 0 && (
+        <div className="overflow-x-auto max-h-80 overflow-y-auto">
+          <table className="w-full text-xs border-collapse">
+            <thead className="sticky top-0 bg-transparent">
+              <tr className="text-txt-faint uppercase tracking-wider">
+                <th className="text-left py-1.5 pr-3 font-semibold whitespace-nowrap">Medicine</th>
+                <th className="text-left py-1.5 pr-3 font-semibold whitespace-nowrap">Dosage</th>
+                <th className="text-left py-1.5 pr-3 font-semibold whitespace-nowrap">Form</th>
+                <th className="text-right py-1.5 pr-3 font-semibold whitespace-nowrap">Stock</th>
+                <th className="text-left py-1.5 font-semibold whitespace-nowrap">Batch</th>
+              </tr>
+            </thead>
+            <tbody>
+              {items.map((item, i) => (
+                <tr
+                  key={item.source ?? i}
+                  className={cn(
+                    'border-t border-white/5 transition-colors hover:bg-white/5',
+                    item.stock === 0 && 'opacity-60'
+                  )}
+                >
+                  <td className="py-1.5 pr-3 font-medium text-txt-primary whitespace-nowrap">{item.name}</td>
+                  <td className="py-1.5 pr-3 text-txt-muted whitespace-nowrap">{item.dosage}</td>
+                  <td className="py-1.5 pr-3 text-txt-muted whitespace-nowrap">{item.form}</td>
+                  <td className="py-1.5 pr-3 text-right font-mono font-semibold text-txt-primary whitespace-nowrap">
+                    {typeof item.stock === 'number' ? item.stock.toLocaleString() : item.stock}
+                  </td>
+                  <td className="py-1.5 text-txt-faint font-mono whitespace-nowrap">{item.batch}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      {/* Sources */}
+      {sources && (
+        <div className="pt-2 border-t border-white/8">
+          <span className="soap-label text-txt-faint">Sources</span>
+          <p className="text-xs text-txt-faint font-mono break-all line-clamp-3">{sources}</p>
+        </div>
+      )}
+    </motion.div>
+  );
+}
+
+// ── Single-record renderer ─────────────────────────────────────────────────────
 export function DomainCard({ data }) {
-  const cfg = CONFIGS[data.type];
+  // Route medicine-list queries to the dedicated list renderer
+  if (data?.type === 'medicine-list') return <MedicineListCard data={data} />;
+
+  const cfg = CONFIGS[data?.type];
   if (!cfg) return null;
   const Icon = cfg.icon;
 

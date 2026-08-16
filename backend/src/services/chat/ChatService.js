@@ -5,7 +5,7 @@ import { retrieve } from '../retrieval/KeywordRetriever.js';
 import { buildPrompt } from '../generation/PromptBuilder.js';
 import { validateAndRepair } from '../generation/TemplateValidator.js';
 import { formatSOAP } from '../generation/SOAPFormatter.js';
-import { formatDomain } from '../generation/DomainFormatter.js';
+import { formatDomain, formatMedicineList } from '../generation/DomainFormatter.js';
 import { GroqClient } from '../generation/GroqClient.js';
 import { chatSessionRepository } from '../../repositories/ChatSessionRepository.js';
 import { chatMessageRepository } from '../../repositories/ChatMessageRepository.js';
@@ -75,10 +75,61 @@ export class ChatService {
       retrievalResult = { results: [], noResults: true, category: categoryHint, tokens: [], normalised: '' };
     }
 
-    const sourceIds   = retrievalResult.results.map(r => r.id);
+    const sourceIds    = retrievalResult.results.map(r => r.id);
     const effectiveCat = retrievalResult.category === 'auto'
       ? (retrievalResult.results[0]?.category ?? 'patient')
       : retrievalResult.results[0]?.category ?? retrievalResult.category;
+
+    // ─── Stock / low-stock list-query fast-path ─────────────────────────────────────────────
+    // For list queries (stock threshold / low-stock), the LLM single-record
+    // template is fundamentally wrong — skip it and build the response directly
+    // from the KB records so every matching medicine is shown with real values.
+    if (retrievalResult.isListQuery) {
+      const label         = retrievalResult.listLabel ?? 'Medicines';
+      const formattedList = formatMedicineList(retrievalResult.results, label);
+
+      // Plain-text summary persisted to DB and shown in raw-text fallback path
+      const assistantContent = retrievalResult.noResults
+        ? (retrievalResult.message ?? 'No medicines found matching your query.')
+        : buildStockListText(retrievalResult.results, label);
+
+      const { userMessage, assistantMessage } = await chatMessageRepository.insertPair(
+        sessionId,
+        { content: userQuery, category: 'medicine' },
+        {
+          content:  assistantContent,
+          category: 'medicine',
+          sources_json: sourceIds.length > 0
+            ? { ids: sourceIds, matched_terms: ['stock_units'] }
+            : null,
+          retrieval_metadata: {
+            query:          userQuery,
+            normalised:     retrievalResult.normalised,
+            tokens:         retrievalResult.tokens,
+            category:       retrievalResult.category,
+            confidence:     retrievalResult.confidence,
+            total_searched: retrievalResult.totalSearched,
+            no_results:     retrievalResult.noResults,
+            groq_ok:        true,
+          },
+        }
+      );
+
+      return {
+        userMessage,
+        assistantMessage,
+        formatted:  retrievalResult.noResults ? null : formattedList,
+        sourceIds,
+        retrieval: {
+          category:    'medicine',
+          resultCount: retrievalResult.results.length,
+          noResults:   retrievalResult.noResults,
+          tokens:      retrievalResult.tokens,
+        },
+        groqAvailable: true,
+      };
+    }
+    // ─── End stock / low-stock list-query fast-path ─────────────────────────────────────────────
 
     // 3. Build prompt
     const prompt = buildPrompt(userQuery, effectiveCat, retrievalResult.results);
@@ -195,6 +246,27 @@ function buildFallbackResponse(category, results, sourceIds) {
     default:
       return `Retrieved ${results.length} records. Sources: ${src}`;
   }
+}
+
+// ─── Stock list text builder (plain-text for DB + history fallback) ──────────
+/**
+ * Build a human-readable plain-text list of medicine stock records.
+ * Used as assistantContent (DB) for stock / low-stock list queries.
+ *
+ * @param {RetrievalHit[]} results
+ * @param {string}         label
+ * @returns {string}
+ */
+function buildStockListText(results, label) {
+  if (!results.length) return `No medicines found for: ${label}.`;
+
+  const header = `${label} (${results.length} found):\n`;
+  const rows = results.map((r, i) => {
+    const m = r.record;
+    return `${i + 1}. ${m.name} — Stock: ${m.stock_units} units | Batch: ${m.batch_id} | Dosage: ${m.dosage} | Form: ${m.form} | Source: ${r.id}`;
+  });
+
+  return header + rows.join('\n');
 }
 
 export const chatService = new ChatService();

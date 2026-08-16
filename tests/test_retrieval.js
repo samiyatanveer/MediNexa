@@ -19,7 +19,8 @@ function toFileUrl(absPath) {
 const { normalizeQuery }  = await import(toFileUrl(resolve(ROOT, 'backend/src/services/retrieval/QueryNormalizer.js')));
 const { classifyCategory, VALID_CATEGORIES } = await import(toFileUrl(resolve(ROOT, 'backend/src/services/retrieval/CategoryClassifier.js')));
 const { kbLoader }        = await import(toFileUrl(resolve(ROOT, 'backend/src/services/retrieval/JsonKBLoader.js')));
-const { retrieve, detectStockFilter, isStockQuery, retrieveByStockThreshold } = await import(toFileUrl(resolve(ROOT, 'backend/src/services/retrieval/KeywordRetriever.js')));
+const { retrieve, detectStockFilter, isStockQuery, isLowStockQuery, retrieveByStockThreshold, retrieveLowStock } = await import(toFileUrl(resolve(ROOT, 'backend/src/services/retrieval/KeywordRetriever.js')));
+const { formatMedicineList } = await import(toFileUrl(resolve(ROOT, 'backend/src/services/generation/DomainFormatter.js')));
 
 // ─────────────────────────────────────────────────────────────────────────────
 describe('QueryNormalizer', () => {
@@ -635,5 +636,216 @@ describe('Medicine stock threshold — via retrieve()', () => {
     assert.equal(result.stockFilter.direction, 'below');
     assert.equal(result.stockFilter.threshold, 100);
   });
+
+
+  test('retrieve() isListQuery=true for stock-below query', async () => {
+    const result = await retrieve('medicines with stock below 100 units');
+    assert.equal(result.isListQuery, true);
+  });
+
+  test('retrieve() isListQuery=true for stock-above query', async () => {
+    const result = await retrieve('medicines with stock above 400 units');
+    assert.equal(result.isListQuery, true);
+  });
+
+  test('retrieve() listLabel is set for stock queries', async () => {
+    const result = await retrieve('medicines with stock below 50');
+    assert.ok(typeof result.listLabel === 'string' && result.listLabel.length > 0);
+    assert.ok(result.listLabel.includes('below'));
+  });
+
+  test('retrieve() returns ALL matching records (no MAX_RESULTS cap)', async () => {
+    const result = await retrieve('medicines with stock below 100 units');
+    // There should be more than the default MAX_RESULTS=5 matches below 100
+    // (most KB datasets have many low-stock medicines)
+    assert.ok(result.results.length > 0, 'Should return at least one result');
+    // All returned results must pass the filter — this is the critical correctness check
+    for (const r of result.results) {
+      assert.ok(r.record.stock_units < 100,
+        `stock_units ${r.record.stock_units} violates < 100 threshold`);
+    }
+  });
 });
 
+// ─────────────────────────────────────────────────────────────────────────────
+describe('isLowStockQuery', () => {
+  test('returns true for "medicines low in stock"', () => {
+    assert.equal(isLowStockQuery('Which medicines are low in stock?'), true);
+  });
+
+  test('returns true for "low stock medicines"', () => {
+    assert.equal(isLowStockQuery('Find medicines with low stock'), true);
+  });
+
+  test('returns true for "running low"', () => {
+    assert.equal(isLowStockQuery('Which medicines are running low?'), true);
+  });
+
+  test('returns true for "reorder level"', () => {
+    assert.equal(isLowStockQuery('medicines near reorder level'), true);
+  });
+
+  test('returns true for "out of stock"', () => {
+    assert.equal(isLowStockQuery('medicines out of stock'), true);
+  });
+
+  test('returns false when query has numeric threshold (handled by isStockQuery)', () => {
+    // Has a number → should go to isStockQuery, not isLowStockQuery
+    assert.equal(isLowStockQuery('medicines with stock below 100'), false);
+  });
+
+  test('returns false for non-medicine queries', () => {
+    assert.equal(isLowStockQuery('patients with low blood pressure'), false);
+  });
+
+  test('returns false for null input', () => {
+    assert.equal(isLowStockQuery(null), false);
+  });
+
+  test('returns false for empty string', () => {
+    assert.equal(isLowStockQuery(''), false);
+  });
+
+  test('isLowStockQuery and isStockQuery are mutually exclusive on numeric queries', () => {
+    const q = 'medicines with stock below 50 units';
+    assert.equal(isStockQuery(q),    true,  'isStockQuery should match');
+    assert.equal(isLowStockQuery(q), false, 'isLowStockQuery must NOT match numeric queries');
+  });
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+describe('retrieveLowStock', () => {
+  before(() => kbLoader.load());
+
+  test('returns medicines with stock_units <= reorder_level', () => {
+    const result = retrieveLowStock('medicines low in stock');
+    for (const r of result.results) {
+      assert.ok(
+        r.record.stock_units <= r.record.reorder_level,
+        `stock ${r.record.stock_units} should be <= reorder ${r.record.reorder_level}`
+      );
+    }
+  });
+
+  test('results are sorted ascending by stock_units', () => {
+    const result = retrieveLowStock('medicines running low');
+    for (let i = 1; i < result.results.length; i++) {
+      assert.ok(
+        result.results[i - 1].record.stock_units <= result.results[i].record.stock_units,
+        'Results not sorted ascending by stock_units'
+      );
+    }
+  });
+
+  test('each result has name, stock_units, reorder_level, batch_id, medicine_id', () => {
+    const result = retrieveLowStock('medicines low in stock');
+    assert.ok(result.results.length > 0, 'Expected at least one low-stock medicine');
+    for (const r of result.results) {
+      assert.ok('name'          in r.record, 'Missing name');
+      assert.ok('stock_units'   in r.record, 'Missing stock_units');
+      assert.ok('reorder_level' in r.record, 'Missing reorder_level');
+      assert.ok('batch_id'      in r.record, 'Missing batch_id');
+      assert.ok('medicine_id'   in r.record, 'Missing medicine_id');
+    }
+  });
+
+  test('isListQuery=true on retrieveLowStock result', () => {
+    const result = retrieveLowStock('medicines low in stock');
+    assert.equal(result.isListQuery, true);
+  });
+
+  test('listLabel is set on retrieveLowStock result', () => {
+    const result = retrieveLowStock('medicines low in stock');
+    assert.ok(typeof result.listLabel === 'string' && result.listLabel.length > 0);
+  });
+
+  test('category is medicine', () => {
+    const result = retrieveLowStock('running low');
+    assert.equal(result.category, 'medicine');
+  });
+
+  test('totalSearched equals medicines KB size', () => {
+    const result = retrieveLowStock('medicines low in stock');
+    assert.equal(result.totalSearched, kbLoader.getCategory('medicines').length);
+  });
+
+  test('retrieve() routes low-stock qualitative query to retrieveLowStock', async () => {
+    const result = await retrieve('Which medicines are low in stock?');
+    assert.equal(result.category,    'medicine');
+    assert.equal(result.isListQuery, true);
+    // Every result must have stock <= reorder_level
+    for (const r of result.results) {
+      assert.ok(
+        r.record.stock_units <= r.record.reorder_level,
+        `stock ${r.record.stock_units} > reorder ${r.record.reorder_level}`
+      );
+    }
+  });
+
+  test('retrieve() routes "running low" query to retrieveLowStock', async () => {
+    const result = await retrieve('medicines running low');
+    assert.equal(result.isListQuery, true);
+  });
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+describe('DomainFormatter — formatMedicineList', () => {
+
+  const sampleResults = [
+    { id: 'MED-aaa', category: 'medicine', score: 1, matched_terms: ['stock_units'],
+      record: { name: 'Lisinopril', dosage: '10mg', form: 'Tablet', stock_units: 50, batch_id: 'bat001', medicine_id: 'MED-aaa' } },
+    { id: 'MED-bbb', category: 'medicine', score: 1, matched_terms: ['stock_units'],
+      record: { name: 'Metformin',  dosage: '500mg', form: 'Tablet', stock_units: 30, batch_id: 'bat002', medicine_id: 'MED-bbb' } },
+  ];
+
+  test('returns type=medicine-list', () => {
+    const out = formatMedicineList(sampleResults, 'Medicines below 100');
+    assert.equal(out.type, 'medicine-list');
+  });
+
+  test('count equals results length', () => {
+    const out = formatMedicineList(sampleResults, 'Test');
+    assert.equal(out.count, 2);
+  });
+
+  test('items contains correct fields', () => {
+    const out = formatMedicineList(sampleResults, 'Test');
+    for (const item of out.items) {
+      assert.ok('name'   in item, 'Missing name');
+      assert.ok('dosage' in item, 'Missing dosage');
+      assert.ok('form'   in item, 'Missing form');
+      assert.ok('stock'  in item, 'Missing stock');
+      assert.ok('batch'  in item, 'Missing batch');
+      assert.ok('source' in item, 'Missing source');
+    }
+  });
+
+  test('items stock value comes from stock_units', () => {
+    const out = formatMedicineList(sampleResults, 'Test');
+    assert.equal(out.items[0].stock, 50);
+    assert.equal(out.items[1].stock, 30);
+  });
+
+  test('items source comes from result.id', () => {
+    const out = formatMedicineList(sampleResults, 'Test');
+    assert.equal(out.items[0].source, 'MED-aaa');
+    assert.equal(out.items[1].source, 'MED-bbb');
+  });
+
+  test('sources is comma-joined list of IDs', () => {
+    const out = formatMedicineList(sampleResults, 'Test');
+    assert.ok(out.sources.includes('MED-aaa'));
+    assert.ok(out.sources.includes('MED-bbb'));
+  });
+
+  test('label is preserved', () => {
+    const out = formatMedicineList(sampleResults, 'Custom label');
+    assert.equal(out.label, 'Custom label');
+  });
+
+  test('empty results return count=0 with empty items', () => {
+    const out = formatMedicineList([], 'Empty');
+    assert.equal(out.count, 0);
+    assert.deepEqual(out.items, []);
+  });
+});
