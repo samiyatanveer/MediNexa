@@ -1,5 +1,5 @@
 // tests/test_chat.js
-// Account 3 tests — repos (mocked DB), ChatService (mocked Ollama),
+// Account 3 tests — repos (mocked DB), ChatService (mocked Groq),
 // template validation, formatters, title generation, history ordering.
 // Run: node --test tests/test_chat.js
 
@@ -25,7 +25,7 @@ const { formatSOAP }         = await import(toUrl('backend/src/services/generati
 const { formatMedicine, formatInstrument, formatInventory, formatDomain } =
   await import(toUrl('backend/src/services/generation/DomainFormatter.js'));
 const { buildPrompt }        = await import(toUrl('backend/src/services/generation/PromptBuilder.js'));
-const { OllamaUnavailableError } = await import(toUrl('backend/src/services/generation/OllamaClient.js'));
+const { GroqUnavailableError } = await import(toUrl('backend/src/services/generation/GroqClient.js'));
 
 // ─────────────────────────────────────────────────────────────────────────────
 describe('generateTitle', () => {
@@ -161,6 +161,19 @@ Sources: INS-001abc`;
     const result = validateAndRepair(partial, 'instrument', ['INS-002']);
     assert.equal(result.repaired, true);
     assert.ok('Sources' in result.fields);
+  });
+
+  test('keeps calibration details when the value contains "Last Calibration"', () => {
+    const text = `Instrument: MRI Machine
+Category: Diagnostic Imaging
+Department: Orthopedics
+Operational Status: Under Maintenance
+Maintenance: Overdue
+Calibration: Last Calibration: 2025-08-24, Next Calibration: 2027-04-07
+Sources: INS-5cf1ce657bde`;
+    const result = validateAndRepair(text, 'instrument', ['INS-5cf1ce657bde']);
+    assert.equal(result.fields['Calibration'], 'Last Calibration: 2025-08-24, Next Calibration: 2027-04-07');
+    assert.equal(result.valid, true);
   });
 });
 
@@ -316,28 +329,28 @@ describe('PromptBuilder', () => {
 });
 
 // ─────────────────────────────────────────────────────────────────────────────
-describe('OllamaUnavailableError', () => {
+describe('GroqUnavailableError', () => {
   test('is an Error subclass', () => {
-    const e = new OllamaUnavailableError('test');
+    const e = new GroqUnavailableError('test');
     assert.ok(e instanceof Error);
   });
 
   test('has correct name and status', () => {
-    const e = new OllamaUnavailableError('Ollama is down');
-    assert.equal(e.name, 'OllamaUnavailableError');
+    const e = new GroqUnavailableError('Groq is down');
+    assert.equal(e.name, 'GroqUnavailableError');
     assert.equal(e.status, 503);
   });
 
   test('message is preserved', () => {
-    const e = new OllamaUnavailableError('custom message');
+    const e = new GroqUnavailableError('custom message');
     assert.equal(e.message, 'custom message');
   });
 });
 
 // ─────────────────────────────────────────────────────────────────────────────
-describe('ChatService — with mock Ollama', () => {
-  // Build a mock Ollama client that returns a valid SOAP response
-  function makeOllama(responseText) {
+describe('ChatService — with mock Groq', () => {
+  // Build a mock Groq client that returns a valid SOAP response
+  function makeGroq(responseText) {
     return { generate: async () => ({ text: responseText, done: true, model: 'test' }) };
   }
 

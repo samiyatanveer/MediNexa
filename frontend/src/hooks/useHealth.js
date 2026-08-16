@@ -6,7 +6,7 @@ import * as api from '../services/api.js';
 export function useHealth(intervalMs = 30_000) {
   const [health, setHealth] = useState({
     db: null,
-    ollama: null,
+    groq: null,
     loading: true,
   });
 
@@ -20,7 +20,7 @@ export function useHealth(intervalMs = 30_000) {
         if (!cancelled) {
           setHealth({
             db: data?.services?.postgresql ?? { ok: false },
-            ollama: data?.services?.ollama ?? { ok: false },
+            groq: data?.services?.groq ?? { ok: false },
             loading: false,
           });
         }
@@ -28,7 +28,7 @@ export function useHealth(intervalMs = 30_000) {
         if (!cancelled) {
           setHealth({
             db: { ok: false },
-            ollama: { ok: false },
+            groq: { ok: false },
             loading: false,
           });
         }

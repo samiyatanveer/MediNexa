@@ -73,7 +73,7 @@ export async function deleteChat(chatId) {
 export async function sendMessage(chatId, content, category = 'auto') {
   try {
     const { data } = await http.post(`/api/chats/${chatId}/messages`, { content, category });
-    return data; // { userMessage, assistantMessage, formatted, retrieval, ollamaAvailable }
+    return data; // { userMessage, assistantMessage, formatted, retrieval, groqAvailable }
   } catch (err) { throw apiError(err); }
 }
 

@@ -1,13 +1,13 @@
 // tests/test_account6.js
 // Account 6 — expanded test suite:
 //   - Repository structure & method contracts (mocked DB)
-//   - ChatService pipeline logic (mocked Ollama + DB)
+//   - ChatService pipeline logic (mocked Groq + DB)
 //   - Message persistence patterns (transaction safety)
 //   - Title generation edge cases
 //   - PromptBuilder completeness (all categories + edge cases)
 //   - TemplateValidator repair heuristics
 //   - Formatter field mapping correctness
-//   - OllamaClient error classification
+//   - Groq client error classification
 //   - DB failure handling (simulated pool error)
 //   - Retrieval no-result / ambiguous / multi-category
 // Run: node --test tests/test_account6.js
@@ -25,8 +25,8 @@ const toUrl = p => pathToFileURL(resolve(ROOT, p)).href;
 process.env.DATABASE_URL    = 'postgresql://skip:skip@localhost:5432/skip';
 process.env.KB_DATA_DIR     = resolve(ROOT, 'data');
 process.env.DEFAULT_USER_ID = '00000000-0000-0000-0000-000000000001';
-process.env.OLLAMA_BASE_URL = 'http://localhost:11434';
-process.env.OLLAMA_MODEL    = 'llama3.2';
+process.env.GROQ_API_KEY = '';
+process.env.GROQ_MODEL   = 'llama-3.1-8b-instant';
 
 // ── Shared imports ────────────────────────────────────────────────────────────
 const { generateTitle } = await import(toUrl('backend/src/services/chat/ChatService.js'));
@@ -36,7 +36,7 @@ const { formatSOAP } = await import(toUrl('backend/src/services/generation/SOAPF
 const { formatMedicine, formatInstrument, formatInventory, formatDomain } =
   await import(toUrl('backend/src/services/generation/DomainFormatter.js'));
 const { buildPrompt } = await import(toUrl('backend/src/services/generation/PromptBuilder.js'));
-const { OllamaUnavailableError } = await import(toUrl('backend/src/services/generation/OllamaClient.js'));
+const { GroqUnavailableError } = await import(toUrl('backend/src/services/generation/GroqClient.js'));
 const { ChatSessionRepository } = await import(toUrl('backend/src/repositories/ChatSessionRepository.js'));
 const { ChatMessageRepository } = await import(toUrl('backend/src/repositories/ChatMessageRepository.js'));
 const { UserRepository }        = await import(toUrl('backend/src/repositories/UserRepository.js'));
@@ -105,7 +105,7 @@ describe('TemplateValidator — repair heuristics', () => {
     assert.ok('Sources' in result.fields);
   });
 
-  test('source IDs always injected even when Ollama provides Sources', () => {
+  test('source IDs are injected when the LLM provides Sources', () => {
     const text = [
       'Subjective: Chest pain.',
       'Objective: BP 150/95.',
@@ -394,26 +394,26 @@ describe('DomainFormatter — field mapping correctness', () => {
 });
 
 // ─────────────────────────────────────────────────────────────────────────────
-describe('OllamaUnavailableError — classification', () => {
+describe('GroqUnavailableError — classification', () => {
   test('instanceof Error', () => {
-    assert.ok(new OllamaUnavailableError('test') instanceof Error);
+    assert.ok(new GroqUnavailableError('test') instanceof Error);
   });
 
-  test('name is OllamaUnavailableError', () => {
-    assert.equal(new OllamaUnavailableError('msg').name, 'OllamaUnavailableError');
+  test('name is GroqUnavailableError', () => {
+    assert.equal(new GroqUnavailableError('msg').name, 'GroqUnavailableError');
   });
 
   test('status is 503', () => {
-    assert.equal(new OllamaUnavailableError('msg').status, 503);
+    assert.equal(new GroqUnavailableError('msg').status, 503);
   });
 
   test('message preserved', () => {
-    assert.equal(new OllamaUnavailableError('Ollama offline').message, 'Ollama offline');
+    assert.equal(new GroqUnavailableError('Groq offline').message, 'Groq offline');
   });
 
   test('can be caught as generic Error', () => {
     try {
-      throw new OllamaUnavailableError('offline');
+      throw new GroqUnavailableError('offline');
     } catch (err) {
       assert.ok(err instanceof Error);
       assert.equal(err.status, 503);
@@ -564,8 +564,8 @@ describe('TEMPLATES export — structural integrity', () => {
 });
 
 // ─────────────────────────────────────────────────────────────────────────────
-describe('ChatService fallback response builder (no Ollama)', () => {
-  // Test the pipeline output shape without a live DB or Ollama
+describe('ChatService fallback response builder (provider unavailable)', () => {
+  // Test the pipeline output shape without a live DB or provider
   // by exercising the validation + formatting chain end-to-end
 
   const buildAndFormat = (category, text, sourceIds) => {

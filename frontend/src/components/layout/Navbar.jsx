@@ -35,7 +35,7 @@ export function Navbar({ onMobileMenuToggle, theme = 'dark', onThemeToggle }) {
       </nav>
 
       <div className="ml-auto flex items-center gap-2 md:gap-3">
-        {isAssistant && <div className="hidden xl:flex items-center gap-3 mr-2"><StatusBadge label="Database" ok={health.db?.ok} loading={health.loading} /><StatusBadge label="AI" ok={health.ollama?.ok} loading={health.loading} /></div>}
+        {isAssistant && <div className="hidden xl:flex items-center gap-3 mr-2"><StatusBadge label="Database" ok={health.db?.ok} loading={health.loading} /><StatusBadge label="AI" ok={health.groq?.ok} loading={health.loading} /></div>}
         <button onClick={onThemeToggle} className="theme-toggle" aria-label="Toggle light and dark mode">
           {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
         </button>

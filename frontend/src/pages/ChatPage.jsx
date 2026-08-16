@@ -1,6 +1,6 @@
 // frontend/src/pages/ChatPage.jsx
 // Account 5: Full backend integration — history restore, real sendMessage, SOAP/domain cards,
-//            Ollama fallback, no-result, auto-resize, mobile sidebar drawer.
+//            Provider fallback, no-result, auto-resize, mobile sidebar drawer.
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -31,7 +31,7 @@ export default function ChatPage() {
   const [sending,      setSending]      = useState(false);
   const [loadingHist,  setLoadingHist]  = useState(false);
   const [loadingMsg,   setLoadingMsg]   = useState(false);
-  const [ollamaWarn,   setOllamaWarn]   = useState(false);
+  const [groqWarn,     setGroqWarn]     = useState(false);
   const [sidebarOpen,  setSidebarOpen]  = useState(false);
 
   const bottomRef = useRef(null);
@@ -113,12 +113,12 @@ export default function ChatPage() {
     if (inputRef.current) { inputRef.current.style.height = 'auto'; }
     setSending(true);
     setLoadingMsg(true);
-    setOllamaWarn(false);
+    setGroqWarn(false);
     setMessages(prev => [...prev, tempUser]);
 
     try {
       const data = await sendMessage(activeChatId, text, category);
-      // data = { userMessage, assistantMessage, formatted, retrieval, ollamaAvailable }
+      // data = { userMessage, assistantMessage, formatted, retrieval, groqAvailable }
 
       setMessages(prev => [
         ...prev.filter(m => m.id !== tempId),  // replace optimistic
@@ -127,14 +127,14 @@ export default function ChatPage() {
           ...data.assistantMessage,
           formatted:    data.formatted   ?? null,
           retrieval:    data.retrieval   ?? null,
-          ollamaAvailable: data.ollamaAvailable ?? true,
+          groqAvailable: data.groqAvailable ?? true,
         },
       ]);
 
-      // Warn if Ollama was unavailable (fallback response shown)
-      if (data.ollamaAvailable === false) {
-        setOllamaWarn(true);
-        toast.warning('Ollama is offline — showing retrieval-only response', { duration: 5000 });
+      // Warn if the generation provider was unavailable (fallback response shown)
+      if (data.groqAvailable === false) {
+        setGroqWarn(true);
+        toast.warning('Groq is unavailable — showing retrieval-only response', { duration: 5000 });
       }
 
       // Refresh sidebar titles after first message
@@ -259,9 +259,9 @@ export default function ChatPage() {
           </span>
         </div>
 
-        {/* Ollama offline banner */}
+        {/* Generation provider unavailable banner */}
         <AnimatePresence>
-          {ollamaWarn && (
+          {groqWarn && (
             <motion.div
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: 'auto', opacity: 1 }}
@@ -270,9 +270,9 @@ export default function ChatPage() {
             >
               <div className="flex items-center gap-2 px-4 py-2 bg-brand-amber/10 border-b border-brand-amber/30 text-xs text-brand-amber">
                 <AlertTriangle size={13} />
-                <span>Ollama is offline. Response generated from retrieval only.</span>
+                <span>Groq is unavailable. Response generated from retrieval only.</span>
                 <button
-                  onClick={() => setOllamaWarn(false)}
+                  onClick={() => setGroqWarn(false)}
                   className="ml-auto opacity-70 hover:opacity-100"
                   aria-label="Dismiss"
                 >

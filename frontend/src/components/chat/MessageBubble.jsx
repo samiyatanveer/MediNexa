@@ -50,7 +50,7 @@ export function MessageBubble({ message }) {
         {!isUser && (
           <>
             {/* Raw text bubble — hidden when a structured card is available.
-                Only shown as fallback (no-result, Ollama offline, format failed). */}
+                Only shown as fallback (no-result, provider unavailable, format failed). */}
             {!message.formatted?.type && (
               <div className={cn(
                 'rounded-2xl rounded-tl-sm px-4 py-3 text-sm leading-relaxed whitespace-pre-wrap',

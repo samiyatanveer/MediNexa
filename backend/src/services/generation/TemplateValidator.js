@@ -50,15 +50,19 @@ const FALLBACK_VALUES = {
 function parseFields(text, fields) {
   const result = new Map();
   const sortedFields = [...fields].sort((a, b) => b.length - a.length); // longest first for greedy match
+  const escapedLabels = fields
+    .map(field => field.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+    .join('|');
+  // Labels belong at the start of a response line. This prevents value text such
+  // as "Last Calibration:" from being interpreted as a new "Calibration:" field.
+  const linePrefix = '^[\\t ]*(?:(?:[-*])|(?:\\d+[.)]))?[\\t ]*';
 
   // Build a regex pattern for each field label
   for (const field of sortedFields) {
     const escapedField = field.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const pattern = new RegExp(
-      `${escapedField}\\s*:\\s*([\\s\\S]*?)(?=(?:${
-        fields.map(f => f.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\s*:').join('|')
-      })|$)`,
-      'i'
+      `${linePrefix}${escapedField}[\\t ]*:[\\t ]*([\\s\\S]*?)(?=${linePrefix}(?:${escapedLabels})[\\t ]*:|(?![\\s\\S]))`,
+      'im'
     );
     const match = text.match(pattern);
     if (match) {
@@ -72,7 +76,7 @@ function parseFields(text, fields) {
  * Validate a raw response text against a category's template.
  * Returns a repaired, complete structured object.
  *
- * @param {string} text         Raw Ollama response
+ * @param {string} text         Raw LLM response
  * @param {string} category     'patient'|'medicine'|'instrument'|'inventory'
  * @param {string[]} sourceIds  Masked source IDs to inject if Sources field empty
  * @returns {{ valid: boolean, repaired: boolean, fields: object, raw: string }}

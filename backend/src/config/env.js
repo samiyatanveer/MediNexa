@@ -13,9 +13,9 @@ export const env = {
   DB_POOL_IDLE_TIMEOUT: parseInt(process.env.DB_POOL_IDLE_TIMEOUT ?? '30000', 10),
   DB_POOL_CONNECTION_TIMEOUT: parseInt(process.env.DB_POOL_CONNECTION_TIMEOUT ?? '2000', 10),
 
-  // Ollama
-  OLLAMA_BASE_URL: process.env.OLLAMA_BASE_URL ?? 'http://localhost:11434',
-  OLLAMA_MODEL: process.env.OLLAMA_MODEL ?? 'llama3.2',
+  // Groq (backend only; never expose this key to the frontend)
+  GROQ_API_KEY: process.env.GROQ_API_KEY ?? '',
+  GROQ_MODEL: process.env.GROQ_MODEL ?? 'llama-3.1-8b-instant',
 
   // Knowledge base
   KB_DATA_DIR: process.env.KB_DATA_DIR ?? '../data',

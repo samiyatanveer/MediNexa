@@ -110,7 +110,7 @@ router.post('/:chatId/messages', async (req, res, next) => {
       assistantMessage: result.assistantMessage,
       formatted:      result.formatted,
       retrieval:      result.retrieval,
-      ollamaAvailable: result.ollamaAvailable,
+      groqAvailable: result.groqAvailable,
     });
   } catch (err) {
     if (err.status === 404) {

@@ -6,7 +6,7 @@ import { buildPrompt } from '../generation/PromptBuilder.js';
 import { validateAndRepair } from '../generation/TemplateValidator.js';
 import { formatSOAP } from '../generation/SOAPFormatter.js';
 import { formatDomain } from '../generation/DomainFormatter.js';
-import { OllamaClient, OllamaUnavailableError } from '../generation/OllamaClient.js';
+import { GroqClient } from '../generation/GroqClient.js';
 import { chatSessionRepository } from '../../repositories/ChatSessionRepository.js';
 import { chatMessageRepository } from '../../repositories/ChatMessageRepository.js';
 import { userRepository } from '../../repositories/UserRepository.js';
@@ -25,8 +25,16 @@ export function generateTitle(query) {
 }
 
 // ─── Response formatter ───────────────────────────────────────────────────────
-function formatResponse(ollamaText, effectiveCategory, sourceIds) {
-  const validated = validateAndRepair(ollamaText, effectiveCategory, sourceIds);
+function formatResponse(generatedText, effectiveCategory, sourceIds) {
+  // Domain cards represent one record. When Groq returns multiple record blocks,
+  // preserve the complete source-grounded answer through the UI's existing raw
+  // response fallback instead of collapsing it into a single, misleading card.
+  const sourceBlocks = generatedText.match(/^[\t ]*(?:\d+[.)][\t ]*)?Sources[\t ]*:/gim) ?? [];
+  if (effectiveCategory !== 'patient' && sourceBlocks.length > 1) {
+    return null;
+  }
+
+  const validated = validateAndRepair(generatedText, effectiveCategory, sourceIds);
 
   if (effectiveCategory === 'patient') {
     return formatSOAP(validated, sourceIds);
@@ -37,10 +45,10 @@ function formatResponse(ollamaText, effectiveCategory, sourceIds) {
 // ─── ChatService ──────────────────────────────────────────────────────────────
 export class ChatService {
   /**
-   * @param {OllamaClient} [ollamaClient]  Injectable for testing
+   * @param {GroqClient} [groqClient]  Injectable for testing
    */
-  constructor(ollamaClient) {
-    this.ollama = ollamaClient ?? new OllamaClient();
+  constructor(groqClient) {
+    this.groq = groqClient ?? new GroqClient();
   }
 
   /**
@@ -75,29 +83,29 @@ export class ChatService {
     // 3. Build prompt
     const prompt = buildPrompt(userQuery, effectiveCat, retrievalResult.results);
 
-    // 4. Call Ollama — graceful fallback if unavailable
-    let ollamaText;
-    let ollamaAvailable = true;
+    // 4. Call Groq — graceful fallback if unavailable
+    let generatedText;
+    let groqAvailable = true;
     try {
-      const response = await this.ollama.generate(prompt);
-      ollamaText = response.text;
-    } catch (ollamaErr) {
-      ollamaAvailable = false;
-      logger.warn('Ollama unavailable — using fallback response', ollamaErr.message);
+      const response = await this.groq.generate(prompt);
+      generatedText = response.text;
+    } catch (groqErr) {
+      groqAvailable = false;
+      logger.warn('Groq unavailable — using fallback response', groqErr.message);
 
       if (retrievalResult.noResults) {
-        ollamaText = `No records found matching your query. Please try different search terms.`;
+        generatedText = `No records found matching your query. Please try different search terms.`;
       } else {
         // Construct a template-valid fallback from retrieved records directly
-        ollamaText = buildFallbackResponse(effectiveCat, retrievalResult.results, sourceIds);
+        generatedText = buildFallbackResponse(effectiveCat, retrievalResult.results, sourceIds);
       }
     }
 
     // 5. Validate and format
-    const formattedResponse = formatResponse(ollamaText, effectiveCat, sourceIds);
+    const formattedResponse = formatResponse(generatedText, effectiveCat, sourceIds);
 
     // 6. Persist user + assistant messages in one transaction
-    const assistantContent = ollamaText;
+    const assistantContent = generatedText;
     const { userMessage, assistantMessage } = await chatMessageRepository.insertPair(
       sessionId,
       { content: userQuery, category: effectiveCat },
@@ -115,7 +123,7 @@ export class ChatService {
           confidence:     retrievalResult.confidence,
           total_searched: retrievalResult.totalSearched,
           no_results:     retrievalResult.noResults,
-          ollama_ok:      ollamaAvailable,
+          groq_ok:        groqAvailable,
         },
       }
     );
@@ -131,7 +139,7 @@ export class ChatService {
         noResults:      retrievalResult.noResults,
         tokens:         retrievalResult.tokens,
       },
-      ollamaAvailable,
+      groqAvailable,
     };
   }
 
@@ -146,7 +154,7 @@ export class ChatService {
   }
 }
 
-// ─── Fallback response builder (no Ollama) ────────────────────────────────────
+// ─── Fallback response builder (when the provider is unavailable) ────────────
 function buildFallbackResponse(category, results, sourceIds) {
   if (!results.length) {
     return 'No records found matching your query.';

@@ -130,7 +130,7 @@ Sources:`;
 }
 
 /**
- * Build a no-results prompt — Ollama still responds but states nothing was found.
+ * Build a no-results prompt — the LLM responds while stating nothing was found.
  */
 function buildNoResultPrompt(query, category) {
   return `${SYSTEM_PREAMBLE}
