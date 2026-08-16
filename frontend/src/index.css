@@ -20,6 +20,82 @@
   --radius:      12px;
 }
 
+/* ── Workspace light-mode overrides ────────────────────────────────────────── */
+/* Applied when the .medinexa.light class is set on the workspace root div.    */
+/* These override the Tailwind token values so cards, inputs, and surfaces     */
+/* remain readable in light mode without rewriting every component class.      */
+.medinexa.light {
+  --bg-base:     #f4f6fa;
+  --bg-800:      #eef1f7;
+  --bg-700:      #e8ecf4;
+  --bg-600:      #dce2ef;
+  --glass-bg:    rgba(0,0,0,0.03);
+  --glass-border:rgba(0,0,0,0.10);
+  --txt-primary: #0f172a;
+  --txt-muted:   #475569;
+  --txt-faint:   #94a3b8;
+  background: var(--bg-base);
+  color: var(--txt-primary);
+}
+
+/* ── Text colour overrides ─────────────────────────────────────────────────── */
+/* Tailwind bakes hex values at build time; we must override via specificity.  */
+.medinexa.light .text-txt-primary   { color: #0f172a; }
+.medinexa.light .text-txt-muted     { color: #475569; }
+.medinexa.light .text-txt-faint     { color: #64748b; }
+.medinexa.light .text-white         { color: #0f172a; }
+/* Keep accent colours as-is — red is readable on both backgrounds */
+
+/* ── Background overrides ──────────────────────────────────────────────────── */
+.medinexa.light .bg-base-800        { background: #eef1f7; }
+.medinexa.light .bg-base-700        { background: #e8ecf4; }
+.medinexa.light .bg-base-600        { background: #dce2ef; }
+.medinexa.light .bg-white\/5        { background: rgba(0,0,0,0.04); }
+.medinexa.light .bg-white\/10       { background: rgba(0,0,0,0.07); }
+.medinexa.light .bg-white\/\[0\.07\] { background: rgba(0,0,0,0.05); }
+.medinexa.light .hover\:bg-white\/5:hover { background: rgba(0,0,0,0.05); }
+
+/* ── Border overrides ──────────────────────────────────────────────────────── */
+.medinexa.light .border-white\/10   { border-color: rgba(0,0,0,0.12); }
+.medinexa.light .border-white\/8    { border-color: rgba(0,0,0,0.09); }
+.medinexa.light .border-white\/\[0\.08\] { border-color: rgba(0,0,0,0.09); }
+.medinexa.light .border-white\/\[0\.12\] { border-color: rgba(0,0,0,0.12); }
+
+/* ── Glass / card surfaces ─────────────────────────────────────────────────── */
+.medinexa.light .glass,
+.medinexa.light .card {
+  background: rgba(255,255,255,0.80);
+  border-color: rgba(0,0,0,0.10);
+}
+.medinexa.light .glass-strong {
+  background: rgba(255,255,255,0.92);
+  border-color: rgba(0,0,0,0.13);
+}
+
+/* ── Input fields ──────────────────────────────────────────────────────────── */
+.medinexa.light .input-base {
+  background: rgba(255,255,255,0.80);
+  border-color: rgba(0,0,0,0.15);
+  color: #0f172a;
+}
+.medinexa.light .input-base::placeholder { color: #94a3b8; }
+
+/* ── Sidebar items ─────────────────────────────────────────────────────────── */
+.medinexa.light .sidebar-item        { color: #475569; }
+.medinexa.light .sidebar-item:hover  { background: rgba(0,0,0,0.05); color: #0f172a; }
+.medinexa.light .sidebar-item.active { background: rgba(217,45,42,0.12); color: #0f172a; }
+
+/* ── SOAP field values ─────────────────────────────────────────────────────── */
+.medinexa.light .soap-value { color: #0f172a; }
+
+/* ── Scrollbar ─────────────────────────────────────────────────────────────── */
+.medinexa.light ::-webkit-scrollbar-thumb { background: rgba(217,45,42,0.35); }
+
+/* ── Ambient glow — less prominent on light background ────────────────────── */
+.medinexa.light body::before { opacity: 0.25; }
+
+
+
 /* ── Base ──────────────────────────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; }
 

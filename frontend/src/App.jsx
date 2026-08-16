@@ -31,8 +31,8 @@ function DBOfflineBanner({ health }) {
 function WorkspaceLayout({ theme, onThemeToggle }) {
   const health = useHealth(30_000);
   return (
-    <div className="medinexa dark flex flex-col h-screen overflow-hidden relative">
-      <Navbar theme="dark" onThemeToggle={onThemeToggle} />
+    <div className={`medinexa ${theme} flex flex-col h-screen overflow-hidden relative`}>
+      <Navbar theme={theme} onThemeToggle={onThemeToggle} />
       <DBOfflineBanner health={health} />
       <div className="flex-1 min-h-0 flex overflow-hidden relative z-0">
         <Routes>

@@ -7,6 +7,56 @@ import { normalizeQuery } from './QueryNormalizer.js';
 import { classifyCategory } from './CategoryClassifier.js';
 import { env } from '../../config/env.js';
 
+// ─── Stock threshold detection ────────────────────────────────────────────────
+
+/**
+ * Detect a numeric stock comparison in a raw query string.
+ *
+ * Supports:
+ *   "below 100", "under 100", "less than 100"
+ *   "above 100", "over 100",  "more than 100"
+ *
+ * @param {string} query
+ * @returns {{ direction: 'below'|'above', threshold: number } | null}
+ */
+export function detectStockFilter(query) {
+  if (!query || typeof query !== 'string') return null;
+
+  // Match: (below|under|less than|fewer than) <number>
+  const belowMatch = query.match(
+    /\b(?:below|under|less\s+than|fewer\s+than)\s+(\d+(?:\.\d+)?)\b/i
+  );
+  if (belowMatch) {
+    return { direction: 'below', threshold: parseFloat(belowMatch[1]) };
+  }
+
+  // Match: (above|over|more than|greater than) <number>
+  const aboveMatch = query.match(
+    /\b(?:above|over|more\s+than|greater\s+than)\s+(\d+(?:\.\d+)?)\b/i
+  );
+  if (aboveMatch) {
+    return { direction: 'above', threshold: parseFloat(aboveMatch[1]) };
+  }
+
+  return null;
+}
+
+/**
+ * Determine whether a raw query is targeting medicine stock levels.
+ * Returns true when the query contains stock-related vocabulary AND a numeric
+ * comparison (below/above).
+ *
+ * @param {string} query  Raw (un-normalised) query string
+ * @returns {boolean}
+ */
+export function isStockQuery(query) {
+  if (!query || typeof query !== 'string') return false;
+  const lower = query.toLowerCase();
+  const hasMedicineSignal = /\b(?:medicine|medicines|drug|drugs|tablet|tablets|capsule|stock|stocks|medication|medications|pharmacy)\b/.test(lower);
+  const hasStockSignal    = /\b(?:stock|units|supply|supplies|inventory|available|in stock|on hand)\b/.test(lower);
+  return (hasMedicineSignal || hasStockSignal) && detectStockFilter(query) !== null;
+}
+
 // ─── Scoring weights ──────────────────────────────────────────────────────────
 // Higher weight = stronger signal for that field.
 const FIELD_WEIGHTS = {
@@ -127,8 +177,79 @@ function scoreRecord(record, queryTokens) {
  * @param {number}  [maxResults]    Max results to return (default: env.MAX_RESULTS)
  * @returns {Promise<RetrievalResult>}
  */
+/**
+ * Stock-threshold fast-path for medicine queries.
+ * Filters medicines by stock_units and returns all matching records directly,
+ * bypassing keyword scoring entirely.
+ *
+ * @param {string} query            Raw user query
+ * @param {{ direction: 'below'|'above', threshold: number }} stockFilter
+ * @returns {RetrievalResult}
+ */
+export function retrieveByStockThreshold(query, stockFilter) {
+  const loader = kbLoader;
+  loader.load();
+
+  const medicines = loader.getCategory('medicines');
+  const { direction, threshold } = stockFilter;
+
+  const matches = medicines.filter(m => {
+    const stock = typeof m.stock_units === 'number' ? m.stock_units : parseFloat(m.stock_units);
+    if (!Number.isFinite(stock)) return false;
+    return direction === 'below' ? stock < threshold : stock > threshold;
+  });
+
+  const results = matches.map(m => ({
+    id:            m.medicine_id,
+    category:      'medicine',
+    score:         1,
+    matched_terms: ['stock_units'],
+    record: {
+      name:       m.name,
+      stock_units:m.stock_units,
+      batch_id:   m.batch_id,
+      medicine_id:m.medicine_id,
+      // Include full record for prompt building
+      ...m,
+    },
+  }));
+
+  // Sort by stock ascending for 'below', descending for 'above'
+  results.sort((a, b) =>
+    direction === 'below'
+      ? a.record.stock_units - b.record.stock_units
+      : b.record.stock_units - a.record.stock_units
+  );
+
+  const label = direction === 'below' ? `below ${threshold}` : `above ${threshold}`;
+
+  return {
+    query,
+    normalised:       query,
+    tokens:           ['stock_units'],
+    category:         'medicine',
+    confidence:       1,
+    classifierScores: {},
+    results,
+    totalSearched:    medicines.length,
+    noResults:        results.length === 0,
+    message: results.length === 0
+      ? `No medicines found with stock ${label} units.`
+      : null,
+    stockFilter,
+  };
+}
+
 export async function retrieve(query, categoryHint, maxResults) {
   const limit = maxResults ?? env.MAX_RESULTS ?? 5;
+
+  // ── Stock threshold fast-path ─────────────────────────────────────────────
+  // Run before normalisation so the raw numeric is preserved.
+  const stockFilter = detectStockFilter(query ?? '');
+  if (stockFilter && isStockQuery(query ?? '')) {
+    return retrieveByStockThreshold(query, stockFilter);
+  }
+  // ── End stock threshold fast-path ─────────────────────────────────────────
 
   // ── Explicit ID fast-path ─────────────────────────────────────────────────
   // Must run BEFORE normalization — the normalizer strips hyphens and

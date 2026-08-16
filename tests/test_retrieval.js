@@ -19,7 +19,7 @@ function toFileUrl(absPath) {
 const { normalizeQuery }  = await import(toFileUrl(resolve(ROOT, 'backend/src/services/retrieval/QueryNormalizer.js')));
 const { classifyCategory, VALID_CATEGORIES } = await import(toFileUrl(resolve(ROOT, 'backend/src/services/retrieval/CategoryClassifier.js')));
 const { kbLoader }        = await import(toFileUrl(resolve(ROOT, 'backend/src/services/retrieval/JsonKBLoader.js')));
-const { retrieve }        = await import(toFileUrl(resolve(ROOT, 'backend/src/services/retrieval/KeywordRetriever.js')));
+const { retrieve, detectStockFilter, isStockQuery, retrieveByStockThreshold } = await import(toFileUrl(resolve(ROOT, 'backend/src/services/retrieval/KeywordRetriever.js')));
 
 // ─────────────────────────────────────────────────────────────────────────────
 describe('QueryNormalizer', () => {
@@ -388,3 +388,252 @@ describe('KeywordRetriever — scoring correctness', () => {
     }
   });
 });
+
+// ─────────────────────────────────────────────────────────────────────────────
+describe('detectStockFilter', () => {
+  test('detects "below N" pattern', () => {
+    const f = detectStockFilter('Which medicines have stock below 100 units?');
+    assert.ok(f !== null);
+    assert.equal(f.direction, 'below');
+    assert.equal(f.threshold, 100);
+  });
+
+  test('detects "under N" pattern', () => {
+    const f = detectStockFilter('medicines under 50 units');
+    assert.ok(f !== null);
+    assert.equal(f.direction, 'below');
+    assert.equal(f.threshold, 50);
+  });
+
+  test('detects "less than N" pattern', () => {
+    const f = detectStockFilter('stock less than 200');
+    assert.ok(f !== null);
+    assert.equal(f.direction, 'below');
+    assert.equal(f.threshold, 200);
+  });
+
+  test('detects "fewer than N" pattern', () => {
+    const f = detectStockFilter('medicines with fewer than 75 units');
+    assert.ok(f !== null);
+    assert.equal(f.direction, 'below');
+    assert.equal(f.threshold, 75);
+  });
+
+  test('detects "above N" pattern', () => {
+    const f = detectStockFilter('medicines with stock above 500');
+    assert.ok(f !== null);
+    assert.equal(f.direction, 'above');
+    assert.equal(f.threshold, 500);
+  });
+
+  test('detects "over N" pattern', () => {
+    const f = detectStockFilter('drugs over 300 units');
+    assert.ok(f !== null);
+    assert.equal(f.direction, 'above');
+    assert.equal(f.threshold, 300);
+  });
+
+  test('detects "more than N" pattern', () => {
+    const f = detectStockFilter('more than 1000 units in stock');
+    assert.ok(f !== null);
+    assert.equal(f.direction, 'above');
+    assert.equal(f.threshold, 1000);
+  });
+
+  test('detects "greater than N" pattern', () => {
+    const f = detectStockFilter('greater than 250 units');
+    assert.ok(f !== null);
+    assert.equal(f.direction, 'above');
+    assert.equal(f.threshold, 250);
+  });
+
+  test('returns null when no number is present', () => {
+    const f = detectStockFilter('medicines with low stock');
+    assert.equal(f, null);
+  });
+
+  test('returns null for non-comparison queries', () => {
+    const f = detectStockFilter('patient with hypertension');
+    assert.equal(f, null);
+  });
+
+  test('returns null for null input', () => {
+    assert.equal(detectStockFilter(null), null);
+  });
+
+  test('returns null for empty string', () => {
+    assert.equal(detectStockFilter(''), null);
+  });
+
+  test('parses decimal thresholds', () => {
+    const f = detectStockFilter('stock below 50.5 units');
+    assert.ok(f !== null);
+    assert.equal(f.threshold, 50.5);
+  });
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+describe('isStockQuery', () => {
+  test('returns true for medicine stock below query', () => {
+    assert.equal(isStockQuery('medicines with stock below 100 units'), true);
+  });
+
+  test('returns true for drug stock above query', () => {
+    assert.equal(isStockQuery('drugs with stock above 500'), true);
+  });
+
+  test('returns true for medication under query', () => {
+    assert.equal(isStockQuery('medication under 50'), true);
+  });
+
+  test('returns false when no numeric comparison', () => {
+    assert.equal(isStockQuery('medicines with low stock'), false);
+  });
+
+  test('returns false for non-medicine query with number', () => {
+    assert.equal(isStockQuery('patients above 50 years old'), false);
+  });
+
+  test('returns false for null input', () => {
+    assert.equal(isStockQuery(null), false);
+  });
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+describe('Medicine stock threshold — retrieveByStockThreshold', () => {
+  before(() => kbLoader.load());
+
+  test('returns medicines below threshold', () => {
+    const result = retrieveByStockThreshold('stock below 100', { direction: 'below', threshold: 100 });
+    assert.equal(result.noResults || result.results.length > 0, true);
+    for (const r of result.results) {
+      assert.ok(r.record.stock_units < 100, `stock_units ${r.record.stock_units} should be < 100`);
+    }
+  });
+
+  test('returns medicines above threshold', () => {
+    const result = retrieveByStockThreshold('stock above 400', { direction: 'above', threshold: 400 });
+    for (const r of result.results) {
+      assert.ok(r.record.stock_units > 400, `stock_units ${r.record.stock_units} should be > 400`);
+    }
+  });
+
+  test('results sorted ascending for below', () => {
+    const result = retrieveByStockThreshold('stock below 200', { direction: 'below', threshold: 200 });
+    for (let i = 1; i < result.results.length; i++) {
+      assert.ok(
+        result.results[i - 1].record.stock_units <= result.results[i].record.stock_units,
+        'Results not sorted ascending for below filter'
+      );
+    }
+  });
+
+  test('results sorted descending for above', () => {
+    const result = retrieveByStockThreshold('stock above 200', { direction: 'above', threshold: 200 });
+    for (let i = 1; i < result.results.length; i++) {
+      assert.ok(
+        result.results[i - 1].record.stock_units >= result.results[i].record.stock_units,
+        'Results not sorted descending for above filter'
+      );
+    }
+  });
+
+  test('each result has name, stock_units, batch_id, medicine_id fields', () => {
+    const result = retrieveByStockThreshold('stock below 500', { direction: 'below', threshold: 500 });
+    assert.ok(result.results.length > 0);
+    for (const r of result.results) {
+      assert.ok('name'        in r.record, 'Missing name');
+      assert.ok('stock_units' in r.record, 'Missing stock_units');
+      assert.ok('batch_id'    in r.record, 'Missing batch_id');
+      assert.ok('medicine_id' in r.record, 'Missing medicine_id');
+    }
+  });
+
+  test('returns category=medicine for all results', () => {
+    const result = retrieveByStockThreshold('stock below 100', { direction: 'below', threshold: 100 });
+    for (const r of result.results) {
+      assert.equal(r.category, 'medicine');
+    }
+  });
+
+  test('stockFilter field is present on result object', () => {
+    const filter = { direction: 'below', threshold: 50 };
+    const result = retrieveByStockThreshold('stock below 50', filter);
+    assert.deepEqual(result.stockFilter, filter);
+  });
+
+  test('impossible threshold returns noResults=true', () => {
+    const result = retrieveByStockThreshold('stock below 0', { direction: 'below', threshold: 0 });
+    assert.equal(result.noResults, true);
+    assert.deepEqual(result.results, []);
+  });
+
+  test('message is null when results found', () => {
+    const result = retrieveByStockThreshold('stock below 500', { direction: 'below', threshold: 500 });
+    if (result.results.length > 0) {
+      assert.equal(result.message, null);
+    }
+  });
+
+  test('message is a string when no results found', () => {
+    const result = retrieveByStockThreshold('stock below 0', { direction: 'below', threshold: 0 });
+    assert.ok(typeof result.message === 'string' && result.message.length > 0);
+  });
+});
+
+// ─────────────────────────────────────────────────────────────────────────────
+describe('Medicine stock threshold — via retrieve()', () => {
+  test('retrieve() routes stock-below query to stock fast-path', async () => {
+    const result = await retrieve('Which medicines have stock below 100 units?');
+    assert.equal(result.category, 'medicine');
+    for (const r of result.results) {
+      assert.ok(r.record.stock_units < 100,
+        `Expected stock_units < 100, got ${r.record.stock_units}`);
+    }
+  });
+
+  test('retrieve() routes stock-above query to stock fast-path', async () => {
+    const result = await retrieve('medicines with stock above 400 units');
+    assert.equal(result.category, 'medicine');
+    for (const r of result.results) {
+      assert.ok(r.record.stock_units > 400,
+        `Expected stock_units > 400, got ${r.record.stock_units}`);
+    }
+  });
+
+  test('retrieve() handles "under N" phrasing', async () => {
+    const result = await retrieve('medicine stock under 50');
+    assert.equal(result.category, 'medicine');
+    for (const r of result.results) {
+      assert.ok(r.record.stock_units < 50);
+    }
+  });
+
+  test('retrieve() handles "more than N" phrasing', async () => {
+    const result = await retrieve('medicines with more than 300 units in stock');
+    assert.equal(result.category, 'medicine');
+    for (const r of result.results) {
+      assert.ok(r.record.stock_units > 300);
+    }
+  });
+
+  test('retrieve() result contains expected fields per record', async () => {
+    const result = await retrieve('medicines with stock below 100 units');
+    assert.ok(result.results.length > 0);
+    const r = result.results[0];
+    assert.ok('name'        in r.record);
+    assert.ok('stock_units' in r.record);
+    assert.ok('batch_id'    in r.record);
+    assert.ok('medicine_id' in r.record);
+    assert.ok('id'          in r);
+    assert.ok('category'    in r);
+  });
+
+  test('retrieve() stockFilter is present on result', async () => {
+    const result = await retrieve('medicines with stock below 100');
+    assert.ok('stockFilter' in result);
+    assert.equal(result.stockFilter.direction, 'below');
+    assert.equal(result.stockFilter.threshold, 100);
+  });
+});
+
