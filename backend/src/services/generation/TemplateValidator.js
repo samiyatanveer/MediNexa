@@ -42,7 +42,8 @@ const FALLBACK_VALUES = {
 
 /**
  * Parse a raw LLM response string into a field→value map.
- * Handles "Field:\nValue" and "Field: Value" patterns.
+ * Handles "Field:\nValue", "Field: Value", and bold-markdown
+ * "**Field:**\nValue" / "**Field:** Value" patterns produced by LLMs.
  * @param {string} text
  * @param {string[]} fields
  * @returns {Map<string, string>}
@@ -55,7 +56,14 @@ function parseFields(text, fields) {
     .join('|');
   // Labels belong at the start of a response line. This prevents value text such
   // as "Last Calibration:" from being interpreted as a new "Calibration:" field.
+  // Strip markdown bold wrappers (**Field:**) before the per-field regex runs.
   const linePrefix = '^[\\t ]*(?:(?:[-*])|(?:\\d+[.)]))?[\\t ]*';
+
+  // Strip markdown bold from the full text so **Field:** labels are normalised
+  // to plain "Field:" before the per-field regex runs.
+  const normalisedText = text
+    .replace(/\*\*([^*]+)\*\*/g, '$1')   // **...**  → ...
+    .replace(/\*([^*]+)\*/g, '$1');       // *...*    → ...
 
   // Build a regex pattern for each field label
   for (const field of sortedFields) {
@@ -64,7 +72,7 @@ function parseFields(text, fields) {
       `${linePrefix}${escapedField}[\\t ]*:[\\t ]*([\\s\\S]*?)(?=${linePrefix}(?:${escapedLabels})[\\t ]*:|(?![\\s\\S]))`,
       'im'
     );
-    const match = text.match(pattern);
+    const match = normalisedText.match(pattern);
     if (match) {
       result.set(field, match[1].trim());
     }
@@ -90,7 +98,9 @@ export function validateAndRepair(text, category, sourceIds = []) {
 
   for (const field of fields) {
     const value = parsed.get(field);
-    if (value && value.length > 2) {
+    // Keep any non-empty parsed value. The old "> 2" guard was too aggressive:
+    // it discarded legitimately short values and caused false fallbacks.
+    if (value !== undefined && value.length > 0) {
       output[field] = value;
     } else {
       // Inject source IDs into the Sources field, otherwise use fallback
